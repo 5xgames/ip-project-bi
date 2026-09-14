@@ -58,6 +58,7 @@
   const elements = {
     generatedAt: $("#generated-at"),
     latestProjectDate: $("#latest-project-date"),
+    projectSourceFreshness: $("#project-source-freshness"),
     performanceStartDate: $("#performance-start-date-filter"),
     performanceEndDate: $("#performance-end-date-filter"),
     performanceDateRangeLabel: $("#performance-date-range-label"),
@@ -206,6 +207,36 @@
     return `数据结构更新 ${new Intl.DateTimeFormat("zh-CN", {
       timeZone: "Asia/Tokyo", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit",
     }).format(parsed)}（日本时间）`;
+  }
+
+  function renderProjectSourceFreshness() {
+    if (!elements.projectSourceFreshness) return;
+    const groups = new Map([
+      ["ios", { label: "iOS 榜单", latestDate: "", maxLag: 1 }],
+      ["android", { label: "Android 榜单", latestDate: "", maxLag: 3 }],
+      ["pc", { label: "Steam / PC", latestDate: "", maxLag: 35 }],
+      ["console", { label: "主机商店", latestDate: "", maxLag: 7 }],
+      ["other", { label: "其他表现来源", latestDate: "", maxLag: 7 }],
+    ]);
+    for (const snapshot of rankSnapshots) {
+      const source = String(snapshot.source || "");
+      const platforms = Array.isArray(snapshot.platforms) ? snapshot.platforms : [];
+      let key = "other";
+      if (source.includes("Apple App Store") || platforms.includes("ios")) key = "ios";
+      else if (source.includes("AppMagic") || source.includes("Google Play") || platforms.includes("android")) key = "android";
+      else if (source.includes("Steam") || source.includes("VG Insights") || platforms.some((value) => ["steam", "windows"].includes(value))) key = "pc";
+      else if (/PlayStation|Xbox|Nintendo/i.test(source) || platforms.some((value) => ["switch", "playstation", "xbox"].includes(value))) key = "console";
+      const day = isoDate(snapshot.date);
+      const group = groups.get(key);
+      if (day > group.latestDate) group.latestDate = day;
+    }
+    elements.projectSourceFreshness.innerHTML = [...groups.values()]
+      .filter((group) => group.latestDate)
+      .map((group) => {
+        const ageDays = Math.max(0, Math.round((Date.parse(`${today}T00:00:00Z`) - Date.parse(`${group.latestDate}T00:00:00Z`)) / 86400000));
+        const stale = ageDays > group.maxLag;
+        return `<div class="source-freshness-item ${stale ? "is-stale" : ""}"><span>${escapeHtml(group.label)}</span><time datetime="${escapeHtml(group.latestDate)}">${escapeHtml(group.latestDate)}${stale ? ` · 滞后${ageDays}天` : ""}</time></div>`;
+      }).join("");
   }
 
   function displayDate(value, emptyLabel = "待确认") {
@@ -1404,7 +1435,8 @@
   }
 
   elements.generatedAt.textContent = formatGeneratedAt(meta.generatedAt);
-  elements.latestProjectDate.textContent = meta.latestProjectDate || "等待首次导入";
+  elements.latestProjectDate.textContent = meta.latestProjectDate ? `项目：${meta.latestProjectDate}` : "等待首次导入";
+  renderProjectSourceFreshness();
   elements.footerSource.textContent = `持续补全历史与未来项目：当前收录 ${numberFormat.format(projects.length)} 个真实项目、${numberFormat.format(releases.length)} 个地区平台版本；地区采用七市场口径，公告覆盖、官方商店检查与逐区核验数据严格区分。`;
   populateFilters();
   syncControls();

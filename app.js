@@ -226,6 +226,28 @@
     }).format(parsed)}（日本时间）`;
   }
 
+  function renderSourceFreshness() {
+    const container = $("#source-freshness");
+    const latestElement = $("#latest-rank-date");
+    if (latestElement) latestElement.textContent = data.meta.latestRankDate
+      ? `综合：${data.meta.latestRankDate}`
+      : "暂无榜单数据";
+    if (!container) return;
+    const items = Array.isArray(data.meta.sourceFreshness) ? data.meta.sourceFreshness : [];
+    const generatedDay = firstIsoDate(data.meta.generatedAt);
+    container.innerHTML = items.map((item) => {
+      const latest = firstIsoDate(item.latestDate);
+      let ageDays = null;
+      if (generatedDay && latest) {
+        ageDays = Math.max(0, Math.round((Date.parse(`${generatedDay}T00:00:00Z`) - Date.parse(`${latest}T00:00:00Z`)) / dayMilliseconds));
+      }
+      const maxLag = Number(item.maxExpectedLagDays ?? 1);
+      const stateClass = !latest ? "is-missing" : (ageDays != null && ageDays > maxLag ? "is-stale" : "");
+      const suffix = !latest ? "" : (stateClass ? ` · 滞后${ageDays}天` : "");
+      return `<div class="source-freshness-item ${stateClass}"><span>${escapeHtml(item.label)}</span><time datetime="${escapeHtml(latest)}">${escapeHtml(latest || "未读取")}${escapeHtml(suffix)}</time></div>`;
+    }).join("");
+  }
+
   function renderNewCollabAlerts() {
     const alerts = Array.isArray(data.newCollabAlerts) ? data.newCollabAlerts : [];
     if (!elements.newAlertPanel || !elements.newAlertList || alerts.length === 0) {
@@ -745,11 +767,12 @@
         return {
           key,
           points: sorted,
+          latestDate: sorted.at(-1)?.date || "",
           seriesCount: Number(freeCount > 0) + Number(grossingCount > 0),
           numericCount: freeCount + grossingCount,
         };
       })
-      .sort((a, b) => b.seriesCount - a.seriesCount || b.numericCount - a.numericCount || b.points.length - a.points.length || a.key.localeCompare(b.key));
+      .sort((a, b) => b.latestDate.localeCompare(a.latestDate) || b.seriesCount - a.seriesCount || b.numericCount - a.numericCount || b.points.length - a.points.length || a.key.localeCompare(b.key));
   }
 
   function rebuildTrendSelectors() {
@@ -1082,7 +1105,7 @@
   }
 
   $("#generated-at").textContent = formatTimestamp(data.meta.generatedAt);
-  $("#latest-rank-date").textContent = data.meta.latestRankDate || "暂无";
+  renderSourceFreshness();
   $("#definition-text").textContent = `${data.meta.definitions.delta}；${data.meta.definitions.missing}`;
   $("#history-coverage-text").textContent = `${data.meta.definitions.historyCoverage} ${data.meta.definitions.historyRankPolicy} ${data.meta.definitions.historyRankComparison || ""} ${data.meta.definitions.historyRankAttribution || ""}`;
   $("#minigame-coverage-text").textContent = data.meta.definitions.minigameCoverage || "小游戏渠道数据尚未接入。";
