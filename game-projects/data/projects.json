@@ -2,7 +2,7 @@
   "meta": {
     "schemaVersion": "3.1",
     "phase": 29,
-    "generatedAt": "2026-09-14T12:54:11+09:00",
+    "generatedAt": "2026-09-14T15:07:24+09:00",
     "latestProjectDate": "2026-09-14",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
@@ -620,16 +620,32 @@
         "plannedDatesUpdated": 0,
         "dateConflicts": 0,
         "overdueLaunches": 0,
-        "untrackedCandidates": 0,
+        "untrackedCandidates": 3,
         "source": "Apple iTunes Search/Lookup API 与 App Store 预约页",
         "note": "Apple 预约页日期用于 plannedLaunchDate；到达日期后仍须取得官方开服或发售证据才能写 actualLaunchDate。"
       },
       "dailyDiscovery": {
         "verifiedAt": "2026-09-14",
         "searchQueries": 9,
-        "newsCandidates": 141,
+        "newsCandidates": 138,
         "queue": "data/processed/game_project_watch_queue.json",
         "note": "候选仅用于每日核验，不自动把搜索结果写成正式项目。"
+      },
+      "plannedDateAudit": {
+        "verifiedAt": "2026-09-14",
+        "activeProjectsChecked": 40,
+        "preciseDatesAdded": 1,
+        "launchStatusCorrections": 1,
+        "correctedProjects": [
+          "professor-layton-new-world-of-steam",
+          "shakugan-no-shana-blaze-edge"
+        ],
+        "sources": [
+          "Apple App Store 预约页与 Apple Lookup API",
+          "项目官网与发行方正式公告",
+          "PR TIMES、4Gamer、Famitsu 等一线媒体用于遗漏发现"
+        ],
+        "note": "逐项核验所有仍为公布、测试、预约、计划上线或延期状态的项目；没有正式精确日期的版本继续保留官方年份、时间窗口或日期待定，不跨平台推断。"
       }
     }
   },
@@ -1899,12 +1915,12 @@
       "developer": "LEVEL-5",
       "publisher": "LEVEL-5",
       "announcementDate": "2023-02-08",
-      "latestUpdateDate": "2026-04-10",
-      "latestUpdateLabel": "2026 年与 Switch 2 平台确认",
+      "latestUpdateDate": "2026-09-09",
+      "latestUpdateLabel": "官方公布 2026-12-10 发售",
       "status": "upcoming",
-      "summary": "《雷顿教授》系列完全新作，LEVEL-5 确认 2026 年登陆 Nintendo Switch 2。",
-      "sourceUrl": "https://www.level5.co.jp/",
-      "verifiedAt": "2026-09-08"
+      "summary": "《雷顿教授》系列完全新作，LEVEL-5 确认于 2026-12-10 登陆 Nintendo Switch 与 Nintendo Switch 2。",
+      "sourceUrl": "https://www.layton.jp/jouki/",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "reincarnation-no-kaben-bloom",
@@ -2009,12 +2025,12 @@
       "developer": "CTW",
       "publisher": "CTW",
       "announcementDate": "2026-04-08",
-      "latestUpdateDate": "2026-09-04",
-      "latestUpdateLabel": "预约人数突破 5 万",
-      "status": "preregister",
-      "summary": "纪念动画 20 周年的 G123 浏览器新作，正式上线日待公布。",
-      "sourceUrl": "https://g123.jp/game/shakugan?lang=ja",
-      "verifiedAt": "2026-09-10"
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "正式服务开始",
+      "status": "launched",
+      "summary": "纪念动画 20 周年的 G123 浏览器新作，已于 2026-09-14 正式上线。",
+      "sourceUrl": "https://g123.jp/news/article/443161?lang=ja",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "shangri-la-frontier-seven-colossi",
@@ -13774,11 +13790,14 @@
       "platform": "switch",
       "region": "GLOBAL",
       "store": "Nintendo Switch 2",
-      "plannedLaunchDate": "2026年",
+      "plannedLaunchDate": "2026-12-10",
       "actualLaunchDate": "",
       "status": "upcoming",
-      "sourceUrl": "https://www.level5.co.jp/",
-      "verifiedAt": "2026-09-08"
+      "sourceUrl": "https://www.layton.jp/jouki/",
+      "verifiedAt": "2026-09-14",
+      "plannedLaunchDateSource": "《レイトン教授と蒸気の新世界》官方站",
+      "plannedLaunchDateSourceUrl": "https://www.layton.jp/jouki/",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
     },
     {
       "id": "professor-layton-new-world-of-steam-jp-switch",
@@ -13792,14 +13811,14 @@
         "70010000096951"
       ],
       "representativeCountry": "JP",
-      "plannedLaunchDate": "2026年",
+      "plannedLaunchDate": "2026-12-10",
       "actualLaunchDate": "",
       "status": "upcoming",
       "storeAvailability": "available",
       "availabilityCheckedAt": "2026-09-09",
-      "sourceUrl": "https://store-jp.nintendo.com/item/software/D70010000064277",
+      "sourceUrl": "https://www.layton.jp/jouki/",
       "searchSourceUrl": "https://www.nintendo.com/jp/search/index.html?q=%E3%83%AC%E3%82%A4%E3%83%88%E3%83%B3%E6%95%99%E6%8E%88%E3%81%A8%E8%92%B8%E6%B0%97%E3%81%AE%E6%96%B0%E4%B8%96%E7%95%8C",
-      "verifiedAt": "2026-09-09",
+      "verifiedAt": "2026-09-14",
       "storeTitle": "レイトン教授と蒸気の新世界",
       "storeTitles": [
         "レイトン教授と蒸気の新世界",
@@ -13810,7 +13829,10 @@
         "2026",
         "2026"
       ],
-      "note": "Nintendo 官方地区目录与商品页核验。"
+      "note": "Nintendo 官方地区目录核验平台与商品条目；发售日以 LEVEL-5 项目官网的最新公告为准。",
+      "plannedLaunchDateSource": "《レイトン教授と蒸気の新世界》官方站",
+      "plannedLaunchDateSourceUrl": "https://www.layton.jp/jouki/",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
     },
     {
       "id": "reincarnation-no-kaben-bloom-jp-web",
@@ -14268,11 +14290,11 @@
       "region": "JP",
       "store": "G123",
       "storeId": "",
-      "plannedLaunchDate": "",
-      "actualLaunchDate": "",
-      "status": "preregister",
-      "sourceUrl": "https://g123.jp/game/shakugan?lang=ja",
-      "verifiedAt": "2026-09-10",
+      "plannedLaunchDate": "2026-09-14",
+      "actualLaunchDate": "2026-09-14",
+      "status": "launched",
+      "sourceUrl": "https://g123.jp/news/article/443161?lang=ja",
+      "verifiedAt": "2026-09-14",
       "preregisterDate": "2026-04-08"
     },
     {
