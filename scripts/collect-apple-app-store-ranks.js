@@ -13,38 +13,46 @@ const checkedAt = new Intl.DateTimeFormat("sv-SE", {
   month: "2-digit",
   day: "2-digit",
 }).format(now);
-const trackedProducts = [
+const metricOverrides = new Map([
+  ["torneko-wonder-dungeon-remaster", ["grossing_rank"]],
+]);
+const projectById = new Map(data.projects.map((project) => [project.id, project]));
+const seenDynamicProducts = new Set();
+const dynamicProducts = data.releases
+  .filter((release) => {
+    if (release.platform !== "ios" || release.region !== "JP" || !/^\d+$/.test(String(release.storeId || ""))) return false;
+    if (["ended", "cancelled"].includes(release.status)) return false;
+    const project = projectById.get(release.projectId);
+    const launchDate = String(release.actualLaunchDate || release.plannedLaunchDate || "").match(/^\d{4}-\d{2}-\d{2}/)?.[0] || "";
+    return (launchDate && launchDate <= checkedAt) || project?.status === "launched";
+  })
+  .map((release) => ({
+    projectId: release.projectId,
+    storeId: String(release.storeId),
+    launchDate: String(release.actualLaunchDate || release.plannedLaunchDate || "").match(/^\d{4}-\d{2}-\d{2}/)?.[0] || "",
+    metrics: metricOverrides.get(release.projectId),
+  }))
+  .filter((product) => {
+    const key = `${product.projectId}|${product.storeId}`;
+    if (seenDynamicProducts.has(key)) return false;
+    seenDynamicProducts.add(key);
+    return true;
+  });
+// These globally-scoped releases use a Japan-specific App ID that is not yet
+// represented by a dedicated JP release record. Keep their existing time
+// series until the region record is split in the source data.
+const legacyJapanProducts = [
   { projectId: "kaiju-no-8-the-game", storeId: "6742088839" },
-  { projectId: "dragon-ball-gekishin-squadra", storeId: "6744439943" },
   { projectId: "persona-5-the-phantom-x", storeId: "6502942931" },
-  { projectId: "mushoku-tensei-chronicle-of-echoes", storeId: "6754311241" },
   { projectId: "my-hero-academia-united-survival", storeId: "6758648051" },
-  { projectId: "inazuma-eleven-cross", storeId: "6756994116" },
-  { projectId: "suikoden-star-leap", storeId: "6746180100" },
-  { projectId: "hololive-dreams", storeId: "6756641135" },
-  { projectId: "pokemon-champions", storeId: "6741503079" },
-  { projectId: "torneko-wonder-dungeon-remaster", storeId: "6757778100", metrics: ["grossing_rank"] },
-  { projectId: "kingdom-hadou", storeId: "6737974657" },
-  { projectId: "chiikawa-pocket", storeId: "6596745408" },
-  { projectId: "madoka-magia-exedra", storeId: "6480167901" },
-  { projectId: "digimon-up", storeId: "6756247422" },
-  { projectId: "muvluv-girls-garden", storeId: "6755509352" },
-  { projectId: "tokyo-revengers-unlimited", storeId: "6698853161" },
-  { projectId: "dragon-quest-smash-grow", storeId: "6747736697" },
-  { projectId: "yowamushi-pedal-resonance-pedaism", storeId: "6758927408" },
-  { projectId: "cardcaptor-sakura-memory-key-jp", storeId: "6754003671" },
-  { projectId: "oshi-no-ko-puzzle-star", storeId: "6744346921" },
-  { projectId: "haikyu-touch-and-connect", storeId: "6755984289" },
-  { projectId: "hells-paradise-paradise-battle", storeId: "6633416886" },
-  { projectId: "date-a-live-love-limit-break", storeId: "6756353331" },
-  { projectId: "outcast-restaurant-order-rush", storeId: "6754670632" },
-  { projectId: "sakamoto-days-dangerous-puzzle", storeId: "6737511323" },
-  { projectId: "hunter-x-hunter-nen-survivor", storeId: "6753738566" },
-  { projectId: "gintama-smartphone-battle-chronicle", storeId: "6749658164" },
-  { projectId: "captain-tsubasa-my-golden-xi", storeId: "6761321358" },
-  { projectId: "wind-breaker-rebel-heroes", storeId: "6670387532" },
-  { projectId: "sakamoto-days-mission-rogue-dawn", storeId: "6756270200", launchDate: "2026-09-11" },
 ];
+const seenProducts = new Set();
+const trackedProducts = [...dynamicProducts, ...legacyJapanProducts].filter((product) => {
+  const key = `${product.projectId}|${product.storeId}`;
+  if (seenProducts.has(key)) return false;
+  seenProducts.add(key);
+  return true;
+});
 const products = trackedProducts.filter((product) => !product.launchDate || product.launchDate <= checkedAt);
 const feeds = [
   {

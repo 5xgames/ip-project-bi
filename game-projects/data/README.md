@@ -27,6 +27,8 @@
 - `region`：CN、HK、TW、JP、KR、SEA、US；仅有跨地区公告时使用 GLOBAL 或 ASIA，并在页面明确标为公告范围
 - `store`、`storeId`、`storeUrl`；移动端另保存商店原始产品名与 iOS `bundleId`
 - `plannedLaunchDate`：计划上线日期或时间窗口
+- `appleExpectedLaunchDate`：Apple App Store 预约页当前显示的预计发布日期；仅用于计划日期，不等同于正式开服证据
+- `plannedLaunchDateSource`、`plannedLaunchDateSourceUrl`、`plannedLaunchDateVerifiedAt`：计划日期的来源与核验时间
 - `actualLaunchDate`：实际上线日期
 - `testStartDate`、`preregisterDate`、`serviceEndDate`
 - `status`、`sourceUrl`、`verifiedAt`
@@ -67,6 +69,10 @@ Video Game Insights（Sensor Tower）的 `estimated_sales` 为平台级第三方
 当前 AppMagic 手游生命周期估算分级：收入 ≥US$50,000,000 为 phenomenon、≥US$20,000,000 为 strong、≥US$5,000,000 为 good，其余为 ordinary；下载量 ≥10,000,000 为 phenomenon、≥5,000,000 为 strong、≥1,000,000 为 good，其余为 ordinary。免费版只公开数值区间时，`value` 保存公开下限、`lowerBound` 设为 true，并在 `display` 中保留“>”标记；该口径仅用于同类手游规模分级。
 
 未来项目发现不依赖榜单。Phase 25 起增加定向遗漏审计，Phase 26-27 继续以新闻检索结果和近期 IP 手游目录反查数据库遗漏：先使用发行商 / IP 官网、官方社交账号、PR TIMES、4Gamer、Famitsu 与新闻检索发现候选，再回到官网、新闻稿或官方商店核验。商店允许预载或出现“正式发布”版本说明，不自动等同于服务已经开服；例如《SAKAMOTO DAYS Mission: Rogue Dawn》在 2026-09-10 已可安装，但官方倒计时仍确认 9 月 11 日正式开服，因此 `actualLaunchDate` 在开服前保持为空。只有平台尚未公布的正式项目使用 `unannounced`，页面显示“平台待公布”，不得猜测平台。
+
+Phase 28 起每日遍历数据库内全部带数字 App ID 的 iOS release，通过 Apple Lookup 核验预约页预计日期。数据库原本只有年份、时间窗口或空日期时，可用 Apple 预约页日期补精确 `plannedLaunchDate`；若已存在不同的官方精确日期，只记录冲突并进入人工核验队列，不覆盖官方日期。计划日期到达后仍未写入 `actualLaunchDate` 的 release 必须进入到期核验队列，只有取得官网、发行商/版权方公告或官方账号的正式开服/发售证据后才能改为 `launched`。
+
+同一日更流程还会用 Apple 预约页索引与多组日文新闻检索生成新项目候选队列。候选结果不直接写入正式项目库；自动任务必须回到官网、发行商/版权方、官方账号、PR TIMES、4Gamer、Famitsu 或官方商店核验项目归属、平台、地区与日期，确认属于日本娱乐 IP 游戏化后再去重入库。
 
 历史 Steam 批次分别查询美国与日本商店。商店接口当前无法核验的地区不建立 release，不根据其他地区日期反推；全历史同时在线峰值通过 SteamCharts 或 SteamDB 记录，并在 `scope` 中保留核验截至日期。
 

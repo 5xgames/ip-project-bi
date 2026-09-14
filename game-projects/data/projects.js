@@ -1,9 +1,9 @@
 window.GAME_PROJECTS_DATA = {
   "meta": {
-    "schemaVersion": "2.9",
-    "phase": 27,
-    "generatedAt": "2026-09-14T11:00:22+09:00",
-    "latestProjectDate": "2026-09-11",
+    "schemaVersion": "3.0",
+    "phase": 28,
+    "generatedAt": "2026-09-14T12:29:24+09:00",
+    "latestProjectDate": "2026-09-14",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
     "targetRegions": [
@@ -192,81 +192,81 @@ window.GAME_PROJECTS_DATA = {
           {
             "metricType": "grossing_rank",
             "snapshotDate": "2026-09-14",
-            "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+            "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
             "positions": 100,
             "ranked": [
-              "inazuma-eleven-cross",
-              "suikoden-star-leap",
-              "hololive-dreams",
-              "pokemon-champions",
-              "torneko-wonder-dungeon-remaster",
-              "kingdom-hadou",
               "chiikawa-pocket",
-              "madoka-magia-exedra"
+              "hololive-dreams",
+              "inazuma-eleven-cross",
+              "kingdom-hadou",
+              "madoka-magia-exedra",
+              "pokemon-champions",
+              "suikoden-star-leap",
+              "torneko-wonder-dungeon-remaster"
             ],
             "unranked": [
-              "kaiju-no-8-the-game",
-              "dragon-ball-gekishin-squadra",
-              "persona-5-the-phantom-x",
-              "mushoku-tensei-chronicle-of-echoes",
-              "my-hero-academia-united-survival",
-              "digimon-up",
-              "muvluv-girls-garden",
-              "tokyo-revengers-unlimited",
-              "dragon-quest-smash-grow",
-              "yowamushi-pedal-resonance-pedaism",
+              "captain-tsubasa-my-golden-xi",
               "cardcaptor-sakura-memory-key-jp",
-              "oshi-no-ko-puzzle-star",
+              "date-a-live-love-limit-break",
+              "digimon-up",
+              "dragon-ball-gekishin-squadra",
+              "dragon-quest-smash-grow",
+              "gintama-smartphone-battle-chronicle",
               "haikyu-touch-and-connect",
               "hells-paradise-paradise-battle",
-              "date-a-live-love-limit-break",
+              "hunter-x-hunter-nen-survivor",
+              "mushoku-tensei-chronicle-of-echoes",
+              "muvluv-girls-garden",
+              "oshi-no-ko-puzzle-star",
               "outcast-restaurant-order-rush",
               "sakamoto-days-dangerous-puzzle",
-              "hunter-x-hunter-nen-survivor",
-              "gintama-smartphone-battle-chronicle",
-              "captain-tsubasa-my-golden-xi",
+              "sakamoto-days-mission-rogue-dawn",
+              "tokyo-revengers-unlimited",
               "wind-breaker-rebel-heroes",
-              "sakamoto-days-mission-rogue-dawn"
+              "yowamushi-pedal-resonance-pedaism",
+              "kaiju-no-8-the-game",
+              "persona-5-the-phantom-x",
+              "my-hero-academia-united-survival"
             ],
             "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json"
           },
           {
             "metricType": "free_rank",
             "snapshotDate": "2026-09-14",
-            "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+            "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
             "positions": 100,
             "ranked": [
-              "suikoden-star-leap",
-              "pokemon-champions",
               "chiikawa-pocket",
               "digimon-up",
               "dragon-quest-smash-grow",
-              "sakamoto-days-mission-rogue-dawn"
+              "pokemon-champions",
+              "sakamoto-days-mission-rogue-dawn",
+              "suikoden-star-leap"
             ],
             "unranked": [
-              "kaiju-no-8-the-game",
-              "dragon-ball-gekishin-squadra",
-              "persona-5-the-phantom-x",
-              "mushoku-tensei-chronicle-of-echoes",
-              "my-hero-academia-united-survival",
-              "inazuma-eleven-cross",
-              "hololive-dreams",
-              "kingdom-hadou",
-              "madoka-magia-exedra",
-              "muvluv-girls-garden",
-              "tokyo-revengers-unlimited",
-              "yowamushi-pedal-resonance-pedaism",
+              "captain-tsubasa-my-golden-xi",
               "cardcaptor-sakura-memory-key-jp",
-              "oshi-no-ko-puzzle-star",
+              "date-a-live-love-limit-break",
+              "dragon-ball-gekishin-squadra",
+              "gintama-smartphone-battle-chronicle",
               "haikyu-touch-and-connect",
               "hells-paradise-paradise-battle",
-              "date-a-live-love-limit-break",
+              "hololive-dreams",
+              "hunter-x-hunter-nen-survivor",
+              "inazuma-eleven-cross",
+              "kingdom-hadou",
+              "madoka-magia-exedra",
+              "mushoku-tensei-chronicle-of-echoes",
+              "muvluv-girls-garden",
+              "oshi-no-ko-puzzle-star",
               "outcast-restaurant-order-rush",
               "sakamoto-days-dangerous-puzzle",
-              "hunter-x-hunter-nen-survivor",
-              "gintama-smartphone-battle-chronicle",
-              "captain-tsubasa-my-golden-xi",
-              "wind-breaker-rebel-heroes"
+              "tokyo-revengers-unlimited",
+              "wind-breaker-rebel-heroes",
+              "yowamushi-pedal-resonance-pedaism",
+              "kaiju-no-8-the-game",
+              "persona-5-the-phantom-x",
+              "my-hero-academia-united-survival"
             ],
             "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json"
           }
@@ -611,7 +611,24 @@ window.GAME_PROJECTS_DATA = {
         "GameWith 等近期产品目录仅用于发现候选，项目事实回到官方源核验",
         "PR TIMES、4Gamer、Famitsu 等用于发现后回到官方源核验"
       ],
-      "note": "本批为重点遗漏审计，不代表全球历史项目已穷尽；全球公告与逐地区商店记录继续分开保存。"
+      "note": "本批为重点遗漏审计，不代表全球历史项目已穷尽；全球公告与逐地区商店记录继续分开保存。",
+      "appleStorePreorders": {
+        "verifiedAt": "2026-09-14",
+        "knownIosListingsChecked": 54,
+        "plannedDatesUpdated": 0,
+        "dateConflicts": 0,
+        "overdueLaunches": 0,
+        "untrackedCandidates": 3,
+        "source": "Apple iTunes Search/Lookup API 与 App Store 预约页",
+        "note": "Apple 预约页日期用于 plannedLaunchDate；到达日期后仍须取得官方开服或发售证据才能写 actualLaunchDate。"
+      },
+      "dailyDiscovery": {
+        "verifiedAt": "2026-09-14",
+        "searchQueries": 9,
+        "newsCandidates": 139,
+        "queue": "data/processed/game_project_watch_queue.json",
+        "note": "候选仅用于每日核验，不自动把搜索结果写成正式项目。"
+      }
     }
   },
   "projects": [
@@ -720,12 +737,12 @@ window.GAME_PROJECTS_DATA = {
       "developer": "Bushiroad",
       "publisher": "Bushiroad",
       "announcementDate": "2026-01-12",
-      "latestUpdateDate": "2026-09-04",
-      "latestUpdateLabel": "发行日公布特别节目定于 9 月 13 日播出",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-22 上线",
       "status": "preregister",
       "summary": "BanG Dream! 新作手机节奏游戏；截至 9 月 10 日仍处于预约阶段，正式上线日将于 9 月 13 日的官方节目公布。",
-      "sourceUrl": "https://apps.apple.com/jp/app/id6771716739",
-      "verifiedAt": "2026-09-10"
+      "sourceUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "bleach-mirrors-high",
@@ -736,12 +753,12 @@ window.GAME_PROJECTS_DATA = {
       "developer": "Bandai Namco Entertainment",
       "publisher": "Bandai Namco Entertainment",
       "announcementDate": "2026-07-19",
-      "latestUpdateDate": "2026-08-29",
-      "latestUpdateLabel": "日本开放预约",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-11-28 上线",
       "status": "preregister",
       "summary": "以护廷十三队体验为核心的《BLEACH》新作手机游戏，官方口径为 2026 年内配信。",
-      "sourceUrl": "https://bleach-mh.bn-ent.net/",
-      "verifiedAt": "2026-09-10"
+      "sourceUrl": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=4",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "bleach-rebirth-of-souls",
@@ -836,6 +853,23 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
+      "id": "black-channel-blaze-road",
+      "productName": "Black Channel: Blaze Road",
+      "ipName": "Black Channel / ブラックチャンネル",
+      "ipType": "YouTube 动画 / 漫画",
+      "genre": "放置角色扮演",
+      "developer": "Plott Games",
+      "publisher": "Plott",
+      "announcementDate": "2026-09-01",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-15 上线",
+      "status": "preregister",
+      "summary": "YouTube 动画 IP《Black Channel》首款手机游戏；发行方确认 iOS / Android 事前预约，Apple 日本预约页显示预计 2026 年 9 月 15 日发布。",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6803370140",
+      "announcementSourceUrl": "https://prtimes.jp/main/html/rd/p/000000230.000047837.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
       "id": "code-geass-nightmare-survivor",
       "productName": "Code Geass: Nightmare Survivor",
       "ipName": "Code Geass / 反叛的鲁路修",
@@ -844,12 +878,12 @@ window.GAME_PROJECTS_DATA = {
       "developer": "JORO",
       "publisher": "JORO",
       "announcementDate": "2026-05-29",
-      "latestUpdateDate": "2026-05-29",
-      "latestUpdateLabel": "制作与预约开始",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-30 上线",
       "status": "preregister",
       "summary": "《Code Geass》系列首款生存动作手机游戏；官方仅确认 2026 年配信，商店日期不作为正式开服日。",
-      "sourceUrl": "https://apps.apple.com/jp/app/id6762118255",
-      "verifiedAt": "2026-09-10"
+      "sourceUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "crayon-shinchan-sugoroku",
@@ -908,12 +942,12 @@ window.GAME_PROJECTS_DATA = {
       "developer": "Smilegate",
       "publisher": "Smilegate",
       "announcementDate": "2026-03-06",
-      "latestUpdateDate": "2026-08-26",
-      "latestUpdateLabel": "商店预约与先行测试公开",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-11-30 上线",
       "status": "preregister",
       "summary": "漫画与动画《Dead Account》手机 Rogue-lite RPG；商店页面已开放预约，正式开服日仍待官方确认。",
-      "sourceUrl": "https://apps.apple.com/jp/app/id6759781273",
-      "verifiedAt": "2026-09-10"
+      "sourceUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E4%BA%8C%E3%81%A4%E3%81%AE%E8%92%BC%E3%81%84%E7%82%8E/id6759781273?uo=4",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "demon-slayer-hinokami-chronicles",
@@ -1514,6 +1548,23 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
+      "id": "karekore-mirror-rush",
+      "productName": "Karekore: Mirror Rush!",
+      "ipName": "Karekore / 混血のカレコレ",
+      "ipType": "YouTube 短篇动画 / 漫画",
+      "genre": "塔防角色扮演",
+      "developer": "Plott Games",
+      "publisher": "Plott",
+      "announcementDate": "2026-08-14",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-10-14 上线",
+      "status": "preregister",
+      "summary": "短篇动画 IP《混血のカレコレ》首款手机游戏；发行方确认 2026 年 10 月推出，Apple 日本预约页显示预计 10 月 14 日发布。",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6762262584",
+      "announcementSourceUrl": "https://prtimes.jp/main/html/rd/p/000000225.000047837.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
       "id": "kingdom-hadou",
       "productName": "Kingdom Hadou",
       "ipName": "Kingdom / 王者天下",
@@ -1554,12 +1605,29 @@ window.GAME_PROJECTS_DATA = {
       "developer": "",
       "publisher": "KADOKAWA",
       "announcementDate": "2026-01-13",
-      "latestUpdateDate": "2026-07-26",
-      "latestUpdateLabel": "预约与平台信息公开",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-12-31 上线",
       "status": "preregister",
       "summary": "《为美好的世界献上祝福！》日本地区免费手游与 DMM GAMES PC 新作。",
-      "sourceUrl": "https://konosuba-machisuba.com/",
-      "verifiedAt": "2026-09-08"
+      "sourceUrl": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92-%E3%81%93%E3%81%AE%E6%84%9B%E3%81%99%E3%81%B9%E3%81%8D%E8%A1%97%E3%81%AB%E7%B9%81%E6%A0%84%E3%82%92/id6783591351?uo=4",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "made-in-abyss-doshigatai-trip",
+      "productName": "Made in Abyss: Doshigatai Fushigi na Tabi",
+      "ipName": "Made in Abyss / 来自深渊",
+      "ipType": "漫画 / 动漫",
+      "genre": "卡牌 × Rogue-lite 角色扮演",
+      "developer": "",
+      "publisher": "avex pictures",
+      "announcementDate": "2025-05-05",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-23 上线",
+      "status": "preregister",
+      "summary": "《Made in Abyss》首款手机休闲游戏，已开放日本 iOS / Android 预约；Apple 日本预约页显示预计 2026 年 9 月 23 日发布。",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6444006236",
+      "announcementSourceUrl": "https://avex-pictures.co.jp/topic/88877/",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "madoka-magia-exedra",
@@ -1877,12 +1945,12 @@ window.GAME_PROJECTS_DATA = {
       "developer": "Rudel Inc.",
       "publisher": "Rudel Inc.",
       "announcementDate": "2026-05-25",
-      "latestUpdateDate": "2026-09-10",
-      "latestUpdateLabel": "官方倒计时确认 9 月 11 日正式开服",
-      "status": "upcoming",
-      "summary": "电视动画《SAKAMOTO DAYS》新作手机游戏；商店已开放安装/预载，但截至 2026 年 9 月 11 日今日核验，官网仍显示事前登记，尚未取得正式开服证据。",
-      "sourceUrl": "https://sakarogu.jp/",
-      "verifiedAt": "2026-09-11"
+      "latestUpdateDate": "2026-09-11",
+      "latestUpdateLabel": "日本正式开服",
+      "status": "launched",
+      "summary": "电视动画《SAKAMOTO DAYS》新作手机游戏；发行商 Rudel 于 2026 年 9 月 11 日宣布日本 iOS / Android 正式服务开始。",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000059.000108712.html",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "sakuna-hinuka-chronicle",
@@ -1955,12 +2023,12 @@ window.GAME_PROJECTS_DATA = {
       "developer": "Netmarble Nexus",
       "publisher": "Netmarble",
       "announcementDate": "2026-03-18",
-      "latestUpdateDate": "2026-09-07",
-      "latestUpdateLabel": "TGS 2026 展出与发布会确认",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-12-31 上线",
       "status": "upcoming",
       "summary": "《香格里拉边境》系列首款游戏化作品，已确认 2026 年在日本上线。",
-      "sourceUrl": "https://www.netmarble.co.jp/news/view/2340/5",
-      "verifiedAt": "2026-09-08"
+      "sourceUrl": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2-%E4%B8%83%E3%81%A4%E3%81%AE%E6%9C%80%E5%BC%B7%E7%A8%AE-%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%8A%E3%83%8A/id6757176525?uo=4",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "skeleton-knight-skull-brave",
@@ -2041,6 +2109,23 @@ window.GAME_PROJECTS_DATA = {
       "summary": "《特鲁尼克大冒险 不思议迷宫》重制版，于 2026 年 9 月 10 日登陆主机、手机及 Google Play Games on PC。",
       "sourceUrl": "https://www.dragonquest.jp/torneko_re",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "touken-ranbu-pazugiri",
+      "productName": "Touken Ranbu Pazugiri",
+      "ipName": "Touken Ranbu ONLINE / 刀剑乱舞ONLINE",
+      "ipType": "游戏 / 动漫 / 舞台剧",
+      "genre": "益智角色扮演",
+      "developer": "",
+      "publisher": "EXNOA / DMM GAMES",
+      "announcementDate": "2026-07-13",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-30 上线",
+      "status": "preregister",
+      "summary": "《刀剑乱舞ONLINE》刀剑男士登场的新作益智 RPG；官方确认 PC、iOS 与 Android，Apple 日本预约页显示预计 2026 年 9 月 30 日发布。",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6747331078",
+      "announcementSourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "tougen-anki-crimson-inferno",
@@ -3088,17 +3173,72 @@ window.GAME_PROJECTS_DATA = {
       "region": "JP",
       "store": "App Store 日本",
       "storeId": "6771716739",
-      "plannedLaunchDate": "",
+      "plannedLaunchDate": "2026-09-22",
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6771716739",
-      "verifiedAt": "2026-09-10",
+      "verifiedAt": "2026-09-14",
       "bundleId": "com.bushiroad.sirius",
-      "storeUrl": "https://apps.apple.com/jp/app/id6771716739",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
       "storeProductName": "バンドリ！アワーノーツ",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
-      "preregisterDate": "2026-06-26"
+      "availabilityCheckedAt": "2026-09-14",
+      "preregisterDate": "2026-06-26",
+      "rawStoreReleaseDate": "2026-09-22T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6771716739&country=jp&entity=software",
+      "appleExpectedLaunchDate": "2026-09-22",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
+    },
+    {
+      "id": "black-channel-blaze-road-jp-android",
+      "projectId": "black-channel-blaze-road",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "tokyo.plott.black",
+      "storeUrl": "https://play.google.com/store/apps/details?id=tokyo.plott.black&hl=ja&gl=JP",
+      "storeProductName": "ブラックチャンネル ブレイズロード",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026年9月中旬",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-08-31",
+      "status": "preregister",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000230.000047837.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "black-channel-blaze-road-jp-ios",
+      "projectId": "black-channel-blaze-road",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "6803370140",
+      "bundleId": "tokyo.plott.black",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB-%E3%83%96%E3%83%AC%E3%82%A4%E3%82%BA%E3%83%AD%E3%83%BC%E3%83%89/id6803370140?uo=4",
+      "storeProductName": "ブラックチャンネル ブレイズロード",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026-09-15",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6803370140",
+      "plannedLaunchDateVerifiedAt": "2026-09-14",
+      "appleExpectedLaunchDate": "2026-09-15",
+      "rawStoreReleaseDate": "2026-09-15T07:00:00Z",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-08-31",
+      "status": "preregister",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6803370140",
+      "verifiedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6803370140&country=jp&entity=software",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB-%E3%83%96%E3%83%AC%E3%82%A4%E3%82%BA%E3%83%AD%E3%83%BC%E3%83%89/id6803370140?uo=4"
     },
     {
       "id": "bleach-mirrors-high-jp-android",
@@ -3125,17 +3265,26 @@ window.GAME_PROJECTS_DATA = {
       "region": "JP",
       "store": "App Store 日本",
       "storeId": "6747328897",
-      "plannedLaunchDate": "2026年内",
+      "plannedLaunchDate": "2026-11-28",
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://bleach-mh.bn-ent.net/news/obuss8nr7v1n",
-      "verifiedAt": "2026-09-10",
+      "verifiedAt": "2026-09-14",
       "bundleId": "jp.co.bandainamcoent.BNEI0436",
-      "storeUrl": "https://apps.apple.com/jp/app/id6747328897",
+      "storeUrl": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=4",
       "storeProductName": "BLEACH Mirrors High【ミラハイ】",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
-      "preregisterDate": "2026-08-29"
+      "availabilityCheckedAt": "2026-09-14",
+      "preregisterDate": "2026-08-29",
+      "rawStoreReleaseDate": "2026-11-28T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6747328897&country=jp&entity=software",
+      "appleExpectedLaunchDate": "2026-11-28",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=4",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=4",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
     },
     {
       "id": "bleach-global-ps",
@@ -4039,10 +4188,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://captaintsubasa-mg11.com/",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.alpsestudio.pjct",
-      "storeUrl": "https://apps.apple.com/hk/app/id6759662874",
+      "storeUrl": "https://apps.apple.com/hk/app/%E9%9A%8A%E9%95%B7%E5%B0%8F%E7%BF%BC-%E6%88%91%E7%9A%84%E9%BB%83%E9%87%91%E5%8D%81%E4%B8%80%E4%BA%BA-mg11/id6759662874?uo=4",
       "storeProductName": "隊長小翼:我的黃金十一人 MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=hk&entity=software"
     },
     {
       "id": "captain-tsubasa-my-golden-xi-jp-android",
@@ -4074,10 +4226,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://captaintsubasa-mg11.com/",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.alpse.pjct",
-      "storeUrl": "https://apps.apple.com/jp/app/id6761321358",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E7%BF%BC-my-golden-xi-%E3%83%9E%E3%82%A4%E3%82%A4%E3%83%AC/id6761321358?uo=4",
       "storeProductName": "キャプテン翼:My Golden XI【マイイレ】",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6761321358&country=jp&entity=software"
     },
     {
       "id": "captain-tsubasa-my-golden-xi-sea-android",
@@ -4109,10 +4264,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://captaintsubasa-mg11.com/",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.alpsestudio.pjct",
-      "storeUrl": "https://apps.apple.com/sg/app/id6759662874",
+      "storeUrl": "https://apps.apple.com/sg/app/captaintsubasa-mygoldenxi-mg11/id6759662874?uo=4",
       "storeProductName": "CaptainTsubasa:MyGoldenXI MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=sg&entity=software"
     },
     {
       "id": "captain-tsubasa-my-golden-xi-tw-android",
@@ -4144,10 +4302,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://captaintsubasa-mg11.com/",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.alpsestudio.pjct",
-      "storeUrl": "https://apps.apple.com/tw/app/id6759662874",
+      "storeUrl": "https://apps.apple.com/tw/app/%E9%9A%8A%E9%95%B7%E5%B0%8F%E7%BF%BC-%E6%88%91%E7%9A%84%E9%BB%83%E9%87%91%E5%8D%81%E4%B8%80%E4%BA%BA-mg11/id6759662874?uo=4",
       "storeProductName": "隊長小翼:我的黃金十一人 MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=tw&entity=software"
     },
     {
       "id": "captain-tsubasa-my-golden-xi-us-android",
@@ -4179,10 +4340,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://captaintsubasa-mg11.com/",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.alpsestudio.pjct",
-      "storeUrl": "https://apps.apple.com/us/app/id6759662874",
+      "storeUrl": "https://apps.apple.com/us/app/captaintsubasa-mygoldenxi-mg11/id6759662874?uo=4",
       "storeProductName": "CaptainTsubasa:MyGoldenXI MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=us&entity=software"
     },
     {
       "id": "cardcaptor-sakura-memory-key-jp-jp-android",
@@ -4214,10 +4378,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/jp/app/id6754003671",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.karaq.sakura.jp",
-      "storeUrl": "https://apps.apple.com/jp/app/id6754003671",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%AD%E3%83%A3%E3%83%97%E3%82%BF%E3%83%BC%E3%81%95%E3%81%8F%E3%82%89-%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E9%8D%B5/id6754003671?uo=4",
       "storeProductName": "カードキャプターさくら：思い出の鍵",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-24T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6754003671&country=jp&entity=software"
     },
     {
       "id": "chainsaw-man-mobile-game-jp-android",
@@ -4275,10 +4442,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.cyberagent.co.jp/news/detail/id=31589",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.co.applibot.chiikawapocket",
-      "storeUrl": "https://apps.apple.com/jp/app/id6596745408",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%81%BD%E3%81%91%E3%81%A3%E3%81%A8/id6596745408?uo=4",
       "storeProductName": "ちいかわぽけっと",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2025-03-25T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6596745408&country=jp&entity=software"
     },
     {
       "id": "code-geass-nightmare-survivor-jp-android",
@@ -4305,17 +4475,26 @@ window.GAME_PROJECTS_DATA = {
       "region": "JP",
       "store": "App Store 日本",
       "storeId": "6762118255",
-      "plannedLaunchDate": "2026年",
+      "plannedLaunchDate": "2026-09-30",
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6762118255",
-      "verifiedAt": "2026-09-10",
+      "verifiedAt": "2026-09-14",
       "bundleId": "jp.co.joro.cgs",
-      "storeUrl": "https://apps.apple.com/jp/app/id6762118255",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
       "storeProductName": "コードギアス ナイトメア・サバイバー",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
-      "preregisterDate": "2026-05-29"
+      "availabilityCheckedAt": "2026-09-14",
+      "preregisterDate": "2026-05-29",
+      "rawStoreReleaseDate": "2026-09-30T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6762118255&country=jp&entity=software",
+      "appleExpectedLaunchDate": "2026-09-30",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
     },
     {
       "id": "crayon-shinchan-sugoroku-jp-web",
@@ -4373,10 +4552,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://date-a-live-llb.com/",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.clyre.pjda",
-      "storeUrl": "https://apps.apple.com/jp/app/id6756353331",
+      "storeUrl": "https://apps.apple.com/jp/app/date-a-live-love-limit-break/id6756353331?uo=4",
       "storeProductName": "DATE A LIVE: Love Limit Break",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-03-17T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756353331&country=jp&entity=software"
     },
     {
       "id": "dead-account-two-blue-flames-jp-android",
@@ -4403,17 +4585,26 @@ window.GAME_PROJECTS_DATA = {
       "region": "JP",
       "store": "App Store 日本",
       "storeId": "6759781273",
-      "plannedLaunchDate": "",
+      "plannedLaunchDate": "2026-11-30",
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6759781273",
-      "verifiedAt": "2026-09-10",
+      "verifiedAt": "2026-09-14",
       "bundleId": "com.smilegate.deadaccount.stove.ios",
-      "storeUrl": "https://apps.apple.com/jp/app/id6759781273",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E4%BA%8C%E3%81%A4%E3%81%AE%E8%92%BC%E3%81%84%E7%82%8E/id6759781273?uo=4",
       "storeProductName": "デッドアカウント～二つの蒼い炎～",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
-      "preregisterDate": "2026-08-26"
+      "availabilityCheckedAt": "2026-09-14",
+      "preregisterDate": "2026-08-26",
+      "rawStoreReleaseDate": "2026-11-30T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759781273&country=jp&entity=software",
+      "appleExpectedLaunchDate": "2026-11-30",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E4%BA%8C%E3%81%A4%E3%81%AE%E8%92%BC%E3%81%84%E7%82%8E/id6759781273?uo=4",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E4%BA%8C%E3%81%A4%E3%81%AE%E8%92%BC%E3%81%84%E7%82%8E/id6759781273?uo=4",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
     },
     {
       "id": "demon-slayer-hinokami-chronicles-hk-playstation",
@@ -5445,10 +5636,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://dgup.bn-ent.net/",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.co.bandainamcoent.BNEI0452",
-      "storeUrl": "https://apps.apple.com/jp/app/id6756247422",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3up/id6756247422?uo=4",
       "storeProductName": "デジモンUP",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-07-15T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756247422&country=jp&entity=software"
     },
     {
       "id": "dbfz-hk-steam",
@@ -5767,9 +5961,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/dragon-ball-gekishin-squadra/id6744439943?uo=4",
       "storeProductName": "DRAGON BALL GEKISHIN SQUADRA",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "jp.co.bandainamcoent.BNEI0418",
-      "rawStoreReleaseDate": "2025-09-10T07:00:00Z"
+      "rawStoreReleaseDate": "2025-09-10T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6744439943&country=us&entity=software"
     },
     {
       "id": "dbgs-global-ps",
@@ -5885,9 +6081,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB-%E3%82%B2%E3%82%AD%E3%82%B7%E3%83%B3-%E3%82%B9%E3%82%AF%E3%82%A2%E3%83%89%E3%83%A9/id6744439943?uo=4",
       "storeProductName": "ドラゴンボール ゲキシン スクアドラ",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "jp.co.bandainamcoent.BNEI0418",
-      "rawStoreReleaseDate": "2025-09-10T07:00:00Z"
+      "rawStoreReleaseDate": "2025-09-10T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6744439943&country=jp&entity=software"
     },
     {
       "id": "dbgs-jp-ps",
@@ -7017,10 +7215,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.dragonquest.jp/news/detail/4217/",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.square-enix.dqsgj",
-      "storeUrl": "https://apps.apple.com/jp/app/id6747736697",
-      "storeProductName": "ドラゴンクエストスマッシュグロウ",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=4",
+      "storeProductName": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-04-19T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6747736697&country=jp&entity=software"
     },
     {
       "id": "echoes-of-aincrad-hk-playstation",
@@ -7838,10 +8039,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.sega.jp/topics/detail/260202_1/",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.sega.soulspirits",
-      "storeUrl": "https://apps.apple.com/jp/app/id6749658164",
+      "storeUrl": "https://apps.apple.com/jp/app/%E9%8A%80%E9%AD%82-%E3%81%99%E3%81%BE%E3%81%BB-%E3%81%B0%E3%81%A8%E3%82%8B%E3%81%8F%E3%82%8D%E3%81%AB%E3%81%8F%E3%82%8B/id6749658164?uo=4",
       "storeProductName": "銀魂 すまほ ばとるくろにくる",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-03T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6749658164&country=jp&entity=software"
     },
     {
       "id": "gro-global-ps",
@@ -8045,10 +8249,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/jp/app/id6755984289",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.gholdings.haicone",
-      "storeUrl": "https://apps.apple.com/jp/app/id6755984289",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC-touch-and-connect/id6755984289?uo=4",
       "storeProductName": "ハイキュー!! TOUCH AND CONNECT",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-30T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6755984289&country=jp&entity=software"
     },
     {
       "id": "hmsp-global-steam",
@@ -8117,10 +8324,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://paradisebattle.com/",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.goodsmile.paradisebattle",
-      "storeUrl": "https://apps.apple.com/jp/app/id6633416886",
+      "storeUrl": "https://apps.apple.com/jp/app/%E5%9C%B0%E7%8D%84%E6%A5%BD-%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9%E3%83%90%E3%83%88%E3%83%AB/id6633416886?uo=4",
       "storeProductName": "地獄楽 パラダイスバトル",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2025-11-03T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6633416886&country=jp&entity=software"
     },
     {
       "id": "hells-paradise-paradise-battle-jp-windows",
@@ -8165,10 +8375,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/us/app/id6633416886",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.goodsmile.paradisebattle",
-      "storeUrl": "https://apps.apple.com/us/app/id6633416886",
+      "storeUrl": "https://apps.apple.com/us/app/battle-in-hells-paradise/id6633416886?uo=4",
       "storeProductName": "BATTLE IN HELL'S PARADISE",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-29T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6633416886&country=us&entity=software"
     },
     {
       "id": "high-school-dxd-operation-paradise-infinity-jp-web",
@@ -8226,10 +8439,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.hololive-dreams.com/news/detail/aku8rsuo9",
       "verifiedAt": "2026-09-10",
       "bundleId": "game.qualiarts.hololive.dreams.jp",
-      "storeUrl": "https://apps.apple.com/jp/app/id6756641135",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9/id6756641135?uo=4",
       "storeProductName": "ホロライブドリームス",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-07-22T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756641135&country=jp&entity=software"
     },
     {
       "id": "hoshin-engi-global-playstation",
@@ -8722,10 +8938,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009302.000014827.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.hxh.survivor",
-      "storeUrl": "https://apps.apple.com/hk/app/id6753738566",
+      "storeUrl": "https://apps.apple.com/hk/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=hk&entity=software"
     },
     {
       "id": "hunter-x-hunter-nen-survivor-jp-android",
@@ -8757,10 +8976,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009302.000014827.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.hxh.survivor",
-      "storeUrl": "https://apps.apple.com/jp/app/id6753738566",
+      "storeUrl": "https://apps.apple.com/jp/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=jp&entity=software"
     },
     {
       "id": "hunter-x-hunter-nen-survivor-kr-android",
@@ -8792,10 +9014,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009302.000014827.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.hxh.survivor",
-      "storeUrl": "https://apps.apple.com/kr/app/id6753738566",
+      "storeUrl": "https://apps.apple.com/kr/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=kr&entity=software"
     },
     {
       "id": "hunter-x-hunter-nen-survivor-sea-android",
@@ -8827,10 +9052,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009302.000014827.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.hxh.survivor",
-      "storeUrl": "https://apps.apple.com/sg/app/id6753738566",
+      "storeUrl": "https://apps.apple.com/sg/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=sg&entity=software"
     },
     {
       "id": "hunter-x-hunter-nen-survivor-tw-android",
@@ -8862,10 +9090,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009302.000014827.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.hxh.survivor",
-      "storeUrl": "https://apps.apple.com/tw/app/id6753738566",
+      "storeUrl": "https://apps.apple.com/tw/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=tw&entity=software"
     },
     {
       "id": "hunter-x-hunter-nen-survivor-us-android",
@@ -8897,10 +9128,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000009354.000014827.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.hxh.survivor",
-      "storeUrl": "https://apps.apple.com/us/app/id6753738566",
+      "storeUrl": "https://apps.apple.com/us/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-09T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=us&entity=software"
     },
     {
       "id": "hyakka-ryoran-kenki-chronicle-jp-web",
@@ -8947,9 +9181,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%A4%E3%83%8A%E3%82%BA%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3-%E3%82%AF%E3%83%AD%E3%82%B9/id6756994116?uo=4",
       "storeProductName": "イナズマイレブン クロス",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "jp.co.level5.inazumacross",
-      "rawStoreReleaseDate": "2026-06-08T07:00:00Z"
+      "rawStoreReleaseDate": "2026-06-08T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756994116&country=jp&entity=software"
     },
     {
       "id": "isekai-nonbiri-nouka-dreamy-life-jp-web",
@@ -9453,10 +9689,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/us/app/id6757908157",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.wanda.jojo.ios.global",
-      "storeUrl": "https://apps.apple.com/us/app/id6757908157",
+      "storeUrl": "https://apps.apple.com/us/app/jojos-bizarre-adventure-gs/id6757908157?uo=4",
       "storeProductName": "JoJo's Bizarre Adventure: GS",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-08-13T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6757908157&country=us&entity=software"
     },
     {
       "id": "jujutsu-kaisen-cursed-clash-hk-playstation",
@@ -10141,9 +10380,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/kaiju-no-8-the-game/id6742088839?uo=4",
       "storeProductName": "KAIJU NO. 8 THE GAME",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "jp.aktsk.games.kaiju-no8-the-game",
-      "rawStoreReleaseDate": "2025-08-30T07:00:00Z"
+      "rawStoreReleaseDate": "2025-08-30T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6742088839&country=us&entity=software"
     },
     {
       "id": "kj8-hk-steam",
@@ -10262,6 +10503,52 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
+      "id": "karekore-mirror-rush-jp-android",
+      "projectId": "karekore-mirror-rush",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "com.plott.karemira",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.plott.karemira&hl=ja&gl=JP",
+      "storeProductName": "混血のカレコレ ミラーラッシュ！",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026年10月",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-08-14",
+      "status": "preregister",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000225.000047837.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "karekore-mirror-rush-jp-ios",
+      "projectId": "karekore-mirror-rush",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "6762262584",
+      "bundleId": "com.plott.karemira",
+      "storeUrl": "https://apps.apple.com/jp/app/%E6%B7%B7%E8%A1%80%E3%81%AE%E3%82%AB%E3%83%AC%E3%82%B3%E3%83%AC-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6762262584?uo=4",
+      "storeProductName": "混血のカレコレ ミラーラッシュ！",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026-10-14",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6762262584",
+      "plannedLaunchDateVerifiedAt": "2026-09-14",
+      "appleExpectedLaunchDate": "2026-10-14",
+      "rawStoreReleaseDate": "2026-10-14T07:00:00Z",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-08-14",
+      "status": "preregister",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6762262584",
+      "verifiedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6762262584&country=jp&entity=software",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E6%B7%B7%E8%A1%80%E3%81%AE%E3%82%AB%E3%83%AC%E3%82%B3%E3%83%AC-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6762262584?uo=4"
+    },
+    {
       "id": "kingdom-hadou-jp-android",
       "projectId": "kingdom-hadou",
       "platform": "android",
@@ -10291,10 +10578,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001890.000051316.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.co.bandainamcoent.BNEI0438",
-      "storeUrl": "https://apps.apple.com/jp/app/id6737974657",
-      "storeProductName": "キングダム 覇道",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-%E8%A6%87%E9%81%93-%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-%E3%81%AE%E6%88%A6%E7%95%A5%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%8C%E7%99%BB%E5%A0%B4/id6737974657?uo=4",
+      "storeProductName": "キングダム 覇道『キングダム』の戦略ゲームが登場",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2025-10-01T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6737974657&country=jp&entity=software"
     },
     {
       "id": "kh4-global-ps",
@@ -10633,12 +10923,27 @@ window.GAME_PROJECTS_DATA = {
       "platform": "ios",
       "region": "JP",
       "store": "App Store 日本",
-      "plannedLaunchDate": "2026年",
+      "storeId": "6783591351",
+      "bundleId": "jp.kadokawa.gb.machisuba",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92-%E3%81%93%E3%81%AE%E6%84%9B%E3%81%99%E3%81%B9%E3%81%8D%E8%A1%97%E3%81%AB%E7%B9%81%E6%A0%84%E3%82%92/id6783591351?uo=4",
+      "storeProductName": "この素晴らしい世界に祝福を！〜この愛すべき街に繁栄を！〜",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026-12-31",
       "actualLaunchDate": "",
       "preregisterDate": "2026-07-26",
       "status": "preregister",
       "sourceUrl": "https://konosuba-machisuba.com/",
-      "verifiedAt": "2026-09-08"
+      "verifiedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-12-31T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6783591351&country=jp&entity=software",
+      "appleExpectedLaunchDate": "2026-12-31",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92-%E3%81%93%E3%81%AE%E6%84%9B%E3%81%99%E3%81%B9%E3%81%8D%E8%A1%97%E3%81%AB%E7%B9%81%E6%A0%84%E3%82%92/id6783591351?uo=4",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92-%E3%81%93%E3%81%AE%E6%84%9B%E3%81%99%E3%81%B9%E3%81%8D%E8%A1%97%E3%81%AB%E7%B9%81%E6%A0%84%E3%82%92/id6783591351?uo=4",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
     },
     {
       "id": "kbt-jp-dmm",
@@ -10652,6 +10957,50 @@ window.GAME_PROJECTS_DATA = {
       "status": "preregister",
       "sourceUrl": "https://konosuba-machisuba.com/",
       "verifiedAt": "2026-09-08"
+    },
+    {
+      "id": "made-in-abyss-doshigatai-trip-jp-android",
+      "projectId": "made-in-abyss-doshigatai-trip",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "com.avex.madeinabyss",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.avex.madeinabyss&hl=ja&gl=JP",
+      "storeProductName": "メイドインアビス〜度し難い不思議な旅〜",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "",
+      "actualLaunchDate": "",
+      "status": "preregister",
+      "sourceUrl": "https://avex-pictures.co.jp/topic/88877/",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "made-in-abyss-doshigatai-trip-jp-ios",
+      "projectId": "made-in-abyss-doshigatai-trip",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "6444006236",
+      "bundleId": "com.avex.made-in-abyss",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9-%E5%BA%A6%E3%81%97%E9%9B%A3%E3%81%84%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E6%97%85/id6444006236?uo=4",
+      "storeProductName": "メイドインアビス〜度し難い不思議な旅〜",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026-09-23",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6444006236",
+      "plannedLaunchDateVerifiedAt": "2026-09-14",
+      "appleExpectedLaunchDate": "2026-09-23",
+      "rawStoreReleaseDate": "2026-09-23T07:00:00Z",
+      "actualLaunchDate": "",
+      "status": "preregister",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6444006236",
+      "verifiedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6444006236&country=jp&entity=software",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9-%E5%BA%A6%E3%81%97%E9%9B%A3%E3%81%84%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E6%97%85/id6444006236?uo=4"
     },
     {
       "id": "madoka-magia-exedra-jp-android",
@@ -10683,10 +11032,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.aniplex.co.jp/news/detail/?id=67325",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.aniplex.magia.exedra.jp",
-      "storeUrl": "https://apps.apple.com/jp/app/id6480167901",
+      "storeUrl": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB-magia-exedra/id6480167901?uo=4",
       "storeProductName": "魔法少女まどかマギカ Magia Exedra",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2025-03-25T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6480167901&country=jp&entity=software"
     },
     {
       "id": "maidragon-fantasia-jp-web",
@@ -10733,9 +11085,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E7%84%A1%E8%81%B7%E8%BB%A2%E7%94%9F-%E7%95%B0%E4%B8%96%E7%95%8C%E8%A1%8C%E3%81%A3%E3%81%9F%E3%82%89%E6%9C%AC%E6%B0%97%E3%81%A0%E3%81%99-%E3%82%AF%E3%83%AD%E3%82%A8%E3%82%B3/id6754311241?uo=4",
       "storeProductName": "無職転生 〜異世界行ったら本気だす〜 【クロエコ】",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "jp.gree-ent.mushoku",
-      "rawStoreReleaseDate": "2026-07-26T07:00:00Z"
+      "rawStoreReleaseDate": "2026-07-26T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6754311241&country=jp&entity=software"
     },
     {
       "id": "mtcoe-jp-pc",
@@ -10792,10 +11146,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.4gamer.net/games/974/G097402/20260225018/",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.dmm.games.muvluvgg",
-      "storeUrl": "https://apps.apple.com/jp/app/id6755509352",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%96%E3%83%A9%E3%83%B4-%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/id6755509352?uo=4",
       "storeProductName": "マブラヴ ガールズガーデン",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-03-02T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6755509352&country=jp&entity=software"
     },
     {
       "id": "muvluv-girls-garden-jp-web",
@@ -11372,9 +11729,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/mha-united-survival/id6758648051?uo=4",
       "storeProductName": "MHA: UNITED SURVIVAL",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "com.klab.heroaca.united.survival",
-      "rawStoreReleaseDate": "2026-08-05T07:00:00Z"
+      "rawStoreReleaseDate": "2026-08-05T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6758648051&country=us&entity=software"
     },
     {
       "id": "mhaus-global-pc",
@@ -13046,10 +13405,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/jp/app/id6744346921",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.kadokawa.oshinoko",
-      "storeUrl": "https://apps.apple.com/jp/app/id6744346921",
+      "storeUrl": "https://apps.apple.com/jp/app/%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90-puzzle-star/id6744346921?uo=4",
       "storeProductName": "【推しの子】Puzzle Star",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-24T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6744346921&country=jp&entity=software"
     },
     {
       "id": "outcast-restaurant-order-rush-jp-android",
@@ -13081,10 +13443,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://dengekionline.com/article/202606/79437",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.avex.tsuihosha",
-      "storeUrl": "https://apps.apple.com/jp/app/id6754670632",
+      "storeUrl": "https://apps.apple.com/jp/app/%E8%BF%BD%E6%94%BE%E8%80%85%E9%A3%9F%E5%A0%82%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D-%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6754670632?uo=4",
       "storeProductName": "追放者食堂へようこそ！ オーダーラッシュ",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-01-22T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6754670632&country=jp&entity=software"
     },
     {
       "id": "p5x-cn-android",
@@ -13118,7 +13483,7 @@ window.GAME_PROJECTS_DATA = {
       "actualLaunchDate": "2024-04-12",
       "status": "launched",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-09",
+      "availabilityCheckedAt": "2026-09-14",
       "approvalNumber": "国新出审[2023]1415号",
       "approvalDate": "2023-08-25",
       "approvalCategory": "移动、客户端",
@@ -13128,7 +13493,12 @@ window.GAME_PROJECTS_DATA = {
       "launchSourceUrl": "https://www.wanmei.com/radionews/gamevideo/game/gameanimation/20240412/249861.shtml",
       "approvalSourceUrl": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/yxspbgxx/202401/t20240126_830423.html",
       "verifiedAt": "2026-09-09",
-      "note": "完美世界公告确认 2024-04-12 全平台公测；App Store 的初始上架时间为 2024-04-09，正式公测日作为实际上线口径。"
+      "note": "完美世界公告确认 2024-04-12 全平台公测；App Store 的初始上架时间为 2024-04-09，正式公测日作为实际上线口径。",
+      "storeUrl": "https://apps.apple.com/cn/app/%E5%A5%B3%E7%A5%9E%E5%BC%82%E9%97%BB%E5%BD%95-%E5%A4%9C%E5%B9%95%E9%AD%85%E5%BD%B1/id6466264792?uo=4",
+      "storeProductName": "女神异闻录：夜幕魅影",
+      "bundleId": "com.pwrd.persona5x.pw",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6466264792&country=cn&entity=software"
     },
     {
       "id": "p5x-cn-steamchina",
@@ -13204,9 +13574,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/p5x-persona5-the-phantom-x/id6736754647?uo=4",
       "storeProductName": "P5X | Persona5: The Phantom X",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "com.sega.persona5.the.phantomx.en",
-      "rawStoreReleaseDate": "2025-06-25T07:00:00Z"
+      "rawStoreReleaseDate": "2025-06-25T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6736754647&country=us&entity=software"
     },
     {
       "id": "p5x-global-steam",
@@ -13300,10 +13672,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.pokemonchampions.jp/ja/",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.pokemon.pokemonchampions",
-      "storeUrl": "https://apps.apple.com/jp/app/id6741503079",
+      "storeUrl": "https://apps.apple.com/jp/app/pok%C3%A9mon-champions/id6741503079?uo=4",
       "storeProductName": "Pokémon Champions",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-06-17T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6741503079&country=jp&entity=software"
     },
     {
       "id": "pokemon-champions-jp-switch",
@@ -13447,10 +13822,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.cyberagent.co.jp/news/detail/id=31588",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.co.goodroid.sakapuzz",
-      "storeUrl": "https://apps.apple.com/jp/app/id6737511323",
+      "storeUrl": "https://apps.apple.com/jp/app/sakamoto-days-%E3%83%87%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%A9%E3%82%B9%E3%83%91%E3%82%BA%E3%83%AB-%E3%82%B5%E3%82%AB%E3%83%91%E3%82%BA/id6737511323?uo=4",
       "storeProductName": "SAKAMOTO DAYS デンジャラスパズル(サカパズ)",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2025-04-02T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6737511323&country=jp&entity=software"
     },
     {
       "id": "sakamoto-rogue-dawn-jp-android",
@@ -13462,14 +13840,15 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://play.google.com/store/apps/details?id=jp.rudel.pjsd&hl=ja&gl=JP",
       "storeProductName": "サカモトデイズ　ミッション：ローグ ドーン",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-11",
-      "availabilityNote": "商店已开放安装/预载；截至 9 月 11 日今日核验，官网仍显示事前登记，尚未取得正式开服证据。",
+      "availabilityCheckedAt": "2026-09-14",
+      "availabilityNote": "发行商 Rudel 已于 2026 年 9 月 11 日宣布正式服务开始。",
       "preregisterDate": "2026-05-25",
       "plannedLaunchDate": "2026-09-11",
-      "actualLaunchDate": "",
-      "status": "upcoming",
-      "sourceUrl": "https://x.com/sakarogu_jp/status/2097701573698679287",
-      "verifiedAt": "2026-09-11"
+      "actualLaunchDate": "2026-09-11",
+      "status": "launched",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000059.000108712.html",
+      "actualLaunchSourceUrl": "https://prtimes.jp/main/html/rd/p/000000059.000108712.html",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "sakamoto-rogue-dawn-jp-ios",
@@ -13479,18 +13858,21 @@ window.GAME_PROJECTS_DATA = {
       "store": "App Store 日本",
       "storeId": "6756270200",
       "bundleId": "jp.rudel.pjsd",
-      "storeUrl": "https://apps.apple.com/jp/app/id6756270200",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AB%E3%83%A2%E3%83%88%E3%83%87%E3%82%A4%E3%82%BA-%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%AD%E3%83%BC%E3%82%B0-%E3%83%89%E3%83%BC%E3%83%B3/id6756270200?uo=4",
       "storeProductName": "サカモトデイズ　ミッション：ローグ ドーン",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-11",
-      "availabilityNote": "商店已开放安装/预载；截至 9 月 11 日今日核验，官网仍显示事前登记，尚未取得正式开服证据。",
-      "rawStoreReleaseDate": "2026-09-30T07:00:00Z",
+      "availabilityCheckedAt": "2026-09-14",
+      "availabilityNote": "发行商 Rudel 已于 2026 年 9 月 11 日宣布正式服务开始。",
+      "rawStoreReleaseDate": "2026-09-10T07:00:00Z",
       "preregisterDate": "2026-05-25",
       "plannedLaunchDate": "2026-09-11",
-      "actualLaunchDate": "",
-      "status": "upcoming",
-      "sourceUrl": "https://x.com/sakarogu_jp/status/2097701573698679287",
-      "verifiedAt": "2026-09-11"
+      "actualLaunchDate": "2026-09-11",
+      "status": "launched",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000059.000108712.html",
+      "actualLaunchSourceUrl": "https://prtimes.jp/main/html/rd/p/000000059.000108712.html",
+      "verifiedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756270200&country=jp&entity=software"
     },
     {
       "id": "sakuna-hinuka-chronicle-jp-android",
@@ -13523,11 +13905,14 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/jp/app/id6476735146",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.co.toho.rice",
-      "storeUrl": "https://apps.apple.com/jp/app/id6476735146",
+      "storeUrl": "https://apps.apple.com/jp/app/%E5%A4%A9%E7%A9%82%E3%81%AE%E3%82%B5%E3%82%AF%E3%83%8A%E3%83%92%E3%83%A1-%E3%83%92%E3%83%8C%E3%82%AB%E5%B7%A1%E9%9C%8A%E8%AD%9A/id6476735146?uo=4",
       "storeProductName": "天穂のサクナヒメ～ヒヌカ巡霊譚～",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
-      "serviceEndDate": "2026-07-27"
+      "availabilityCheckedAt": "2026-09-14",
+      "serviceEndDate": "2026-07-27",
+      "rawStoreReleaseDate": "2026-02-04T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6476735146&country=jp&entity=software"
     },
     {
       "id": "sand-land-hk-playstation",
@@ -13862,6 +14247,11 @@ window.GAME_PROJECTS_DATA = {
       "platform": "android",
       "region": "JP",
       "store": "Google Play 日本",
+      "storeId": "com.netmarble.sf7",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.netmarble.sf7&hl=ja&gl=JP",
+      "storeProductName": "シャングリラ・フロンティア ～七つの最強種～（シャンナナ）",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
       "plannedLaunchDate": "2026年",
       "actualLaunchDate": "",
       "status": "upcoming",
@@ -13874,11 +14264,26 @@ window.GAME_PROJECTS_DATA = {
       "platform": "ios",
       "region": "JP",
       "store": "App Store 日本",
-      "plannedLaunchDate": "2026年",
+      "storeId": "6757176525",
+      "bundleId": "com.netmarble.sf7",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2-%E4%B8%83%E3%81%A4%E3%81%AE%E6%9C%80%E5%BC%B7%E7%A8%AE-%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%8A%E3%83%8A/id6757176525?uo=4",
+      "storeProductName": "シャングリラ・フロンティア ～七つの最強種～（シャンナナ）",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026-12-31",
       "actualLaunchDate": "",
       "status": "upcoming",
       "sourceUrl": "https://www.netmarble.co.jp/news/view/2340/5",
-      "verifiedAt": "2026-09-08"
+      "verifiedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-12-31T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6757176525&country=jp&entity=software",
+      "appleExpectedLaunchDate": "2026-12-31",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2-%E4%B8%83%E3%81%A4%E3%81%AE%E6%9C%80%E5%BC%B7%E7%A8%AE-%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%8A%E3%83%8A/id6757176525?uo=4",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2-%E4%B8%83%E3%81%A4%E3%81%AE%E6%9C%80%E5%BC%B7%E7%A8%AE-%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%8A%E3%83%8A/id6757176525?uo=4",
+      "plannedLaunchDateVerifiedAt": "2026-09-14"
     },
     {
       "id": "slf7c-jp-pc",
@@ -13974,9 +14379,11 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%BB%B8%E4%BC%9D-star-leap/id6746180100?uo=4",
       "storeProductName": "幻想水滸伝 STAR LEAP",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10",
+      "availabilityCheckedAt": "2026-09-14",
       "bundleId": "jp.konami.suikoden.starleap",
-      "rawStoreReleaseDate": "2026-08-05T07:00:00Z"
+      "rawStoreReleaseDate": "2026-08-05T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6746180100&country=jp&entity=software"
     },
     {
       "id": "the-new-gate-best-collection-jp-web",
@@ -14022,10 +14429,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.4gamer.net/games/921/G092143/20260226022/",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.goodsmile.revenge",
-      "storeUrl": "https://apps.apple.com/jp/app/id6698853161",
+      "storeUrl": "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA-unlimited/id6698853161?uo=4",
       "storeProductName": "東京リベンジャーズ UNLIMITED",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-02-25T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6698853161&country=jp&entity=software"
     },
     {
       "id": "torneko-remaster-jp-android",
@@ -14057,10 +14467,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://www.dragonquest.jp/torneko_re",
       "verifiedAt": "2026-09-10",
       "bundleId": "com.square-enix.Tornekoj",
-      "storeUrl": "https://apps.apple.com/jp/app/id6757778100",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AB%E3%83%8D%E3%82%B3%E3%81%AE%E5%A4%A7%E5%86%92%E9%99%BA-%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3/id6757778100?uo=4",
       "storeProductName": "トルネコの大冒険 不思議のダンジョン",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-09-09T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6757778100&country=jp&entity=software"
     },
     {
       "id": "torneko-remaster-jp-playstation",
@@ -14113,6 +14526,66 @@ window.GAME_PROJECTS_DATA = {
       "status": "launched",
       "sourceUrl": "https://www.dragonquest.jp/torneko_re",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "touken-ranbu-pazugiri-jp-android",
+      "projectId": "touken-ranbu-pazugiri",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "com.dmm.games.touken.puzzle",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.dmm.games.touken.puzzle&hl=ja&gl=JP",
+      "storeProductName": "刀剣乱舞ぱずぎり",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026年",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-07-13",
+      "status": "preregister",
+      "sourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "touken-ranbu-pazugiri-jp-ios",
+      "projectId": "touken-ranbu-pazugiri",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "6747331078",
+      "bundleId": "com.dmm.games.touken.puzzle",
+      "storeUrl": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=4",
+      "storeProductName": "刀剣乱舞ぱずぎり",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026-09-30",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6747331078",
+      "plannedLaunchDateVerifiedAt": "2026-09-14",
+      "appleExpectedLaunchDate": "2026-09-30",
+      "rawStoreReleaseDate": "2026-09-30T07:00:00Z",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-07-13",
+      "status": "preregister",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6747331078",
+      "verifiedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6747331078&country=jp&entity=software",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=4"
+    },
+    {
+      "id": "touken-ranbu-pazugiri-jp-windows",
+      "projectId": "touken-ranbu-pazugiri",
+      "platform": "windows",
+      "region": "JP",
+      "store": "DMM GAME PLAYER",
+      "storeId": "",
+      "plannedLaunchDate": "2026年",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-07-13",
+      "status": "preregister",
+      "sourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "tougen-anki-global-android",
@@ -14183,10 +14656,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000006855.000001719.html",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.co.kodansha.wb.rebelheroes",
-      "storeUrl": "https://apps.apple.com/jp/app/id6670387532",
+      "storeUrl": "https://apps.apple.com/jp/app/wind-breaker-%E4%B8%8D%E8%89%AF%E3%81%9F%E3%81%A1%E3%81%AE%E8%8B%B1%E9%9B%84%E8%AD%9A/id6670387532?uo=4",
       "storeProductName": "WIND BREAKER 不良たちの英雄譚",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2025-03-11T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6670387532&country=jp&entity=software"
     },
     {
       "id": "wind-breaker-rebel-heroes-jp-windows",
@@ -14231,10 +14707,13 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/jp/app/id6758927408",
       "verifiedAt": "2026-09-10",
       "bundleId": "jp.enish.yowapedaism",
-      "storeUrl": "https://apps.apple.com/jp/app/id6758927408",
+      "storeUrl": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=4",
       "storeProductName": "弱虫ペダル レゾナンス・ぺダイズム",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-10"
+      "availabilityCheckedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2026-07-22T07:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6758927408&country=jp&entity=software"
     },
     {
       "id": "yusha-kei-global-platform-tbd",
@@ -40686,7 +41165,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6761321358",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -40704,7 +41183,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6761321358",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -40722,7 +41201,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6754003671",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -40740,7 +41219,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6754003671",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -40759,7 +41238,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "ちいかわぽけっと",
       "display": "日本 App Store 免费游戏榜第 10 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -40778,7 +41257,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "ちいかわぽけっと",
       "display": "日本 App Store 游戏畅销榜第 78 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -40796,7 +41275,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6756353331",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -40814,7 +41293,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6756353331",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41101,7 +41580,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "デジモンUP",
       "display": "日本 App Store 免费游戏榜第 86 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41119,7 +41598,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6756247422",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41274,7 +41753,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6744439943",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41292,7 +41771,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6744439943",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41542,7 +42021,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
       "display": "日本 App Store 免费游戏榜第 93 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41560,7 +42039,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6747736697",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41638,8 +42117,8 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient",
       "metricType": "review_count",
-      "value": 6203,
-      "display": "PlayStation Store 全球玩家评分人数 6,203",
+      "value": 6205,
+      "display": "PlayStation Store 全球玩家评分人数 6,205",
       "scope": "全球玩家评分人数；截至 2026-09-14"
     },
     {
@@ -41675,8 +42154,8 @@ window.GAME_PROJECTS_DATA = {
       "performanceLevel": "insufficient",
       "metricType": "user_rating_5",
       "value": 3.51,
-      "ratingCount": 6203,
-      "display": "PlayStation Store 全球玩家评分 3.51/5（6,203 人评分）",
+      "ratingCount": 6205,
+      "display": "PlayStation Store 全球玩家评分 3.51/5（6,205 人评分）",
       "scope": "全球玩家评分；截至 2026-09-14"
     },
     {
@@ -41789,7 +42268,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6749658164",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41807,7 +42286,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6749658164",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41862,7 +42341,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6755984289",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41880,7 +42359,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6755984289",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41918,7 +42397,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6633416886",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41936,7 +42415,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6633416886",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41954,7 +42433,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6756641135",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41973,7 +42452,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "ホロライブドリームス",
       "display": "日本 App Store 游戏畅销榜第 35 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42068,7 +42547,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6753738566",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42086,7 +42565,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6753738566",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42104,7 +42583,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6756994116",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42123,7 +42602,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "イナズマイレブン クロス",
       "display": "日本 App Store 游戏畅销榜第 73 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42489,7 +42968,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6742088839",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42507,7 +42986,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6742088839",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42525,7 +43004,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6737974657",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42544,7 +43023,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "キングダム 覇道『キングダム』の戦略ゲームが登場",
       "display": "日本 App Store 游戏畅销榜第 79 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42562,7 +43041,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6480167901",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42581,7 +43060,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "魔法少女まどかマギカ Magia Exedra",
       "display": "日本 App Store 游戏畅销榜第 99 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42599,7 +43078,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6754311241",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42617,7 +43096,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6754311241",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42635,7 +43114,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6755509352",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42653,7 +43132,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6755509352",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42805,7 +43284,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6758648051",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42823,7 +43302,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6758648051",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43340,7 +43819,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6744346921",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43358,7 +43837,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6744346921",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43376,7 +43855,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6754670632",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43394,7 +43873,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6754670632",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43432,7 +43911,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6502942931",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43450,7 +43929,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6502942931",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43469,7 +43948,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "Pokémon Champions",
       "display": "日本 App Store 免费游戏榜第 14 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43488,7 +43967,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "Pokémon Champions",
       "display": "日本 App Store 游戏畅销榜第 67 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43506,7 +43985,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6737511323",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43524,7 +44003,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6737511323",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43543,7 +44022,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "サカモトデイズ　ミッション：ローグ ドーン",
       "display": "日本 App Store 免费游戏榜第 85 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43561,7 +44040,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6756270200",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43714,7 +44193,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "幻想水滸伝 STAR LEAP",
       "display": "日本 App Store 免费游戏榜第 69 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43733,7 +44212,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "幻想水滸伝 STAR LEAP",
       "display": "日本 App Store 游戏畅销榜第 45 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43751,7 +44230,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6698853161",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43769,7 +44248,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6698853161",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43788,7 +44267,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceProductName": "トルネコの大冒険 不思議のダンジョン",
       "display": "日本 App Store 游戏畅销榜第 68 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43806,7 +44285,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6670387532",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43824,7 +44303,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6670387532",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43842,7 +44321,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6758927408",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:49-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43860,7 +44339,7 @@ window.GAME_PROJECTS_DATA = {
       "storeId": "6758927408",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T18:59:48-07:00",
+      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     }
