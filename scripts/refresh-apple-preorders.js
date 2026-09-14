@@ -388,7 +388,7 @@ const checkedAt = tokyoDate(now);
     errors: [...lookupErrors, ...appleDiscovery.searchErrors, ...newsDiscovery.errors],
   };
 
-  data.meta.schemaVersion = "3.0";
+  data.meta.schemaVersion = "3.1";
   data.meta.phase = Math.max(Number(data.meta.phase) || 0, 28);
   data.meta.generatedAt = generatedAt();
   data.meta.latestProjectDate = data.projects

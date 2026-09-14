@@ -134,6 +134,12 @@
     const textValue = String(value || "");
     const year = textValue.match(/20\d{2}/)?.[0];
     if (!year) return null;
+    const monthNumber = textValue.match(/20\d{2}(?:年|[-/])(\d{1,2})(?:月)?/)?.[1];
+    if (monthNumber) {
+      const month = String(Number(monthNumber)).padStart(2, "0");
+      const lastDay = new Date(Date.UTC(Number(year), Number(monthNumber), 0)).toISOString().slice(8, 10);
+      return { start: `${year}-${month}-01`, end: `${year}-${month}-${lastDay}` };
+    }
     if (/上半年/.test(textValue)) return { start: `${year}-01-01`, end: `${year}-06-30` };
     if (/下半年/.test(textValue)) return { start: `${year}-07-01`, end: `${year}-12-31` };
     if (/春/.test(textValue)) return { start: `${year}-03-01`, end: `${year}-05-31` };
@@ -141,6 +147,13 @@
     if (/秋/.test(textValue)) return { start: `${year}-09-01`, end: `${year}-11-30` };
     if (/冬|年末/.test(textValue)) return { start: `${year}-12-01`, end: `${year}-12-31` };
     return { start: `${year}-01-01`, end: `${year}-12-31` };
+  };
+  const timingPrecision = (value) => {
+    const textValue = String(value || "").trim();
+    if (isoDate(textValue)) return 0;
+    if (/20\d{2}(?:年|[-/])\d{1,2}(?:月)?/.test(textValue)) return 1;
+    if (/上半年|下半年|春|夏|秋|冬|年末|Q[1-4]|第[一二三四]季度/i.test(textValue)) return 2;
+    return 3;
   };
   const generatedDate = isoDate(meta.generatedAt) || new Date().toISOString().slice(0, 10);
   const today = new Intl.DateTimeFormat("sv-SE", {
@@ -519,13 +532,20 @@
       }
 
       const nextTiming = projectReleases
-        .map((release) => dateBounds(release.plannedLaunchDate))
-        .filter((bounds) => bounds && bounds.end >= today)
-        .map((bounds) => ({
+        .map((release) => ({
+          timing: release.plannedLaunchDate,
+          bounds: dateBounds(release.plannedLaunchDate),
+          precision: timingPrecision(release.plannedLaunchDate),
+        }))
+        .filter(({ bounds }) => bounds && bounds.end >= today)
+        .map(({ timing, bounds, precision }) => ({
+          timing,
           bounds,
           date: bounds.start <= today && today <= bounds.end ? today : bounds.start,
+          precision,
         }))
-        .sort((a, b) => a.date.localeCompare(b.date)
+        .sort((a, b) => a.precision - b.precision
+          || a.date.localeCompare(b.date)
           || a.bounds.start.localeCompare(b.bounds.start)
           || a.bounds.end.localeCompare(b.bounds.end))[0];
       if (nextTiming) {
@@ -1255,7 +1275,9 @@
         if (!aBounds && !bBounds) return a.localeCompare(b, "zh-CN");
         if (!aBounds) return 1;
         if (!bBounds) return -1;
-        return aBounds.start.localeCompare(bBounds.start) || aBounds.end.localeCompare(bBounds.end);
+        return timingPrecision(a) - timingPrecision(b)
+          || aBounds.start.localeCompare(bBounds.start)
+          || aBounds.end.localeCompare(bBounds.end);
       });
   }
 

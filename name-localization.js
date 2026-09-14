@@ -117,6 +117,8 @@
   });
 
   const projectById = Object.freeze({
+    "classroom-of-the-elite-merge-puzzle": "欢迎来到实力至上主义教室：合并拼图特别考试",
+    "code-geass-genesic-re-code": "Code Geass Genesic Re;CODE",
     "attack-on-titan-wings-of-freedom": "进击的巨人",
     "attack-on-titan-2": "进击的巨人2",
     "attack-on-titan-3": "进击的巨人3",
@@ -421,6 +423,7 @@
     "Chainsaw Man": "链锯人",
     "Chiikawa": "吉伊卡哇",
     "Code Geass": "反叛的鲁路修",
+    "Classroom of the Elite": "欢迎来到实力至上主义教室",
     "Crayon Shin-chan": "蜡笔小新",
     "DATE A LIVE": "约会大作战",
     "Demon Slayer: Kimetsu no Yaiba": "鬼灭之刃",

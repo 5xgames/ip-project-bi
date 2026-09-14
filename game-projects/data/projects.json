@@ -1,8 +1,8 @@
 {
   "meta": {
-    "schemaVersion": "3.0",
-    "phase": 28,
-    "generatedAt": "2026-09-14T12:29:24+09:00",
+    "schemaVersion": "3.1",
+    "phase": 29,
+    "generatedAt": "2026-09-14T12:54:11+09:00",
     "latestProjectDate": "2026-09-14",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
@@ -186,13 +186,13 @@
         "market": "JP",
         "platform": "ios",
         "chartCategory": "games",
-        "trackedProjects": 30,
-        "snapshotsAdded": 59,
+        "trackedProjects": 31,
+        "snapshotsAdded": 61,
         "feeds": [
           {
             "metricType": "grossing_rank",
             "snapshotDate": "2026-09-14",
-            "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+            "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
             "positions": 100,
             "ranked": [
               "chiikawa-pocket",
@@ -224,6 +224,7 @@
               "tokyo-revengers-unlimited",
               "wind-breaker-rebel-heroes",
               "yowamushi-pedal-resonance-pedaism",
+              "classroom-of-the-elite-merge-puzzle",
               "kaiju-no-8-the-game",
               "persona-5-the-phantom-x",
               "my-hero-academia-united-survival"
@@ -233,7 +234,7 @@
           {
             "metricType": "free_rank",
             "snapshotDate": "2026-09-14",
-            "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+            "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
             "positions": 100,
             "ranked": [
               "chiikawa-pocket",
@@ -264,6 +265,7 @@
               "tokyo-revengers-unlimited",
               "wind-breaker-rebel-heroes",
               "yowamushi-pedal-resonance-pedaism",
+              "classroom-of-the-elite-merge-puzzle",
               "kaiju-no-8-the-game",
               "persona-5-the-phantom-x",
               "my-hero-academia-united-survival"
@@ -614,20 +616,54 @@
       "note": "本批为重点遗漏审计，不代表全球历史项目已穷尽；全球公告与逐地区商店记录继续分开保存。",
       "appleStorePreorders": {
         "verifiedAt": "2026-09-14",
-        "knownIosListingsChecked": 54,
+        "knownIosListingsChecked": 56,
         "plannedDatesUpdated": 0,
         "dateConflicts": 0,
         "overdueLaunches": 0,
-        "untrackedCandidates": 3,
+        "untrackedCandidates": 0,
         "source": "Apple iTunes Search/Lookup API 与 App Store 预约页",
         "note": "Apple 预约页日期用于 plannedLaunchDate；到达日期后仍须取得官方开服或发售证据才能写 actualLaunchDate。"
       },
       "dailyDiscovery": {
         "verifiedAt": "2026-09-14",
         "searchQueries": 9,
-        "newsCandidates": 139,
+        "newsCandidates": 141,
         "queue": "data/processed/game_project_watch_queue.json",
         "note": "候选仅用于每日核验，不自动把搜索结果写成正式项目。"
+      },
+      "publisherHistoryBackfill": {
+        "verifiedAt": "2026-09-14",
+        "publisher": "JORO",
+        "catalogUrl": "https://www.joro.co.jp/",
+        "addedProjects": [
+          "code-geass-genesic-re-code",
+          "classroom-of-the-elite-merge-puzzle"
+        ],
+        "addedReleases": [
+          "code-geass-genesic-re-code-jp-ios",
+          "code-geass-genesic-re-code-jp-android",
+          "classroom-of-the-elite-merge-puzzle-jp-ios",
+          "classroom-of-the-elite-merge-puzzle-jp-android"
+        ],
+        "excludedCatalogEntries": [
+          {
+            "title": "Coin Musme",
+            "reason": "发行商原创 BCG，未识别为外部日本娱乐 IP 游戏化"
+          },
+          {
+            "title": "AniPoko",
+            "reason": "发行商原创产品，未识别为外部日本娱乐 IP 游戏化"
+          }
+        ],
+        "note": "发行商产品履历用于补足已停运、已下架且近期没有新闻或榜单记录的历史项目。"
+      },
+      "publisherCatalogs": {
+        "verifiedAt": "2026-09-14",
+        "catalogSourcesChecked": 1,
+        "missingExpectedProjects": 0,
+        "unmatchedExternalProductLinks": 0,
+        "queue": "data/processed/publisher_catalog_watch_queue.json",
+        "note": "用于发现近期无新闻、已下架或已停运的历史产品；候选不会未经核验自动入库。"
       }
     }
   },
@@ -881,7 +917,7 @@
       "latestUpdateDate": "2026-09-14",
       "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-30 上线",
       "status": "preregister",
-      "summary": "《Code Geass》系列首款生存动作手机游戏；官方仅确认 2026 年配信，商店日期不作为正式开服日。",
+      "summary": "《Code Geass》系列首款生存动作手机游戏；日本 App Store 预约页当前预计 2026 年 9 月 30 日上线，该日期作为计划日期显示，正式开服仍以后续官方公告为准。",
       "sourceUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
       "verifiedAt": "2026-09-14"
     },
@@ -2190,6 +2226,38 @@
       "summary": "《判处勇者刑》完全新作游戏化项目；平台、玩法与上线窗口尚未正式公开。",
       "sourceUrl": "https://yushakei-pj.com/news/20260328_03/",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "code-geass-genesic-re-code",
+      "productName": "Code Geass Genesic Re;CODE",
+      "ipName": "Code Geass / 反叛的鲁路修",
+      "ipType": "动漫",
+      "genre": "角色扮演",
+      "developer": "JORO / Code Geass Genesic Re;CODE 制作委员会",
+      "publisher": "Code Geass Genesic Re;CODE 制作委员会",
+      "announcementDate": "",
+      "latestUpdateDate": "2023-04-27",
+      "latestUpdateLabel": "日本区停止运营",
+      "status": "ended",
+      "summary": "《Code Geass》系列首款社交游戏，2021 年 10 月 4 日在日本上线，2023 年 4 月 27 日 15:00 停止运营。",
+      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "classroom-of-the-elite-merge-puzzle",
+      "productName": "Classroom of the Elite: Merge Puzzle Special Test",
+      "ipName": "Classroom of the Elite / 欢迎来到实力至上主义教室",
+      "ipType": "轻小说 / 动漫",
+      "genre": "合并拼图",
+      "developer": "JORO",
+      "publisher": "JORO",
+      "announcementDate": "",
+      "latestUpdateDate": "2024-02-01",
+      "latestUpdateLabel": "日本 iOS / Android 正式上线",
+      "status": "launched",
+      "summary": "TV 动画《欢迎来到实力至上主义教室》首款手机游戏，2024 年 2 月 1 日在日本上线；JORO 官网截至 2026 年 9 月仍在持续发布运营公告。",
+      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
+      "verifiedAt": "2026-09-14"
     }
   ],
   "releases": [
@@ -14727,6 +14795,83 @@
       "status": "announced",
       "sourceUrl": "https://yushakei-pj.com/news/20260328_03/",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "code-geass-genesic-re-code-jp-ios",
+      "projectId": "code-geass-genesic-re-code",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "1550481882",
+      "bundleId": "",
+      "storeUrl": "https://apps.apple.com/jp/app/id1550481882",
+      "storeProductName": "コードギアス Genesic Re;CODE",
+      "plannedLaunchDate": "2021-10-04",
+      "actualLaunchDate": "2021-10-04",
+      "serviceEndDate": "2023-04-27",
+      "status": "ended",
+      "storeAvailability": "delisted",
+      "availabilityCheckedAt": "2023-06-30",
+      "availabilityNote": "官方停运公告注明 2023-06-30 结束 iOS 应用分发。",
+      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "code-geass-genesic-re-code-jp-android",
+      "projectId": "code-geass-genesic-re-code",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "jp.co.hakuhododymp.game",
+      "storeUrl": "https://play.google.com/store/apps/details?id=jp.co.hakuhododymp.game&hl=ja&gl=JP",
+      "storeProductName": "コードギアス Genesic Re;CODE",
+      "plannedLaunchDate": "2021-10-04",
+      "actualLaunchDate": "2021-10-04",
+      "serviceEndDate": "2023-04-27",
+      "status": "ended",
+      "storeAvailability": "delisted",
+      "availabilityCheckedAt": "2023-06-30",
+      "availabilityNote": "官方停运公告注明 2023-06-30 结束 Android 应用分发。",
+      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "classroom-of-the-elite-merge-puzzle-jp-ios",
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "6472700394",
+      "bundleId": "jp.co.joro.mip",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8-%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%91%E3%82%BA%E3%83%AB%E7%89%B9%E5%88%A5%E8%A9%A6%E9%A8%93/id6472700394?uo=4",
+      "storeProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
+      "plannedLaunchDate": "2024-02-01",
+      "actualLaunchDate": "2024-02-01",
+      "status": "launched",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
+      "verifiedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2024-02-01T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6472700394&country=jp&entity=software"
+    },
+    {
+      "id": "classroom-of-the-elite-merge-puzzle-jp-android",
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "jp.co.joro.mip.prod",
+      "storeUrl": "https://play.google.com/store/apps/details?id=jp.co.joro.mip.prod&hl=ja&gl=JP",
+      "storeProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
+      "plannedLaunchDate": "2024-02-01",
+      "actualLaunchDate": "2024-02-01",
+      "status": "launched",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
+      "verifiedAt": "2026-09-14"
     }
   ],
   "rankSnapshots": [
@@ -18915,6 +19060,23 @@
       "sourceUrl": "https://steamcharts.com/app/755500",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
+    },
+    {
+      "releaseId": "code-geass-genesic-re-code-jp-ios",
+      "projectId": "code-geass-genesic-re-code",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2021-10-04",
+      "metricType": "free_rank",
+      "rank": 1,
+      "display": "日本 App Store 免费游戏榜第 1 名",
+      "scope": "日本 App Store 免费游戏榜；上线当日媒体报道",
+      "source": "Anime! Anime!",
+      "sourceUrl": "https://animeanime.jp/article/2021/10/04/64351.html",
+      "verifiedAt": "2026-09-14",
+      "performanceLevel": "phenomenon"
     },
     {
       "projectId": "attack-on-titan-2",
@@ -41165,7 +41327,7 @@
       "storeId": "6761321358",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41183,7 +41345,7 @@
       "storeId": "6761321358",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41201,7 +41363,7 @@
       "storeId": "6754003671",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41219,7 +41381,7 @@
       "storeId": "6754003671",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41238,7 +41400,7 @@
       "sourceProductName": "ちいかわぽけっと",
       "display": "日本 App Store 免费游戏榜第 10 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41257,7 +41419,43 @@
       "sourceProductName": "ちいかわぽけっと",
       "display": "日本 App Store 游戏畅销榜第 78 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
+      "verifiedAt": "2026-09-14",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-14",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6472700394",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
+      "verifiedAt": "2026-09-14",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-14",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6472700394",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41275,7 +41473,7 @@
       "storeId": "6756353331",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41293,7 +41491,7 @@
       "storeId": "6756353331",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41580,7 +41778,7 @@
       "sourceProductName": "デジモンUP",
       "display": "日本 App Store 免费游戏榜第 86 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41598,7 +41796,7 @@
       "storeId": "6756247422",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41753,7 +41951,7 @@
       "storeId": "6744439943",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41771,7 +41969,7 @@
       "storeId": "6744439943",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -41849,8 +42047,8 @@
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient",
       "metricType": "review_count",
-      "value": 68529,
-      "display": "PlayStation Store 全球玩家评分人数 68,529",
+      "value": 68531,
+      "display": "PlayStation Store 全球玩家评分人数 68,531",
       "scope": "全球玩家评分人数；截至 2026-09-14"
     },
     {
@@ -41886,8 +42084,8 @@
       "performanceLevel": "insufficient",
       "metricType": "user_rating_5",
       "value": 4.5,
-      "ratingCount": 68529,
-      "display": "PlayStation Store 全球玩家评分 4.50/5（68,529 人评分）",
+      "ratingCount": 68531,
+      "display": "PlayStation Store 全球玩家评分 4.50/5（68,531 人评分）",
       "scope": "全球玩家评分；截至 2026-09-14"
     },
     {
@@ -42021,7 +42219,7 @@
       "sourceProductName": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
       "display": "日本 App Store 免费游戏榜第 93 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42039,7 +42237,7 @@
       "storeId": "6747736697",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42268,7 +42466,7 @@
       "storeId": "6749658164",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42286,7 +42484,7 @@
       "storeId": "6749658164",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42341,7 +42539,7 @@
       "storeId": "6755984289",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42359,7 +42557,7 @@
       "storeId": "6755984289",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42397,7 +42595,7 @@
       "storeId": "6633416886",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42415,7 +42613,7 @@
       "storeId": "6633416886",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42433,7 +42631,7 @@
       "storeId": "6756641135",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42452,7 +42650,7 @@
       "sourceProductName": "ホロライブドリームス",
       "display": "日本 App Store 游戏畅销榜第 35 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42547,7 +42745,7 @@
       "storeId": "6753738566",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42565,7 +42763,7 @@
       "storeId": "6753738566",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42583,7 +42781,7 @@
       "storeId": "6756994116",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42602,7 +42800,7 @@
       "sourceProductName": "イナズマイレブン クロス",
       "display": "日本 App Store 游戏畅销榜第 73 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42968,7 +43166,7 @@
       "storeId": "6742088839",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -42986,7 +43184,7 @@
       "storeId": "6742088839",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43004,7 +43202,7 @@
       "storeId": "6737974657",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43023,7 +43221,7 @@
       "sourceProductName": "キングダム 覇道『キングダム』の戦略ゲームが登場",
       "display": "日本 App Store 游戏畅销榜第 79 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43041,7 +43239,7 @@
       "storeId": "6480167901",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43060,7 +43258,7 @@
       "sourceProductName": "魔法少女まどかマギカ Magia Exedra",
       "display": "日本 App Store 游戏畅销榜第 99 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43078,7 +43276,7 @@
       "storeId": "6754311241",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43096,7 +43294,7 @@
       "storeId": "6754311241",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43114,7 +43312,7 @@
       "storeId": "6755509352",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43132,7 +43330,7 @@
       "storeId": "6755509352",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43284,7 +43482,7 @@
       "storeId": "6758648051",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43302,7 +43500,7 @@
       "storeId": "6758648051",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43819,7 +44017,7 @@
       "storeId": "6744346921",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43837,7 +44035,7 @@
       "storeId": "6744346921",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43855,7 +44053,7 @@
       "storeId": "6754670632",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43873,7 +44071,7 @@
       "storeId": "6754670632",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43911,7 +44109,7 @@
       "storeId": "6502942931",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43929,7 +44127,7 @@
       "storeId": "6502942931",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43948,7 +44146,7 @@
       "sourceProductName": "Pokémon Champions",
       "display": "日本 App Store 免费游戏榜第 14 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43967,7 +44165,7 @@
       "sourceProductName": "Pokémon Champions",
       "display": "日本 App Store 游戏畅销榜第 67 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -43985,7 +44183,7 @@
       "storeId": "6737511323",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44003,7 +44201,7 @@
       "storeId": "6737511323",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44022,7 +44220,7 @@
       "sourceProductName": "サカモトデイズ　ミッション：ローグ ドーン",
       "display": "日本 App Store 免费游戏榜第 85 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44040,7 +44238,7 @@
       "storeId": "6756270200",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44193,7 +44391,7 @@
       "sourceProductName": "幻想水滸伝 STAR LEAP",
       "display": "日本 App Store 免费游戏榜第 69 名",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44212,7 +44410,7 @@
       "sourceProductName": "幻想水滸伝 STAR LEAP",
       "display": "日本 App Store 游戏畅销榜第 45 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44230,7 +44428,7 @@
       "storeId": "6698853161",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44248,7 +44446,7 @@
       "storeId": "6698853161",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44267,7 +44465,7 @@
       "sourceProductName": "トルネコの大冒険 不思議のダンジョン",
       "display": "日本 App Store 游戏畅销榜第 68 名",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44285,7 +44483,7 @@
       "storeId": "6670387532",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44303,7 +44501,7 @@
       "storeId": "6670387532",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44321,7 +44519,7 @@
       "storeId": "6758927408",
       "display": "日本 App Store 免费游戏榜未入 Top 100",
       "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:23-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     },
@@ -44339,7 +44537,7 @@
       "storeId": "6758927408",
       "display": "日本 App Store 游戏畅销榜未入 Top 100",
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
-      "feedUpdatedAt": "2026-09-13T20:25:22-07:00",
+      "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
       "performanceLevel": "insufficient"
     }

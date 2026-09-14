@@ -11,9 +11,11 @@
 
 游戏化项目页的数据目录为 `game-projects/data/`。项目主表、地区平台版本和平台榜单快照分别保存，避免把同一产品在不同地区或平台的上线日期合并，也不会把手游、Steam和主机的原始榜单数字直接混算。
 
-截至 2026-09-10 的 Phase 27，游戏化项目库收录 96 个真实项目、675 条地区平台版本、1,189 条表现快照和 767 条地区检查记录。Steam、Xbox、Nintendo 与 PlayStation 已按日本、中国大陆、香港、台湾、韩国、东南亚和美国的七市场口径持续核验；其中东南亚商店以新加坡作为代表样本，中国大陆则结合版号、国服 / 国行与官方发行渠道确认。PlayStation 重点产品在日本、美国、香港、台湾、韩国和东南亚的地区组合继续以官方商品页为准。
+截至 2026-09-14 的 Phase 29，游戏化项目库收录 102 个真实项目、688 条地区平台版本、1,736 条表现快照和 767 条地区检查记录。Steam、Xbox、Nintendo 与 PlayStation 已按日本、中国大陆、香港、台湾、韩国、东南亚和美国的七市场口径持续核验；其中东南亚商店以新加坡作为代表样本，中国大陆则结合版号、国服 / 国行与官方发行渠道确认。PlayStation 重点产品在日本、美国、香港、台湾、韩国和东南亚的地区组合继续以官方商品页为准。
 
 2026-09-10 完成四轮近期与未来项目遗漏审计，新补 53 个项目和 122 条版本定义。重点包括 9 月 11 日正式开服的《SAKAMOTO DAYS Mission: Rogue Dawn》，以及《BLEACH Mirrors High》《桃源暗鬼 Crimson Inferno》《GACHIAKUTA The Game》《链锯人》手机游戏、《BanG Dream! Our Notes》《Code Geass: Nightmare Survivor》《排球少年!! ALL Challengers》《灼眼的夏娜 Blaze Edge》等已正式公布项目；同时补入 hololive Dreams、Pokémon Champions、《特鲁尼克大冒险》重制版、《地狱乐 Paradise Battle》《我推的孩子 Puzzle Star》《药屋少女的呢喃 后宫异闻录》《DATE A LIVE: Love Limit Break》《追放者食堂へようこそ！ オーダーラッシュ》《SAKAMOTO DAYS Dangerous Puzzle》《HUNTER×HUNTER NEN×SURVIVOR》《银魂 Smartphone Battle Chronicle》《Captain Tsubasa: My Golden XI》《WIND BREAKER: Rebel Heroes》等近期已上线重点产品，并新增《Aランクパーティ…》《HUNDRED NOTE》《闪乱神乐 PROJECT N》等平台或日期尚未完全公布的项目。该批次是针对近期动向的重点审计，并不宣称历史项目已穷尽。
+
+2026-09-14 增加发行商官网产品履历反查，首先接入 JORO 的产品目录。该层用于发现近期没有新闻、已经停运或商店下架而被现有发现器漏掉的历史项目；本次补入《Code Geass Genesic Re;CODE》和《欢迎来到实力至上主义教室～合并拼图特别考试～》，并把官网目录差异检查接入每日刷新流程。《Nightmare Survivor》的日本 App Store 预约预计日期 2026-09-30 已作为计划日期显示，正式开服仍以后续官方公告为准。
 
 展示口径按平台独立记录：iOS 使用 App Store 的“免费下载榜·游戏榜”和“畅销榜·游戏榜”，海外 Android 使用 Google Play 游戏分类免费榜与畅销榜；中国大陆 Android 因没有统一商店总榜，改用官网、商店、TapTap 及新闻媒体公开证据，并明确区分跨平台/综合商业指标。中国小游戏仅分微信小游戏与抖音小游戏，且两者不混算：微信使用MomoRank人气Top 10及应用宝畅销Top 20，抖音使用MomoRank热门Top 10及畅销Top 10。完整榜单读取成功但没有排名显示为“未入榜”；只公开 Top 范围时，产品未出现显示为“公开范围外”，不能据此判定未入榜；读取失败显示为“未读取”，尚未尝试显示为“待抓取”。产品及联动已经核验、但渠道AppID尚未确认的项目也会作为候选收录，显示为“渠道/AppID待核验”，不进行榜单匹配且不参与影响力评分。
 
