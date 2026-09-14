@@ -630,40 +630,6 @@ window.GAME_PROJECTS_DATA = {
         "newsCandidates": 141,
         "queue": "data/processed/game_project_watch_queue.json",
         "note": "候选仅用于每日核验，不自动把搜索结果写成正式项目。"
-      },
-      "publisherHistoryBackfill": {
-        "verifiedAt": "2026-09-14",
-        "publisher": "JORO",
-        "catalogUrl": "https://www.joro.co.jp/",
-        "addedProjects": [
-          "code-geass-genesic-re-code",
-          "classroom-of-the-elite-merge-puzzle"
-        ],
-        "addedReleases": [
-          "code-geass-genesic-re-code-jp-ios",
-          "code-geass-genesic-re-code-jp-android",
-          "classroom-of-the-elite-merge-puzzle-jp-ios",
-          "classroom-of-the-elite-merge-puzzle-jp-android"
-        ],
-        "excludedCatalogEntries": [
-          {
-            "title": "Coin Musme",
-            "reason": "发行商原创 BCG，未识别为外部日本娱乐 IP 游戏化"
-          },
-          {
-            "title": "AniPoko",
-            "reason": "发行商原创产品，未识别为外部日本娱乐 IP 游戏化"
-          }
-        ],
-        "note": "发行商产品履历用于补足已停运、已下架且近期没有新闻或榜单记录的历史项目。"
-      },
-      "publisherCatalogs": {
-        "verifiedAt": "2026-09-14",
-        "catalogSourcesChecked": 1,
-        "missingExpectedProjects": 0,
-        "unmatchedExternalProductLinks": 0,
-        "queue": "data/processed/publisher_catalog_watch_queue.json",
-        "note": "用于发现近期无新闻、已下架或已停运的历史产品；候选不会未经核验自动入库。"
       }
     }
   },
