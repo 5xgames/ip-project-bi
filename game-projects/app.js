@@ -422,7 +422,7 @@
   function calendarEventType(label) {
     if (label === "开始测试") return "testing";
     if (label === "开放预约") return "preregister";
-    if (label === "计划上线") return "planned";
+    if (["计划上线", "预计上线"].includes(label)) return "planned";
     if (label === "正式上线") return "launched";
     if (label === "停止运营") return "ended";
     return "planned";
@@ -478,7 +478,9 @@
       for (const release of projectReleases) {
         add(project, release, release.testStartDate, "开始测试");
         add(project, release, release.preregisterDate, "开放预约");
-        add(project, release, release.plannedLaunchDate, "计划上线");
+        const isAppleExpectedDate = Boolean(isoDate(release.plannedLaunchDate))
+          && release.plannedLaunchDateSource === "Apple App Store 预约页";
+        add(project, release, release.plannedLaunchDate, isAppleExpectedDate ? "预计上线" : "计划上线");
         add(project, release, release.actualLaunchDate, "正式上线");
         add(project, release, release.serviceEndDate, "停止运营");
       }
@@ -633,7 +635,7 @@
       const visibleEvents = dayEvents.slice(0, 3);
       cells.push(`<div class="${classNames.join(" ")}" role="gridcell" data-calendar-date="${date}">
         <button class="calendar-day-number" type="button" data-calendar-date="${date}" aria-label="${escapeHtml(formatCalendarDate(date))}${dayEvents.length ? `，${dayEvents.length} 个项目节点` : ""}">${dayNumber}</button>
-        <div class="calendar-day-events">${visibleEvents.map((event) => `<button class="calendar-event calendar-event-${event.eventType}" type="button" data-calendar-date="${date}" title="${escapeHtml(`${event.label} · ${event.project.productName}`)}"><i aria-hidden="true"></i><span>${escapeHtml(event.project.productName)}</span></button>`).join("")}${dayEvents.length > visibleEvents.length ? `<button class="calendar-event-more" type="button" data-calendar-date="${date}">+${dayEvents.length - visibleEvents.length}</button>` : ""}</div>
+        <div class="calendar-day-events">${visibleEvents.map((event) => `<button class="calendar-event calendar-event-${event.eventType}" type="button" data-calendar-date="${date}" title="${escapeHtml(`${event.label}${event.label === "预计上线" ? "（Apple App Store 预约页）" : ""} · ${date} · ${event.project.productName}`)}"><i aria-hidden="true"></i><span>${escapeHtml(event.project.productName)}</span></button>`).join("")}${dayEvents.length > visibleEvents.length ? `<button class="calendar-event-more" type="button" data-calendar-date="${date}">+${dayEvents.length - visibleEvents.length}</button>` : ""}</div>
       </div>`);
     }
     elements.calendarGrid.innerHTML = cells.join("");
@@ -647,7 +649,7 @@
     elements.calendarAgendaList.innerHTML = selectedEvents.map((event) => `<button class="calendar-agenda-item" type="button" data-project-id="${escapeHtml(event.project.id)}">
       <i class="calendar-event-dot ${event.eventType}" aria-hidden="true"></i>
       <span><strong>${escapeHtml(event.project.productName)}</strong><small>${escapeHtml(calendarEventScope(event))}</small></span>
-      <em title="${escapeHtml(event.label)}">${escapeHtml(event.label)}</em>
+      <em title="${escapeHtml(event.label)}">${escapeHtml(event.label === "预计上线" ? `预计 ${event.date} 上线 · Apple App Store` : event.label)}</em>
     </button>`).join("");
 
     elements.calendarWindowSection.hidden = monthWindows.length === 0;
@@ -815,8 +817,12 @@
         release,
         timing: isoDate(release.actualLaunchDate) || String(release.plannedLaunchDate || "").trim() || "时间待定",
         sortKey: timingSortKey(release.actualLaunchDate || release.plannedLaunchDate),
+        precision: timingPrecision(release.actualLaunchDate || release.plannedLaunchDate),
         actual: Boolean(String(release.actualLaunchDate || "").trim()),
         future: !isoDate(release.actualLaunchDate) && activeFutureStatuses.has(release.status || project.status),
+        appleExpected: !isoDate(release.actualLaunchDate)
+          && Boolean(isoDate(release.plannedLaunchDate))
+          && release.plannedLaunchDateSource === "Apple App Store 预约页",
       }));
     const groupedSchedule = new Map();
     for (const item of scheduleCandidates) {
@@ -827,15 +833,18 @@
       groupedSchedule.get(key).regions.add(regionInfo.scopeLabel ? `${regionInfo.label}（${regionInfo.scopeLabel}）` : regionInfo.label);
     }
     const scheduleRows = [...groupedSchedule.values()]
-      .sort((a, b) => Number(b.future) - Number(a.future) || a.sortKey.localeCompare(b.sortKey) || a.project.productName.localeCompare(b.project.productName, "zh-CN"));
+      .sort((a, b) => Number(b.future) - Number(a.future)
+        || a.precision - b.precision
+        || a.sortKey.localeCompare(b.sortKey)
+        || a.project.productName.localeCompare(b.project.productName, "zh-CN"));
     const pageData = paginate(scheduleRows, "schedulePage", 6);
     elements.scheduleCount.textContent = `${numberFormat.format(scheduleRows.length)} 个节点`;
     elements.scheduleEmpty.hidden = scheduleRows.length > 0;
-    elements.schedule.innerHTML = pageData.items.map(({ project, platforms, regions, timing, actual }) => `<div class="schedule-row">
+    elements.schedule.innerHTML = pageData.items.map(({ project, platforms, regions, timing, actual, appleExpected }) => `<div class="schedule-row">
       ${isoDate(timing)
         ? `<time class="schedule-date" datetime="${escapeHtml(isoDate(timing))}">${escapeHtml(timing)}</time>`
         : `<span class="schedule-date">${escapeHtml(timing)}</span>`}
-      <div class="schedule-content"><strong>${escapeHtml(project.productName)}</strong><span>${escapeHtml([...platforms].join(" / "))} · ${escapeHtml([...regions].join(" / "))} · ${actual ? "实际上线" : "计划上线"}</span></div>
+      <div class="schedule-content"><strong>${escapeHtml(project.productName)}</strong><span>${escapeHtml([...platforms].join(" / "))} · ${escapeHtml([...regions].join(" / "))} · ${actual ? "实际上线" : appleExpected ? "预计上线（Apple App Store 预约页）" : "计划上线"}</span></div>
     </div>`).join("");
     renderPagination(elements.schedulePagination, "schedulePage", scheduleRows.length, 6);
   }
