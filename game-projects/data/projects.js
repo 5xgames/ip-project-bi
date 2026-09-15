@@ -2,8 +2,8 @@ window.GAME_PROJECTS_DATA = {
   "meta": {
     "schemaVersion": "3.1",
     "phase": 29,
-    "generatedAt": "2026-09-14T15:07:24+09:00",
-    "latestProjectDate": "2026-09-14",
+    "generatedAt": "2026-09-15T11:12:46+09:00",
+    "latestProjectDate": "2026-09-15",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
     "targetRegions": [
@@ -87,11 +87,11 @@ window.GAME_PROJECTS_DATA = {
     },
     "performanceCoverage": {
       "steamCharts": {
-        "verifiedAt": "2026-09-14",
+        "verifiedAt": "2026-09-15",
         "coverageStart": "2018-01-01",
         "metric": "monthly_average_concurrent_players",
-        "projects": 24,
-        "snapshots": 1035,
+        "projects": 23,
+        "snapshots": 1022,
         "source": "SteamCharts",
         "unavailable": [
           {
@@ -110,9 +110,19 @@ window.GAME_PROJECTS_DATA = {
             "reason": "HTTP 500"
           },
           {
+            "appId": "2456420",
+            "projectId": "hunter-x-hunter-nen-impact",
+            "reason": "HTTP 500"
+          },
+          {
             "appId": "4855410",
             "projectId": "keroro-hachamecha-tv-show",
             "reason": "HTTP 404"
+          },
+          {
+            "appId": "2413800",
+            "projectId": "samurai-pizza-cats-blast-from-the-past",
+            "reason": "HTTP 500"
           },
           {
             "appId": "3779470",
@@ -122,9 +132,9 @@ window.GAME_PROJECTS_DATA = {
         ]
       },
       "videoGameInsights": {
-        "verifiedAt": "2026-09-14",
+        "verifiedAt": "2026-09-15",
         "metric": "estimated_lifetime_unit_sales",
-        "projects": 29,
+        "projects": 30,
         "snapshots": 64,
         "platforms": {
           "steam": 25,
@@ -135,7 +145,7 @@ window.GAME_PROJECTS_DATA = {
         "unavailable": []
       },
       "consoleStoreRatings": {
-        "verifiedAt": "2026-09-14",
+        "verifiedAt": "2026-09-15",
         "metric": "store_user_rating_out_of_5_and_rating_count",
         "projects": {
           "playstation": 15,
@@ -182,31 +192,33 @@ window.GAME_PROJECTS_DATA = {
         "unavailable": []
       },
       "appleAppStoreRanks": {
-        "verifiedAt": "2026-09-14",
+        "verifiedAt": "2026-09-15",
         "market": "JP",
         "platform": "ios",
         "chartCategory": "games",
-        "trackedProjects": 31,
-        "snapshotsAdded": 61,
+        "trackedProjects": 32,
+        "snapshotsAdded": 63,
         "feeds": [
           {
             "metricType": "grossing_rank",
-            "snapshotDate": "2026-09-14",
-            "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
+            "snapshotDate": "2026-09-15",
+            "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
             "positions": 100,
             "ranked": [
               "chiikawa-pocket",
               "hololive-dreams",
               "inazuma-eleven-cross",
               "kingdom-hadou",
-              "madoka-magia-exedra",
               "pokemon-champions",
               "suikoden-star-leap",
-              "torneko-wonder-dungeon-remaster"
+              "torneko-wonder-dungeon-remaster",
+              "kaiju-no-8-the-game"
             ],
             "unranked": [
+              "black-channel-blaze-road",
               "captain-tsubasa-my-golden-xi",
               "cardcaptor-sakura-memory-key-jp",
+              "classroom-of-the-elite-merge-puzzle",
               "date-a-live-love-limit-break",
               "digimon-up",
               "dragon-ball-gekishin-squadra",
@@ -215,6 +227,7 @@ window.GAME_PROJECTS_DATA = {
               "haikyu-touch-and-connect",
               "hells-paradise-paradise-battle",
               "hunter-x-hunter-nen-survivor",
+              "madoka-magia-exedra",
               "mushoku-tensei-chronicle-of-echoes",
               "muvluv-girls-garden",
               "oshi-no-ko-puzzle-star",
@@ -224,8 +237,6 @@ window.GAME_PROJECTS_DATA = {
               "tokyo-revengers-unlimited",
               "wind-breaker-rebel-heroes",
               "yowamushi-pedal-resonance-pedaism",
-              "classroom-of-the-elite-merge-puzzle",
-              "kaiju-no-8-the-game",
               "persona-5-the-phantom-x",
               "my-hero-academia-united-survival"
             ],
@@ -233,22 +244,23 @@ window.GAME_PROJECTS_DATA = {
           },
           {
             "metricType": "free_rank",
-            "snapshotDate": "2026-09-14",
-            "feedUpdatedAt": "2026-09-13T20:49:14-07:00",
+            "snapshotDate": "2026-09-15",
+            "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
             "positions": 100,
             "ranked": [
               "chiikawa-pocket",
               "digimon-up",
-              "dragon-quest-smash-grow",
               "pokemon-champions",
-              "sakamoto-days-mission-rogue-dawn",
               "suikoden-star-leap"
             ],
             "unranked": [
+              "black-channel-blaze-road",
               "captain-tsubasa-my-golden-xi",
               "cardcaptor-sakura-memory-key-jp",
+              "classroom-of-the-elite-merge-puzzle",
               "date-a-live-love-limit-break",
               "dragon-ball-gekishin-squadra",
+              "dragon-quest-smash-grow",
               "gintama-smartphone-battle-chronicle",
               "haikyu-touch-and-connect",
               "hells-paradise-paradise-battle",
@@ -262,10 +274,10 @@ window.GAME_PROJECTS_DATA = {
               "oshi-no-ko-puzzle-star",
               "outcast-restaurant-order-rush",
               "sakamoto-days-dangerous-puzzle",
+              "sakamoto-days-mission-rogue-dawn",
               "tokyo-revengers-unlimited",
               "wind-breaker-rebel-heroes",
               "yowamushi-pedal-resonance-pedaism",
-              "classroom-of-the-elite-merge-puzzle",
               "kaiju-no-8-the-game",
               "persona-5-the-phantom-x",
               "my-hero-academia-united-survival"
@@ -615,37 +627,58 @@ window.GAME_PROJECTS_DATA = {
       ],
       "note": "本批为重点遗漏审计，不代表全球历史项目已穷尽；全球公告与逐地区商店记录继续分开保存。",
       "appleStorePreorders": {
-        "verifiedAt": "2026-09-14",
+        "verifiedAt": "2026-09-15",
         "knownIosListingsChecked": 56,
         "plannedDatesUpdated": 0,
-        "dateConflicts": 0,
-        "overdueLaunches": 0,
+        "dateConflicts": 1,
+        "overdueLaunches": 1,
         "untrackedCandidates": 3,
         "source": "Apple iTunes Search/Lookup API 与 App Store 预约页",
         "note": "Apple 预约页日期用于 plannedLaunchDate；到达日期后仍须取得官方开服或发售证据才能写 actualLaunchDate。"
       },
       "dailyDiscovery": {
-        "verifiedAt": "2026-09-14",
+        "verifiedAt": "2026-09-15",
         "searchQueries": 9,
-        "newsCandidates": 138,
+        "newsCandidates": 134,
         "queue": "data/processed/game_project_watch_queue.json",
         "note": "候选仅用于每日核验，不自动把搜索结果写成正式项目。"
       },
       "plannedDateAudit": {
-        "verifiedAt": "2026-09-14",
-        "activeProjectsChecked": 40,
+        "verifiedAt": "2026-09-15",
+        "activeProjectsChecked": 39,
+        "activeSourceUrlsChecked": 110,
+        "activeSourceUrlsReachable": 108,
         "preciseDatesAdded": 1,
-        "launchStatusCorrections": 1,
+        "launchStatusCorrections": 0,
+        "projectsAdded": 12,
+        "releaseDefinitionsAdded": 25,
         "correctedProjects": [
-          "professor-layton-new-world-of-steam",
-          "shakugan-no-shana-blaze-edge"
+          "bang-dream-our-notes"
+        ],
+        "addedProjectIds": [
+          "idolmaster-sidem-console-project",
+          "apothecary-diaries-false-imperial-brother",
+          "kirby-world-beyond",
+          "yokai-watch-2-hadou",
+          "yugioh-tag-force-gx",
+          "muramasa-revenant-blades",
+          "portopia-forgotten-burial",
+          "samurai-pizza-cats-blast-from-the-past",
+          "zelda-ocarina-of-time-remake",
+          "metroid-ravenous",
+          "monster-hunter-wilds",
+          "professor-layton-curious-village-remake"
+        ],
+        "unresolvedOverdueProjectIds": [
+          "black-channel-blaze-road"
         ],
         "sources": [
           "Apple App Store 预约页与 Apple Lookup API",
-          "项目官网与发行方正式公告",
+          "项目官网、版权方及发行方正式公告",
+          "Nintendo、KONAMI、LEVEL5、Marvelous、G-MODE 等官方项目页",
           "PR TIMES、4Gamer、Famitsu 等一线媒体用于遗漏发现"
         ],
-        "note": "逐项核验所有仍为公布、测试、预约、计划上线或延期状态的项目；没有正式精确日期的版本继续保留官方年份、时间窗口或日期待定，不跨平台推断。"
+        "note": "逐项复核仍处于公布、测试、预约、计划上线或延期状态的项目；Black Channel: Blaze Road 计划日期已到但尚未找到正式开服证据，继续保留预约状态。两个已知来源页面分别返回 403 与 404，未据此改写项目状态。"
       }
     }
   },
@@ -681,6 +714,22 @@ window.GAME_PROJECTS_DATA = {
       "summary": "《另一个伊甸》世界观下的主机与 PC 买断制角色扮演新作。",
       "sourceUrl": "https://anothereden.games/en/",
       "verifiedAt": "2026-09-08"
+    },
+    {
+      "id": "apothecary-diaries-false-imperial-brother",
+      "productName": "药屋少女的呢喃 ～虚假的皇弟～",
+      "ipName": "药屋少女的呢喃 / The Apothecary Diaries",
+      "ipType": "轻小说 / 漫画 / 动漫",
+      "genre": "推理冒险",
+      "developer": "Koei Tecmo Games",
+      "publisher": "Koei Tecmo Games",
+      "announcementDate": "2026-09-09",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "首款主机游戏正式公布",
+      "status": "upcoming",
+      "summary": "由日向夏提供原案的原创故事，计划于 2027 年初登陆 Switch 2、Switch、PS5 与 Steam。",
+      "sourceUrl": "https://www.gamecity.ne.jp/kusuriyanohitorigoto/jp/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "apothecary-diaries-palace-chronicle",
@@ -756,10 +805,27 @@ window.GAME_PROJECTS_DATA = {
       "publisher": "Bushiroad",
       "announcementDate": "2026-01-12",
       "latestUpdateDate": "2026-09-14",
-      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-22 上线",
+      "latestUpdateLabel": "官方宣布 2026-09-24 正式上线",
       "status": "preregister",
-      "summary": "BanG Dream! 新作手机节奏游戏；截至 9 月 10 日仍处于预约阶段，正式上线日将于 9 月 13 日的官方节目公布。",
-      "sourceUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
+      "summary": "BanG Dream! 新作手机节奏游戏，官方已确定于 2026 年 9 月 24 日正式上线。",
+      "sourceUrl": "https://bang-dream-on.bushimo.jp/news/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "black-channel-blaze-road",
+      "productName": "Black Channel: Blaze Road",
+      "ipName": "Black Channel / ブラックチャンネル",
+      "ipType": "YouTube 动画 / 漫画",
+      "genre": "放置角色扮演",
+      "developer": "Plott Games",
+      "publisher": "Plott",
+      "announcementDate": "2026-09-01",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-15 上线",
+      "status": "preregister",
+      "summary": "YouTube 动画 IP《Black Channel》首款手机游戏；发行方确认 iOS / Android 事前预约，Apple 日本预约页显示预计 2026 年 9 月 15 日发布。",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6803370140",
+      "announcementSourceUrl": "https://prtimes.jp/main/html/rd/p/000000230.000047837.html",
       "verifiedAt": "2026-09-14"
     },
     {
@@ -871,20 +937,35 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
-      "id": "black-channel-blaze-road",
-      "productName": "Black Channel: Blaze Road",
-      "ipName": "Black Channel / ブラックチャンネル",
-      "ipType": "YouTube 动画 / 漫画",
-      "genre": "放置角色扮演",
-      "developer": "Plott Games",
-      "publisher": "Plott",
-      "announcementDate": "2026-09-01",
-      "latestUpdateDate": "2026-09-14",
-      "latestUpdateLabel": "Apple App Store 预约页预计 2026-09-15 上线",
-      "status": "preregister",
-      "summary": "YouTube 动画 IP《Black Channel》首款手机游戏；发行方确认 iOS / Android 事前预约，Apple 日本预约页显示预计 2026 年 9 月 15 日发布。",
-      "sourceUrl": "https://apps.apple.com/jp/app/id6803370140",
-      "announcementSourceUrl": "https://prtimes.jp/main/html/rd/p/000000230.000047837.html",
+      "id": "classroom-of-the-elite-merge-puzzle",
+      "productName": "Classroom of the Elite: Merge Puzzle Special Test",
+      "ipName": "Classroom of the Elite / 欢迎来到实力至上主义教室",
+      "ipType": "轻小说 / 动漫",
+      "genre": "合并拼图",
+      "developer": "JORO",
+      "publisher": "JORO",
+      "announcementDate": "",
+      "latestUpdateDate": "2024-02-01",
+      "latestUpdateLabel": "日本 iOS / Android 正式上线",
+      "status": "launched",
+      "summary": "TV 动画《欢迎来到实力至上主义教室》首款手机游戏，2024 年 2 月 1 日在日本上线；JORO 官网截至 2026 年 9 月仍在持续发布运营公告。",
+      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "code-geass-genesic-re-code",
+      "productName": "Code Geass Genesic Re;CODE",
+      "ipName": "Code Geass / 反叛的鲁路修",
+      "ipType": "动漫",
+      "genre": "角色扮演",
+      "developer": "JORO / Code Geass Genesic Re;CODE 制作委员会",
+      "publisher": "Code Geass Genesic Re;CODE 制作委员会",
+      "announcementDate": "",
+      "latestUpdateDate": "2023-04-27",
+      "latestUpdateLabel": "日本区停止运营",
+      "status": "ended",
+      "summary": "《Code Geass》系列首款社交游戏，2021 年 10 月 4 日在日本上线，2023 年 4 月 27 日 15:00 停止运营。",
+      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
       "verifiedAt": "2026-09-14"
     },
     {
@@ -1414,6 +1495,22 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
+      "id": "idolmaster-sidem-console-project",
+      "productName": "偶像大师 SideM 新作主机游戏（暂定名）",
+      "ipName": "偶像大师 SideM / THE IDOLM@STER SideM",
+      "ipType": "游戏 / 音乐 / 动漫",
+      "genre": "偶像制作与日程管理冒险",
+      "developer": "Bandai Namco Entertainment / D3 Publisher",
+      "publisher": "Bandai Namco Entertainment",
+      "announcementDate": "2026-09-13",
+      "latestUpdateDate": "2026-09-14",
+      "latestUpdateLabel": "系列首款主机游戏正式公布",
+      "status": "announced",
+      "summary": "《偶像大师 SideM》系列首款主机游戏，面向 Nintendo Switch 2 与 Nintendo Switch 开发；正式标题及发售时间尚未公布。",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002330.000051316.html",
+      "verifiedAt": "2026-09-15"
+    },
+    {
       "id": "inazuma-eleven-cross",
       "productName": "Inazuma Eleven: Cross",
       "ipName": "Inazuma Eleven / 闪电十一人",
@@ -1550,22 +1647,6 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-07"
     },
     {
-      "id": "keroro-hachamecha-tv-show",
-      "productName": "Keroro Gunso: Hachamecha TV Show",
-      "ipName": "Sgt. Frog / Keroro军曹",
-      "ipType": "漫画 / 动漫",
-      "genre": "休闲小游戏合集",
-      "developer": "RENGAME",
-      "publisher": "RENGAME",
-      "announcementDate": "2026-09-08",
-      "latestUpdateDate": "2026-09-08",
-      "latestUpdateLabel": "新作公布",
-      "status": "upcoming",
-      "summary": "配合 2026 年新动画推出的休闲小游戏合集，计划于 2026 年 12 月登陆 Switch 与 Steam。",
-      "sourceUrl": "https://kerohacha.com/",
-      "verifiedAt": "2026-09-10"
-    },
-    {
       "id": "karekore-mirror-rush",
       "productName": "Karekore: Mirror Rush!",
       "ipName": "Karekore / 混血のカレコレ",
@@ -1581,6 +1662,22 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/jp/app/id6762262584",
       "announcementSourceUrl": "https://prtimes.jp/main/html/rd/p/000000225.000047837.html",
       "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "keroro-hachamecha-tv-show",
+      "productName": "Keroro Gunso: Hachamecha TV Show",
+      "ipName": "Sgt. Frog / Keroro军曹",
+      "ipType": "漫画 / 动漫",
+      "genre": "休闲小游戏合集",
+      "developer": "RENGAME",
+      "publisher": "RENGAME",
+      "announcementDate": "2026-09-08",
+      "latestUpdateDate": "2026-09-08",
+      "latestUpdateLabel": "新作公布",
+      "status": "upcoming",
+      "summary": "配合 2026 年新动画推出的休闲小游戏合集，计划于 2026 年 12 月登陆 Switch 与 Steam。",
+      "sourceUrl": "https://kerohacha.com/",
+      "verifiedAt": "2026-09-10"
     },
     {
       "id": "kingdom-hadou",
@@ -1613,6 +1710,22 @@ window.GAME_PROJECTS_DATA = {
       "summary": "《王国之心》主线续作，官方确认 2027 年下半年登陆主机与 PC。",
       "sourceUrl": "https://press.na.square-enix.com/KINGDOM-HEARTS-IV-RELEASING-IN-LATE-2027",
       "verifiedAt": "2026-09-08"
+    },
+    {
+      "id": "kirby-world-beyond",
+      "productName": "星之卡比 World Beyond",
+      "ipName": "星之卡比 / Kirby",
+      "ipType": "游戏",
+      "genre": "3D 动作冒险",
+      "developer": "HAL Laboratory / Nintendo",
+      "publisher": "Nintendo",
+      "announcementDate": "2026-09-10",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "完全新作正式公布",
+      "status": "upcoming",
+      "summary": "《星之卡比》系列完全新作，计划于 2027 年春登陆 Nintendo Switch 2。",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/c94f0ce3-6f08-4154-bf5b-7998fbf8b5ac",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "konosuba-prosperity-beloved-town",
@@ -1678,6 +1791,54 @@ window.GAME_PROJECTS_DATA = {
       "summary": "《小林家的龙女仆》首款浏览器游戏，以幻想 RPG 职业造型展开原创冒险。",
       "sourceUrl": "https://g123.jp/game/dragon?lang=ja",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "metroid-ravenous",
+      "productName": "银河战士 Ravenous",
+      "ipName": "银河战士 / Metroid",
+      "ipType": "游戏",
+      "genre": "2D 动作冒险",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "announcementDate": "2026-09-09",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "完全新作发售日公布",
+      "status": "upcoming",
+      "summary": "2D《银河战士》系列完全新作，定于 2027 年 1 月 28 日登陆 Nintendo Switch 2。",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/593d3622-9efb-48df-8fd8-64f7acbab45b",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "monster-hunter-wilds",
+      "productName": "怪物猎人：荒野",
+      "ipName": "怪物猎人 / Monster Hunter",
+      "ipType": "游戏",
+      "genre": "狩猎动作",
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "announcementDate": "2023-12-08",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "Switch 2 版发售日公布",
+      "status": "launched",
+      "summary": "本篇已于 2025 年登陆 PC、PS5 与 Xbox Series；Nintendo Switch 2 版定于 2026 年 12 月 4 日发售。",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/56917272-b90e-4bf0-bae9-443cd007eddd",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "muramasa-revenant-blades",
+      "productName": "胧村正怪奇谭",
+      "ipName": "胧村正 / Muramasa",
+      "ipType": "游戏",
+      "genre": "和风动作角色扮演",
+      "developer": "Vanillaware",
+      "publisher": "Marvelous",
+      "announcementDate": "2026-09-10",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "发售日正式公布",
+      "status": "upcoming",
+      "summary": "《胧村正》新版，Switch 2、Switch 与 PS5 版定于 2027 年 2 月 4 日发售，Steam 版定于次日推出。",
+      "sourceUrl": "https://oboromuramasakaikitan.marv.jp/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "mushoku-tensei-chronicle-of-echoes",
@@ -1907,6 +2068,38 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-08"
     },
     {
+      "id": "portopia-forgotten-burial",
+      "productName": "续港口镇连续杀人事件：遗忘的葬礼",
+      "ipName": "港口镇连续杀人事件 / The Portopia Serial Murder Case",
+      "ipType": "游戏",
+      "genre": "推理冒险",
+      "developer": "G-MODE",
+      "publisher": "G-MODE",
+      "announcementDate": "2026-09-09",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "系列完全新作正式公布",
+      "status": "upcoming",
+      "summary": "包含原作完整重制与全新后续故事的推理冒险游戏，计划 2027 年登陆 Switch 2、Switch 与 PC。",
+      "sourceUrl": "https://gmodecorp.com/cs/portpia",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "professor-layton-curious-village-remake",
+      "productName": "雷顿教授与不可思议的小镇 Remake",
+      "ipName": "雷顿教授 / Professor Layton",
+      "ipType": "游戏 / 动画",
+      "genre": "解谜冒险",
+      "developer": "LEVEL5",
+      "publisher": "LEVEL5",
+      "announcementDate": "2026-09-09",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "重制版正式公布",
+      "status": "upcoming",
+      "summary": "《雷顿教授》系列首作重制版，计划于 2027 年春登陆 Switch 2、Switch、PS5 与 Steam。",
+      "sourceUrl": "https://www.layton.jp/fushigi-remake/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
       "id": "professor-layton-new-world-of-steam",
       "productName": "Professor Layton and The New World of Steam",
       "ipName": "Professor Layton / 雷顿教授",
@@ -1985,6 +2178,22 @@ window.GAME_PROJECTS_DATA = {
       "summary": "《天穗之咲稻姬》手机新作，2026 年 2 月 5 日开服并于 7 月 27 日结束服务；原计划的 Steam 版取消。",
       "sourceUrl": "https://apps.apple.com/jp/app/id6476735146",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "samurai-pizza-cats-blast-from-the-past",
+      "productName": "Samurai Pizza Cats: Blast from the Past!",
+      "ipName": "キャッ党忍伝てやんでえ / Samurai Pizza Cats",
+      "ipType": "动漫",
+      "genre": "2D 动作角色扮演",
+      "developer": "BLAST ZERO",
+      "publisher": "Red Dunes Games",
+      "announcementDate": "2025-02-20",
+      "latestUpdateDate": "2026-09-15",
+      "latestUpdateLabel": "新影像与 TGS 试玩版公布",
+      "status": "announced",
+      "summary": "基于动画《キャッ党忍伝てやんでえ》的 2D 动作 RPG；Steam 商店页已上线，其他平台及发售时间仍待后续公布。",
+      "sourceUrl": "https://tatsunoko.co.jp/news/3172/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "sand-land",
@@ -2129,6 +2338,22 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
+      "id": "tougen-anki-crimson-inferno",
+      "productName": "TOUGEN ANKI: Crimson Inferno",
+      "ipName": "Tougen Anki / 桃源暗鬼",
+      "ipType": "漫画 / 动漫",
+      "genre": "角色扮演",
+      "developer": "Com2uS",
+      "publisher": "Com2uS",
+      "announcementDate": "2025-03-24",
+      "latestUpdateDate": "2026-03-29",
+      "latestUpdateLabel": "AnimeJapan 2026 公开试玩",
+      "status": "announced",
+      "summary": "《桃源暗鬼》首款官方游戏，已确认 PC 与移动端跨平台；原公布的 2025 年窗口已过，当前精确上线日待官方重新确认。",
+      "sourceUrl": "https://tougenanki.com2us.com/ja?r=p1",
+      "verifiedAt": "2026-09-10"
+    },
+    {
       "id": "touken-ranbu-pazugiri",
       "productName": "Touken Ranbu Pazugiri",
       "ipName": "Touken Ranbu ONLINE / 刀剑乱舞ONLINE",
@@ -2144,22 +2369,6 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://apps.apple.com/jp/app/id6747331078",
       "announcementSourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
       "verifiedAt": "2026-09-14"
-    },
-    {
-      "id": "tougen-anki-crimson-inferno",
-      "productName": "TOUGEN ANKI: Crimson Inferno",
-      "ipName": "Tougen Anki / 桃源暗鬼",
-      "ipType": "漫画 / 动漫",
-      "genre": "角色扮演",
-      "developer": "Com2uS",
-      "publisher": "Com2uS",
-      "announcementDate": "2025-03-24",
-      "latestUpdateDate": "2026-03-29",
-      "latestUpdateLabel": "AnimeJapan 2026 公开试玩",
-      "status": "announced",
-      "summary": "《桃源暗鬼》首款官方游戏，已确认 PC 与移动端跨平台；原公布的 2025 年窗口已过，当前精确上线日待官方重新确认。",
-      "sourceUrl": "https://tougenanki.com2us.com/ja?r=p1",
-      "verifiedAt": "2026-09-10"
     },
     {
       "id": "wind-breaker-rebel-heroes",
@@ -2178,6 +2387,22 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
+      "id": "yokai-watch-2-hadou",
+      "productName": "妖怪手表2 覇道",
+      "ipName": "妖怪手表 / Yo-kai Watch",
+      "ipType": "游戏 / 动漫 / 漫画",
+      "genre": "角色扮演",
+      "developer": "LEVEL5",
+      "publisher": "LEVEL5",
+      "announcementDate": "2026-09-09",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "重制版平台阵容公布",
+      "status": "announced",
+      "summary": "《妖怪手表2》的强化重制版，已确认登陆 Nintendo Switch 2、PlayStation 5 与 Steam；发售时间待定。",
+      "sourceUrl": "https://www.youkai-watch.jp/yw2-hadou/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
       "id": "yowamushi-pedal-resonance-pedaism",
       "productName": "Yowamushi Pedal: Resonance Pedaism",
       "ipName": "Yowamushi Pedal / 飙速宅男",
@@ -2192,6 +2417,22 @@ window.GAME_PROJECTS_DATA = {
       "summary": "TV 动画《飙速宅男》系列的手机育成自行车竞速游戏。",
       "sourceUrl": "https://apps.apple.com/jp/app/id6758927408",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "yugioh-tag-force-gx",
+      "productName": "游戏王 TAG FORCE GX",
+      "ipName": "游戏王GX / Yu-Gi-Oh! GX",
+      "ipType": "漫画 / 动漫 / 游戏",
+      "genre": "卡牌对战",
+      "developer": "Konami Digital Entertainment",
+      "publisher": "Konami Digital Entertainment",
+      "announcementDate": "2026-09-09",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "发售日与平台正式公布",
+      "status": "upcoming",
+      "summary": "《游戏王GX TAG FORCE 3》重制作品，定于 2027 年 2 月 16 日登陆 Switch 2、Switch 与 Steam。",
+      "sourceUrl": "https://www.konami.com/yugioh/tagforcegx/ja-jp/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "yusha-kei-game-of-the-goddess",
@@ -2210,36 +2451,20 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
-      "id": "code-geass-genesic-re-code",
-      "productName": "Code Geass Genesic Re;CODE",
-      "ipName": "Code Geass / 反叛的鲁路修",
-      "ipType": "动漫",
-      "genre": "角色扮演",
-      "developer": "JORO / Code Geass Genesic Re;CODE 制作委员会",
-      "publisher": "Code Geass Genesic Re;CODE 制作委员会",
-      "announcementDate": "",
-      "latestUpdateDate": "2023-04-27",
-      "latestUpdateLabel": "日本区停止运营",
-      "status": "ended",
-      "summary": "《Code Geass》系列首款社交游戏，2021 年 10 月 4 日在日本上线，2023 年 4 月 27 日 15:00 停止运营。",
-      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
-      "verifiedAt": "2026-09-14"
-    },
-    {
-      "id": "classroom-of-the-elite-merge-puzzle",
-      "productName": "Classroom of the Elite: Merge Puzzle Special Test",
-      "ipName": "Classroom of the Elite / 欢迎来到实力至上主义教室",
-      "ipType": "轻小说 / 动漫",
-      "genre": "合并拼图",
-      "developer": "JORO",
-      "publisher": "JORO",
-      "announcementDate": "",
-      "latestUpdateDate": "2024-02-01",
-      "latestUpdateLabel": "日本 iOS / Android 正式上线",
-      "status": "launched",
-      "summary": "TV 动画《欢迎来到实力至上主义教室》首款手机游戏，2024 年 2 月 1 日在日本上线；JORO 官网截至 2026 年 9 月仍在持续发布运营公告。",
-      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
-      "verifiedAt": "2026-09-14"
+      "id": "zelda-ocarina-of-time-remake",
+      "productName": "塞尔达传说：时之笛（完全重制版）",
+      "ipName": "塞尔达传说 / The Legend of Zelda",
+      "ipType": "游戏",
+      "genre": "动作冒险",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "announcementDate": "2026-06-11",
+      "latestUpdateDate": "2026-09-10",
+      "latestUpdateLabel": "正式发售日公布",
+      "status": "upcoming",
+      "summary": "1998 年作品《塞尔达传说：时之笛》的完全重制版，定于 2026 年 11 月 5 日登陆 Nintendo Switch 2。",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/a21969a1-522b-4c9e-9f40-c2ce1b289b56",
+      "verifiedAt": "2026-09-15"
     }
   ],
   "releases": [
@@ -2468,6 +2693,45 @@ window.GAME_PROJECTS_DATA = {
         "2026-09-16T00:00:00.000Z"
       ],
       "note": "Nintendo 官方地区目录与商品页核验。"
+    },
+    {
+      "id": "apothecary-diaries-false-brother-global-playstation",
+      "projectId": "apothecary-diaries-false-imperial-brother",
+      "platform": "playstation",
+      "region": "GLOBAL",
+      "store": "PlayStation 5",
+      "storeId": "",
+      "plannedLaunchDate": "2027年初头",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.gamecity.ne.jp/kusuriyanohitorigoto/jp/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "apothecary-diaries-false-brother-global-steam",
+      "projectId": "apothecary-diaries-false-imperial-brother",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "",
+      "plannedLaunchDate": "2027年初头",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.gamecity.ne.jp/kusuriyanohitorigoto/jp/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "apothecary-diaries-false-brother-global-switch",
+      "projectId": "apothecary-diaries-false-imperial-brother",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2 / Nintendo Switch",
+      "storeId": "",
+      "plannedLaunchDate": "2027年初头",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.gamecity.ne.jp/kusuriyanohitorigoto/jp/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "apothecary-diaries-palace-chronicle-jp-web",
@@ -3205,16 +3469,19 @@ window.GAME_PROJECTS_DATA = {
       "region": "JP",
       "store": "Google Play 日本",
       "storeId": "com.bushiroad.sirius",
-      "plannedLaunchDate": "",
+      "plannedLaunchDate": "2026-09-24",
       "actualLaunchDate": "",
       "status": "preregister",
-      "sourceUrl": "https://apps.apple.com/jp/app/id6771716739",
-      "verifiedAt": "2026-09-10",
+      "sourceUrl": "https://bang-dream-on.bushimo.jp/news/",
+      "verifiedAt": "2026-09-15",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.bushiroad.sirius&hl=ja&gl=JP",
       "storeProductName": "バンドリ！アワーノーツ",
       "storeAvailability": "available",
       "availabilityCheckedAt": "2026-09-10",
-      "preregisterDate": "2026-06-26"
+      "preregisterDate": "2026-06-26",
+      "plannedLaunchDateSource": "Bushiroad 官方公告",
+      "plannedLaunchDateSourceUrl": "https://bang-dream-on.bushimo.jp/news/",
+      "plannedLaunchDateVerifiedAt": "2026-09-15"
     },
     {
       "id": "bang-dream-our-notes-jp-ios",
@@ -3223,26 +3490,31 @@ window.GAME_PROJECTS_DATA = {
       "region": "JP",
       "store": "App Store 日本",
       "storeId": "6771716739",
-      "plannedLaunchDate": "2026-09-22",
+      "plannedLaunchDate": "2026-09-24",
       "actualLaunchDate": "",
       "status": "preregister",
-      "sourceUrl": "https://apps.apple.com/jp/app/id6771716739",
-      "verifiedAt": "2026-09-14",
+      "sourceUrl": "https://bang-dream-on.bushimo.jp/news/",
+      "verifiedAt": "2026-09-15",
       "bundleId": "com.bushiroad.sirius",
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
       "storeProductName": "バンドリ！アワーノーツ",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "preregisterDate": "2026-06-26",
       "rawStoreReleaseDate": "2026-09-22T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6771716739&country=jp&entity=software",
       "appleExpectedLaunchDate": "2026-09-22",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
-      "plannedLaunchDateSource": "Apple App Store 预约页",
-      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739?uo=4",
-      "plannedLaunchDateVerifiedAt": "2026-09-14"
+      "plannedLaunchDateSource": "Bushiroad 官方公告",
+      "plannedLaunchDateSourceUrl": "https://bang-dream-on.bushimo.jp/news/",
+      "plannedLaunchDateVerifiedAt": "2026-09-15",
+      "appleExpectedLaunchDateConflict": {
+        "databasePlannedLaunchDate": "2026-09-24",
+        "appleExpectedLaunchDate": "2026-09-22",
+        "checkedAt": "2026-09-15"
+      }
     },
     {
       "id": "black-channel-blaze-road-jp-android",
@@ -3273,19 +3545,19 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB-%E3%83%96%E3%83%AC%E3%82%A4%E3%82%BA%E3%83%AD%E3%83%BC%E3%83%89/id6803370140?uo=4",
       "storeProductName": "ブラックチャンネル ブレイズロード",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "plannedLaunchDate": "2026-09-15",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6803370140",
-      "plannedLaunchDateVerifiedAt": "2026-09-14",
+      "plannedLaunchDateVerifiedAt": "2026-09-15",
       "appleExpectedLaunchDate": "2026-09-15",
-      "rawStoreReleaseDate": "2026-09-15T07:00:00Z",
+      "rawStoreReleaseDate": "2026-09-14T07:00:00Z",
       "actualLaunchDate": "",
       "preregisterDate": "2026-08-31",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6803370140",
-      "verifiedAt": "2026-09-14",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6803370140&country=jp&entity=software",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB-%E3%83%96%E3%83%AC%E3%82%A4%E3%82%BA%E3%83%AD%E3%83%BC%E3%83%89/id6803370140?uo=4"
@@ -3319,22 +3591,22 @@ window.GAME_PROJECTS_DATA = {
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://bleach-mh.bn-ent.net/news/obuss8nr7v1n",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "bundleId": "jp.co.bandainamcoent.BNEI0436",
       "storeUrl": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=4",
       "storeProductName": "BLEACH Mirrors High【ミラハイ】",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "preregisterDate": "2026-08-29",
       "rawStoreReleaseDate": "2026-11-28T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6747328897&country=jp&entity=software",
       "appleExpectedLaunchDate": "2026-11-28",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=4",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/bleach-mirrors-high-%E3%83%9F%E3%83%A9%E3%83%8F%E3%82%A4/id6747328897?uo=4",
-      "plannedLaunchDateVerifiedAt": "2026-09-14"
+      "plannedLaunchDateVerifiedAt": "2026-09-15"
     },
     {
       "id": "bleach-global-ps",
@@ -4241,9 +4513,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/hk/app/%E9%9A%8A%E9%95%B7%E5%B0%8F%E7%BF%BC-%E6%88%91%E7%9A%84%E9%BB%83%E9%87%91%E5%8D%81%E4%B8%80%E4%BA%BA-mg11/id6759662874?uo=4",
       "storeProductName": "隊長小翼:我的黃金十一人 MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=hk&entity=software"
     },
     {
@@ -4279,9 +4551,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E7%BF%BC-my-golden-xi-%E3%83%9E%E3%82%A4%E3%82%A4%E3%83%AC/id6761321358?uo=4",
       "storeProductName": "キャプテン翼:My Golden XI【マイイレ】",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6761321358&country=jp&entity=software"
     },
     {
@@ -4317,9 +4589,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/sg/app/captaintsubasa-mygoldenxi-mg11/id6759662874?uo=4",
       "storeProductName": "CaptainTsubasa:MyGoldenXI MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=sg&entity=software"
     },
     {
@@ -4355,9 +4627,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/tw/app/%E9%9A%8A%E9%95%B7%E5%B0%8F%E7%BF%BC-%E6%88%91%E7%9A%84%E9%BB%83%E9%87%91%E5%8D%81%E4%B8%80%E4%BA%BA-mg11/id6759662874?uo=4",
       "storeProductName": "隊長小翼:我的黃金十一人 MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=tw&entity=software"
     },
     {
@@ -4393,9 +4665,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/captaintsubasa-mygoldenxi-mg11/id6759662874?uo=4",
       "storeProductName": "CaptainTsubasa:MyGoldenXI MG11",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-15T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759662874&country=us&entity=software"
     },
     {
@@ -4431,9 +4703,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%AD%E3%83%A3%E3%83%97%E3%82%BF%E3%83%BC%E3%81%95%E3%81%8F%E3%82%89-%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E9%8D%B5/id6754003671?uo=4",
       "storeProductName": "カードキャプターさくら：思い出の鍵",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-24T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6754003671&country=jp&entity=software"
     },
     {
@@ -4495,10 +4767,87 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%81%BD%E3%81%91%E3%81%A3%E3%81%A8/id6596745408?uo=4",
       "storeProductName": "ちいかわぽけっと",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2025-03-25T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6596745408&country=jp&entity=software"
+    },
+    {
+      "id": "classroom-of-the-elite-merge-puzzle-jp-android",
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "jp.co.joro.mip.prod",
+      "storeUrl": "https://play.google.com/store/apps/details?id=jp.co.joro.mip.prod&hl=ja&gl=JP",
+      "storeProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
+      "plannedLaunchDate": "2024-02-01",
+      "actualLaunchDate": "2024-02-01",
+      "status": "launched",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "classroom-of-the-elite-merge-puzzle-jp-ios",
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "6472700394",
+      "bundleId": "jp.co.joro.mip",
+      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8-%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%91%E3%82%BA%E3%83%AB%E7%89%B9%E5%88%A5%E8%A9%A6%E9%A8%93/id6472700394?uo=4",
+      "storeProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
+      "plannedLaunchDate": "2024-02-01",
+      "actualLaunchDate": "2024-02-01",
+      "status": "launched",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-15",
+      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
+      "verifiedAt": "2026-09-14",
+      "rawStoreReleaseDate": "2024-02-01T08:00:00Z",
+      "appleReleaseDateCheckedAt": "2026-09-15",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6472700394&country=jp&entity=software"
+    },
+    {
+      "id": "code-geass-genesic-re-code-jp-android",
+      "projectId": "code-geass-genesic-re-code",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "jp.co.hakuhododymp.game",
+      "storeUrl": "https://play.google.com/store/apps/details?id=jp.co.hakuhododymp.game&hl=ja&gl=JP",
+      "storeProductName": "コードギアス Genesic Re;CODE",
+      "plannedLaunchDate": "2021-10-04",
+      "actualLaunchDate": "2021-10-04",
+      "serviceEndDate": "2023-04-27",
+      "status": "ended",
+      "storeAvailability": "delisted",
+      "availabilityCheckedAt": "2023-06-30",
+      "availabilityNote": "官方停运公告注明 2023-06-30 结束 Android 应用分发。",
+      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "code-geass-genesic-re-code-jp-ios",
+      "projectId": "code-geass-genesic-re-code",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "1550481882",
+      "bundleId": "",
+      "storeUrl": "https://apps.apple.com/jp/app/id1550481882",
+      "storeProductName": "コードギアス Genesic Re;CODE",
+      "plannedLaunchDate": "2021-10-04",
+      "actualLaunchDate": "2021-10-04",
+      "serviceEndDate": "2023-04-27",
+      "status": "ended",
+      "storeAvailability": "delisted",
+      "availabilityCheckedAt": "2023-06-30",
+      "availabilityNote": "官方停运公告注明 2023-06-30 结束 iOS 应用分发。",
+      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
+      "verifiedAt": "2026-09-14"
     },
     {
       "id": "code-geass-nightmare-survivor-jp-android",
@@ -4529,22 +4878,22 @@ window.GAME_PROJECTS_DATA = {
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6762118255",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "bundleId": "jp.co.joro.cgs",
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
       "storeProductName": "コードギアス ナイトメア・サバイバー",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "preregisterDate": "2026-05-29",
       "rawStoreReleaseDate": "2026-09-30T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6762118255&country=jp&entity=software",
       "appleExpectedLaunchDate": "2026-09-30",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC/id6762118255?uo=4",
-      "plannedLaunchDateVerifiedAt": "2026-09-14"
+      "plannedLaunchDateVerifiedAt": "2026-09-15"
     },
     {
       "id": "crayon-shinchan-sugoroku-jp-web",
@@ -4605,9 +4954,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/date-a-live-love-limit-break/id6756353331?uo=4",
       "storeProductName": "DATE A LIVE: Love Limit Break",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-03-17T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756353331&country=jp&entity=software"
     },
     {
@@ -4639,22 +4988,22 @@ window.GAME_PROJECTS_DATA = {
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6759781273",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "bundleId": "com.smilegate.deadaccount.stove.ios",
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E4%BA%8C%E3%81%A4%E3%81%AE%E8%92%BC%E3%81%84%E7%82%8E/id6759781273?uo=4",
       "storeProductName": "デッドアカウント～二つの蒼い炎～",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "preregisterDate": "2026-08-26",
       "rawStoreReleaseDate": "2026-11-30T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6759781273&country=jp&entity=software",
       "appleExpectedLaunchDate": "2026-11-30",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E4%BA%8C%E3%81%A4%E3%81%AE%E8%92%BC%E3%81%84%E7%82%8E/id6759781273?uo=4",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%83%83%E3%83%89%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88-%E4%BA%8C%E3%81%A4%E3%81%AE%E8%92%BC%E3%81%84%E7%82%8E/id6759781273?uo=4",
-      "plannedLaunchDateVerifiedAt": "2026-09-14"
+      "plannedLaunchDateVerifiedAt": "2026-09-15"
     },
     {
       "id": "demon-slayer-hinokami-chronicles-hk-playstation",
@@ -5689,9 +6038,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3up/id6756247422?uo=4",
       "storeProductName": "デジモンUP",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-07-15T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756247422&country=jp&entity=software"
     },
     {
@@ -6011,10 +6360,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/dragon-ball-gekishin-squadra/id6744439943?uo=4",
       "storeProductName": "DRAGON BALL GEKISHIN SQUADRA",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "jp.co.bandainamcoent.BNEI0418",
       "rawStoreReleaseDate": "2025-09-10T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6744439943&country=us&entity=software"
     },
     {
@@ -6131,10 +6480,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB-%E3%82%B2%E3%82%AD%E3%82%B7%E3%83%B3-%E3%82%B9%E3%82%AF%E3%82%A2%E3%83%89%E3%83%A9/id6744439943?uo=4",
       "storeProductName": "ドラゴンボール ゲキシン スクアドラ",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "jp.co.bandainamcoent.BNEI0418",
       "rawStoreReleaseDate": "2025-09-10T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6744439943&country=jp&entity=software"
     },
     {
@@ -7268,9 +7617,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B0%E3%83%AD%E3%82%A6-%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%88rpg/id6747736697?uo=4",
       "storeProductName": "ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-04-19T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6747736697&country=jp&entity=software"
     },
     {
@@ -8092,9 +8441,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E9%8A%80%E9%AD%82-%E3%81%99%E3%81%BE%E3%81%BB-%E3%81%B0%E3%81%A8%E3%82%8B%E3%81%8F%E3%82%8D%E3%81%AB%E3%81%8F%E3%82%8B/id6749658164?uo=4",
       "storeProductName": "銀魂 すまほ ばとるくろにくる",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-03T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6749658164&country=jp&entity=software"
     },
     {
@@ -8302,9 +8651,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC-touch-and-connect/id6755984289?uo=4",
       "storeProductName": "ハイキュー!! TOUCH AND CONNECT",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-30T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6755984289&country=jp&entity=software"
     },
     {
@@ -8377,9 +8726,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E5%9C%B0%E7%8D%84%E6%A5%BD-%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9%E3%83%90%E3%83%88%E3%83%AB/id6633416886?uo=4",
       "storeProductName": "地獄楽 パラダイスバトル",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2025-11-03T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6633416886&country=jp&entity=software"
     },
     {
@@ -8428,9 +8777,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/battle-in-hells-paradise/id6633416886?uo=4",
       "storeProductName": "BATTLE IN HELL'S PARADISE",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-29T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6633416886&country=us&entity=software"
     },
     {
@@ -8492,9 +8841,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9/id6756641135?uo=4",
       "storeProductName": "ホロライブドリームス",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-07-22T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756641135&country=jp&entity=software"
     },
     {
@@ -8991,9 +9340,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/hk/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=hk&entity=software"
     },
     {
@@ -9029,9 +9378,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=jp&entity=software"
     },
     {
@@ -9067,9 +9416,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/kr/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=kr&entity=software"
     },
     {
@@ -9105,9 +9454,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/sg/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=sg&entity=software"
     },
     {
@@ -9143,9 +9492,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/tw/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-17T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=tw&entity=software"
     },
     {
@@ -9181,9 +9530,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/hunter-hunter-nen-survivor/id6753738566?uo=4",
       "storeProductName": "HUNTER×HUNTER NEN×SURVIVOR",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-09T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6753738566&country=us&entity=software"
     },
     {
@@ -9198,6 +9547,19 @@ window.GAME_PROJECTS_DATA = {
       "status": "launched",
       "sourceUrl": "https://g123.jp/game/ryoran?lang=ja",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "idolmaster-sidem-console-project-jp-switch",
+      "projectId": "idolmaster-sidem-console-project",
+      "platform": "switch",
+      "region": "JP",
+      "store": "Nintendo Switch 2 / Nintendo Switch",
+      "storeId": "",
+      "plannedLaunchDate": "",
+      "actualLaunchDate": "",
+      "status": "announced",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002330.000051316.html",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "iec-jp-android",
@@ -9231,10 +9593,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%A4%E3%83%8A%E3%82%BA%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3-%E3%82%AF%E3%83%AD%E3%82%B9/id6756994116?uo=4",
       "storeProductName": "イナズマイレブン クロス",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "jp.co.level5.inazumacross",
       "rawStoreReleaseDate": "2026-06-08T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756994116&country=jp&entity=software"
     },
     {
@@ -9742,9 +10104,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/jojos-bizarre-adventure-gs/id6757908157?uo=4",
       "storeProductName": "JoJo's Bizarre Adventure: GS",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-08-13T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6757908157&country=us&entity=software"
     },
     {
@@ -10430,10 +10792,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/kaiju-no-8-the-game/id6742088839?uo=4",
       "storeProductName": "KAIJU NO. 8 THE GAME",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "jp.aktsk.games.kaiju-no8-the-game",
       "rawStoreReleaseDate": "2025-08-30T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6742088839&country=us&entity=software"
     },
     {
@@ -10527,32 +10889,6 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-07"
     },
     {
-      "id": "keroro-hachamecha-global-steam",
-      "projectId": "keroro-hachamecha-tv-show",
-      "platform": "steam",
-      "region": "GLOBAL",
-      "store": "Steam",
-      "storeId": "4855410",
-      "plannedLaunchDate": "2026年12月",
-      "actualLaunchDate": "",
-      "status": "upcoming",
-      "sourceUrl": "https://store.steampowered.com/app/4855410/",
-      "verifiedAt": "2026-09-10"
-    },
-    {
-      "id": "keroro-hachamecha-global-switch",
-      "projectId": "keroro-hachamecha-tv-show",
-      "platform": "switch",
-      "region": "GLOBAL",
-      "store": "Nintendo Switch",
-      "storeId": "",
-      "plannedLaunchDate": "2026年12月",
-      "actualLaunchDate": "",
-      "status": "upcoming",
-      "sourceUrl": "https://kerohacha.com/",
-      "verifiedAt": "2026-09-10"
-    },
-    {
       "id": "karekore-mirror-rush-jp-android",
       "projectId": "karekore-mirror-rush",
       "platform": "android",
@@ -10581,22 +10917,48 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E6%B7%B7%E8%A1%80%E3%81%AE%E3%82%AB%E3%83%AC%E3%82%B3%E3%83%AC-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6762262584?uo=4",
       "storeProductName": "混血のカレコレ ミラーラッシュ！",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "plannedLaunchDate": "2026-10-14",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6762262584",
-      "plannedLaunchDateVerifiedAt": "2026-09-14",
+      "plannedLaunchDateVerifiedAt": "2026-09-15",
       "appleExpectedLaunchDate": "2026-10-14",
       "rawStoreReleaseDate": "2026-10-14T07:00:00Z",
       "actualLaunchDate": "",
       "preregisterDate": "2026-08-14",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6762262584",
-      "verifiedAt": "2026-09-14",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6762262584&country=jp&entity=software",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E6%B7%B7%E8%A1%80%E3%81%AE%E3%82%AB%E3%83%AC%E3%82%B3%E3%83%AC-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6762262584?uo=4"
+    },
+    {
+      "id": "keroro-hachamecha-global-steam",
+      "projectId": "keroro-hachamecha-tv-show",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "4855410",
+      "plannedLaunchDate": "2026年12月",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://store.steampowered.com/app/4855410/",
+      "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "keroro-hachamecha-global-switch",
+      "projectId": "keroro-hachamecha-tv-show",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch",
+      "storeId": "",
+      "plannedLaunchDate": "2026年12月",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://kerohacha.com/",
+      "verifiedAt": "2026-09-10"
     },
     {
       "id": "kingdom-hadou-jp-android",
@@ -10631,9 +10993,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-%E8%A6%87%E9%81%93-%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-%E3%81%AE%E6%88%A6%E7%95%A5%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%8C%E7%99%BB%E5%A0%B4/id6737974657?uo=4",
       "storeProductName": "キングダム 覇道『キングダム』の戦略ゲームが登場",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2025-10-01T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6737974657&country=jp&entity=software"
     },
     {
@@ -10950,6 +11312,19 @@ window.GAME_PROJECTS_DATA = {
       "rawStoreReleaseDate": ""
     },
     {
+      "id": "kirby-world-beyond-global-switch",
+      "projectId": "kirby-world-beyond",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2",
+      "storeId": "",
+      "plannedLaunchDate": "2027年春",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/c94f0ce3-6f08-4154-bf5b-7998fbf8b5ac",
+      "verifiedAt": "2026-09-15"
+    },
+    {
       "id": "kbt-jp-android",
       "projectId": "konosuba-prosperity-beloved-town",
       "platform": "android",
@@ -10978,22 +11353,22 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92-%E3%81%93%E3%81%AE%E6%84%9B%E3%81%99%E3%81%B9%E3%81%8D%E8%A1%97%E3%81%AB%E7%B9%81%E6%A0%84%E3%82%92/id6783591351?uo=4",
       "storeProductName": "この素晴らしい世界に祝福を！〜この愛すべき街に繁栄を！〜",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "plannedLaunchDate": "2026-12-31",
       "actualLaunchDate": "",
       "preregisterDate": "2026-07-26",
       "status": "preregister",
       "sourceUrl": "https://konosuba-machisuba.com/",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-12-31T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6783591351&country=jp&entity=software",
       "appleExpectedLaunchDate": "2026-12-31",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92-%E3%81%93%E3%81%AE%E6%84%9B%E3%81%99%E3%81%B9%E3%81%8D%E8%A1%97%E3%81%AB%E7%B9%81%E6%A0%84%E3%82%92/id6783591351?uo=4",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92-%E3%81%93%E3%81%AE%E6%84%9B%E3%81%99%E3%81%B9%E3%81%8D%E8%A1%97%E3%81%AB%E7%B9%81%E6%A0%84%E3%82%92/id6783591351?uo=4",
-      "plannedLaunchDateVerifiedAt": "2026-09-14"
+      "plannedLaunchDateVerifiedAt": "2026-09-15"
     },
     {
       "id": "kbt-jp-dmm",
@@ -11036,18 +11411,18 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9-%E5%BA%A6%E3%81%97%E9%9B%A3%E3%81%84%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E6%97%85/id6444006236?uo=4",
       "storeProductName": "メイドインアビス〜度し難い不思議な旅〜",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "plannedLaunchDate": "2026-09-23",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6444006236",
-      "plannedLaunchDateVerifiedAt": "2026-09-14",
+      "plannedLaunchDateVerifiedAt": "2026-09-15",
       "appleExpectedLaunchDate": "2026-09-23",
       "rawStoreReleaseDate": "2026-09-23T07:00:00Z",
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://apps.apple.com/jp/app/id6444006236",
-      "verifiedAt": "2026-09-14",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6444006236&country=jp&entity=software",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9-%E5%BA%A6%E3%81%97%E9%9B%A3%E3%81%84%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E6%97%85/id6444006236?uo=4"
@@ -11085,9 +11460,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB-magia-exedra/id6480167901?uo=4",
       "storeProductName": "魔法少女まどかマギカ Magia Exedra",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2025-03-25T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6480167901&country=jp&entity=software"
     },
     {
@@ -11102,6 +11477,110 @@ window.GAME_PROJECTS_DATA = {
       "status": "launched",
       "sourceUrl": "https://g123.jp/game/dragon?lang=ja",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "metroid-ravenous-global-switch",
+      "projectId": "metroid-ravenous",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2",
+      "storeId": "",
+      "plannedLaunchDate": "2027-01-28",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/593d3622-9efb-48df-8fd8-64f7acbab45b",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "monster-hunter-wilds-global-playstation",
+      "projectId": "monster-hunter-wilds",
+      "platform": "playstation",
+      "region": "GLOBAL",
+      "store": "PlayStation 5",
+      "storeId": "",
+      "plannedLaunchDate": "2025-02-28",
+      "actualLaunchDate": "2025-02-28",
+      "status": "launched",
+      "sourceUrl": "https://www.monsterhunter.com/wilds/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "monster-hunter-wilds-global-steam",
+      "projectId": "monster-hunter-wilds",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "2246340",
+      "plannedLaunchDate": "2025-02-28",
+      "actualLaunchDate": "2025-02-28",
+      "status": "launched",
+      "sourceUrl": "https://www.monsterhunter.com/wilds/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "monster-hunter-wilds-global-switch",
+      "projectId": "monster-hunter-wilds",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2",
+      "storeId": "",
+      "plannedLaunchDate": "2026-12-04",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/56917272-b90e-4bf0-bae9-443cd007eddd",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "monster-hunter-wilds-global-xbox",
+      "projectId": "monster-hunter-wilds",
+      "platform": "xbox",
+      "region": "GLOBAL",
+      "store": "Xbox Series X|S",
+      "storeId": "",
+      "plannedLaunchDate": "2025-02-28",
+      "actualLaunchDate": "2025-02-28",
+      "status": "launched",
+      "sourceUrl": "https://www.monsterhunter.com/wilds/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "muramasa-revenant-blades-global-playstation",
+      "projectId": "muramasa-revenant-blades",
+      "platform": "playstation",
+      "region": "GLOBAL",
+      "store": "PlayStation 5",
+      "storeId": "",
+      "plannedLaunchDate": "2027-02-04",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://oboromuramasakaikitan.marv.jp/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "muramasa-revenant-blades-global-steam",
+      "projectId": "muramasa-revenant-blades",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "4253770",
+      "plannedLaunchDate": "2027-02-05",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://oboromuramasakaikitan.marv.jp/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "muramasa-revenant-blades-global-switch",
+      "projectId": "muramasa-revenant-blades",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2 / Nintendo Switch",
+      "storeId": "",
+      "plannedLaunchDate": "2027-02-04",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://oboromuramasakaikitan.marv.jp/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "mtcoe-jp-android",
@@ -11135,10 +11614,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E7%84%A1%E8%81%B7%E8%BB%A2%E7%94%9F-%E7%95%B0%E4%B8%96%E7%95%8C%E8%A1%8C%E3%81%A3%E3%81%9F%E3%82%89%E6%9C%AC%E6%B0%97%E3%81%A0%E3%81%99-%E3%82%AF%E3%83%AD%E3%82%A8%E3%82%B3/id6754311241?uo=4",
       "storeProductName": "無職転生 〜異世界行ったら本気だす〜 【クロエコ】",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "jp.gree-ent.mushoku",
       "rawStoreReleaseDate": "2026-07-26T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6754311241&country=jp&entity=software"
     },
     {
@@ -11199,9 +11678,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%9E%E3%83%96%E3%83%A9%E3%83%B4-%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/id6755509352?uo=4",
       "storeProductName": "マブラヴ ガールズガーデン",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-03-02T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6755509352&country=jp&entity=software"
     },
     {
@@ -11779,10 +12258,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/mha-united-survival/id6758648051?uo=4",
       "storeProductName": "MHA: UNITED SURVIVAL",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "com.klab.heroaca.united.survival",
       "rawStoreReleaseDate": "2026-08-05T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6758648051&country=us&entity=software"
     },
     {
@@ -13458,9 +13937,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90-puzzle-star/id6744346921?uo=4",
       "storeProductName": "【推しの子】Puzzle Star",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-24T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6744346921&country=jp&entity=software"
     },
     {
@@ -13496,9 +13975,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E8%BF%BD%E6%94%BE%E8%80%85%E9%A3%9F%E5%A0%82%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D-%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5/id6754670632?uo=4",
       "storeProductName": "追放者食堂へようこそ！ オーダーラッシュ",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-01-22T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6754670632&country=jp&entity=software"
     },
     {
@@ -13533,7 +14012,7 @@ window.GAME_PROJECTS_DATA = {
       "actualLaunchDate": "2024-04-12",
       "status": "launched",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "approvalNumber": "国新出审[2023]1415号",
       "approvalDate": "2023-08-25",
       "approvalCategory": "移动、客户端",
@@ -13547,7 +14026,7 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/cn/app/%E5%A5%B3%E7%A5%9E%E5%BC%82%E9%97%BB%E5%BD%95-%E5%A4%9C%E5%B9%95%E9%AD%85%E5%BD%B1/id6466264792?uo=4",
       "storeProductName": "女神异闻录：夜幕魅影",
       "bundleId": "com.pwrd.persona5x.pw",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6466264792&country=cn&entity=software"
     },
     {
@@ -13624,10 +14103,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/us/app/p5x-persona5-the-phantom-x/id6736754647?uo=4",
       "storeProductName": "P5X | Persona5: The Phantom X",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "com.sega.persona5.the.phantomx.en",
       "rawStoreReleaseDate": "2025-06-25T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6736754647&country=us&entity=software"
     },
     {
@@ -13725,9 +14204,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/pok%C3%A9mon-champions/id6741503079?uo=4",
       "storeProductName": "Pokémon Champions",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-06-17T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6741503079&country=jp&entity=software"
     },
     {
@@ -13783,6 +14262,71 @@ window.GAME_PROJECTS_DATA = {
         "2027-12-31T00:00:00.000Z"
       ],
       "note": "Nintendo 官方地区目录与商品页核验。"
+    },
+    {
+      "id": "portopia-forgotten-burial-global-switch",
+      "projectId": "portopia-forgotten-burial",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2 / Nintendo Switch",
+      "storeId": "",
+      "plannedLaunchDate": "2027年",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://gmodecorp.com/cs/portpia",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "portopia-forgotten-burial-global-windows",
+      "projectId": "portopia-forgotten-burial",
+      "platform": "windows",
+      "region": "GLOBAL",
+      "store": "PC",
+      "storeId": "",
+      "plannedLaunchDate": "2027年",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://gmodecorp.com/cs/portpia",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "professor-layton-curious-village-remake-global-playstation",
+      "projectId": "professor-layton-curious-village-remake",
+      "platform": "playstation",
+      "region": "GLOBAL",
+      "store": "PlayStation 5",
+      "storeId": "",
+      "plannedLaunchDate": "2027年春",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.layton.jp/fushigi-remake/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "professor-layton-curious-village-remake-global-steam",
+      "projectId": "professor-layton-curious-village-remake",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "",
+      "plannedLaunchDate": "2027年春",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.layton.jp/fushigi-remake/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "professor-layton-curious-village-remake-global-switch",
+      "projectId": "professor-layton-curious-village-remake",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2 / Nintendo Switch",
+      "storeId": "",
+      "plannedLaunchDate": "2027年春",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.layton.jp/fushigi-remake/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "plnwos-global-switch",
@@ -13881,9 +14425,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/sakamoto-days-%E3%83%87%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%A9%E3%82%B9%E3%83%91%E3%82%BA%E3%83%AB-%E3%82%B5%E3%82%AB%E3%83%91%E3%82%BA/id6737511323?uo=4",
       "storeProductName": "SAKAMOTO DAYS デンジャラスパズル(サカパズ)",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2025-04-02T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6737511323&country=jp&entity=software"
     },
     {
@@ -13917,7 +14461,7 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AB%E3%83%A2%E3%83%88%E3%83%87%E3%82%A4%E3%82%BA-%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%AD%E3%83%BC%E3%82%B0-%E3%83%89%E3%83%BC%E3%83%B3/id6756270200?uo=4",
       "storeProductName": "サカモトデイズ　ミッション：ローグ ドーン",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "availabilityNote": "发行商 Rudel 已于 2026 年 9 月 11 日宣布正式服务开始。",
       "rawStoreReleaseDate": "2026-09-10T07:00:00Z",
       "preregisterDate": "2026-05-25",
@@ -13927,7 +14471,7 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000059.000108712.html",
       "actualLaunchSourceUrl": "https://prtimes.jp/main/html/rd/p/000000059.000108712.html",
       "verifiedAt": "2026-09-14",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6756270200&country=jp&entity=software"
     },
     {
@@ -13964,11 +14508,24 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E5%A4%A9%E7%A9%82%E3%81%AE%E3%82%B5%E3%82%AF%E3%83%8A%E3%83%92%E3%83%A1-%E3%83%92%E3%83%8C%E3%82%AB%E5%B7%A1%E9%9C%8A%E8%AD%9A/id6476735146?uo=4",
       "storeProductName": "天穂のサクナヒメ～ヒヌカ巡霊譚～",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "serviceEndDate": "2026-07-27",
       "rawStoreReleaseDate": "2026-02-04T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6476735146&country=jp&entity=software"
+    },
+    {
+      "id": "samurai-pizza-cats-global-steam",
+      "projectId": "samurai-pizza-cats-blast-from-the-past",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "2413800",
+      "plannedLaunchDate": "",
+      "actualLaunchDate": "",
+      "status": "announced",
+      "sourceUrl": "https://store.steampowered.com/app/2413800/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "sand-land-hk-playstation",
@@ -14325,21 +14882,21 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2-%E4%B8%83%E3%81%A4%E3%81%AE%E6%9C%80%E5%BC%B7%E7%A8%AE-%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%8A%E3%83%8A/id6757176525?uo=4",
       "storeProductName": "シャングリラ・フロンティア ～七つの最強種～（シャンナナ）",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "plannedLaunchDate": "2026-12-31",
       "actualLaunchDate": "",
       "status": "upcoming",
       "sourceUrl": "https://www.netmarble.co.jp/news/view/2340/5",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-12-31T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6757176525&country=jp&entity=software",
       "appleExpectedLaunchDate": "2026-12-31",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
       "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2-%E4%B8%83%E3%81%A4%E3%81%AE%E6%9C%80%E5%BC%B7%E7%A8%AE-%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%8A%E3%83%8A/id6757176525?uo=4",
       "plannedLaunchDateSource": "Apple App Store 预约页",
       "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9-%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2-%E4%B8%83%E3%81%A4%E3%81%AE%E6%9C%80%E5%BC%B7%E7%A8%AE-%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%8A%E3%83%8A/id6757176525?uo=4",
-      "plannedLaunchDateVerifiedAt": "2026-09-14"
+      "plannedLaunchDateVerifiedAt": "2026-09-15"
     },
     {
       "id": "slf7c-jp-pc",
@@ -14435,10 +14992,10 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%BB%B8%E4%BC%9D-star-leap/id6746180100?uo=4",
       "storeProductName": "幻想水滸伝 STAR LEAP",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "bundleId": "jp.konami.suikoden.starleap",
       "rawStoreReleaseDate": "2026-08-05T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6746180100&country=jp&entity=software"
     },
     {
@@ -14488,9 +15045,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA-unlimited/id6698853161?uo=4",
       "storeProductName": "東京リベンジャーズ UNLIMITED",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-02-25T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6698853161&country=jp&entity=software"
     },
     {
@@ -14526,9 +15083,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AB%E3%83%8D%E3%82%B3%E3%81%AE%E5%A4%A7%E5%86%92%E9%99%BA-%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AE%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3/id6757778100?uo=4",
       "storeProductName": "トルネコの大冒険 不思議のダンジョン",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-09-09T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6757778100&country=jp&entity=software"
     },
     {
@@ -14584,66 +15141,6 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
-      "id": "touken-ranbu-pazugiri-jp-android",
-      "projectId": "touken-ranbu-pazugiri",
-      "platform": "android",
-      "region": "JP",
-      "store": "Google Play 日本",
-      "storeId": "com.dmm.games.touken.puzzle",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.dmm.games.touken.puzzle&hl=ja&gl=JP",
-      "storeProductName": "刀剣乱舞ぱずぎり",
-      "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
-      "plannedLaunchDate": "2026年",
-      "actualLaunchDate": "",
-      "preregisterDate": "2026-07-13",
-      "status": "preregister",
-      "sourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
-      "verifiedAt": "2026-09-14"
-    },
-    {
-      "id": "touken-ranbu-pazugiri-jp-ios",
-      "projectId": "touken-ranbu-pazugiri",
-      "platform": "ios",
-      "region": "JP",
-      "store": "App Store 日本",
-      "storeId": "6747331078",
-      "bundleId": "com.dmm.games.touken.puzzle",
-      "storeUrl": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=4",
-      "storeProductName": "刀剣乱舞ぱずぎり",
-      "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
-      "plannedLaunchDate": "2026-09-30",
-      "plannedLaunchDateSource": "Apple App Store 预约页",
-      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6747331078",
-      "plannedLaunchDateVerifiedAt": "2026-09-14",
-      "appleExpectedLaunchDate": "2026-09-30",
-      "rawStoreReleaseDate": "2026-09-30T07:00:00Z",
-      "actualLaunchDate": "",
-      "preregisterDate": "2026-07-13",
-      "status": "preregister",
-      "sourceUrl": "https://apps.apple.com/jp/app/id6747331078",
-      "verifiedAt": "2026-09-14",
-      "appleReleaseDateCheckedAt": "2026-09-14",
-      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6747331078&country=jp&entity=software",
-      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
-      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=4"
-    },
-    {
-      "id": "touken-ranbu-pazugiri-jp-windows",
-      "projectId": "touken-ranbu-pazugiri",
-      "platform": "windows",
-      "region": "JP",
-      "store": "DMM GAME PLAYER",
-      "storeId": "",
-      "plannedLaunchDate": "2026年",
-      "actualLaunchDate": "",
-      "preregisterDate": "2026-07-13",
-      "status": "preregister",
-      "sourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
-      "verifiedAt": "2026-09-14"
-    },
-    {
       "id": "tougen-anki-global-android",
       "projectId": "tougen-anki-crimson-inferno",
       "platform": "android",
@@ -14683,6 +15180,66 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
+      "id": "touken-ranbu-pazugiri-jp-android",
+      "projectId": "touken-ranbu-pazugiri",
+      "platform": "android",
+      "region": "JP",
+      "store": "Google Play 日本",
+      "storeId": "com.dmm.games.touken.puzzle",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.dmm.games.touken.puzzle&hl=ja&gl=JP",
+      "storeProductName": "刀剣乱舞ぱずぎり",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-14",
+      "plannedLaunchDate": "2026年",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-07-13",
+      "status": "preregister",
+      "sourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
+      "verifiedAt": "2026-09-14"
+    },
+    {
+      "id": "touken-ranbu-pazugiri-jp-ios",
+      "projectId": "touken-ranbu-pazugiri",
+      "platform": "ios",
+      "region": "JP",
+      "store": "App Store 日本",
+      "storeId": "6747331078",
+      "bundleId": "com.dmm.games.touken.puzzle",
+      "storeUrl": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=4",
+      "storeProductName": "刀剣乱舞ぱずぎり",
+      "storeAvailability": "available",
+      "availabilityCheckedAt": "2026-09-15",
+      "plannedLaunchDate": "2026-09-30",
+      "plannedLaunchDateSource": "Apple App Store 预约页",
+      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6747331078",
+      "plannedLaunchDateVerifiedAt": "2026-09-15",
+      "appleExpectedLaunchDate": "2026-09-30",
+      "rawStoreReleaseDate": "2026-09-30T07:00:00Z",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-07-13",
+      "status": "preregister",
+      "sourceUrl": "https://apps.apple.com/jp/app/id6747331078",
+      "verifiedAt": "2026-09-15",
+      "appleReleaseDateCheckedAt": "2026-09-15",
+      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6747331078&country=jp&entity=software",
+      "appleExpectedLaunchDateSource": "Apple App Store 预约页",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%81%B1%E3%81%9A%E3%81%8E%E3%82%8A/id6747331078?uo=4"
+    },
+    {
+      "id": "touken-ranbu-pazugiri-jp-windows",
+      "projectId": "touken-ranbu-pazugiri",
+      "platform": "windows",
+      "region": "JP",
+      "store": "DMM GAME PLAYER",
+      "storeId": "",
+      "plannedLaunchDate": "2026年",
+      "actualLaunchDate": "",
+      "preregisterDate": "2026-07-13",
+      "status": "preregister",
+      "sourceUrl": "https://www.nitroplus.co.jp/news/2026/12231.php",
+      "verifiedAt": "2026-09-14"
+    },
+    {
       "id": "wind-breaker-rebel-heroes-jp-android",
       "projectId": "wind-breaker-rebel-heroes",
       "platform": "android",
@@ -14715,9 +15272,9 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/wind-breaker-%E4%B8%8D%E8%89%AF%E3%81%9F%E3%81%A1%E3%81%AE%E8%8B%B1%E9%9B%84%E8%AD%9A/id6670387532?uo=4",
       "storeProductName": "WIND BREAKER 不良たちの英雄譚",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2025-03-11T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6670387532&country=jp&entity=software"
     },
     {
@@ -14732,6 +15289,45 @@ window.GAME_PROJECTS_DATA = {
       "status": "launched",
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000006855.000001719.html",
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "id": "yokai-watch-2-hadou-global-playstation",
+      "projectId": "yokai-watch-2-hadou",
+      "platform": "playstation",
+      "region": "GLOBAL",
+      "store": "PlayStation 5",
+      "storeId": "",
+      "plannedLaunchDate": "",
+      "actualLaunchDate": "",
+      "status": "announced",
+      "sourceUrl": "https://www.youkai-watch.jp/yw2-hadou/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "yokai-watch-2-hadou-global-steam",
+      "projectId": "yokai-watch-2-hadou",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "",
+      "plannedLaunchDate": "",
+      "actualLaunchDate": "",
+      "status": "announced",
+      "sourceUrl": "https://www.youkai-watch.jp/yw2-hadou/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "yokai-watch-2-hadou-global-switch",
+      "projectId": "yokai-watch-2-hadou",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2",
+      "storeId": "",
+      "plannedLaunchDate": "",
+      "actualLaunchDate": "",
+      "status": "announced",
+      "sourceUrl": "https://www.youkai-watch.jp/yw2-hadou/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "yowamushi-pedal-resonance-pedaism-jp-android",
@@ -14766,10 +15362,36 @@ window.GAME_PROJECTS_DATA = {
       "storeUrl": "https://apps.apple.com/jp/app/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9-%E3%81%BA%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0/id6758927408?uo=4",
       "storeProductName": "弱虫ペダル レゾナンス・ぺダイズム",
       "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
+      "availabilityCheckedAt": "2026-09-15",
       "rawStoreReleaseDate": "2026-07-22T07:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
+      "appleReleaseDateCheckedAt": "2026-09-15",
       "appleLookupUrl": "https://itunes.apple.com/lookup?id=6758927408&country=jp&entity=software"
+    },
+    {
+      "id": "yugioh-tag-force-gx-global-steam",
+      "projectId": "yugioh-tag-force-gx",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "",
+      "plannedLaunchDate": "2027-02-16",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.konami.com/yugioh/tagforcegx/ja-jp/",
+      "verifiedAt": "2026-09-15"
+    },
+    {
+      "id": "yugioh-tag-force-gx-global-switch",
+      "projectId": "yugioh-tag-force-gx",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2 / Nintendo Switch",
+      "storeId": "",
+      "plannedLaunchDate": "2027-02-16",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.konami.com/yugioh/tagforcegx/ja-jp/",
+      "verifiedAt": "2026-09-15"
     },
     {
       "id": "yusha-kei-global-platform-tbd",
@@ -14785,81 +15407,17 @@ window.GAME_PROJECTS_DATA = {
       "verifiedAt": "2026-09-10"
     },
     {
-      "id": "code-geass-genesic-re-code-jp-ios",
-      "projectId": "code-geass-genesic-re-code",
-      "platform": "ios",
-      "region": "JP",
-      "store": "App Store 日本",
-      "storeId": "1550481882",
-      "bundleId": "",
-      "storeUrl": "https://apps.apple.com/jp/app/id1550481882",
-      "storeProductName": "コードギアス Genesic Re;CODE",
-      "plannedLaunchDate": "2021-10-04",
-      "actualLaunchDate": "2021-10-04",
-      "serviceEndDate": "2023-04-27",
-      "status": "ended",
-      "storeAvailability": "delisted",
-      "availabilityCheckedAt": "2023-06-30",
-      "availabilityNote": "官方停运公告注明 2023-06-30 结束 iOS 应用分发。",
-      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
-      "verifiedAt": "2026-09-14"
-    },
-    {
-      "id": "code-geass-genesic-re-code-jp-android",
-      "projectId": "code-geass-genesic-re-code",
-      "platform": "android",
-      "region": "JP",
-      "store": "Google Play 日本",
-      "storeId": "jp.co.hakuhododymp.game",
-      "storeUrl": "https://play.google.com/store/apps/details?id=jp.co.hakuhododymp.game&hl=ja&gl=JP",
-      "storeProductName": "コードギアス Genesic Re;CODE",
-      "plannedLaunchDate": "2021-10-04",
-      "actualLaunchDate": "2021-10-04",
-      "serviceEndDate": "2023-04-27",
-      "status": "ended",
-      "storeAvailability": "delisted",
-      "availabilityCheckedAt": "2023-06-30",
-      "availabilityNote": "官方停运公告注明 2023-06-30 结束 Android 应用分发。",
-      "sourceUrl": "https://www.geass-gr.jp/news_detail/3678/index.html",
-      "verifiedAt": "2026-09-14"
-    },
-    {
-      "id": "classroom-of-the-elite-merge-puzzle-jp-ios",
-      "projectId": "classroom-of-the-elite-merge-puzzle",
-      "platform": "ios",
-      "region": "JP",
-      "store": "App Store 日本",
-      "storeId": "6472700394",
-      "bundleId": "jp.co.joro.mip",
-      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%E5%AE%9F%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%B8-%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%91%E3%82%BA%E3%83%AB%E7%89%B9%E5%88%A5%E8%A9%A6%E9%A8%93/id6472700394?uo=4",
-      "storeProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
-      "plannedLaunchDate": "2024-02-01",
-      "actualLaunchDate": "2024-02-01",
-      "status": "launched",
-      "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
-      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
-      "verifiedAt": "2026-09-14",
-      "rawStoreReleaseDate": "2024-02-01T08:00:00Z",
-      "appleReleaseDateCheckedAt": "2026-09-14",
-      "appleLookupUrl": "https://itunes.apple.com/lookup?id=6472700394&country=jp&entity=software"
-    },
-    {
-      "id": "classroom-of-the-elite-merge-puzzle-jp-android",
-      "projectId": "classroom-of-the-elite-merge-puzzle",
-      "platform": "android",
-      "region": "JP",
-      "store": "Google Play 日本",
-      "storeId": "jp.co.joro.mip.prod",
-      "storeUrl": "https://play.google.com/store/apps/details?id=jp.co.joro.mip.prod&hl=ja&gl=JP",
-      "storeProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
-      "plannedLaunchDate": "2024-02-01",
-      "actualLaunchDate": "2024-02-01",
-      "status": "launched",
-      "storeAvailability": "available",
-      "availabilityCheckedAt": "2026-09-14",
-      "sourceUrl": "https://www.you-zitsu-mergegame.com/",
-      "verifiedAt": "2026-09-14"
+      "id": "zelda-ocarina-remake-global-switch",
+      "projectId": "zelda-ocarina-of-time-remake",
+      "platform": "switch",
+      "region": "GLOBAL",
+      "store": "Nintendo Switch 2",
+      "storeId": "",
+      "plannedLaunchDate": "2026-11-05",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.nintendo.com/jp/topics/article/a21969a1-522b-4c9e-9f40-c2ce1b289b56",
+      "verifiedAt": "2026-09-15"
     }
   ],
   "rankSnapshots": [
@@ -14886,7 +15444,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -14902,7 +15460,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -14918,7 +15476,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -14934,7 +15492,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -14950,7 +15508,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -14966,7 +15524,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -14982,7 +15540,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -14998,7 +15556,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15014,7 +15572,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15030,7 +15588,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15046,7 +15604,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15062,7 +15620,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15078,7 +15636,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15094,7 +15652,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15110,7 +15668,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15126,7 +15684,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15142,7 +15700,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15158,7 +15716,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15174,7 +15732,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15190,7 +15748,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15206,7 +15764,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15222,7 +15780,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15238,7 +15796,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15254,7 +15812,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15270,7 +15828,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15286,7 +15844,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15302,7 +15860,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15318,7 +15876,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15334,7 +15892,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15350,7 +15908,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15366,7 +15924,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15382,7 +15940,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15398,7 +15956,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15414,7 +15972,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15430,7 +15988,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15446,7 +16004,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15462,7 +16020,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2018）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15478,7 +16036,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15494,7 +16052,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15510,7 +16068,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15526,7 +16084,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15542,7 +16100,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15558,7 +16116,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15574,7 +16132,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15590,7 +16148,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15606,7 +16164,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15622,7 +16180,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15638,7 +16196,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15654,7 +16212,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15670,7 +16228,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15686,7 +16244,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15702,7 +16260,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15718,7 +16276,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15734,7 +16292,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15750,7 +16308,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15766,7 +16324,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15782,7 +16340,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15798,7 +16356,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15814,7 +16372,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15830,7 +16388,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15846,7 +16404,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15862,7 +16420,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15878,7 +16436,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15894,7 +16452,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15910,7 +16468,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15926,7 +16484,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15942,7 +16500,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15958,7 +16516,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15974,7 +16532,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -15990,7 +16548,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16006,7 +16564,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16022,7 +16580,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16038,7 +16596,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16054,7 +16612,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16070,7 +16628,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16086,7 +16644,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16102,7 +16660,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16118,7 +16676,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16134,7 +16692,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16150,7 +16708,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16166,7 +16724,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16182,7 +16740,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16198,7 +16756,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16214,7 +16772,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16230,7 +16788,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16246,7 +16804,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16262,7 +16820,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16278,7 +16836,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16294,7 +16852,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16310,7 +16868,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16326,7 +16884,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16342,7 +16900,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16358,7 +16916,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16374,7 +16932,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16390,7 +16948,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16406,7 +16964,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16422,7 +16980,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16438,7 +16996,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16454,7 +17012,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16470,7 +17028,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16486,7 +17044,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16502,7 +17060,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16518,7 +17076,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16534,7 +17092,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16550,7 +17108,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16566,7 +17124,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2019）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16582,7 +17140,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16598,7 +17156,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16614,7 +17172,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16630,7 +17188,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16646,7 +17204,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16662,7 +17220,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16678,7 +17236,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16694,7 +17252,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16710,7 +17268,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16726,7 +17284,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16742,7 +17300,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16758,7 +17316,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16774,7 +17332,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16790,7 +17348,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16806,7 +17364,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16822,7 +17380,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16838,7 +17396,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16854,7 +17412,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16870,7 +17428,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16886,7 +17444,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16902,7 +17460,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16918,7 +17476,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16934,7 +17492,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16950,7 +17508,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16966,7 +17524,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16982,7 +17540,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -16998,7 +17556,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17014,7 +17572,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17030,7 +17588,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17046,7 +17604,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17062,7 +17620,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17078,7 +17636,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17094,7 +17652,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17110,7 +17668,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17126,7 +17684,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17142,7 +17700,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17158,7 +17716,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17174,7 +17732,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17190,7 +17748,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17206,7 +17764,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17222,7 +17780,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17238,7 +17796,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17254,7 +17812,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17270,7 +17828,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17286,7 +17844,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17302,7 +17860,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17318,7 +17876,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17334,7 +17892,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17350,7 +17908,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17366,7 +17924,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17382,7 +17940,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17398,7 +17956,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17414,7 +17972,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17430,7 +17988,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17446,7 +18004,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17462,7 +18020,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17478,7 +18036,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17494,7 +18052,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17510,7 +18068,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17526,7 +18084,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17542,7 +18100,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17558,7 +18116,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17574,7 +18132,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17590,7 +18148,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17606,7 +18164,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17622,7 +18180,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17638,7 +18196,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17654,7 +18212,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17670,7 +18228,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17686,7 +18244,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17702,7 +18260,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17718,7 +18276,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17734,7 +18292,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17750,7 +18308,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17766,7 +18324,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17782,7 +18340,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17798,7 +18356,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17814,7 +18372,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17830,7 +18388,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17846,7 +18404,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17862,7 +18420,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17878,7 +18436,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17894,7 +18452,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17910,7 +18468,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2020）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17926,7 +18484,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17942,7 +18500,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17958,7 +18516,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17974,7 +18532,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -17990,7 +18548,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18006,7 +18564,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18022,7 +18580,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18038,7 +18596,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18054,7 +18612,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18070,7 +18628,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18086,7 +18644,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18102,7 +18660,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18118,7 +18676,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18134,7 +18692,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18150,7 +18708,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18166,7 +18724,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18182,7 +18740,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18198,7 +18756,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18214,7 +18772,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18230,7 +18788,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18246,7 +18804,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18262,7 +18820,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18278,7 +18836,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18294,7 +18852,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18310,7 +18868,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18326,7 +18884,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18342,7 +18900,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18358,7 +18916,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18374,7 +18932,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18390,7 +18948,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18406,7 +18964,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18422,7 +18980,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18438,7 +18996,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18454,7 +19012,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18470,7 +19028,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18486,7 +19044,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18502,7 +19060,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18518,7 +19076,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18534,7 +19092,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18550,7 +19108,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18566,7 +19124,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18582,7 +19140,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18598,7 +19156,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18614,7 +19172,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18630,7 +19188,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18646,7 +19204,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18662,7 +19220,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18678,7 +19236,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18694,7 +19252,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18710,7 +19268,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18726,7 +19284,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18742,7 +19300,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18758,7 +19316,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18774,7 +19332,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18790,7 +19348,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18806,7 +19364,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18822,7 +19380,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18838,7 +19396,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18854,7 +19412,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18870,7 +19428,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18886,7 +19444,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18902,7 +19460,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18918,7 +19476,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18934,7 +19492,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18950,7 +19508,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18966,7 +19524,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18982,7 +19540,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -18998,7 +19556,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19014,7 +19572,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19030,7 +19588,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19046,7 +19604,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19079,7 +19637,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19095,7 +19653,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19111,7 +19669,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19127,7 +19685,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19143,7 +19701,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19159,7 +19717,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19175,7 +19733,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19191,7 +19749,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19207,7 +19765,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19223,7 +19781,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19239,7 +19797,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19255,7 +19813,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19271,7 +19829,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19287,7 +19845,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19303,7 +19861,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19319,7 +19877,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2021）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19335,7 +19893,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19351,7 +19909,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19367,7 +19925,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19383,7 +19941,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19399,7 +19957,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19415,7 +19973,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19431,7 +19989,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19447,7 +20005,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19463,7 +20021,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19479,7 +20037,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19495,7 +20053,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19511,7 +20069,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19527,7 +20085,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19543,7 +20101,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19559,7 +20117,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19575,7 +20133,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19591,7 +20149,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19607,7 +20165,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19623,7 +20181,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19639,7 +20197,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19655,7 +20213,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19671,7 +20229,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19687,7 +20245,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19703,7 +20261,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19719,7 +20277,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19735,7 +20293,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19751,7 +20309,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19767,7 +20325,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19783,7 +20341,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19799,7 +20357,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19815,7 +20373,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19831,7 +20389,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19847,7 +20405,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19863,7 +20421,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19879,7 +20437,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19895,7 +20453,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19911,7 +20469,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19927,7 +20485,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19943,7 +20501,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19959,7 +20517,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19975,7 +20533,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -19991,7 +20549,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20007,7 +20565,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20023,7 +20581,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20039,7 +20597,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20055,7 +20613,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20071,7 +20629,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20087,7 +20645,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20103,7 +20661,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20119,7 +20677,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20135,7 +20693,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20151,7 +20709,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20167,7 +20725,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20183,7 +20741,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20199,7 +20757,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20215,7 +20773,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20231,7 +20789,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20247,7 +20805,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20263,7 +20821,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20279,7 +20837,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20295,7 +20853,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20311,7 +20869,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20327,7 +20885,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20343,7 +20901,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20359,7 +20917,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20375,7 +20933,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20391,7 +20949,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20407,7 +20965,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20423,7 +20981,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20439,7 +20997,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20455,7 +21013,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20471,7 +21029,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20487,7 +21045,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20503,7 +21061,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20519,7 +21077,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20535,7 +21093,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20551,7 +21109,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20567,7 +21125,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20583,7 +21141,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20599,7 +21157,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20615,7 +21173,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20631,7 +21189,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20647,7 +21205,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20663,7 +21221,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20679,7 +21237,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20695,7 +21253,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20711,7 +21269,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20727,7 +21285,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20743,7 +21301,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20759,7 +21317,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20775,7 +21333,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20791,7 +21349,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20807,7 +21365,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20823,7 +21381,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20839,7 +21397,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20855,7 +21413,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20871,7 +21429,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20887,7 +21445,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20903,7 +21461,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20919,7 +21477,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2022）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20935,7 +21493,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20951,7 +21509,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20967,7 +21525,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20983,7 +21541,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -20999,7 +21557,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21015,7 +21573,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21031,7 +21589,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21047,7 +21605,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21063,7 +21621,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21079,7 +21637,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21095,7 +21653,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21111,7 +21669,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21127,7 +21685,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21143,7 +21701,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21159,7 +21717,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21175,7 +21733,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21191,7 +21749,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21207,7 +21765,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21223,7 +21781,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21239,7 +21797,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21255,7 +21813,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21271,7 +21829,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21287,7 +21845,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21303,7 +21861,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21319,7 +21877,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21335,7 +21893,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21351,7 +21909,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21367,7 +21925,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21383,7 +21941,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21399,7 +21957,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21415,7 +21973,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21431,7 +21989,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21447,7 +22005,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21463,7 +22021,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21479,7 +22037,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21495,7 +22053,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21511,7 +22069,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21527,7 +22085,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21543,7 +22101,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21559,7 +22117,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21575,7 +22133,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21591,7 +22149,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21607,7 +22165,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21623,7 +22181,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21639,7 +22197,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21655,7 +22213,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21671,7 +22229,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21687,7 +22245,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21703,7 +22261,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21719,7 +22277,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21735,7 +22293,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21751,7 +22309,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21767,7 +22325,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21783,7 +22341,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21799,7 +22357,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21815,7 +22373,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21831,7 +22389,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21847,7 +22405,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21863,7 +22421,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21879,7 +22437,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21895,7 +22453,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21911,7 +22469,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21927,7 +22485,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21943,7 +22501,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21959,7 +22517,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21975,7 +22533,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -21991,7 +22549,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22007,7 +22565,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22023,7 +22581,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22039,7 +22597,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22055,7 +22613,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22071,7 +22629,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22087,7 +22645,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22103,7 +22661,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22119,7 +22677,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22135,7 +22693,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22151,7 +22709,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22167,7 +22725,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22183,7 +22741,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22199,7 +22757,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22215,7 +22773,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22231,7 +22789,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22247,7 +22805,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22263,7 +22821,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22279,7 +22837,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22295,7 +22853,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22311,7 +22869,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22327,7 +22885,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22343,7 +22901,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22359,7 +22917,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22375,7 +22933,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22391,7 +22949,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22407,7 +22965,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22423,7 +22981,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22439,7 +22997,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22455,7 +23013,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22471,7 +23029,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22487,7 +23045,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22503,7 +23061,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22519,7 +23077,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22535,7 +23093,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22551,7 +23109,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22567,7 +23125,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22583,7 +23141,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22599,7 +23157,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22615,7 +23173,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22631,7 +23189,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22647,7 +23205,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22663,7 +23221,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22679,7 +23237,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22695,7 +23253,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22711,7 +23269,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22727,7 +23285,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22743,7 +23301,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22759,7 +23317,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22775,7 +23333,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22791,7 +23349,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22807,7 +23365,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22823,7 +23381,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22839,7 +23397,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22855,7 +23413,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22871,7 +23429,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2023）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22887,7 +23445,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22903,7 +23461,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22919,7 +23477,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22935,7 +23493,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22951,7 +23509,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22967,7 +23525,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22983,7 +23541,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -22999,7 +23557,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23015,7 +23573,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23031,7 +23589,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23047,7 +23605,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23063,7 +23621,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23079,7 +23637,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23095,7 +23653,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23111,7 +23669,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23127,7 +23685,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23143,7 +23701,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23159,7 +23717,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23175,7 +23733,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23191,7 +23749,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23207,7 +23765,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23223,7 +23781,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23239,7 +23797,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23255,7 +23813,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23271,7 +23829,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23287,7 +23845,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23303,7 +23861,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23319,7 +23877,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23335,7 +23893,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23351,7 +23909,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23367,7 +23925,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23383,7 +23941,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23399,7 +23957,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23415,7 +23973,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23431,7 +23989,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23447,7 +24005,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23463,7 +24021,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23479,7 +24037,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23495,7 +24053,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23511,7 +24069,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23527,7 +24085,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23543,7 +24101,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23559,7 +24117,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23575,7 +24133,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23591,7 +24149,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23607,7 +24165,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23623,7 +24181,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23639,7 +24197,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23655,7 +24213,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23671,7 +24229,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23687,7 +24245,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23703,7 +24261,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23719,7 +24277,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23735,7 +24293,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23751,7 +24309,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23767,7 +24325,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23783,7 +24341,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23799,7 +24357,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23815,7 +24373,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23831,7 +24389,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23847,7 +24405,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23863,7 +24421,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23879,7 +24437,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23895,7 +24453,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23911,7 +24469,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23927,7 +24485,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23943,7 +24501,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23959,7 +24517,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23975,7 +24533,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -23991,7 +24549,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24007,7 +24565,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24023,7 +24581,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24039,7 +24597,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24055,7 +24613,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24071,7 +24629,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24087,7 +24645,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24103,7 +24661,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24119,7 +24677,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24135,7 +24693,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24151,7 +24709,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24167,7 +24725,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24183,7 +24741,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24199,7 +24757,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24215,7 +24773,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24231,7 +24789,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24247,7 +24805,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24263,7 +24821,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24279,7 +24837,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24295,7 +24853,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24311,7 +24869,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24327,7 +24885,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24343,7 +24901,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24359,7 +24917,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24375,7 +24933,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24391,7 +24949,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24407,7 +24965,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24423,7 +24981,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24439,7 +24997,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24455,7 +25013,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24471,7 +25029,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24487,7 +25045,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24503,7 +25061,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24519,7 +25077,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24535,7 +25093,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24551,7 +25109,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24567,7 +25125,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24583,7 +25141,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24599,7 +25157,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24615,7 +25173,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24631,7 +25189,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24647,7 +25205,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24663,7 +25221,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24679,7 +25237,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24695,7 +25253,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24711,7 +25269,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24727,7 +25285,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24743,7 +25301,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24759,7 +25317,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24775,7 +25333,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24791,7 +25349,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24807,7 +25365,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24823,7 +25381,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24839,7 +25397,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24855,7 +25413,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24871,7 +25429,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24887,7 +25445,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24903,7 +25461,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24919,7 +25477,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24935,7 +25493,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24951,7 +25509,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24967,7 +25525,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24983,7 +25541,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -24999,7 +25557,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25015,7 +25573,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25031,7 +25589,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25047,7 +25605,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25063,7 +25621,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25079,7 +25637,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25095,7 +25653,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25111,7 +25669,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25127,7 +25685,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25143,7 +25701,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25159,7 +25717,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25175,7 +25733,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25191,7 +25749,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25207,7 +25765,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25223,7 +25781,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25239,7 +25797,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25255,7 +25813,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25271,7 +25829,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25287,7 +25845,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25303,7 +25861,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2024）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25319,7 +25877,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25335,7 +25893,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25351,7 +25909,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25367,7 +25925,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25383,7 +25941,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25399,7 +25957,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25415,7 +25973,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25431,7 +25989,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25447,7 +26005,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25463,7 +26021,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25479,7 +26037,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25495,7 +26053,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25511,7 +26069,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25527,7 +26085,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25543,7 +26101,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25559,7 +26117,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25575,7 +26133,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25591,7 +26149,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25607,7 +26165,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25623,7 +26181,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25639,7 +26197,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25655,7 +26213,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25671,7 +26229,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25687,7 +26245,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25703,7 +26261,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25719,7 +26277,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25735,7 +26293,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25751,7 +26309,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25767,7 +26325,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25783,7 +26341,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25799,7 +26357,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25815,7 +26373,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25831,7 +26389,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25847,7 +26405,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25863,7 +26421,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25879,7 +26437,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25895,7 +26453,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25911,7 +26469,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25927,7 +26485,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25943,7 +26501,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25959,7 +26517,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25975,7 +26533,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -25991,7 +26549,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26007,7 +26565,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26034,7 +26592,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26050,7 +26608,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26066,7 +26624,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26082,7 +26640,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26098,7 +26656,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26114,7 +26672,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26130,7 +26688,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26146,7 +26704,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26162,7 +26720,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26178,7 +26736,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26194,7 +26752,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26210,7 +26768,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26226,7 +26784,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26242,7 +26800,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26258,7 +26816,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26274,7 +26832,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26290,7 +26848,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26306,7 +26864,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26322,7 +26880,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26338,7 +26896,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26354,7 +26912,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26370,7 +26928,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26386,7 +26944,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26402,7 +26960,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26418,7 +26976,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26434,7 +26992,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26450,7 +27008,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26466,7 +27024,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26482,7 +27040,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26498,7 +27056,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26514,7 +27072,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26530,7 +27088,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26546,7 +27104,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26562,7 +27120,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26578,7 +27136,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26594,7 +27152,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26610,7 +27168,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26626,7 +27184,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26642,7 +27200,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26658,7 +27216,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26674,7 +27232,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26690,7 +27248,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26706,7 +27264,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26722,7 +27280,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26738,7 +27296,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26765,7 +27323,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26781,7 +27339,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26797,7 +27355,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26813,7 +27371,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26829,7 +27387,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26845,7 +27403,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26861,7 +27419,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26877,7 +27435,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26909,7 +27467,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26925,7 +27483,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26941,7 +27499,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26957,7 +27515,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26973,7 +27531,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -26989,7 +27547,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27005,7 +27563,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27021,7 +27579,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27037,7 +27595,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27075,7 +27633,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27091,7 +27649,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27107,7 +27665,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27123,7 +27681,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27139,7 +27697,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27155,7 +27713,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27171,7 +27729,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27187,7 +27745,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27203,7 +27761,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27235,7 +27793,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27251,7 +27809,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27267,7 +27825,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27283,7 +27841,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27299,7 +27857,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27315,7 +27873,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27331,7 +27889,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27347,7 +27905,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27363,7 +27921,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27379,7 +27937,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27395,7 +27953,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27411,7 +27969,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27427,7 +27985,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27443,7 +28001,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27459,7 +28017,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27475,7 +28033,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27491,7 +28049,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27507,7 +28065,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27523,7 +28081,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27555,7 +28113,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27571,7 +28129,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27587,7 +28145,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27603,7 +28161,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27619,7 +28177,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27635,7 +28193,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27651,7 +28209,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27667,7 +28225,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27683,7 +28241,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27710,7 +28268,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27726,7 +28284,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27742,7 +28300,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27758,7 +28316,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27774,7 +28332,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27790,7 +28348,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27806,7 +28364,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27822,7 +28380,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27838,7 +28396,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27854,7 +28412,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27886,7 +28444,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27902,7 +28460,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27918,7 +28476,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27934,7 +28492,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27961,7 +28519,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27977,7 +28535,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -27993,7 +28551,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28009,7 +28567,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28025,7 +28583,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28041,7 +28599,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28057,7 +28615,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28073,7 +28631,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28089,7 +28647,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28105,7 +28663,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28121,7 +28679,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28137,7 +28695,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28153,7 +28711,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28169,7 +28727,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28185,7 +28743,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28201,7 +28759,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28233,7 +28791,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28249,7 +28807,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28265,7 +28823,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28281,7 +28839,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28297,7 +28855,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28313,7 +28871,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28329,7 +28887,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28345,7 +28903,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28361,7 +28919,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28377,7 +28935,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（November 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28393,7 +28951,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28409,7 +28967,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28425,7 +28983,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28441,7 +28999,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28457,7 +29015,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28473,7 +29031,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28489,7 +29047,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28505,7 +29063,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28521,7 +29079,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28537,7 +29095,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28569,7 +29127,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28585,7 +29143,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28601,7 +29159,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28617,7 +29175,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28633,7 +29191,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28649,7 +29207,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28665,7 +29223,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28681,7 +29239,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28697,7 +29255,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28713,7 +29271,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（December 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28729,7 +29287,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28745,7 +29303,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28761,7 +29319,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28777,7 +29335,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28793,7 +29351,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28809,7 +29367,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28825,7 +29383,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28841,7 +29399,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28857,7 +29415,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28873,7 +29431,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28905,7 +29463,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28921,7 +29479,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28937,7 +29495,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28953,7 +29511,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28969,7 +29527,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -28985,7 +29543,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29001,7 +29559,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29017,7 +29575,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29033,7 +29591,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29049,7 +29607,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（January 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29065,7 +29623,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29081,7 +29639,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29097,7 +29655,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29113,7 +29671,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29129,7 +29687,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29145,7 +29703,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29161,7 +29719,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29177,7 +29735,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29193,7 +29751,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29209,7 +29767,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29241,7 +29799,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29257,7 +29815,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29273,7 +29831,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29289,7 +29847,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29305,7 +29863,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2362050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29321,7 +29879,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29337,7 +29895,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29353,7 +29911,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29369,7 +29927,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29385,7 +29943,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29401,7 +29959,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（February 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29428,7 +29986,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29444,7 +30002,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29460,7 +30018,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29476,7 +30034,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29492,7 +30050,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29508,7 +30066,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29524,7 +30082,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29540,7 +30098,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29556,7 +30114,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29572,7 +30130,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29604,7 +30162,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29620,7 +30178,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29636,7 +30194,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29652,7 +30210,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29668,7 +30226,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2362050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29684,7 +30242,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29700,7 +30258,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29716,7 +30274,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29732,7 +30290,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29748,7 +30306,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（March 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29764,7 +30322,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29780,7 +30338,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29796,7 +30354,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29812,7 +30370,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29828,7 +30386,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29844,7 +30402,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29860,7 +30418,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29876,7 +30434,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29892,7 +30450,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29908,7 +30466,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29940,7 +30498,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29956,7 +30514,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29972,7 +30530,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -29988,7 +30546,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30004,7 +30562,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2362050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30020,7 +30578,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30036,7 +30594,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30052,7 +30610,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30068,7 +30626,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30084,7 +30642,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（April 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30100,7 +30658,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30116,7 +30674,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30132,7 +30690,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30148,7 +30706,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30164,7 +30722,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30180,7 +30738,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30196,7 +30754,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30212,7 +30770,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30228,7 +30786,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30244,7 +30802,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30276,7 +30834,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30292,7 +30850,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30308,7 +30866,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30324,7 +30882,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30340,7 +30898,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2362050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30356,7 +30914,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30372,7 +30930,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30388,7 +30946,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30404,7 +30962,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30420,7 +30978,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30436,7 +30994,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（May 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30452,7 +31010,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30468,7 +31026,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30484,7 +31042,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30500,7 +31058,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30516,7 +31074,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30532,7 +31090,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30548,7 +31106,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30564,7 +31122,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30580,7 +31138,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30596,7 +31154,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30628,7 +31186,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30644,7 +31202,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30660,7 +31218,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30676,7 +31234,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30692,7 +31250,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2362050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30708,7 +31266,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30724,7 +31282,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30740,7 +31298,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30756,7 +31314,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30772,7 +31330,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（June 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30788,7 +31346,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30804,7 +31362,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30820,7 +31378,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30836,7 +31394,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30852,7 +31410,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30868,7 +31426,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30884,7 +31442,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30900,7 +31458,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30916,7 +31474,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30932,7 +31490,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2244210",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30948,7 +31506,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30964,7 +31522,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/4375120",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -30996,7 +31554,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31012,7 +31570,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31028,7 +31586,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31044,7 +31602,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31060,7 +31618,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2362050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31076,7 +31634,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31092,7 +31650,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31108,7 +31666,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31124,7 +31682,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31140,7 +31698,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31156,7 +31714,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31183,7 +31741,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/601050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31199,7 +31757,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/449800",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31215,7 +31773,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1689620",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31231,7 +31789,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1490890",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31247,7 +31805,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2928600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31263,7 +31821,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/678950",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31279,7 +31837,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2072560",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31295,7 +31853,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1790600",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31311,7 +31869,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/851850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31327,7 +31885,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2244210",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31343,7 +31901,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3002850",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31359,7 +31917,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/4375120",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31375,7 +31933,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1372110",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31391,7 +31949,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1877020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31407,7 +31965,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/816020",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31423,7 +31981,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3393070",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31439,7 +31997,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/2362050",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31455,7 +32013,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/748360",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31471,7 +32029,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1020790",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31487,7 +32045,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/814000",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31503,7 +32061,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/755500",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31519,7 +32077,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -31535,7 +32093,7 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/1979440",
-      "verifiedAt": "2026-09-14",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     },
     {
@@ -44527,6 +45085,3727 @@ window.GAME_PROJECTS_DATA = {
       "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
       "feedUpdatedAt": "2026-09-13T20:49:12-07:00",
       "verifiedAt": "2026-09-14",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "attack-on-titan-2",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 163000,
+      "display": "VGI Steam 累计销量估算 163,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/attack-on-titan-2-a-o-t-2",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/601050",
+      "sourceProductName": "Attack on Titan 2 - A.O.T.2",
+      "steamAppId": 601050,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "attack-on-titan-2",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1827515,
+      "display": "VGI PlayStation 累计销量估算 1,827,515 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/attack-on-titan-2-a-o-t-2",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/601050",
+      "sourceProductName": "Attack on Titan 2 - A.O.T.2",
+      "steamAppId": 601050,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "attack-on-titan-2",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/C596V0P64DD6",
+      "storeId": "C596V0P64DD6",
+      "sourceProductName": "Attack on Titan 2",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 557,
+      "display": "Xbox Store US 商店用户评分人数 557",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "attack-on-titan-2",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/C596V0P64DD6",
+      "storeId": "C596V0P64DD6",
+      "sourceProductName": "Attack on Titan 2",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.3,
+      "ratingCount": 557,
+      "display": "Xbox Store US 商店用户评分 4.30/5（557 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "attack-on-titan-3",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9MT4F57F7CVW",
+      "storeId": "9MT4F57F7CVW",
+      "sourceProductName": "Attack on Titan 3",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 10,
+      "display": "Xbox Store US 商店用户评分人数 10",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "attack-on-titan-3",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9MT4F57F7CVW",
+      "storeId": "9MT4F57F7CVW",
+      "sourceProductName": "Attack on Titan 3",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 5,
+      "ratingCount": 10,
+      "display": "Xbox Store US 商店用户评分 5.00/5（10 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "attack-on-titan-wings-of-freedom",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 155000,
+      "display": "VGI Steam 累计销量估算 155,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/attack-on-titan-a-o-t-wings-of-freedom",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/449800",
+      "sourceProductName": "Attack on Titan / A.O.T. Wings of Freedom",
+      "steamAppId": 449800,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "attack-on-titan-wings-of-freedom",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 995988,
+      "display": "VGI PlayStation 累计销量估算 995,988 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/attack-on-titan-a-o-t-wings-of-freedom",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/449800",
+      "sourceProductName": "Attack on Titan / A.O.T. Wings of Freedom",
+      "steamAppId": 449800,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "attack-on-titan-wings-of-freedom",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/C3QWVTZ6HTCB",
+      "storeId": "C3QWVTZ6HTCB",
+      "sourceProductName": "Attack on Titan",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 458,
+      "display": "Xbox Store US 商店用户评分人数 458",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "attack-on-titan-wings-of-freedom",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/C3QWVTZ6HTCB",
+      "storeId": "C3QWVTZ6HTCB",
+      "sourceProductName": "Attack on Titan",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.5,
+      "ratingCount": 458,
+      "display": "Xbox Store US 商店用户评分 4.50/5（458 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "black-channel-blaze-road",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6803370140",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "black-channel-blaze-road",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6803370140",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "bleach-rebirth-of-souls",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 138000,
+      "display": "VGI Steam 累计销量估算 138,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/bleach-rebirth-of-souls",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1689620",
+      "sourceProductName": "BLEACH Rebirth of Souls",
+      "steamAppId": 1689620,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "bleach-rebirth-of-souls",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 456831,
+      "display": "VGI PlayStation 累计销量估算 456,831 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/bleach-rebirth-of-souls",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1689620",
+      "sourceProductName": "BLEACH Rebirth of Souls",
+      "steamAppId": 1689620,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "bleach-rebirth-of-souls",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 158853,
+      "display": "VGI Xbox 累计销量估算 158,853 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/bleach-rebirth-of-souls",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1689620",
+      "sourceProductName": "BLEACH Rebirth of Souls",
+      "steamAppId": 1689620,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "bleach-rebirth-of-souls",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA03639_00-BLEACHROFS000000",
+      "storeId": "UP0700-PPSA03639_00-BLEACHROFS000000",
+      "sourceProductName": "BLEACH Rebirth of Souls PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 7402,
+      "display": "PlayStation Store 全球玩家评分人数 7,402",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "bleach-rebirth-of-souls",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PJK7WPHWM8L",
+      "storeId": "9PJK7WPHWM8L",
+      "sourceProductName": "BLEACH Rebirth of Souls",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 636,
+      "display": "Xbox Store US 商店用户评分人数 636",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "bleach-rebirth-of-souls",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA03639_00-BLEACHROFS000000",
+      "storeId": "UP0700-PPSA03639_00-BLEACHROFS000000",
+      "sourceProductName": "BLEACH Rebirth of Souls PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.43,
+      "ratingCount": 7402,
+      "display": "PlayStation Store 全球玩家评分 4.43/5（7,402 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "bleach-rebirth-of-souls",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PJK7WPHWM8L",
+      "storeId": "9PJK7WPHWM8L",
+      "sourceProductName": "BLEACH Rebirth of Souls",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.3,
+      "ratingCount": 636,
+      "display": "Xbox Store US 商店用户评分 4.30/5（636 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "captain-tsubasa-2-world-fighters",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 5027,
+      "display": "VGI Steam 累计销量估算 5,027 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/captain-tsubasa-2-world-fighters",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2172910",
+      "sourceProductName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "steamAppId": 2172910,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "captain-tsubasa-2-world-fighters",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 32227,
+      "display": "VGI PlayStation 累计销量估算 32,227 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/captain-tsubasa-2-world-fighters",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2172910",
+      "sourceProductName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "steamAppId": 2172910,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "captain-tsubasa-2-world-fighters",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 3124,
+      "display": "VGI Xbox 累计销量估算 3,124 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/captain-tsubasa-2-world-fighters",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2172910",
+      "sourceProductName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "steamAppId": 2172910,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "captain-tsubasa-2-world-fighters",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/JP0700-PPSA22728_00-MAINGAME00000000",
+      "storeId": "JP0700-PPSA22728_00-MAINGAME00000000",
+      "sourceProductName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 508,
+      "display": "PlayStation Store 全球玩家评分人数 508",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "captain-tsubasa-2-world-fighters",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9N8TN15X157T",
+      "storeId": "9N8TN15X157T",
+      "sourceProductName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 13,
+      "display": "Xbox Store US 商店用户评分人数 13",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "captain-tsubasa-2-world-fighters",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/JP0700-PPSA22728_00-MAINGAME00000000",
+      "storeId": "JP0700-PPSA22728_00-MAINGAME00000000",
+      "sourceProductName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.99,
+      "ratingCount": 508,
+      "display": "PlayStation Store 全球玩家评分 3.99/5（508 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "captain-tsubasa-2-world-fighters",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9N8TN15X157T",
+      "storeId": "9N8TN15X157T",
+      "sourceProductName": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.2,
+      "ratingCount": 13,
+      "display": "Xbox Store US 商店用户评分 4.20/5（13 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "captain-tsubasa-my-golden-xi",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6761321358",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "captain-tsubasa-my-golden-xi",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6761321358",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "cardcaptor-sakura-memory-key-jp",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6754003671",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "cardcaptor-sakura-memory-key-jp",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6754003671",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "chiikawa-pocket",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rank": 10,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6596745408",
+      "sourceProductName": "ちいかわぽけっと",
+      "display": "日本 App Store 免费游戏榜第 10 名",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "chiikawa-pocket",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 77,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6596745408",
+      "sourceProductName": "ちいかわぽけっと",
+      "display": "日本 App Store 游戏畅销榜第 77 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6472700394",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6472700394",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "date-a-live-love-limit-break",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6756353331",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "date-a-live-love-limit-break",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6756353331",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 589000,
+      "display": "VGI Steam 累计销量估算 589,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1490890",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "steamAppId": 1490890,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 3077868,
+      "display": "VGI PlayStation 累计销量估算 3,077,868 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1490890",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "steamAppId": 1490890,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1896665,
+      "display": "VGI Xbox 累计销量估算 1,896,665 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1490890",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "steamAppId": 1490890,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0177-PPSA03489_00-HINOKAMI00000000",
+      "storeId": "UP0177-PPSA03489_00-HINOKAMI00000000",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 16775,
+      "display": "PlayStation Store 全球玩家评分人数 16,775",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PHW7BZS9P7Z",
+      "storeId": "9PHW7BZS9P7Z",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 2342,
+      "display": "Xbox Store US 商店用户评分人数 2,342",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0177-PPSA03489_00-HINOKAMI00000000",
+      "storeId": "UP0177-PPSA03489_00-HINOKAMI00000000",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.59,
+      "ratingCount": 16775,
+      "display": "PlayStation Store 全球玩家评分 4.59/5（16,775 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PHW7BZS9P7Z",
+      "storeId": "9PHW7BZS9P7Z",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.3,
+      "ratingCount": 2342,
+      "display": "Xbox Store US 商店用户评分 4.30/5（2,342 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles-2",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 113000,
+      "display": "VGI Steam 累计销量估算 113,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2928600",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "steamAppId": 2928600,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles-2",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 560492,
+      "display": "VGI PlayStation 累计销量估算 560,492 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2928600",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "steamAppId": 2928600,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles-2",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 160415,
+      "display": "VGI Xbox 累计销量估算 160,415 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-2",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2928600",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "steamAppId": 2928600,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles-2",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/HP0177-PPSA25427_00-HINOKAMI20000000",
+      "storeId": "HP0177-PPSA25427_00-HINOKAMI20000000",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 Standard Edition PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 6465,
+      "display": "PlayStation Store 全球玩家评分人数 6,465",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles-2",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9NCV4N00N94J",
+      "storeId": "9NCV4N00N94J",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 304,
+      "display": "Xbox Store US 商店用户评分人数 304",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles-2",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/HP0177-PPSA25427_00-HINOKAMI20000000",
+      "storeId": "HP0177-PPSA25427_00-HINOKAMI20000000",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2 Standard Edition PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.65,
+      "ratingCount": 6465,
+      "display": "PlayStation Store 全球玩家评分 4.65/5（6,465 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "demon-slayer-hinokami-chronicles-2",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9NCV4N00N94J",
+      "storeId": "9NCV4N00N94J",
+      "sourceProductName": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.4,
+      "ratingCount": 304,
+      "display": "Xbox Store US 商店用户评分 4.40/5（304 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "digimon-up",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rank": 93,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6756247422",
+      "sourceProductName": "デジモンUP",
+      "display": "日本 App Store 免费游戏榜第 93 名",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "digimon-up",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6756247422",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-fighterz",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 2100000,
+      "display": "VGI Steam 累计销量估算 2,100,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-fighterz",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/678950",
+      "sourceProductName": "DRAGON BALL FighterZ",
+      "steamAppId": 678950,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-fighterz",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 11134676,
+      "display": "VGI PlayStation 累计销量估算 11,134,676 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-fighterz",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/678950",
+      "sourceProductName": "DRAGON BALL FighterZ",
+      "steamAppId": 678950,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-fighterz",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 11990796,
+      "display": "VGI Xbox 累计销量估算 11,990,796 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-fighterz",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/678950",
+      "sourceProductName": "DRAGON BALL FighterZ",
+      "steamAppId": 678950,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-fighterz",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BZRK5C951KK7",
+      "storeId": "BZRK5C951KK7",
+      "sourceProductName": "DRAGON BALL FIGHTERZ(Xbox One)",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 3293,
+      "display": "Xbox Store US 商店用户评分人数 3,293",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-ball-fighterz",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BZRK5C951KK7",
+      "storeId": "BZRK5C951KK7",
+      "sourceProductName": "DRAGON BALL FIGHTERZ(Xbox One)",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.7,
+      "ratingCount": 3293,
+      "display": "Xbox Store US 商店用户评分 3.70/5（3,293 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-ball-gekishin-squadra",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 559000,
+      "display": "VGI Steam 累计销量估算 559,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-gekishin-squadra",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2072560",
+      "sourceProductName": "DRAGON BALL GEKISHIN SQUADRA",
+      "steamAppId": 2072560,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-gekishin-squadra",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1793663,
+      "display": "VGI PlayStation 累计销量估算 1,793,663 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-gekishin-squadra",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2072560",
+      "sourceProductName": "DRAGON BALL GEKISHIN SQUADRA",
+      "steamAppId": 2072560,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-gekishin-squadra",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6744439943",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-gekishin-squadra",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6744439943",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-sparking-zero",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1600000,
+      "display": "VGI Steam 累计销量估算 1,600,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-sparking-zero",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1790600",
+      "sourceProductName": "DRAGON BALL: Sparking! ZERO",
+      "steamAppId": 1790600,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-sparking-zero",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 4301360,
+      "display": "VGI PlayStation 累计销量估算 4,301,360 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-sparking-zero",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1790600",
+      "sourceProductName": "DRAGON BALL: Sparking! ZERO",
+      "steamAppId": 1790600,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-sparking-zero",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1823731,
+      "display": "VGI Xbox 累计销量估算 1,823,731 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-sparking-zero",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1790600",
+      "sourceProductName": "DRAGON BALL: Sparking! ZERO",
+      "steamAppId": 1790600,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-sparking-zero",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA15211_00-DRAGONBALLSPARK0",
+      "storeId": "UP0700-PPSA15211_00-DRAGONBALLSPARK0",
+      "sourceProductName": "DRAGON BALL: Sparking! ZERO",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 68552,
+      "display": "PlayStation Store 全球玩家评分人数 68,552",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-ball-sparking-zero",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9N7XMJJHNFC3",
+      "storeId": "9N7XMJJHNFC3",
+      "sourceProductName": "DRAGON BALL Sparking! ZERO",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 4539,
+      "display": "Xbox Store US 商店用户评分人数 4,539",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-ball-sparking-zero",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA15211_00-DRAGONBALLSPARK0",
+      "storeId": "UP0700-PPSA15211_00-DRAGONBALLSPARK0",
+      "sourceProductName": "DRAGON BALL: Sparking! ZERO",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.5,
+      "ratingCount": 68552,
+      "display": "PlayStation Store 全球玩家评分 4.50/5（68,552 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-ball-sparking-zero",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9N7XMJJHNFC3",
+      "storeId": "9N7XMJJHNFC3",
+      "sourceProductName": "DRAGON BALL Sparking! ZERO",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4,
+      "ratingCount": 4539,
+      "display": "Xbox Store US 商店用户评分 4.00/5（4,539 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-ball-z-kakarot",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1700000,
+      "display": "VGI Steam 累计销量估算 1,700,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-z-kakarot",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/851850",
+      "sourceProductName": "DRAGON BALL Z: KAKAROT",
+      "steamAppId": 851850,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-z-kakarot",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 10140525,
+      "display": "VGI PlayStation 累计销量估算 10,140,525 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-z-kakarot",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/851850",
+      "sourceProductName": "DRAGON BALL Z: KAKAROT",
+      "steamAppId": 851850,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-z-kakarot",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 3556466,
+      "display": "VGI Xbox 累计销量估算 3,556,466 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/dragon-ball-z-kakarot",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/851850",
+      "sourceProductName": "DRAGON BALL Z: KAKAROT",
+      "steamAppId": 851850,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-ball-z-kakarot",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BT5X0XGCWGD6",
+      "storeId": "BT5X0XGCWGD6",
+      "sourceProductName": "DRAGON BALL Z: KAKAROT",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 4265,
+      "display": "Xbox Store US 商店用户评分人数 4,265",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-ball-z-kakarot",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BT5X0XGCWGD6",
+      "storeId": "BT5X0XGCWGD6",
+      "sourceProductName": "DRAGON BALL Z: KAKAROT",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.1,
+      "ratingCount": 4265,
+      "display": "Xbox Store US 商店用户评分 4.10/5（4,265 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "dragon-quest-smash-grow",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6747736697",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "dragon-quest-smash-grow",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6747736697",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "echoes-of-aincrad",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 122000,
+      "display": "VGI Steam 累计销量估算 122,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/echoes-of-aincrad",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2244210",
+      "sourceProductName": "Echoes of Aincrad",
+      "steamAppId": 2244210,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "echoes-of-aincrad",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 419103,
+      "display": "VGI PlayStation 累计销量估算 419,103 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/echoes-of-aincrad",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2244210",
+      "sourceProductName": "Echoes of Aincrad",
+      "steamAppId": 2244210,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "echoes-of-aincrad",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 59265,
+      "display": "VGI Xbox 累计销量估算 59,265 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/echoes-of-aincrad",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2244210",
+      "sourceProductName": "Echoes of Aincrad",
+      "steamAppId": 2244210,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "echoes-of-aincrad",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/JP0700-PPSA22969_00-SWORDARTONLINEV0",
+      "storeId": "JP0700-PPSA22969_00-SWORDARTONLINEV0",
+      "sourceProductName": "Echoes of Aincrad",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 6216,
+      "display": "PlayStation Store 全球玩家评分人数 6,216",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "echoes-of-aincrad",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9NN493BKMM4Q",
+      "storeId": "9NN493BKMM4Q",
+      "sourceProductName": "Echoes of Aincrad",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 273,
+      "display": "Xbox Store US 商店用户评分人数 273",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "echoes-of-aincrad",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/JP0700-PPSA22969_00-SWORDARTONLINEV0",
+      "storeId": "JP0700-PPSA22969_00-SWORDARTONLINEV0",
+      "sourceProductName": "Echoes of Aincrad",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.51,
+      "ratingCount": 6216,
+      "display": "PlayStation Store 全球玩家评分 3.51/5（6,216 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "echoes-of-aincrad",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9NN493BKMM4Q",
+      "storeId": "9NN493BKMM4Q",
+      "sourceProductName": "Echoes of Aincrad",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.5,
+      "ratingCount": 273,
+      "display": "Xbox Store US 商店用户评分 3.50/5（273 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "fairy-tail-2",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 7145,
+      "display": "VGI Steam 累计销量估算 7,145 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/fairy-tail-2",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/3002850",
+      "sourceProductName": "FAIRY TAIL 2",
+      "steamAppId": 3002850,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "fairy-tail-2",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 41942,
+      "display": "VGI PlayStation 累计销量估算 41,942 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/fairy-tail-2",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/3002850",
+      "sourceProductName": "FAIRY TAIL 2",
+      "steamAppId": 3002850,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "fairy-tail-2",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/EP4108-PPSA24062_00-FAIRYTAIL2DDXSP0",
+      "storeId": "EP4108-PPSA24062_00-FAIRYTAIL2DDXSP0",
+      "sourceProductName": "FAIRY TAIL 2 Ultimate Edition (PS4 & PS5)",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 655,
+      "display": "PlayStation Store 全球玩家评分人数 655",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "fairy-tail-2",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/EP4108-PPSA24062_00-FAIRYTAIL2DDXSP0",
+      "storeId": "EP4108-PPSA24062_00-FAIRYTAIL2DDXSP0",
+      "sourceProductName": "FAIRY TAIL 2 Ultimate Edition (PS4 & PS5)",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.25,
+      "ratingCount": 655,
+      "display": "PlayStation Store 全球玩家评分 4.25/5（655 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "gintama-smartphone-battle-chronicle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6749658164",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "gintama-smartphone-battle-chronicle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6749658164",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "gundam-rogue-orbit",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PND4CGSV9SX",
+      "storeId": "9PND4CGSV9SX",
+      "sourceProductName": "GUNDAM ROGUE ORBIT",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 3,
+      "display": "Xbox Store US 商店用户评分人数 3",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "gundam-rogue-orbit",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PND4CGSV9SX",
+      "storeId": "9PND4CGSV9SX",
+      "sourceProductName": "GUNDAM ROGUE ORBIT",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.3,
+      "ratingCount": 3,
+      "display": "Xbox Store US 商店用户评分 4.30/5（3 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "haikyu-touch-and-connect",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6755984289",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "haikyu-touch-and-connect",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6755984289",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hells-paradise-paradise-battle",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 2506,
+      "display": "VGI Steam 累计销量估算 2,506 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/地獄楽-パラダイスバトル",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/4375120",
+      "sourceProductName": "地獄楽 パラダイスバトル",
+      "steamAppId": 4375120,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hells-paradise-paradise-battle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6633416886",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hells-paradise-paradise-battle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6633416886",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hololive-dreams",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6756641135",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hololive-dreams",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 38,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6756641135",
+      "sourceProductName": "ホロライブドリームス",
+      "display": "日本 App Store 游戏畅销榜第 38 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-impact",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 3155,
+      "display": "VGI Steam 累计销量估算 3,155 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/hunter-hunter-nen-impact",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2456420",
+      "sourceProductName": "HUNTER×HUNTER NEN×IMPACT",
+      "steamAppId": 2456420,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-impact",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 115462,
+      "display": "VGI PlayStation 累计销量估算 115,462 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/hunter-hunter-nen-impact",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2456420",
+      "sourceProductName": "HUNTER×HUNTER NEN×IMPACT",
+      "steamAppId": 2456420,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-impact",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/JP0036-PPSA24274_00-0000000000000000",
+      "storeId": "JP0036-PPSA24274_00-0000000000000000",
+      "sourceProductName": "HUNTER×HUNTER NEN×IMPACT",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 964,
+      "display": "PlayStation Store 全球玩家评分人数 964",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-impact",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/JP0036-PPSA24274_00-0000000000000000",
+      "storeId": "JP0036-PPSA24274_00-0000000000000000",
+      "sourceProductName": "HUNTER×HUNTER NEN×IMPACT",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.36,
+      "ratingCount": 964,
+      "display": "PlayStation Store 全球玩家评分 3.36/5（964 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-survivor",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6753738566",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-survivor",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6753738566",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "inazuma-eleven-cross",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6756994116",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "inazuma-eleven-cross",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 47,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6756994116",
+      "sourceProductName": "イナズマイレブン クロス",
+      "display": "日本 App Store 游戏畅销榜第 47 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jojo-all-star-battle-r",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 536000,
+      "display": "VGI Steam 累计销量估算 536,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jojo-s-bizarre-adventure-all-star-battle-r",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1372110",
+      "sourceProductName": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "steamAppId": 1372110,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jojo-all-star-battle-r",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1601128,
+      "display": "VGI PlayStation 累计销量估算 1,601,128 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jojo-s-bizarre-adventure-all-star-battle-r",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1372110",
+      "sourceProductName": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "steamAppId": 1372110,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jojo-all-star-battle-r",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 2419795,
+      "display": "VGI Xbox 累计销量估算 2,419,795 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jojo-s-bizarre-adventure-all-star-battle-r",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1372110",
+      "sourceProductName": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "steamAppId": 1372110,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jojo-all-star-battle-r",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA04220_00-JASBRMAINGAME000",
+      "storeId": "UP0700-PPSA04220_00-JASBRMAINGAME000",
+      "sourceProductName": "JoJo&#x27;s Bizarre Adventure: All-Star Battle R PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 5998,
+      "display": "PlayStation Store 全球玩家评分人数 5,998",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "jojo-all-star-battle-r",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9P4811KBD5R9",
+      "storeId": "9P4811KBD5R9",
+      "sourceProductName": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 1599,
+      "display": "Xbox Store US 商店用户评分人数 1,599",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "jojo-all-star-battle-r",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA04220_00-JASBRMAINGAME000",
+      "storeId": "UP0700-PPSA04220_00-JASBRMAINGAME000",
+      "sourceProductName": "JoJo&#x27;s Bizarre Adventure: All-Star Battle R PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.53,
+      "ratingCount": 5998,
+      "display": "PlayStation Store 全球玩家评分 4.53/5（5,998 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "jojo-all-star-battle-r",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9P4811KBD5R9",
+      "storeId": "9P4811KBD5R9",
+      "sourceProductName": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.1,
+      "ratingCount": 1599,
+      "display": "Xbox Store US 商店用户评分 4.10/5（1,599 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "jujutsu-kaisen-cursed-clash",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 122000,
+      "display": "VGI Steam 累计销量估算 122,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jujutsu-kaisen-cursed-clash",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1877020",
+      "sourceProductName": "Jujutsu Kaisen Cursed Clash",
+      "steamAppId": 1877020,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jujutsu-kaisen-cursed-clash",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1272017,
+      "display": "VGI PlayStation 累计销量估算 1,272,017 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jujutsu-kaisen-cursed-clash",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1877020",
+      "sourceProductName": "Jujutsu Kaisen Cursed Clash",
+      "steamAppId": 1877020,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jujutsu-kaisen-cursed-clash",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 416513,
+      "display": "VGI Xbox 累计销量估算 416,513 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jujutsu-kaisen-cursed-clash",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1877020",
+      "sourceProductName": "Jujutsu Kaisen Cursed Clash",
+      "steamAppId": 1877020,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jujutsu-kaisen-cursed-clash",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA09536_00-JJKCVSX400000000",
+      "storeId": "UP0700-PPSA09536_00-JJKCVSX400000000",
+      "sourceProductName": "Jujutsu Kaisen Cursed Clash PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 23154,
+      "display": "PlayStation Store 全球玩家评分人数 23,154",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "jujutsu-kaisen-cursed-clash",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9N1T03Q2J6NH",
+      "storeId": "9N1T03Q2J6NH",
+      "sourceProductName": "Jujutsu Kaisen Cursed Clash",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 1098,
+      "display": "Xbox Store US 商店用户评分人数 1,098",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "jujutsu-kaisen-cursed-clash",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA09536_00-JJKCVSX400000000",
+      "storeId": "UP0700-PPSA09536_00-JJKCVSX400000000",
+      "sourceProductName": "Jujutsu Kaisen Cursed Clash PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.04,
+      "ratingCount": 23154,
+      "display": "PlayStation Store 全球玩家评分 4.04/5（23,154 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "jujutsu-kaisen-cursed-clash",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9N1T03Q2J6NH",
+      "storeId": "9N1T03Q2J6NH",
+      "sourceProductName": "Jujutsu Kaisen Cursed Clash",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.8,
+      "ratingCount": 1098,
+      "display": "Xbox Store US 商店用户评分 3.80/5（1,098 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "jump-force",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 556000,
+      "display": "VGI Steam 累计销量估算 556,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jump-force",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/816020",
+      "sourceProductName": "JUMP FORCE",
+      "steamAppId": 816020,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jump-force",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 8003052,
+      "display": "VGI PlayStation 累计销量估算 8,003,052 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jump-force",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/816020",
+      "sourceProductName": "JUMP FORCE",
+      "steamAppId": 816020,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "jump-force",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 10299263,
+      "display": "VGI Xbox 累计销量估算 10,299,263 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/jump-force",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/816020",
+      "sourceProductName": "JUMP FORCE",
+      "steamAppId": 816020,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "kaiju-no-8-the-game",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 90991,
+      "display": "VGI Steam 累计销量估算 90,991 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/kaiju-no-8-the-game",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/3393070",
+      "sourceProductName": "KAIJU NO. 8 THE GAME",
+      "steamAppId": 3393070,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "kaiju-no-8-the-game",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6742088839",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "kaiju-no-8-the-game",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 36,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6742088839",
+      "sourceProductName": "怪獣８号 THE GAME",
+      "display": "日本 App Store 游戏畅销榜第 36 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "kingdom-hadou",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6737974657",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "kingdom-hadou",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 65,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6737974657",
+      "sourceProductName": "キングダム 覇道『キングダム』の戦略ゲームが登場",
+      "display": "日本 App Store 游戏畅销榜第 65 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "madoka-magia-exedra",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6480167901",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "madoka-magia-exedra",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6480167901",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "mushoku-tensei-chronicle-of-echoes",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6754311241",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "mushoku-tensei-chronicle-of-echoes",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6754311241",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "muvluv-girls-garden",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6755509352",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "muvluv-girls-garden",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6755509352",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-academia-alls-justice",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 18926,
+      "display": "VGI Steam 累计销量估算 18,926 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/my-hero-academia-all-s-justice",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2362050",
+      "sourceProductName": "MY HERO ACADEMIA: All’s Justice",
+      "steamAppId": 2362050,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-academia-alls-justice",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 119940,
+      "display": "VGI PlayStation 累计销量估算 119,940 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/my-hero-academia-all-s-justice",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2362050",
+      "sourceProductName": "MY HERO ACADEMIA: All’s Justice",
+      "steamAppId": 2362050,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-academia-alls-justice",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 31731,
+      "display": "VGI Xbox 累计销量估算 31,731 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/my-hero-academia-all-s-justice",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/2362050",
+      "sourceProductName": "MY HERO ACADEMIA: All’s Justice",
+      "steamAppId": 2362050,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-academia-alls-justice",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA26175_00-MAINGAME00000000",
+      "storeId": "UP0700-PPSA26175_00-MAINGAME00000000",
+      "sourceProductName": "MY HERO ACADEMIA: All’s Justice",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 1829,
+      "display": "PlayStation Store 全球玩家评分人数 1,829",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "my-hero-academia-alls-justice",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9P183CW04582",
+      "storeId": "9P183CW04582",
+      "sourceProductName": "MY HERO ACADEMIA: All’s Justice",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 175,
+      "display": "Xbox Store US 商店用户评分人数 175",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "my-hero-academia-alls-justice",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA26175_00-MAINGAME00000000",
+      "storeId": "UP0700-PPSA26175_00-MAINGAME00000000",
+      "sourceProductName": "MY HERO ACADEMIA: All’s Justice",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.99,
+      "ratingCount": 1829,
+      "display": "PlayStation Store 全球玩家评分 3.99/5（1,829 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "my-hero-academia-alls-justice",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9P183CW04582",
+      "storeId": "9P183CW04582",
+      "sourceProductName": "MY HERO ACADEMIA: All’s Justice",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.8,
+      "ratingCount": 175,
+      "display": "Xbox Store US 商店用户评分 3.80/5（175 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "my-hero-academia-united-survival",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6758648051",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-academia-united-survival",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6758648051",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-ones-justice",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 45173,
+      "display": "VGI Steam 累计销量估算 45,173 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/my-hero-one-s-justice",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/748360",
+      "sourceProductName": "MY HERO ONE'S JUSTICE",
+      "steamAppId": 748360,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-ones-justice",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 734737,
+      "display": "VGI PlayStation 累计销量估算 734,737 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/my-hero-one-s-justice",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/748360",
+      "sourceProductName": "MY HERO ONE'S JUSTICE",
+      "steamAppId": 748360,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-ones-justice",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 608464,
+      "display": "VGI Xbox 累计销量估算 608,464 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/my-hero-one-s-justice",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/748360",
+      "sourceProductName": "MY HERO ONE'S JUSTICE",
+      "steamAppId": 748360,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "my-hero-ones-justice",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-CUSA12048_00-HEROGAME00000000",
+      "storeId": "UP0700-CUSA12048_00-HEROGAME00000000",
+      "sourceProductName": "MY HERO ONE&#x27;S JUSTICE",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 2508,
+      "display": "PlayStation Store 全球玩家评分人数 2,508",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "my-hero-ones-justice",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BVFF56S7PXFJ",
+      "storeId": "BVFF56S7PXFJ",
+      "sourceProductName": "MY HERO ONE’S JUSTICE",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 320,
+      "display": "Xbox Store US 商店用户评分人数 320",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "my-hero-ones-justice",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-CUSA12048_00-HEROGAME00000000",
+      "storeId": "UP0700-CUSA12048_00-HEROGAME00000000",
+      "sourceProductName": "MY HERO ONE&#x27;S JUSTICE",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.4,
+      "ratingCount": 2508,
+      "display": "PlayStation Store 全球玩家评分 4.40/5（2,508 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "my-hero-ones-justice",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BVFF56S7PXFJ",
+      "storeId": "BVFF56S7PXFJ",
+      "sourceProductName": "MY HERO ONE’S JUSTICE",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.9,
+      "ratingCount": 320,
+      "display": "Xbox Store US 商店用户评分 3.90/5（320 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "naruto-storm-connections",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 158000,
+      "display": "VGI Steam 累计销量估算 158,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/naruto-x-boruto-ultimate-ninja-storm-connections",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1020790",
+      "sourceProductName": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+      "steamAppId": 1020790,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "naruto-storm-connections",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1069917,
+      "display": "VGI PlayStation 累计销量估算 1,069,917 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/naruto-x-boruto-ultimate-ninja-storm-connections",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1020790",
+      "sourceProductName": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+      "steamAppId": 1020790,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "naruto-storm-connections",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 439359,
+      "display": "VGI Xbox 累计销量估算 439,359 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/naruto-x-boruto-ultimate-ninja-storm-connections",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1020790",
+      "sourceProductName": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+      "steamAppId": 1020790,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "naruto-storm-connections",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA06981_00-NARUTOUNSA000000",
+      "storeId": "UP0700-PPSA06981_00-NARUTOUNSA000000",
+      "sourceProductName": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 10891,
+      "display": "PlayStation Store 全球玩家评分人数 10,891",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "naruto-storm-connections",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9NM8JFMGVCVB",
+      "storeId": "9NM8JFMGVCVB",
+      "sourceProductName": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 963,
+      "display": "Xbox Store US 商店用户评分人数 963",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "naruto-storm-connections",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA06981_00-NARUTOUNSA000000",
+      "storeId": "UP0700-PPSA06981_00-NARUTOUNSA000000",
+      "sourceProductName": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3.87,
+      "ratingCount": 10891,
+      "display": "PlayStation Store 全球玩家评分 3.87/5（10,891 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "naruto-storm-connections",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9NM8JFMGVCVB",
+      "storeId": "9NM8JFMGVCVB",
+      "sourceProductName": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 3,
+      "ratingCount": 963,
+      "display": "Xbox Store US 商店用户评分 3.00/5（963 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "one-piece-odyssey",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 105000,
+      "display": "VGI Steam 累计销量估算 105,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/one-piece-odyssey",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/814000",
+      "sourceProductName": "ONE PIECE ODYSSEY",
+      "steamAppId": 814000,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "one-piece-odyssey",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1549899,
+      "display": "VGI PlayStation 累计销量估算 1,549,899 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/one-piece-odyssey",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/814000",
+      "sourceProductName": "ONE PIECE ODYSSEY",
+      "steamAppId": 814000,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "one-piece-odyssey",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 143524,
+      "display": "VGI Xbox 累计销量估算 143,524 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/one-piece-odyssey",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/814000",
+      "sourceProductName": "ONE PIECE ODYSSEY",
+      "steamAppId": 814000,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "one-piece-odyssey",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PND6XZTCZWT",
+      "storeId": "9PND6XZTCZWT",
+      "sourceProductName": "ONE PIECE ODYSSEY",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 240,
+      "display": "Xbox Store US 商店用户评分人数 240",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "one-piece-odyssey",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PND6XZTCZWT",
+      "storeId": "9PND6XZTCZWT",
+      "sourceProductName": "ONE PIECE ODYSSEY",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.2,
+      "ratingCount": 240,
+      "display": "Xbox Store US 商店用户评分 4.20/5（240 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "one-piece-world-seeker",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 71105,
+      "display": "VGI Steam 累计销量估算 71,105 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/one-piece-world-seeker",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/755500",
+      "sourceProductName": "ONE PIECE World Seeker",
+      "steamAppId": 755500,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "one-piece-world-seeker",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 876634,
+      "display": "VGI PlayStation 累计销量估算 876,634 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/one-piece-world-seeker",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/755500",
+      "sourceProductName": "ONE PIECE World Seeker",
+      "steamAppId": 755500,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "one-piece-world-seeker",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 742127,
+      "display": "VGI Xbox 累计销量估算 742,127 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/one-piece-world-seeker",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/755500",
+      "sourceProductName": "ONE PIECE World Seeker",
+      "steamAppId": 755500,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "one-piece-world-seeker",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-CUSA11205_00-OPWSK00APPLI0000",
+      "storeId": "UP0700-CUSA11205_00-OPWSK00APPLI0000",
+      "sourceProductName": "ONE PIECE World Seeker",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 5044,
+      "display": "PlayStation Store 全球玩家评分人数 5,044",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "one-piece-world-seeker",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BP95H7BN67D4",
+      "storeId": "BP95H7BN67D4",
+      "sourceProductName": "ONE PIECE World Seeker",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 644,
+      "display": "Xbox Store US 商店用户评分人数 644",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "one-piece-world-seeker",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-CUSA11205_00-OPWSK00APPLI0000",
+      "storeId": "UP0700-CUSA11205_00-OPWSK00APPLI0000",
+      "sourceProductName": "ONE PIECE World Seeker",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.28,
+      "ratingCount": 5044,
+      "display": "PlayStation Store 全球玩家评分 4.28/5（5,044 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "one-piece-world-seeker",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/BP95H7BN67D4",
+      "storeId": "BP95H7BN67D4",
+      "sourceProductName": "ONE PIECE World Seeker",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4,
+      "ratingCount": 644,
+      "display": "Xbox Store US 商店用户评分 4.00/5（644 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "oshi-no-ko-puzzle-star",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6744346921",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "oshi-no-ko-puzzle-star",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6744346921",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "outcast-restaurant-order-rush",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6754670632",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "outcast-restaurant-order-rush",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6754670632",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "persona-5-the-phantom-x",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 544000,
+      "display": "VGI Steam 累计销量估算 544,000 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/persona5-the-phantom-x",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/3061570",
+      "sourceProductName": "Persona5: The Phantom X",
+      "steamAppId": 3061570,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "persona-5-the-phantom-x",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6502942931",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "persona-5-the-phantom-x",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6502942931",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "pokemon-champions",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rank": 13,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6741503079",
+      "sourceProductName": "Pokémon Champions",
+      "display": "日本 App Store 免费游戏榜第 13 名",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "pokemon-champions",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 78,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6741503079",
+      "sourceProductName": "Pokémon Champions",
+      "display": "日本 App Store 游戏畅销榜第 78 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sakamoto-days-dangerous-puzzle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6737511323",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sakamoto-days-dangerous-puzzle",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6737511323",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sakamoto-days-mission-rogue-dawn",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6756270200",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sakamoto-days-mission-rogue-dawn",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6756270200",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sand-land",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 50805,
+      "display": "VGI Steam 累计销量估算 50,805 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/sand-land",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1979440",
+      "sourceProductName": "SAND LAND",
+      "steamAppId": 1979440,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sand-land",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 1043644,
+      "display": "VGI PlayStation 累计销量估算 1,043,644 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/sand-land",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1979440",
+      "sourceProductName": "SAND LAND",
+      "steamAppId": 1979440,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sand-land",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "metricType": "estimated_sales",
+      "value": 22261,
+      "display": "VGI Xbox 累计销量估算 22,261 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/sand-land",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/1979440",
+      "sourceProductName": "SAND LAND",
+      "steamAppId": 1979440,
+      "verifiedAt": "2026-09-15",
+      "estimated": true,
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "sand-land",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA08575_00-SANDLMAINGAME000",
+      "storeId": "UP0700-PPSA08575_00-SANDLMAINGAME000",
+      "sourceProductName": "SAND LAND PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 6875,
+      "display": "PlayStation Store 全球玩家评分人数 6,875",
+      "scope": "全球玩家评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "sand-land",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PGCVR1C0MZH",
+      "storeId": "9PGCVR1C0MZH",
+      "sourceProductName": "SAND LAND",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "review_count",
+      "value": 182,
+      "display": "Xbox Store US 商店用户评分人数 182",
+      "scope": "US 商店用户评分人数；截至 2026-09-15"
+    },
+    {
+      "projectId": "sand-land",
+      "platforms": [
+        "playstation"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-15",
+      "source": "PlayStation Store",
+      "sourceUrl": "https://store.playstation.com/en-us/product/UP0700-PPSA08575_00-SANDLMAINGAME000",
+      "storeId": "UP0700-PPSA08575_00-SANDLMAINGAME000",
+      "sourceProductName": "SAND LAND PS4 & PS5",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.14,
+      "ratingCount": 6875,
+      "display": "PlayStation Store 全球玩家评分 4.14/5（6,875 人评分）",
+      "scope": "全球玩家评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "sand-land",
+      "platforms": [
+        "xbox"
+      ],
+      "region": "US",
+      "date": "2026-09-15",
+      "source": "Xbox Store",
+      "sourceUrl": "https://www.xbox.com/en-us/games/store/x/9PGCVR1C0MZH",
+      "storeId": "9PGCVR1C0MZH",
+      "sourceProductName": "SAND LAND",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient",
+      "metricType": "user_rating_5",
+      "value": 4.6,
+      "ratingCount": 182,
+      "display": "Xbox Store US 商店用户评分 4.60/5（182 人评分）",
+      "scope": "US 商店用户评分；截至 2026-09-15"
+    },
+    {
+      "projectId": "suikoden-star-leap",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rank": 87,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6746180100",
+      "sourceProductName": "幻想水滸伝 STAR LEAP",
+      "display": "日本 App Store 免费游戏榜第 87 名",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "suikoden-star-leap",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 49,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6746180100",
+      "sourceProductName": "幻想水滸伝 STAR LEAP",
+      "display": "日本 App Store 游戏畅销榜第 49 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "tokyo-revengers-unlimited",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6698853161",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "tokyo-revengers-unlimited",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6698853161",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "torneko-wonder-dungeon-remaster",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rank": 97,
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6757778100",
+      "sourceProductName": "トルネコの大冒険 不思議のダンジョン",
+      "display": "日本 App Store 游戏畅销榜第 97 名",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "wind-breaker-rebel-heroes",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6670387532",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "wind-breaker-rebel-heroes",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6670387532",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "yowamushi-pedal-resonance-pedaism",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "free_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=200/genre=6014/json",
+      "storeId": "6758927408",
+      "display": "日本 App Store 免费游戏榜未入 Top 100",
+      "scope": "日本 App Store 免费游戏榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:30-07:00",
+      "verifiedAt": "2026-09-15",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "yowamushi-pedal-resonance-pedaism",
+      "platforms": [
+        "ios"
+      ],
+      "region": "JP",
+      "date": "2026-09-15",
+      "metricType": "grossing_rank",
+      "rankStatus": "not_in_top_100",
+      "source": "Apple App Store RSS",
+      "sourceUrl": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=200/genre=6014/json",
+      "storeId": "6758927408",
+      "display": "日本 App Store 游戏畅销榜未入 Top 100",
+      "scope": "日本 App Store 游戏畅销榜 Top 100；Apple RSS 当前榜单快照",
+      "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
+      "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
     }
   ],
