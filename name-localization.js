@@ -519,8 +519,66 @@
     return explicitChinese(text) || text;
   }
 
+  const NAME_LANGUAGE_STORAGE_KEY = "ipbi-name-language";
+  const nameLanguageModes = Object.freeze(["zh", "original", "bilingual"]);
+
+  function normalizeNameLanguage(value) {
+    return nameLanguageModes.includes(value) ? value : "zh";
+  }
+
+  function getNameLanguage() {
+    try {
+      return normalizeNameLanguage(window.localStorage.getItem(NAME_LANGUAGE_STORAGE_KEY));
+    } catch {
+      return "zh";
+    }
+  }
+
+  function setNameLanguage(value) {
+    const mode = normalizeNameLanguage(value);
+    try {
+      window.localStorage.setItem(NAME_LANGUAGE_STORAGE_KEY, mode);
+    } catch {
+      // Storage can be unavailable in hardened/private browser contexts. The
+      // current page still applies the selected mode without persistence.
+    }
+    return mode;
+  }
+
+  function comparableName(value) {
+    return clean(value).normalize("NFKC").toLocaleLowerCase().replace(/[\s·・:：_—–\-/／|()（）]+/g, "");
+  }
+
+  function bilingualName(localized, original) {
+    const chinese = clean(localized);
+    const source = clean(original);
+    if (!chinese) return source;
+    if (!source || comparableName(chinese) === comparableName(source)) return chinese;
+
+    // Some source fields already contain English/Japanese and Chinese aliases.
+    // Keep Chinese first while removing an exact duplicate Chinese segment.
+    const sourceSegments = source.split(/\s*(?:\/|／|\|)\s*/)
+      .map(clean)
+      .filter(Boolean)
+      .filter((segment) => comparableName(segment) !== comparableName(chinese));
+    if (!sourceSegments.length) return chinese;
+    return [chinese, ...sourceSegments].join(" / ");
+  }
+
+  function displayName(localized, original, mode = getNameLanguage()) {
+    const normalizedMode = normalizeNameLanguage(mode);
+    if (normalizedMode === "original") return clean(original) || clean(localized);
+    if (normalizedMode === "bilingual") return bilingualName(localized, original);
+    return clean(localized) || clean(original);
+  }
+
   window.IPBINameLocalization = Object.freeze({
     product: localizedProduct,
     ip: localizedIp,
+    display: displayName,
+    getMode: getNameLanguage,
+    setMode: setNameLanguage,
+    storageKey: NAME_LANGUAGE_STORAGE_KEY,
+    modes: nameLanguageModes,
   });
 })();

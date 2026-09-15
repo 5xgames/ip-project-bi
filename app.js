@@ -28,33 +28,49 @@
   if (!Array.isArray(data.trends)) data.trends = [];
 
   const nameLocalization = window.IPBINameLocalization;
+  let nameLanguage = nameLocalization?.getMode?.() || "zh";
+  const displayLocalizedName = (localized, original, mode = nameLanguage) => (
+    nameLocalization?.display?.(localized, original, mode) || localized || original || ""
+  );
   if (nameLocalization) {
     for (const product of data.products) {
       product.originalName = product.name;
-      product.name = nameLocalization.product(product.name, product.key);
+      product.localizedName = nameLocalization.product(product.originalName, product.key);
+      product.name = displayLocalizedName(product.localizedName, product.originalName);
     }
     for (const event of data.events) {
       event.productOriginalName = event.product;
       event.ipOriginalName = event.ip;
       event.ipFamilyOriginalName = event.ipFamily;
-      event.product = nameLocalization.product(event.product, event.productKey);
-      event.ip = nameLocalization.ip(event.ip);
-      event.ipFamily = nameLocalization.ip(event.ipFamily || event.ipOriginalName);
+      event.productLocalizedName = nameLocalization.product(event.productOriginalName, event.productKey);
+      event.ipLocalizedName = nameLocalization.ip(event.ipOriginalName);
+      event.ipFamilyLocalizedName = nameLocalization.ip(event.ipFamilyOriginalName || event.ipOriginalName);
+      event.ipKey = event.ipFamilyLocalizedName || event.ipFamilyOriginalName || event.ipLocalizedName || event.ipOriginalName;
+      event.product = displayLocalizedName(event.productLocalizedName, event.productOriginalName);
+      event.ip = displayLocalizedName(event.ipLocalizedName, event.ipOriginalName);
+      event.ipFamily = displayLocalizedName(event.ipFamilyLocalizedName, event.ipFamilyOriginalName || event.ipOriginalName);
     }
     for (const version of data.versions || []) {
       version.productOriginalName = version.product;
-      version.product = nameLocalization.product(version.product, version.productKey);
+      version.productLocalizedName = nameLocalization.product(version.productOriginalName, version.productKey);
+      version.product = displayLocalizedName(version.productLocalizedName, version.productOriginalName);
     }
     for (const alert of data.newCollabAlerts || []) {
       alert.productOriginalName = alert.product;
       alert.ipOriginalName = alert.ip;
-      alert.product = nameLocalization.product(alert.product, alert.productKey);
-      alert.ip = nameLocalization.ip(alert.ip);
+      alert.productLocalizedName = nameLocalization.product(alert.productOriginalName, alert.productKey);
+      alert.ipLocalizedName = nameLocalization.ip(alert.ipOriginalName);
+      const matchingEvent = data.events.find((event) => event.productKey === alert.productKey && (
+        event.ipOriginalName === alert.ipOriginalName || event.ipLocalizedName === alert.ipLocalizedName
+      ));
+      alert.ipKey = matchingEvent?.ipKey || alert.ipLocalizedName || alert.ipOriginalName;
+      alert.product = displayLocalizedName(alert.productLocalizedName, alert.productOriginalName);
+      alert.ip = displayLocalizedName(alert.ipLocalizedName, alert.ipOriginalName);
     }
   }
 
   const regionByCode = new Map(data.regions.map((region) => [region.code, region.name]));
-  const productByKey = new Map(data.products.map((product) => [product.key, product.name]));
+  let productByKey = new Map(data.products.map((product) => [product.key, product.name]));
   const platformByCode = new Map((data.meta.platforms || []).map((platform) => [platform.code, platform.name]));
   const versionByPair = new Map(data.versions.map((version) => [
     `${version.platform || "ios"}|${version.productKey}|${version.marketCode}`,
@@ -67,11 +83,42 @@
     point.region = version?.region || regionByCode.get(point.marketCode) || point.marketCode;
   }
 
+  function applyNameLanguage(mode) {
+    if (!nameLocalization) return;
+    nameLanguage = nameLocalization?.modes?.includes(mode) ? mode : "zh";
+    document.documentElement.dataset.nameLanguage = nameLanguage;
+    for (const product of data.products) {
+      product.name = displayLocalizedName(product.localizedName, product.originalName, nameLanguage);
+    }
+    for (const event of data.events) {
+      event.product = displayLocalizedName(event.productLocalizedName, event.productOriginalName, nameLanguage);
+      event.ip = displayLocalizedName(event.ipLocalizedName, event.ipOriginalName, nameLanguage);
+      event.ipFamily = displayLocalizedName(
+        event.ipFamilyLocalizedName,
+        event.ipFamilyOriginalName || event.ipOriginalName,
+        nameLanguage,
+      );
+    }
+    for (const version of data.versions || []) {
+      version.product = displayLocalizedName(version.productLocalizedName, version.productOriginalName, nameLanguage);
+    }
+    for (const alert of data.newCollabAlerts || []) {
+      alert.product = displayLocalizedName(alert.productLocalizedName, alert.productOriginalName, nameLanguage);
+      alert.ip = displayLocalizedName(alert.ipLocalizedName, alert.ipOriginalName, nameLanguage);
+    }
+    productByKey = new Map(data.products.map((product) => [product.key, product.name]));
+    for (const point of data.trends) {
+      const version = versionByPair.get(`${point.platform}|${point.productKey}|${point.marketCode}`);
+      point.product = version?.product || productByKey.get(point.productKey) || point.productKey;
+    }
+  }
+
   const $ = (selector) => document.querySelector(selector);
   const elements = {
     newAlertPanel: $("#new-collab-alerts"),
     newAlertCount: $("#new-alert-count"),
     newAlertList: $("#new-alert-list"),
+    nameLanguage: $("#name-language-selector"),
     platform: $("#platform-filter"),
     region: $("#region-filter"),
     product: $("#product-filter"),
@@ -135,6 +182,7 @@
   const state = {
     platform: "all", region: "all", product: "all", ip: "all", search: "", trendKey: "",
     startDate: defaultStartDate, endDate: defaultEndDate,
+    nameLanguage,
   };
   const pagination = {
     events: { page: 1, pageSize: 10 },
@@ -293,7 +341,7 @@
         </article>`;
     }).join("");
 
-    elements.newAlertList.addEventListener("click", (event) => {
+    elements.newAlertList.onclick = (event) => {
       const button = event.target.closest("[data-new-alert-index]");
       if (!button) return;
       const alert = alerts[Number(button.dataset.newAlertIndex)];
@@ -304,7 +352,7 @@
         platform: "all",
         region: "all",
         product: alert.productKey || "all",
-        ip: alert.ip || "all",
+        ip: alert.ipKey || "all",
         search: "",
         trendKey: "",
         startDate: alertStart && alertStart >= minimumDate ? alertStart : minimumDate,
@@ -314,7 +362,7 @@
       syncRangeControls();
       render();
       document.querySelector(".filter-panel")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
+    };
   }
 
   function eventStatusKind(event) {
@@ -376,11 +424,12 @@
     if (ignoredDimension !== "platform" && state.platform !== "all" && (event.platform || "ios") !== state.platform) return false;
     if (ignoredDimension !== "region" && state.region !== "all" && event.region !== state.region) return false;
     if (ignoredDimension !== "product" && state.product !== "all" && event.productKey !== state.product) return false;
-    if (ignoredDimension !== "ip" && state.ip !== "all" && (event.ipFamily || event.ip) !== state.ip) return false;
+    if (ignoredDimension !== "ip" && state.ip !== "all" && event.ipKey !== state.ip) return false;
     if (!eventInPeriod(event)) return false;
     if (query && ![
       event.product, event.ip, event.ipFamily,
       event.productOriginalName, event.ipOriginalName, event.ipFamilyOriginalName,
+      event.productLocalizedName, event.ipLocalizedName, event.ipFamilyLocalizedName,
     ].filter(Boolean).join(" ").toLocaleLowerCase("zh-CN").includes(query)) return false;
     return true;
   }
@@ -392,7 +441,7 @@
       if (dimension === "platform") values.add(event.platform || "ios");
       if (dimension === "region") values.add(event.region);
       if (dimension === "product") values.add(event.productKey);
-      if (dimension === "ip") values.add(event.ipFamily || event.ip);
+      if (dimension === "ip") values.add(event.ipKey);
     }
 
     if (dimension === "platform") {
@@ -412,6 +461,10 @@
   function facetLabel(dimension, value) {
     if (dimension === "platform") return platformName(value);
     if (dimension === "product") return productByKey.get(value) || value;
+    if (dimension === "ip") {
+      const event = data.events.find((candidate) => candidate.ipKey === value);
+      return event?.ipFamily || event?.ip || value;
+    }
     return value;
   }
 
@@ -486,14 +539,15 @@
   function buildIpRankings(events) {
     const groups = new Map();
     for (const event of events) {
-      const ip = event.ipFamily || event.ip;
-      if (!groups.has(ip)) groups.set(ip, []);
-      groups.get(ip).push(event);
+      const ipKey = event.ipKey || event.ipFamily || event.ip;
+      if (!groups.has(ipKey)) groups.set(ipKey, []);
+      groups.get(ipKey).push(event);
     }
-    return [...groups.entries()].map(([ip, ipEvents]) => {
+    return [...groups.entries()].map(([ipKey, ipEvents]) => {
+      const ip = ipEvents[0]?.ipFamily || ipEvents[0]?.ip || ipKey;
       const scoringEvents = ipEvents.filter((event) => event.scoreEligible !== false);
-      const projects = new Set(ipEvents.map((event) => `${event.productKey || event.product}|${firstIsoDate(event.start)}|${ip}`));
-      const scoringProjects = new Set(scoringEvents.map((event) => `${event.productKey || event.product}|${firstIsoDate(event.start)}|${ip}`));
+      const projects = new Set(ipEvents.map((event) => `${event.productKey || event.product}|${firstIsoDate(event.start)}|${ipKey}`));
+      const scoringProjects = new Set(scoringEvents.map((event) => `${event.productKey || event.product}|${firstIsoDate(event.start)}|${ipKey}`));
       const regions = new Set(ipEvents.map((event) => event.region));
       const regionPlatforms = new Set(ipEvents.map((event) => `${event.platform || "ios"}|${event.region}`));
       const grossingDeltas = scoringEvents.map((event) => event.grossing?.delta).filter((value) => typeof value === "number");
@@ -525,6 +579,7 @@
       });
 
       return {
+        ipKey,
         ip,
         score,
         grade,
@@ -591,7 +646,7 @@
           <div class="ip-rank-position">${index + 1}</div>
           <div class="ip-rank-main">
             <div class="ip-rank-head">
-              <button type="button" class="ip-rank-name" data-ip-filter="${escapeHtml(ranking.ip)}">${escapeHtml(ranking.ip)}</button>
+              <button type="button" class="ip-rank-name" data-ip-filter="${escapeHtml(ranking.ipKey)}">${escapeHtml(ranking.ip)}</button>
               <span class="grade ${ranking.grade.className}">${ranking.grade.label}</span>
             </div>
             <div class="ip-rank-meta">${ranking.projects} 个项目 · ${ranking.regions} 个地区 · ${ranking.samples} 个有效效果样本</div>
@@ -625,7 +680,7 @@
     const ranked = matching.slice(0, 7);
     const platformScope = state.platform === "all" ? "全部平台" : platformName(state.platform);
     const productScope = state.product === "all" ? "全部产品" : (productByKey.get(state.product) || state.product);
-    const ipScope = state.ip === "all" ? "全部IP" : state.ip;
+    const ipScope = state.ip === "all" ? "全部IP" : facetLabel("ip", state.ip);
     elements.impactScope.textContent = `${platformScope} · ${productScope} · ${ipScope} · ${matching.length} 条符合条件的可计算记录`;
     if (!ranked.length) {
       elements.impactList.innerHTML = '<div class="empty-state">当前平台、产品和联动IP筛选下没有可计算的畅销榜差值。</div>';
@@ -984,7 +1039,7 @@
     const platform = state.platform === "all" ? "全部平台" : platformName(state.platform);
     const region = state.region === "all" ? "全部地区" : state.region;
     const product = state.product === "all" ? "全部产品" : (productByKey.get(state.product) || state.product);
-    const ip = state.ip === "all" ? "全部IP" : state.ip;
+    const ip = state.ip === "all" ? "全部IP" : facetLabel("ip", state.ip);
     const period = `${state.startDate || minimumDate || "最早"} 至 ${state.endDate || maximumDate || "最新"}`;
     elements.summary.textContent = `${period} · ${platform} · ${region} · ${product} · ${ip} · ${events.length} 条平台×地区联动记录 · ${versions.length} 个平台×地区版本配置`;
   }
@@ -1006,6 +1061,23 @@
   }
 
   function bindControls() {
+    if (elements.nameLanguage) {
+      elements.nameLanguage.value = state.nameLanguage;
+      elements.nameLanguage.addEventListener("change", () => {
+        state.nameLanguage = nameLocalization?.setMode?.(elements.nameLanguage.value) || elements.nameLanguage.value;
+        applyNameLanguage(state.nameLanguage);
+        renderNewCollabAlerts();
+        render();
+      });
+      window.addEventListener("storage", (event) => {
+        if (event.key !== nameLocalization?.storageKey || !event.newValue || event.newValue === state.nameLanguage) return;
+        state.nameLanguage = event.newValue;
+        elements.nameLanguage.value = state.nameLanguage;
+        applyNameLanguage(state.nameLanguage);
+        renderNewCollabAlerts();
+        render();
+      });
+    }
     elements.eventPageSize.addEventListener("change", () => {
       pagination.events.pageSize = Number(elements.eventPageSize.value) || 10;
       pagination.events.page = 1;
@@ -1104,6 +1176,7 @@
     }).observe(elements.trendChart);
   }
 
+  applyNameLanguage(state.nameLanguage);
   $("#generated-at").textContent = formatTimestamp(data.meta.generatedAt);
   renderSourceFreshness();
   $("#definition-text").textContent = `${data.meta.definitions.delta}；${data.meta.definitions.missing}`;

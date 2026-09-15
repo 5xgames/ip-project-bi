@@ -27,6 +27,17 @@
     </div>
   </header>
 
+  <aside class="name-language-switcher" aria-label="名称语言切换">
+    <label for="name-language-selector">
+      <span>产品 / IP 名称</span>
+      <select id="name-language-selector">
+        <option value="zh">中文优先</option>
+        <option value="original">原名优先</option>
+        <option value="bilingual">中外对照</option>
+      </select>
+    </label>
+  </aside>
+
   <section class="sticky-date-shell" aria-label="固定日期筛选">
     <div class="date-range-panel sticky-date-panel" role="group" aria-labelledby="date-range-title">
       <div class="date-range-header">
@@ -318,7 +329,7 @@
   </footer>
 
   <script src="data/dashboard.js?v=5dabdcf99dd2"></script>
-  <script src="name-localization.js?v=20260911-zh-names2"></script>
-  <script src="app.js?v=20260914-source-freshness1"></script>
+  <script src="name-localization.js?v=20260915-language-switch1"></script>
+  <script src="app.js?v=20260915-language-switch1"></script>
 </body>
 </html>

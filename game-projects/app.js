@@ -8,12 +8,18 @@
   const rankSnapshots = Array.isArray(data.rankSnapshots) ? data.rankSnapshots : [];
   const regionChecks = Array.isArray(data.regionChecks) ? data.regionChecks : [];
   const nameLocalization = window.IPBINameLocalization;
+  let nameLanguage = nameLocalization?.getMode?.() || "zh";
+  const displayLocalizedName = (localized, original, mode = nameLanguage) => (
+    nameLocalization?.display?.(localized, original, mode) || localized || original || ""
+  );
   if (nameLocalization) {
     for (const project of projects) {
       project.productOriginalName = project.productName;
       project.ipOriginalName = project.ipName;
-      project.productName = nameLocalization.product(project.productName, project.id);
-      project.ipName = nameLocalization.ip(project.ipName);
+      project.productLocalizedName = nameLocalization.product(project.productOriginalName, project.id);
+      project.ipLocalizedName = nameLocalization.ip(project.ipOriginalName);
+      project.productName = displayLocalizedName(project.productLocalizedName, project.productOriginalName);
+      project.ipName = displayLocalizedName(project.ipLocalizedName, project.ipOriginalName);
     }
   }
   const projectById = new Map(projects.map((project) => [project.id, project]));
@@ -54,9 +60,24 @@
     ["龙珠Z", "龙珠"],
   ]);
 
+  function applyNameLanguage(mode) {
+    if (!nameLocalization) return;
+    nameLanguage = nameLocalization?.modes?.includes(mode) ? mode : "zh";
+    document.documentElement.dataset.nameLanguage = nameLanguage;
+    for (const project of projects) {
+      project.productName = displayLocalizedName(
+        project.productLocalizedName,
+        project.productOriginalName,
+        nameLanguage,
+      );
+      project.ipName = displayLocalizedName(project.ipLocalizedName, project.ipOriginalName, nameLanguage);
+    }
+  }
+
   const $ = (selector) => document.querySelector(selector);
   const elements = {
     generatedAt: $("#generated-at"),
+    nameLanguage: $("#name-language-selector"),
     latestProjectDate: $("#latest-project-date"),
     projectSourceFreshness: $("#project-source-freshness"),
     performanceStartDate: $("#performance-start-date-filter"),
@@ -202,6 +223,7 @@
     ipActivityPage: 1,
     schedulePage: 1,
     projectPage: 1,
+    nameLanguage,
   };
 
   function escapeHtml(value) {
@@ -296,6 +318,7 @@
     if (!state.search) return true;
     const haystack = [
       project.productName, project.ipName, project.productOriginalName, project.ipOriginalName,
+      project.productLocalizedName, project.ipLocalizedName,
       project.ipType, project.genre,
       project.developer, project.publisher, release?.store,
     ].join(" ").toLocaleLowerCase();
@@ -505,9 +528,9 @@
     };
   }
 
-  function calendarFocusForIp(ipName) {
+  function calendarFocusForIp(ipKey) {
     const projectIds = new Set(filteredRows()
-      .filter(({ project }) => canonicalIpName(project) === ipName)
+      .filter(({ project }) => canonicalIpKey(project) === ipKey)
       .map(({ project }) => project.id));
     if (!projectIds.size) return null;
 
@@ -659,8 +682,9 @@
     </button>`).join("");
   }
 
-  function canonicalIpName(project) {
-    return ipNameAliases.get(project.ipName) || project.ipName || "IP 待确认";
+  function canonicalIpKey(project) {
+    const localizedName = project.ipLocalizedName || project.ipOriginalName || project.ipName || "IP 待确认";
+    return ipNameAliases.get(localizedName) || localizedName;
   }
 
   function gapFromDate(date) {
@@ -677,11 +701,11 @@
     const activeFutureStatuses = new Set(["announced", "testing", "preregister", "upcoming"]);
     const groups = new Map();
     const ensureGroup = (project) => {
-      const ipName = canonicalIpName(project);
-      if (!groups.has(ipName)) groups.set(ipName, {
-        ipName, projects: new Map(), releases: new Map(),
+      const ipKey = canonicalIpKey(project);
+      if (!groups.has(ipKey)) groups.set(ipKey, {
+        ipKey, ipName: project.ipName || "IP 待确认", projects: new Map(), releases: new Map(),
       });
-      return groups.get(ipName);
+      return groups.get(ipKey);
     };
     for (const { project, release } of rows) {
       const group = ensureGroup(project);
@@ -751,7 +775,7 @@
       || b.upcomingCount - a.upcomingCount
       || a.ipName.localeCompare(b.ipName, "zh-CN"));
 
-    if (state.selectedIp !== "all" && !activityRows.some((row) => row.ipName === state.selectedIp)) {
+    if (state.selectedIp !== "all" && !activityRows.some((row) => row.ipKey === state.selectedIp)) {
       state.selectedIp = "all";
       state.performanceProduct = "all";
     }
@@ -760,9 +784,9 @@
     elements.ipActivityEmpty.hidden = activityRows.length > 0;
     const pageData = paginate(activityRows, "ipActivityPage", 10);
     elements.ipActivityBody.innerHTML = pageData.items.map((row) => {
-      const selected = row.ipName === state.selectedIp;
+      const selected = row.ipKey === state.selectedIp;
       return `<tr${selected ? ' class="is-selected"' : ""}>
-      <td><button type="button" class="ip-activity-select" data-ip-name="${escapeHtml(row.ipName)}" aria-pressed="${selected}">${escapeHtml(row.ipName)}</button>${row.inactive ? '<span class="ip-activity-flag">近 3 年无新作计划</span>' : ""}</td>
+      <td><button type="button" class="ip-activity-select" data-ip-key="${escapeHtml(row.ipKey)}" aria-pressed="${selected}">${escapeHtml(row.ipName)}</button>${row.inactive ? '<span class="ip-activity-flag">近 3 年无新作计划</span>' : ""}</td>
       <td><strong class="ip-activity-number">${escapeHtml(numberFormat.format(row.totalCount))}</strong></td>
       <td>${escapeHtml(numberFormat.format(row.launchedCount))}</td>
       <td>${row.upcomingCount ? `<span class="status-chip active">${escapeHtml(numberFormat.format(row.upcomingCount))} 项</span>` : '<span class="table-secondary">暂无</span>'}</td>
@@ -778,7 +802,9 @@
 
     const hasSelectedIp = state.selectedIp !== "all";
     elements.ipDrilldownStatus.hidden = !hasSelectedIp;
-    elements.ipDrilldownName.textContent = hasSelectedIp ? state.selectedIp : "";
+    elements.ipDrilldownName.textContent = hasSelectedIp
+      ? activityRows.find((row) => row.ipKey === state.selectedIp)?.ipName || state.selectedIp
+      : "";
 
     const top = activityRows[0];
     const upcomingIpCount = activityRows.filter((row) => row.upcomingCount > 0).length;
@@ -887,13 +913,13 @@
         const release = releaseById.get(snapshot.releaseId);
         const project = projectById.get(release?.projectId);
         if (!release || !project || !dateInPerformancePeriod(snapshot.date) || !baseReleaseMatches(project, release)
-          || (state.selectedIp !== "all" && canonicalIpName(project) !== state.selectedIp)) return null;
+          || (state.selectedIp !== "all" && canonicalIpKey(project) !== state.selectedIp)) return null;
         return { snapshot, release, project, aggregate: false };
       }
       if (snapshot.projectId) {
         const project = projectById.get(snapshot.projectId);
         if (!project || !aggregateSnapshotMatches(snapshot, project)
-          || (state.selectedIp !== "all" && canonicalIpName(project) !== state.selectedIp)) return null;
+          || (state.selectedIp !== "all" && canonicalIpKey(project) !== state.selectedIp)) return null;
         return { snapshot, release: null, project, aggregate: true };
       }
       return null;
@@ -1214,7 +1240,7 @@
 
   function renderPerformance() {
     const allEntries = performanceEntries();
-    const candidateRows = collectFilteredRows().filter(({ project }) => state.selectedIp === "all" || canonicalIpName(project) === state.selectedIp);
+    const candidateRows = collectFilteredRows().filter(({ project }) => state.selectedIp === "all" || canonicalIpKey(project) === state.selectedIp);
     const visibleProjectIds = [...new Set(candidateRows.map(({ project }) => project.id))];
     elements.performanceProduct.options[0].textContent = state.selectedIp === "all" ? "当前筛选全部产品" : "当前 IP 全部产品";
     appendOptions(elements.performanceProduct, visibleProjectIds
@@ -1432,7 +1458,7 @@
     renderIpActivity(rows);
     const downstreamRows = state.selectedIp === "all"
       ? rows
-      : rows.filter(({ project }) => canonicalIpName(project) === state.selectedIp);
+      : rows.filter(({ project }) => canonicalIpKey(project) === state.selectedIp);
     renderProjectCalendar(downstreamRows);
     renderSchedule(downstreamRows);
     renderPerformance();
@@ -1465,6 +1491,7 @@
     render();
   }
 
+  applyNameLanguage(state.nameLanguage);
   elements.generatedAt.textContent = formatGeneratedAt(meta.generatedAt);
   elements.latestProjectDate.textContent = meta.latestProjectDate ? `项目：${meta.latestProjectDate}` : "等待首次导入";
   renderProjectSourceFreshness();
@@ -1472,6 +1499,26 @@
   populateFilters();
   syncControls();
   render();
+
+  if (elements.nameLanguage) {
+    elements.nameLanguage.value = state.nameLanguage;
+    elements.nameLanguage.addEventListener("change", () => {
+      state.nameLanguage = nameLocalization?.setMode?.(elements.nameLanguage.value) || elements.nameLanguage.value;
+      applyNameLanguage(state.nameLanguage);
+      populateFilters();
+      syncControls();
+      render();
+    });
+    window.addEventListener("storage", (event) => {
+      if (event.key !== nameLocalization?.storageKey || !event.newValue || event.newValue === state.nameLanguage) return;
+      state.nameLanguage = event.newValue;
+      elements.nameLanguage.value = state.nameLanguage;
+      applyNameLanguage(state.nameLanguage);
+      populateFilters();
+      syncControls();
+      render();
+    });
+  }
 
   for (const element of [
     elements.performanceStartDate, elements.performanceEndDate,
@@ -1528,11 +1575,11 @@
     if (!(event.target instanceof Element)) return;
     const button = event.target.closest(".ip-activity-select");
     if (!button) return;
-    const ipName = button.dataset.ipName;
-    const isSelecting = state.selectedIp !== ipName;
-    state.selectedIp = isSelecting ? ipName : "all";
+    const ipKey = button.dataset.ipKey;
+    const isSelecting = state.selectedIp !== ipKey;
+    state.selectedIp = isSelecting ? ipKey : "all";
     if (isSelecting) {
-      const focus = calendarFocusForIp(ipName);
+      const focus = calendarFocusForIp(ipKey);
       if (focus) {
         state.calendarMonth = clampCalendarMonth(focus.month);
         state.calendarSelectedDate = focus.date;
