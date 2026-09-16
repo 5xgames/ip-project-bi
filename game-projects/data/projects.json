@@ -2,7 +2,7 @@
   "meta": {
     "schemaVersion": "3.1",
     "phase": 29,
-    "generatedAt": "2026-09-15T11:12:46+09:00",
+    "generatedAt": "2026-09-16T13:56:17+09:00",
     "latestProjectDate": "2026-09-15",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
@@ -288,100 +288,70 @@
         "note": "Apple RSS 当前公开接口实际返回 Top 100；未出现的产品保存为未入 Top 100 状态，不推断其精确名次。该接口不提供历史回溯，脚本每日运行后累积时间序列。"
       },
       "appMagicGooglePlayRanks": {
-        "verifiedAt": "2026-09-11",
+        "verifiedAt": "2026-09-16",
+        "sourceTimestamp": "2026-09-16T12:00:00+09:00",
         "market": "JP",
         "platform": "android",
         "chartCategory": "games",
         "snapshotHour": "12:00",
         "timeZone": "Asia/Tokyo",
-        "positions": 200,
-        "trackedProjects": 36,
-        "snapshotsAdded": 72,
+        "positions": 100,
+        "trackedProjects": 30,
+        "snapshotsAdded": 60,
         "ranked": [
           {
             "projectId": "chiikawa-pocket",
             "metricType": "free_rank",
-            "rank": 2
-          },
-          {
-            "projectId": "chiikawa-pocket",
-            "metricType": "grossing_rank",
-            "rank": 152
-          },
-          {
-            "projectId": "dragon-quest-smash-grow",
-            "metricType": "free_rank",
-            "rank": 190
-          },
-          {
-            "projectId": "dragon-quest-smash-grow",
-            "metricType": "grossing_rank",
-            "rank": 104
-          },
-          {
-            "projectId": "hololive-dreams",
-            "metricType": "free_rank",
-            "rank": 104
+            "rank": 22
           },
           {
             "projectId": "hololive-dreams",
             "metricType": "grossing_rank",
-            "rank": 3
+            "rank": 26
           },
           {
             "projectId": "kingdom-hadou",
             "metricType": "grossing_rank",
-            "rank": 70
+            "rank": 76
+          },
+          {
+            "projectId": "madoka-magia-exedra",
+            "metricType": "grossing_rank",
+            "rank": 98
           },
           {
             "projectId": "persona-5-the-phantom-x",
             "metricType": "grossing_rank",
-            "rank": 85
+            "rank": 68
           },
           {
-            "projectId": "madoka-magia-exedra",
+            "projectId": "pokemon-champions",
             "metricType": "free_rank",
-            "rank": 178
+            "rank": 36
           },
           {
-            "projectId": "madoka-magia-exedra",
+            "projectId": "pokemon-champions",
             "metricType": "grossing_rank",
-            "rank": 95
-          },
-          {
-            "projectId": "muvluv-girls-garden",
-            "metricType": "grossing_rank",
-            "rank": 131
+            "rank": 99
           },
           {
             "projectId": "suikoden-star-leap",
             "metricType": "free_rank",
-            "rank": 51
+            "rank": 75
           },
           {
             "projectId": "suikoden-star-leap",
             "metricType": "grossing_rank",
-            "rank": 25
+            "rank": 19
+          },
+          {
+            "projectId": "torneko-wonder-dungeon-remaster",
+            "metricType": "grossing_rank",
+            "rank": 70
           }
         ],
         "unranked": [
           {
-            "projectId": "bang-dream-our-notes",
-            "metricType": "free_rank"
-          },
-          {
-            "projectId": "bang-dream-our-notes",
-            "metricType": "grossing_rank"
-          },
-          {
-            "projectId": "bleach-mirrors-high",
-            "metricType": "free_rank"
-          },
-          {
-            "projectId": "bleach-mirrors-high",
-            "metricType": "grossing_rank"
-          },
-          {
             "projectId": "captain-tsubasa-my-golden-xi",
             "metricType": "free_rank"
           },
@@ -395,6 +365,18 @@
           },
           {
             "projectId": "cardcaptor-sakura-memory-key-jp",
+            "metricType": "grossing_rank"
+          },
+          {
+            "projectId": "chiikawa-pocket",
+            "metricType": "grossing_rank"
+          },
+          {
+            "projectId": "classroom-of-the-elite-merge-puzzle",
+            "metricType": "free_rank"
+          },
+          {
+            "projectId": "classroom-of-the-elite-merge-puzzle",
             "metricType": "grossing_rank"
           },
           {
@@ -414,14 +396,6 @@
             "metricType": "grossing_rank"
           },
           {
-            "projectId": "dead-account-two-blue-flames",
-            "metricType": "free_rank"
-          },
-          {
-            "projectId": "dead-account-two-blue-flames",
-            "metricType": "grossing_rank"
-          },
-          {
             "projectId": "digimon-up",
             "metricType": "free_rank"
           },
@@ -430,19 +404,19 @@
             "metricType": "grossing_rank"
           },
           {
-            "projectId": "kaiju-no-8-the-game",
+            "projectId": "dragon-ball-gekishin-squadra",
             "metricType": "free_rank"
           },
           {
-            "projectId": "kaiju-no-8-the-game",
+            "projectId": "dragon-ball-gekishin-squadra",
             "metricType": "grossing_rank"
           },
           {
-            "projectId": "dragon-ball-gekishin-squadra",
+            "projectId": "dragon-quest-smash-grow",
             "metricType": "free_rank"
           },
           {
-            "projectId": "dragon-ball-gekishin-squadra",
+            "projectId": "dragon-quest-smash-grow",
             "metricType": "grossing_rank"
           },
           {
@@ -468,6 +442,10 @@
           {
             "projectId": "hells-paradise-paradise-battle",
             "metricType": "grossing_rank"
+          },
+          {
+            "projectId": "hololive-dreams",
+            "metricType": "free_rank"
           },
           {
             "projectId": "hunter-x-hunter-nen-survivor",
@@ -490,15 +468,7 @@
             "metricType": "free_rank"
           },
           {
-            "projectId": "konosuba-prosperity-beloved-town",
-            "metricType": "free_rank"
-          },
-          {
-            "projectId": "konosuba-prosperity-beloved-town",
-            "metricType": "grossing_rank"
-          },
-          {
-            "projectId": "persona-5-the-phantom-x",
+            "projectId": "madoka-magia-exedra",
             "metricType": "free_rank"
           },
           {
@@ -507,14 +477,6 @@
           },
           {
             "projectId": "mushoku-tensei-chronicle-of-echoes",
-            "metricType": "grossing_rank"
-          },
-          {
-            "projectId": "my-hero-academia-united-survival",
-            "metricType": "free_rank"
-          },
-          {
-            "projectId": "my-hero-academia-united-survival",
             "metricType": "grossing_rank"
           },
           {
@@ -522,6 +484,10 @@
             "metricType": "free_rank"
           },
           {
+            "projectId": "muvluv-girls-garden",
+            "metricType": "grossing_rank"
+          },
+          {
             "projectId": "oshi-no-ko-puzzle-star",
             "metricType": "free_rank"
           },
@@ -538,12 +504,8 @@
             "metricType": "grossing_rank"
           },
           {
-            "projectId": "pokemon-champions",
+            "projectId": "persona-5-the-phantom-x",
             "metricType": "free_rank"
-          },
-          {
-            "projectId": "pokemon-champions",
-            "metricType": "grossing_rank"
           },
           {
             "projectId": "sakamoto-days-dangerous-puzzle",
@@ -562,14 +524,6 @@
             "metricType": "grossing_rank"
           },
           {
-            "projectId": "sakuna-hinuka-chronicle",
-            "metricType": "free_rank"
-          },
-          {
-            "projectId": "sakuna-hinuka-chronicle",
-            "metricType": "grossing_rank"
-          },
-          {
             "projectId": "tokyo-revengers-unlimited",
             "metricType": "free_rank"
           },
@@ -580,10 +534,6 @@
           {
             "projectId": "torneko-wonder-dungeon-remaster",
             "metricType": "free_rank"
-          },
-          {
-            "projectId": "torneko-wonder-dungeon-remaster",
-            "metricType": "grossing_rank"
           },
           {
             "projectId": "wind-breaker-rebel-heroes",
@@ -603,7 +553,8 @@
           }
         ],
         "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
-        "note": "AppMagic 日本 Google Play 游戏免费榜与畅销榜 12:00 实时快照，范围为 Top 200；未出现的目标产品保存为未入 Top 200 状态，不推断其精确名次。该页面不作为历史回溯接口，后续采集按快照日累积时间序列。"
+        "apiUrl": "https://appmagic.rocks/api/v2/top/hourly-apps?store=1&country=JP&date=2026-09-16&hour=3&category=209&limit=100",
+        "note": "AppMagic 日本 Google Play 游戏免费榜与畅销榜最新可用小时快照，公开端点范围为 Top 100；未出现的已上线目标产品保存为未入 Top 100，不推断其精确名次。"
       }
     },
     "projectDiscoveryAudit": {
@@ -48812,6 +48763,1266 @@
       "feedUpdatedAt": "2026-09-14T19:12:29-07:00",
       "verifiedAt": "2026-09-15",
       "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "captain-tsubasa-my-golden-xi",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.alpse.pjct",
+      "sourceProductName": "キャプテン翼:My Golden XI【マイイレ】",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "captain-tsubasa-my-golden-xi",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.alpse.pjct",
+      "sourceProductName": "キャプテン翼:My Golden XI【マイイレ】",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "cardcaptor-sakura-memory-key-jp",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.karaq.sakura.jp",
+      "sourceProductName": "カードキャプターさくら：思い出の鍵",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "cardcaptor-sakura-memory-key-jp",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.karaq.sakura.jp",
+      "sourceProductName": "カードキャプターさくら：思い出の鍵",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "chiikawa-pocket",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.applibot.chiikawapocket",
+      "sourceProductName": "ちいかわぽけっと",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 22,
+      "display": "日本 Google Play 免费游戏榜第 22 名"
+    },
+    {
+      "projectId": "chiikawa-pocket",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.applibot.chiikawapocket",
+      "sourceProductName": "ちいかわぽけっと",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.joro.mip.prod",
+      "sourceProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "classroom-of-the-elite-merge-puzzle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.joro.mip.prod",
+      "sourceProductName": "ようこそ実力至上主義の教室へ～マージパズル特別試験～",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "code-geass-nightmare-survivor",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.joro.cgs",
+      "sourceProductName": "コードギアス ナイトメア・サバイバー",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "code-geass-nightmare-survivor",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.joro.cgs",
+      "sourceProductName": "コードギアス ナイトメア・サバイバー",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "date-a-live-love-limit-break",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.clyre.pjda",
+      "sourceProductName": "DATE A LIVE: Love Limit Break",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "date-a-live-love-limit-break",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.clyre.pjda",
+      "sourceProductName": "DATE A LIVE: Love Limit Break",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "digimon-up",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.bandainamcoent.dgup_jp",
+      "sourceProductName": "デジモンUP",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "digimon-up",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.bandainamcoent.dgup_jp",
+      "sourceProductName": "デジモンUP",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "dragon-ball-gekishin-squadra",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.bandainamcoent.dbgekishinsquadra",
+      "sourceProductName": "DRAGON BALL GEKISHIN SQUADRA",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "dragon-ball-gekishin-squadra",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.bandainamcoent.dbgekishinsquadra",
+      "sourceProductName": "DRAGON BALL GEKISHIN SQUADRA",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "dragon-quest-smash-grow",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.square_enix.android_googleplay.dqsgj",
+      "sourceProductName": "ドラゴンクエストスマッシュグロウ",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "dragon-quest-smash-grow",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.square_enix.android_googleplay.dqsgj",
+      "sourceProductName": "ドラゴンクエストスマッシュグロウ",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "gintama-smartphone-battle-chronicle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.sega.soulspirits",
+      "sourceProductName": "銀魂 すまほ ばとるくろにくる",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "gintama-smartphone-battle-chronicle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.sega.soulspirits",
+      "sourceProductName": "銀魂 すまほ ばとるくろにくる",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "haikyu-touch-and-connect",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.gholdings.haicone",
+      "sourceProductName": "ハイキュー!! TOUCH AND CONNECT",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "haikyu-touch-and-connect",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.gholdings.haicone",
+      "sourceProductName": "ハイキュー!! TOUCH AND CONNECT",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "hells-paradise-paradise-battle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.goodsmile.paradisebattle",
+      "sourceProductName": "地獄楽 パラダイスバトル",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "hells-paradise-paradise-battle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.goodsmile.paradisebattle",
+      "sourceProductName": "地獄楽 パラダイスバトル",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "hololive-dreams",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "game.qualiarts.hololive.dreams.jp",
+      "sourceProductName": "ホロライブドリームス",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "hololive-dreams",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "game.qualiarts.hololive.dreams.jp",
+      "sourceProductName": "ホロライブドリームス",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 26,
+      "display": "日本 Google Play 游戏畅销榜第 26 名"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-survivor",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.hxh.survivor",
+      "sourceProductName": "HUNTER×HUNTER NEN×SURVIVOR",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "hunter-x-hunter-nen-survivor",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.hxh.survivor",
+      "sourceProductName": "HUNTER×HUNTER NEN×SURVIVOR",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "inazuma-eleven-cross",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.level5.inazumacross",
+      "sourceProductName": "イナズマイレブン クロス",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "inazuma-eleven-cross",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.level5.inazumacross",
+      "sourceProductName": "イナズマイレブン クロス",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "kingdom-hadou",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.bandainamcoent.kingdomhadou",
+      "sourceProductName": "キングダム 覇道",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "kingdom-hadou",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.bandainamcoent.kingdomhadou",
+      "sourceProductName": "キングダム 覇道",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 76,
+      "display": "日本 Google Play 游戏畅销榜第 76 名"
+    },
+    {
+      "projectId": "madoka-magia-exedra",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.aniplex.magia.exedra.jp",
+      "sourceProductName": "魔法少女まどかマギカ Magia Exedra",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "madoka-magia-exedra",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.aniplex.magia.exedra.jp",
+      "sourceProductName": "魔法少女まどかマギカ Magia Exedra",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 98,
+      "display": "日本 Google Play 游戏畅销榜第 98 名"
+    },
+    {
+      "projectId": "mushoku-tensei-chronicle-of-echoes",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.gree_ent.mushoku",
+      "sourceProductName": "無職転生〜異世界行ったら本気だす〜クロニクル・オブ・エコーズ",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "mushoku-tensei-chronicle-of-echoes",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.gree_ent.mushoku",
+      "sourceProductName": "無職転生〜異世界行ったら本気だす〜クロニクル・オブ・エコーズ",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "muvluv-girls-garden",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.dmm.games.muvluvgg",
+      "sourceProductName": "マブラヴ ガールズガーデン",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "muvluv-girls-garden",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.dmm.games.muvluvgg",
+      "sourceProductName": "マブラヴ ガールズガーデン",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "oshi-no-ko-puzzle-star",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.kadokawa.oshinoko",
+      "sourceProductName": "【推しの子】Puzzle Star",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "oshi-no-ko-puzzle-star",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.kadokawa.oshinoko",
+      "sourceProductName": "【推しの子】Puzzle Star",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "outcast-restaurant-order-rush",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.avex.tsuihosha",
+      "sourceProductName": "追放者食堂へようこそ！ オーダーラッシュ",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "outcast-restaurant-order-rush",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.avex.tsuihosha",
+      "sourceProductName": "追放者食堂へようこそ！ オーダーラッシュ",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "persona-5-the-phantom-x",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.sega.persona5.the.phantomx.jp",
+      "sourceProductName": "P5X ペルソナ５: The Phantom X",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "persona-5-the-phantom-x",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.sega.persona5.the.phantomx.jp",
+      "sourceProductName": "P5X ペルソナ５: The Phantom X",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 68,
+      "display": "日本 Google Play 游戏畅销榜第 68 名"
+    },
+    {
+      "projectId": "pokemon-champions",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.pokemon.pokemonchampions",
+      "sourceProductName": "Pokémon Champions",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 36,
+      "display": "日本 Google Play 免费游戏榜第 36 名"
+    },
+    {
+      "projectId": "pokemon-champions",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.pokemon.pokemonchampions",
+      "sourceProductName": "Pokémon Champions",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 99,
+      "display": "日本 Google Play 游戏畅销榜第 99 名"
+    },
+    {
+      "projectId": "sakamoto-days-dangerous-puzzle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.goodroid.sakapuzz",
+      "sourceProductName": "SAKAMOTO DAYS デンジャラスパズル(サカパズ)",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "sakamoto-days-dangerous-puzzle",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.goodroid.sakapuzz",
+      "sourceProductName": "SAKAMOTO DAYS デンジャラスパズル(サカパズ)",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "sakamoto-days-mission-rogue-dawn",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.rudel.pjsd",
+      "sourceProductName": "サカモトデイズ　ミッション：ローグ ドーン",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "sakamoto-days-mission-rogue-dawn",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.rudel.pjsd",
+      "sourceProductName": "サカモトデイズ　ミッション：ローグ ドーン",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "suikoden-star-leap",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.konami.suikoden.starleap",
+      "sourceProductName": "幻想水滸伝 STAR LEAP",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 75,
+      "display": "日本 Google Play 免费游戏榜第 75 名"
+    },
+    {
+      "projectId": "suikoden-star-leap",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.konami.suikoden.starleap",
+      "sourceProductName": "幻想水滸伝 STAR LEAP",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 19,
+      "display": "日本 Google Play 游戏畅销榜第 19 名"
+    },
+    {
+      "projectId": "tokyo-revengers-unlimited",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.goodsmile.revenge",
+      "sourceProductName": "東京リベンジャーズ UNLIMITED（アンリベ）",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "tokyo-revengers-unlimited",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.goodsmile.revenge",
+      "sourceProductName": "東京リベンジャーズ UNLIMITED（アンリベ）",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "torneko-wonder-dungeon-remaster",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.square_enix.android_googleplay.Tornekoj",
+      "sourceProductName": "トルネコの大冒険 不思議のダンジョン",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "torneko-wonder-dungeon-remaster",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "com.square_enix.android_googleplay.Tornekoj",
+      "sourceProductName": "トルネコの大冒険 不思議のダンジョン",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rank": 70,
+      "display": "日本 Google Play 游戏畅销榜第 70 名"
+    },
+    {
+      "projectId": "wind-breaker-rebel-heroes",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.kodansha.wb.rebelheroes",
+      "sourceProductName": "WIND BREAKER 不良たちの英雄譚",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "wind-breaker-rebel-heroes",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.co.kodansha.wb.rebelheroes",
+      "sourceProductName": "WIND BREAKER 不良たちの英雄譚",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "yowamushi-pedal-resonance-pedaism",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "free_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.enish.yowapedaism",
+      "sourceProductName": "弱虫ペダル レゾナンス・ぺダイズム",
+      "scope": "日本 Google Play 免费游戏榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 免费游戏榜未入 Top 100"
+    },
+    {
+      "projectId": "yowamushi-pedal-resonance-pedaism",
+      "platforms": [
+        "android"
+      ],
+      "region": "JP",
+      "date": "2026-09-16",
+      "metricType": "grossing_rank",
+      "source": "AppMagic",
+      "sourceUrl": "https://appmagic.rocks/top-charts/live-store-rankings?category=209&country=JP",
+      "storeId": "jp.enish.yowapedaism",
+      "sourceProductName": "弱虫ペダル レゾナンス・ぺダイズム",
+      "scope": "日本 Google Play 游戏畅销榜 Top 100；AppMagic 12:00（日本时间）实时榜快照",
+      "snapshotHour": "12:00",
+      "sourceTimestamp": "2026-09-16T12:00:00+09:00",
+      "timeZone": "Asia/Tokyo",
+      "verifiedAt": "2026-09-16",
+      "performanceLevel": "insufficient",
+      "rankStatus": "not_in_top_100",
+      "display": "日本 Google Play 游戏畅销榜未入 Top 100"
     }
   ],
   "regionChecks": [
