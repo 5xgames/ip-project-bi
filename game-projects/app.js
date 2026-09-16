@@ -12,14 +12,56 @@
   const displayLocalizedName = (localized, original, mode = nameLanguage) => (
     nameLocalization?.display?.(localized, original, mode) || localized || original || ""
   );
+  const comparableProductName = (value) => String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase()
+    .replace(/[\s\p{P}\p{S}]+/gu, "");
+  const productStoreAliasesByProject = new Map();
+  const japaneseStoreNamesByProject = new Map();
+  for (const release of releases) {
+    const storeProductName = String(release.storeProductName || "").trim();
+    if (!storeProductName) continue;
+    if (!productStoreAliasesByProject.has(release.projectId)) productStoreAliasesByProject.set(release.projectId, new Set());
+    productStoreAliasesByProject.get(release.projectId).add(storeProductName);
+    if (release.region === "JP") {
+      if (!japaneseStoreNamesByProject.has(release.projectId)) japaneseStoreNamesByProject.set(release.projectId, new Set());
+      japaneseStoreNamesByProject.get(release.projectId).add(storeProductName);
+    }
+  }
+  const preferredJapaneseStoreName = (projectId) => [...(japaneseStoreNamesByProject.get(projectId) || [])]
+    .sort((a, b) => a.length - b.length || a.localeCompare(b, "ja"))[0] || "";
   if (nameLocalization) {
     for (const project of projects) {
       project.productOriginalName = project.productName;
       project.ipOriginalName = project.ipName;
-      project.productLocalizedName = nameLocalization.product(project.productOriginalName, project.id);
+      project.productJapaneseName = preferredJapaneseStoreName(project.id);
+      project.productSourceName = project.productJapaneseName || project.productOriginalName;
+      project.productAliases = [...new Set([
+        project.productOriginalName,
+        project.productJapaneseName,
+        ...(productStoreAliasesByProject.get(project.id) || []),
+      ].filter(Boolean))];
+      const localizedProductName = nameLocalization.product(project.productOriginalName, project.id);
+      const localizedProductIsEnglishFallback = comparableProductName(localizedProductName) === comparableProductName(project.productOriginalName)
+        && /[A-Za-z]/.test(project.productOriginalName);
+      project.productLocalizedName = localizedProductIsEnglishFallback && project.productJapaneseName
+        ? project.productJapaneseName
+        : localizedProductName;
       project.ipLocalizedName = nameLocalization.ip(project.ipOriginalName);
-      project.productName = displayLocalizedName(project.productLocalizedName, project.productOriginalName);
+      project.productName = displayLocalizedName(project.productLocalizedName, project.productSourceName);
       project.ipName = displayLocalizedName(project.ipLocalizedName, project.ipOriginalName);
+    }
+  } else {
+    for (const project of projects) {
+      project.productOriginalName = project.productName;
+      project.ipOriginalName = project.ipName;
+      project.productJapaneseName = preferredJapaneseStoreName(project.id);
+      project.productSourceName = project.productJapaneseName || project.productOriginalName;
+      project.productAliases = [...new Set([
+        project.productOriginalName,
+        project.productJapaneseName,
+        ...(productStoreAliasesByProject.get(project.id) || []),
+      ].filter(Boolean))];
     }
   }
   const projectById = new Map(projects.map((project) => [project.id, project]));
@@ -67,7 +109,7 @@
     for (const project of projects) {
       project.productName = displayLocalizedName(
         project.productLocalizedName,
-        project.productOriginalName,
+        project.productSourceName || project.productOriginalName,
         nameLanguage,
       );
       project.ipName = displayLocalizedName(project.ipLocalizedName, project.ipOriginalName, nameLanguage);
@@ -319,10 +361,19 @@
     const haystack = [
       project.productName, project.ipName, project.productOriginalName, project.ipOriginalName,
       project.productLocalizedName, project.ipLocalizedName,
+      ...(project.productAliases || []), release?.storeProductName,
       project.ipType, project.genre,
       project.developer, project.publisher, release?.store,
     ].join(" ").toLocaleLowerCase();
     return haystack.includes(state.search.toLocaleLowerCase());
+  }
+
+  function productOptionLabel(project) {
+    const displayed = String(project.productName || "").trim();
+    const source = String(project.productSourceName || project.productOriginalName || "").trim();
+    return source && comparableProductName(displayed) !== comparableProductName(source)
+      ? `${displayed} / ${source}`
+      : displayed || source || project.id;
   }
 
   function baseReleaseMatches(project, release, { ignoreRegion = false } = {}) {
@@ -391,7 +442,7 @@
     appendOptions(elements.product, projects
       .slice()
       .sort((a, b) => String(a.productName).localeCompare(String(b.productName), "zh-CN"))
-      .map((project) => [project.id, project.productName]));
+      .map((project) => [project.id, productOptionLabel(project)]));
     const minimumYear = Number(projectMinimumDate.slice(0, 4));
     const maximumYear = Number(projectMaximumDate.slice(0, 4));
     elements.calendarYearSelect.innerHTML = Array.from(
@@ -587,6 +638,45 @@
       || launchedProjects.sort((a, b) => b.date.localeCompare(a.date)
         || a.productName.localeCompare(b.productName, "zh-CN"))[0];
     return focus ? { ...focus, month: focus.date.slice(0, 7) } : null;
+  }
+
+  function calendarFocusForProject(projectId) {
+    const project = projectById.get(projectId);
+    if (!project) return null;
+    const projectRows = collectFilteredRows().filter((row) => row.project.id === projectId);
+    const projectReleases = [...new Map(projectRows
+      .filter(({ release }) => release)
+      .map(({ release }) => [release.id, release])).values()];
+    const upcoming = projectReleases
+      .flatMap((release) => [release.actualLaunchDate, release.plannedLaunchDate])
+      .map((timing) => ({ timing, bounds: dateBounds(timing), precision: timingPrecision(timing) }))
+      .filter(({ bounds }) => bounds && bounds.end >= today)
+      .map(({ timing, bounds, precision }) => ({
+        timing,
+        date: bounds.start <= today && today <= bounds.end ? today : bounds.start,
+        precision,
+      }))
+      .sort((a, b) => a.precision - b.precision || a.date.localeCompare(b.date))[0];
+    if (upcoming) return { projectId, productName: project.productName, date: upcoming.date, month: upcoming.date.slice(0, 7) };
+
+    const latestLaunchDate = projectReleases
+      .map((release) => isoDate(release.actualLaunchDate))
+      .filter((date) => date && date <= today)
+      .sort()
+      .at(-1);
+    if (latestLaunchDate) {
+      return { projectId, productName: project.productName, date: latestLaunchDate, month: latestLaunchDate.slice(0, 7) };
+    }
+
+    const latestLifecycleDate = projectReleases
+      .flatMap((release) => [release.testStartDate, release.preregisterDate, release.serviceEndDate])
+      .map(isoDate)
+      .filter(Boolean)
+      .sort()
+      .at(-1);
+    return latestLifecycleDate
+      ? { projectId, productName: project.productName, date: latestLifecycleDate, month: latestLifecycleDate.slice(0, 7) }
+      : null;
   }
 
   function calendarEventScope(event) {
@@ -1245,7 +1335,7 @@
     elements.performanceProduct.options[0].textContent = state.selectedIp === "all" ? "当前筛选全部产品" : "当前 IP 全部产品";
     appendOptions(elements.performanceProduct, visibleProjectIds
       .sort((a, b) => (projectById.get(a)?.productName || a).localeCompare(projectById.get(b)?.productName || b, "zh-CN"))
-      .map((id) => [id, projectById.get(id)?.productName || id]));
+      .map((id) => [id, projectById.has(id) ? productOptionLabel(projectById.get(id)) : id]));
     if (![...elements.performanceProduct.options].some((option) => option.value === state.performanceProduct)) {
       state.performanceProduct = "all";
     }
@@ -1288,15 +1378,16 @@
 
   function latestPerformanceForRelease(release) {
     const byDateAndLevel = (a, b) => String(b.date).localeCompare(String(a.date))
+      || Number(Number.isFinite(Number(b.rank)) || Number.isFinite(Number(b.value)))
+        - Number(Number.isFinite(Number(a.rank)) || Number.isFinite(Number(a.value)))
       || (performanceWeights[b.performanceLevel] || 0) - (performanceWeights[a.performanceLevel] || 0);
     const exact = rankSnapshots
       .filter((snapshot) => snapshot.releaseId === release.id)
       .sort(byDateAndLevel)[0];
     if (exact) return exact;
-    if (release.region !== "GLOBAL" || !["ios", "android"].includes(release.platform)) return null;
     return rankSnapshots
       .filter((snapshot) => snapshot.projectId === release.projectId
-        && snapshot.region === "GLOBAL"
+        && snapshot.region === release.region
         && Array.isArray(snapshot.platforms)
         && snapshot.platforms.includes(release.platform))
       .sort(byDateAndLevel)[0] || null;
@@ -1361,6 +1452,8 @@
         const scopedOnly = state.region !== "all" && regionMatch?.quality === "announcement_scope";
         return release && !scopedOnly ? latestPerformanceForRelease(release) : null;
       }).filter(Boolean).sort((a, b) => String(b.date).localeCompare(String(a.date))
+        || Number(Number.isFinite(Number(b.rank)) || Number.isFinite(Number(b.value)))
+          - Number(Number.isFinite(Number(a.rank)) || Number.isFinite(Number(a.value)))
         || (performanceWeights[b.performanceLevel] || 0) - (performanceWeights[a.performanceLevel] || 0))[0];
       const variants = groupedRows.filter(({ release }) => release).sort((a, b) => {
         const aRegion = displayedRegion(a.release, a.regionMatch).label;
@@ -1469,6 +1562,7 @@
   }
 
   function updateStateAndRender(event) {
+    const productFilterChanged = event?.target === elements.product;
     state.performanceStartDate = elements.performanceStartDate.value;
     state.performanceEndDate = elements.performanceEndDate.value;
     if (state.performanceStartDate && state.performanceEndDate && state.performanceStartDate > state.performanceEndDate) {
@@ -1482,6 +1576,16 @@
     state.product = elements.product.value;
     state.search = elements.search.value.trim();
     state.performanceProduct = elements.performanceProduct.value;
+    if (productFilterChanged) {
+      state.performanceProduct = state.product;
+      if (state.product !== "all") {
+        const focus = calendarFocusForProject(state.product);
+        if (focus) {
+          state.calendarMonth = clampCalendarMonth(focus.month);
+          state.calendarSelectedDate = focus.date;
+        }
+      }
+    }
     if (![elements.performanceStartDate, elements.performanceEndDate, elements.performanceProduct].includes(event?.target)) {
       state.ipActivityPage = 1;
       state.schedulePage = 1;
