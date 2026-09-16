@@ -9,6 +9,28 @@ const jsonPath = path.join(root, "game-projects/data/projects.json");
 const jsPath = path.join(root, "game-projects/data/projects.js");
 const queuePath = path.join(workspaceRoot, "data/processed/game_project_watch_queue.json");
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+let previousQueue = {};
+try {
+  previousQueue = JSON.parse(fs.readFileSync(queuePath, "utf8"));
+} catch {
+  // The first run has no review history to preserve.
+}
+const previousAppleReviews = new Map((previousQueue.applePreorderCandidates || [])
+  .filter((candidate) => candidate.reviewStatus)
+  .map((candidate) => [String(candidate.storeId), {
+    reviewStatus: candidate.reviewStatus,
+    reviewReason: candidate.reviewReason || "",
+    reviewEvidenceUrl: candidate.reviewEvidenceUrl || "",
+    reviewedAt: candidate.reviewedAt || "",
+  }]));
+const previousStorefrontReviews = new Map((previousQueue.storefrontLiveCandidates || [])
+  .filter((candidate) => candidate.reviewStatus)
+  .map((candidate) => [String(candidate.releaseId), {
+    reviewStatus: candidate.reviewStatus,
+    reviewReason: candidate.reviewReason || "",
+    reviewEvidenceUrl: candidate.reviewEvidenceUrl || "",
+    reviewedAt: candidate.reviewedAt || "",
+  }]));
 
 const now = new Date();
 const activeStatuses = new Set(["announced", "testing", "preregister", "upcoming", "delayed"]);
@@ -117,6 +139,21 @@ async function appleLookup(storeId, country) {
   const product = (payload.results || []).find((item) => String(item.trackId) === String(storeId));
   if (!product) throw new Error("App Store listing unavailable in selected storefront");
   return { product, lookupUrl: url };
+}
+
+async function appleStorefrontState(storeUrl, storeId) {
+  const html = await (await fetchWithRetry(storeUrl)).text();
+  const escapedStoreId = String(storeId).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const statePattern = new RegExp(`"adamId":"${escapedStoreId}"[\\s\\S]{0,1400}?"isPreorder":(true|false)`, "g");
+  const states = [...html.matchAll(statePattern)].map((match) => match[1] === "true");
+  if (!states.length) throw new Error("App Store preorder state not found on product page");
+  if (states.some((state) => state !== states[0])) {
+    throw new Error("App Store product page returned inconsistent preorder states");
+  }
+  return {
+    isPreorder: states[0],
+    signal: states[0] ? "isPreorder=true" : "isPreorder=false（商店已从预约转为可获取）",
+  };
 }
 
 function collectYahooResults(rootValue) {
@@ -266,6 +303,7 @@ const checkedAt = tokyoDate(now);
   const lookupErrors = [];
   const updatedDates = [];
   const conflicts = [];
+  const storefrontLiveCandidates = [];
 
   for (const release of iosReleases) {
     const country = countryForRelease(release);
@@ -287,6 +325,46 @@ const checkedAt = tokyoDate(now);
       release.appleLookupUrl = lookupUrl;
       release.storeAvailability = "available";
       release.availabilityCheckedAt = checkedAt;
+
+      if (activeStatuses.has(release.status) && !release.actualLaunchDate) {
+        try {
+          const storefrontState = await appleStorefrontState(release.storeUrl, release.storeId);
+          release.storefrontStateCheckedAt = checkedAt;
+          release.storefrontIsPreorder = storefrontState.isPreorder;
+          if (!storefrontState.isPreorder) {
+            const project = projectById.get(release.projectId);
+            const candidate = {
+              projectId: release.projectId,
+              productName: project?.productName || release.projectId,
+              releaseId: release.id,
+              platform: release.platform,
+              region: release.region,
+              storeId: String(release.storeId),
+              status: release.status,
+              plannedLaunchDate: exactDate(release.plannedLaunchDate),
+              appleExpectedLaunchDate: appleDate,
+              storeUrl: release.storeUrl,
+              officialSiteUrl: project?.officialSiteUrl || "",
+              currentProjectSourceUrl: project?.sourceUrl || "",
+              detectedAt: checkedAt,
+              signal: storefrontState.signal,
+              reason: "App Store 已从预约变为可获取；必须当天核验官网、官方新闻及官方账号，确认实际开服日期后才能写 actualLaunchDate。",
+            };
+            const review = previousStorefrontReviews.get(String(release.id));
+            if (review) Object.assign(candidate, review);
+            storefrontLiveCandidates.push(candidate);
+          }
+        } catch (error) {
+          lookupErrors.push({
+            stage: "storefront-state",
+            releaseId: release.id,
+            projectId: release.projectId,
+            storeId: release.storeId,
+            country,
+            reason: error.message,
+          });
+        }
+      }
 
       if (canUseExpectedDate) {
         release.appleExpectedLaunchDate = appleDate;
@@ -344,6 +422,10 @@ const checkedAt = tokyoDate(now);
 
   const knownStoreIds = new Set(iosReleases.map((release) => String(release.storeId)));
   const appleDiscovery = await discoverAppleCandidates(knownStoreIds);
+  for (const candidate of appleDiscovery.candidates) {
+    const review = previousAppleReviews.get(String(candidate.storeId));
+    if (review) Object.assign(candidate, review);
+  }
   const newsDiscovery = await discoverNewsCandidates();
   const overdueLaunches = data.releases
     .filter((release) => {
@@ -375,17 +457,21 @@ const checkedAt = tokyoDate(now);
       plannedDatesUpdated: updatedDates.length,
       dateConflicts: conflicts.length,
       overdueLaunches: overdueLaunches.length,
+      storefrontLiveCandidates: storefrontLiveCandidates.length,
       applePreorderCandidates: appleDiscovery.candidates.length,
       untrackedApplePreorderCandidates: appleDiscovery.candidates.filter((item) => !item.alreadyTracked).length,
+      unreviewedApplePreorderCandidates: appleDiscovery.candidates.filter((item) => !item.alreadyTracked && !item.reviewStatus).length,
       newsCandidates: newsDiscovery.candidates.length,
       errors: lookupErrors.length + appleDiscovery.searchErrors.length + newsDiscovery.errors.length,
     },
     updatedDates,
     dateConflicts: conflicts,
     overdueLaunches,
+    storefrontLiveCandidates,
     applePreorderCandidates: appleDiscovery.candidates,
     newsCandidates: newsDiscovery.candidates,
     errors: [...lookupErrors, ...appleDiscovery.searchErrors, ...newsDiscovery.errors],
+    reviewAudit: previousQueue.reviewAudit || undefined,
   };
 
   data.meta.schemaVersion = "3.1";
@@ -404,9 +490,11 @@ const checkedAt = tokyoDate(now);
       plannedDatesUpdated: updatedDates.length,
       dateConflicts: conflicts.length,
       overdueLaunches: overdueLaunches.length,
+      storefrontLiveCandidates: storefrontLiveCandidates.length,
       untrackedCandidates: appleDiscovery.candidates.filter((item) => !item.alreadyTracked).length,
+      unreviewedCandidates: appleDiscovery.candidates.filter((item) => !item.alreadyTracked && !item.reviewStatus).length,
       source: "Apple iTunes Search/Lookup API 与 App Store 预约页",
-      note: "Apple 预约页日期用于 plannedLaunchDate；到达日期后仍须取得官方开服或发售证据才能写 actualLaunchDate。",
+      note: "Apple 预约页日期用于 plannedLaunchDate；若商店提前从预约变为可获取，会进入 storefrontLiveCandidates 并触发官方开服核验，但仍须取得官方开服或发售证据才能写 actualLaunchDate。",
     },
     dailyDiscovery: {
       verifiedAt: checkedAt,
