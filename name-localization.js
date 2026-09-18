@@ -147,6 +147,7 @@
     "sand-land": "沙漠大冒险",
     "suikoden-star-leap": "幻想水浒传 STAR LEAP",
     "tokyo-revengers-unlimited": "东京复仇者 UNLIMITED",
+    "weiss-schwarz-online": "黑白双翼 Online",
   });
 
   const ipAliases = new Map(Object.entries({
@@ -471,6 +472,8 @@
     "Tokyo Revengers": "东京复仇者",
     "Tougen Anki": "桃源暗鬼",
     "Yowamushi Pedal": "飙速宅男",
+    "ヴァイスシュヴァルツ": "黑白双翼",
+    "Weiß Schwarz": "黑白双翼",
   }));
 
   const kanaPattern = /[\u3040-\u30ff\u31f0-\u31ff]/u;

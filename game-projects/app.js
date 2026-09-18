@@ -125,6 +125,7 @@
     performanceStartDate: $("#performance-start-date-filter"),
     performanceEndDate: $("#performance-end-date-filter"),
     performanceDateRangeLabel: $("#performance-date-range-label"),
+    performanceCoverageNote: $("#performance-coverage-note"),
     platform: $("#platform-filter"),
     region: $("#region-filter"),
     status: $("#status-filter"),
@@ -986,9 +987,9 @@
       && (!state.performanceEndDate || date <= state.performanceEndDate);
   }
 
-  function aggregateSnapshotMatches(snapshot, project) {
+  function aggregateSnapshotMatches(snapshot, project, { ignoreDate = false } = {}) {
     const applicablePlatforms = Array.isArray(snapshot.platforms) ? snapshot.platforms : [];
-    return dateInPerformancePeriod(snapshot.date)
+    return (ignoreDate || dateInPerformancePeriod(snapshot.date))
       && (state.platform === "all" || applicablePlatforms.includes(state.platform))
       && (state.region === "all" || snapshot.region === state.region)
       && (state.status === "all" || (project.status || "announced") === state.status)
@@ -997,18 +998,18 @@
       && textMatches(project, null);
   }
 
-  function performanceEntries() {
+  function performanceEntries({ ignoreDate = false } = {}) {
     return rankSnapshots.map((snapshot) => {
       if (snapshot.releaseId) {
         const release = releaseById.get(snapshot.releaseId);
         const project = projectById.get(release?.projectId);
-        if (!release || !project || !dateInPerformancePeriod(snapshot.date) || !baseReleaseMatches(project, release)
+        if (!release || !project || (!ignoreDate && !dateInPerformancePeriod(snapshot.date)) || !baseReleaseMatches(project, release)
           || (state.selectedIp !== "all" && canonicalIpKey(project) !== state.selectedIp)) return null;
         return { snapshot, release, project, aggregate: false };
       }
       if (snapshot.projectId) {
         const project = projectById.get(snapshot.projectId);
-        if (!project || !aggregateSnapshotMatches(snapshot, project)
+        if (!project || !aggregateSnapshotMatches(snapshot, project, { ignoreDate })
           || (state.selectedIp !== "all" && canonicalIpKey(project) !== state.selectedIp)) return null;
         return { snapshot, release: null, project, aggregate: true };
       }
@@ -1212,10 +1213,11 @@
       const platformLabel = platforms.map((platform) => platformNames[platform] || platform).join(" + ") || "跨平台";
       const regionCode = entry.release?.region || entry.snapshot.region;
       const regionLabel = regionCode === "GLOBAL" ? "全球汇总" : regionNames[regionCode] || regionCode || "范围待确认";
+      const sourceLabel = entry.snapshot.source || "来源待补";
       return {
         ...entry, date, value,
-        seriesKey: `${platforms.join("+")}:${regionCode || "scope"}:${entry.snapshot.metricType}`,
-        seriesLabel: `${platformLabel} · ${regionLabel} · ${metricNames[entry.snapshot.metricType] || entry.snapshot.metricType}`,
+        seriesKey: `${platforms.join("+")}:${regionCode || "scope"}:${entry.snapshot.metricType}:${sourceLabel}`,
+        seriesLabel: `${platformLabel} · ${regionLabel} · ${metricNames[entry.snapshot.metricType] || entry.snapshot.metricType} · ${sourceLabel}`,
       };
     }).filter(Boolean);
   }
@@ -1231,7 +1233,7 @@
           && snapshotPlatforms(entry).some((platform) => platformSet.has(platform)));
       const latestUnrankedBySeries = new Map();
       for (const entry of unrankedEntries) {
-        const key = `${snapshotPlatforms(entry).join("+")}:${entry.release?.region || entry.snapshot.region || "scope"}:${entry.snapshot.metricType}`;
+        const key = `${snapshotPlatforms(entry).join("+")}:${entry.release?.region || entry.snapshot.region || "scope"}:${entry.snapshot.metricType}:${entry.snapshot.source || "来源待补"}`;
         const previous = latestUnrankedBySeries.get(key);
         if (!previous || String(entry.snapshot.date).localeCompare(String(previous.snapshot.date)) > 0) {
           latestUnrankedBySeries.set(key, entry);
@@ -1240,7 +1242,7 @@
       const latestUnranked = [...latestUnrankedBySeries.values()]
         .sort((a, b) => snapshotPlatforms(a).join("+").localeCompare(snapshotPlatforms(b).join("+")));
       const emptyMessage = latestUnranked.length
-        ? `最新公开榜单快照：${latestUnranked.map((entry) => `${isoDate(entry.snapshot.date)} ${formatMetric(entry.snapshot)}`).join("；")}。`
+        ? `最新公开榜单快照：${latestUnranked.map((entry) => `${isoDate(entry.snapshot.date)} ${formatMetric(entry.snapshot)}（${entry.snapshot.source || "来源待补"}）`).join("；")}。`
         : "该指标的历史时间序列待补；不会使用其他平台数据代替。";
       return `<article class="product-metric-card is-empty">${heading}<div class="product-chart-empty">${escapeHtml(emptyMessage)}</div></article>`;
     }
@@ -1301,7 +1303,13 @@
     return `<article class="product-metric-card">${heading}<svg class="product-time-chart" viewBox="0 0 ${plot.width} ${plot.height}" role="img" aria-label="${escapeHtml(`${chart.title}：${accessibleSummary}`)}"><title>${escapeHtml(`${chart.title}，${accessibleSummary}`)}</title>${grid}<line x1="${plot.left}" y1="${plot.top + plotHeight}" x2="${plot.width - plot.right}" y2="${plot.top + plotHeight}" class="product-chart-axis"></line>${paths}${dateLabels}</svg><div class="product-series-legend">${legend}</div></article>`;
   }
 
-  function renderProductPlatformTimelines(projectId, entries) {
+  function entryDateExtent(entries) {
+    const dates = entries.map((entry) => isoDate(entry.snapshot.date)).filter(Boolean).sort();
+    if (!dates.length) return "";
+    return dates[0] === dates.at(-1) ? dates[0] : `${dates[0]} 至 ${dates.at(-1)}`;
+  }
+
+  function renderProductPlatformTimelines(projectId, entries, allProjectEntries) {
     const project = projectById.get(projectId);
     if (!project) {
       elements.productPlatformTimelines.innerHTML = '<div class="product-platform-empty">未找到该产品的项目记录。</div>';
@@ -1311,11 +1319,16 @@
       && releaseRegionMatch(release)
       && baseReleaseMatches(project, release, { ignoreRegion: true }));
     const relevantPlatforms = new Set(matchingReleases.map((release) => release.platform));
-    for (const entry of entries) for (const platform of snapshotPlatforms(entry)) relevantPlatforms.add(platform);
+    for (const entry of allProjectEntries) for (const platform of snapshotPlatforms(entry)) relevantPlatforms.add(platform);
     const groups = productPlatformGroups.filter((group) => group.platforms.some((platform) => relevantPlatforms.has(platform)));
     const platformLabels = [...relevantPlatforms].map((platform) => platformNames[platform] || platform);
+    const selectedPeriod = `${state.performanceStartDate || "最早"} 至 ${state.performanceEndDate || "最新"}`;
+    const visibleCoverage = entryDateExtent(entries);
+    const availableCoverage = entryDateExtent(allProjectEntries);
     elements.productPerformanceName.textContent = project.productName;
-    elements.productPerformanceScope.textContent = `${project.ipName} · ${platformLabels.join(" / ") || "平台待确认"} · ${state.performanceStartDate || "最早"} 至 ${state.performanceEndDate || "最新"}`;
+    elements.productPerformanceScope.textContent = visibleCoverage
+      ? `${project.ipName} · ${platformLabels.join(" / ") || "平台待确认"} · 所选 ${selectedPeriod} · 当前显示 ${visibleCoverage}`
+      : `${project.ipName} · ${platformLabels.join(" / ") || "平台待确认"} · 所选 ${selectedPeriod} 无记录 · 该产品现有数据 ${availableCoverage || "待补"}`;
     if (!groups.length) {
       elements.productPlatformTimelines.innerHTML = '<div class="product-platform-empty">当前筛选范围尚未确认该产品的平台版本。</div>';
       return;
@@ -1324,12 +1337,14 @@
       const groupEntries = entries.filter((entry) => snapshotPlatforms(entry).some((platform) => group.platforms.includes(platform)));
       const charts = group.charts.filter((chart) => !chart.optional || timelineEntriesForChart(groupEntries, group, chart).length > 0);
       const groupPlatformLabels = group.platforms.filter((platform) => relevantPlatforms.has(platform)).map((platform) => platformNames[platform] || platform);
-      return `<section class="product-platform-section" aria-labelledby="product-platform-${escapeHtml(group.id)}"><div class="product-platform-heading"><div><span>${escapeHtml(groupPlatformLabels.join(" / ") || group.title)}</span><h3 id="product-platform-${escapeHtml(group.id)}">${escapeHtml(group.title)}</h3><p>${escapeHtml(group.note)}</p></div><strong>${escapeHtml(numberFormat.format(groupEntries.length))} 条已核验记录</strong></div><div class="product-metric-grid">${charts.map((chart) => renderMetricTimelineChart(groupEntries, group, chart)).join("")}</div></section>`;
+      const numericPoints = groupEntries.filter((entry) => numericSnapshotValue(entry.snapshot) !== null).length;
+      return `<section class="product-platform-section" aria-labelledby="product-platform-${escapeHtml(group.id)}"><div class="product-platform-heading"><div><span>${escapeHtml(groupPlatformLabels.join(" / ") || group.title)}</span><h3 id="product-platform-${escapeHtml(group.id)}">${escapeHtml(group.title)}</h3><p>${escapeHtml(group.note)}</p></div><strong>${escapeHtml(numberFormat.format(groupEntries.length))} 条已核验记录 · ${escapeHtml(numberFormat.format(numericPoints))} 个数值点</strong></div><div class="product-metric-grid">${charts.map((chart) => renderMetricTimelineChart(groupEntries, group, chart)).join("")}</div></section>`;
     }).join("");
   }
 
   function renderPerformance() {
     const allEntries = performanceEntries();
+    const allAvailableEntries = performanceEntries({ ignoreDate: true });
     const candidateRows = collectFilteredRows().filter(({ project }) => state.selectedIp === "all" || canonicalIpKey(project) === state.selectedIp);
     const visibleProjectIds = [...new Set(candidateRows.map(({ project }) => project.id))];
     elements.performanceProduct.options[0].textContent = state.selectedIp === "all" ? "当前筛选全部产品" : "当前 IP 全部产品";
@@ -1346,6 +1361,15 @@
     const snapshots = allEntries
       .filter(({ project }) => selectedProjectId === "all" || project.id === selectedProjectId)
       .sort((a, b) => String(b.snapshot.date).localeCompare(String(a.snapshot.date)));
+    const availableSnapshots = allAvailableEntries
+      .filter(({ project }) => selectedProjectId === "all" || project.id === selectedProjectId);
+    const selectedPeriod = `${state.performanceStartDate || "最早"} 至 ${state.performanceEndDate || "最新"}`;
+    const visibleCoverage = entryDateExtent(snapshots);
+    const availableCoverage = entryDateExtent(availableSnapshots);
+    const numericPoints = snapshots.filter((entry) => numericSnapshotValue(entry.snapshot) !== null).length;
+    elements.performanceCoverageNote.textContent = visibleCoverage
+      ? `所选 ${selectedPeriod}｜当前显示 ${visibleCoverage}｜${numberFormat.format(snapshots.length)} 条记录，其中 ${numberFormat.format(numericPoints)} 个数值点`
+      : `所选 ${selectedPeriod} 无记录｜当前筛选现有数据 ${availableCoverage || "待补"}`;
     const productSelected = selectedProjectId !== "all";
     elements.performanceOverviewView.hidden = productSelected;
     elements.productPerformanceView.hidden = !productSelected;
@@ -1359,7 +1383,7 @@
       ? "<strong>产品视图口径：</strong>每张图只比较同平台、同单位指标；Steam 重点观察销量与活跃，主机重点观察销量与用户口碑，手游分别观察 App Store 与 Google Play 的下载榜和畅销榜。榜单纵轴越接近第 1 名越好；累计值只按核验日期显示，不视为当日新增。"
       : "<strong>分级口径：</strong>Steam 历史同时在线峰值 ≥100,000 为“现象级”，≥20,000 为“强势”，≥5,000 为“表现良好”；手游收入依次采用 ≥US$50M、≥US$20M、≥US$5M，手游下载量依次采用 ≥10M、≥5M、≥1M。AppMagic 免费公开区间仅表示下限，页面保留“&gt;”；不同平台指标不直接混算。";
     if (productSelected) {
-      renderProductPlatformTimelines(selectedProjectId, snapshots);
+      renderProductPlatformTimelines(selectedProjectId, snapshots, availableSnapshots);
     } else {
       renderSteamPeakChart(snapshots);
       renderPerformanceTierChart(snapshots);
@@ -1566,8 +1590,13 @@
     state.performanceStartDate = elements.performanceStartDate.value;
     state.performanceEndDate = elements.performanceEndDate.value;
     if (state.performanceStartDate && state.performanceEndDate && state.performanceStartDate > state.performanceEndDate) {
-      state.performanceStartDate = state.performanceEndDate;
-      elements.performanceStartDate.value = state.performanceStartDate;
+      if (event?.target === elements.performanceStartDate) {
+        state.performanceEndDate = state.performanceStartDate;
+        elements.performanceEndDate.value = state.performanceEndDate;
+      } else {
+        state.performanceStartDate = state.performanceEndDate;
+        elements.performanceStartDate.value = state.performanceStartDate;
+      }
     }
     state.platform = elements.platform.value;
     state.region = elements.region.value;

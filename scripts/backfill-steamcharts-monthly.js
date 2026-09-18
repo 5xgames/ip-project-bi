@@ -6,7 +6,6 @@ const jsonPath = path.join(root, "game-projects/data/projects.json");
 const jsPath = path.join(root, "game-projects/data/projects.js");
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
 
-const coverageStart = "2018-01-01";
 const now = new Date();
 const verifiedAt = new Intl.DateTimeFormat("sv-SE", {
   timeZone: "Asia/Tokyo",
@@ -40,7 +39,7 @@ function parseMonthlyRows(html) {
     if (!monthMatch || !monthNumbers.has(monthMatch[1])) continue;
     const date = `${monthMatch[2]}-${monthNumbers.get(monthMatch[1])}-01`;
     const average = Number(cells[1].replaceAll(",", ""));
-    if (date < coverageStart || !Number.isFinite(average) || average < 0) continue;
+    if (!Number.isFinite(average) || average < 0) continue;
     rows.push({ date, monthLabel: cells[0], average });
   }
   return rows;
@@ -50,6 +49,7 @@ async function fetchMonthly(appId) {
   const sourceUrl = `https://steamcharts.com/app/${appId}`;
   const response = await fetch(sourceUrl, {
     headers: { "user-agent": "Mozilla/5.0 (compatible; 5XGames-IP-Research/1.0)" },
+    signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const html = await response.text();
@@ -92,6 +92,7 @@ const targets = [...appProjects].map(([appId, projectId]) => ({ appId, projectId
   const successful = fetched.filter((result) => Array.isArray(result.rows) && result.rows.length > 0);
   const failed = fetched.filter((result) => result.error || !result.rows?.length);
   const refreshedProjectIds = new Set(successful.map((result) => result.projectId));
+  const coverageStart = successful.flatMap((result) => result.rows.map((row) => row.date)).sort()[0] || "";
 
   data.rankSnapshots = (data.rankSnapshots || []).filter((snapshot) => !(
     snapshot.source === source
@@ -120,6 +121,12 @@ const targets = [...appProjects].map(([appId, projectId]) => ({ appId, projectId
     }
   }
 
+  const allSteamChartsSnapshots = data.rankSnapshots.filter((snapshot) => (
+    snapshot.source === source && snapshot.metricType === "average_concurrent_users"
+  ));
+  const allSteamChartsProjectIds = new Set(allSteamChartsSnapshots.map((snapshot) => snapshot.projectId).filter(Boolean));
+  const actualCoverageStart = allSteamChartsSnapshots.map((snapshot) => snapshot.date).filter(Boolean).sort()[0] || coverageStart;
+
   data.rankSnapshots.sort((a, b) => String(a.date || "").localeCompare(String(b.date || ""))
     || String(a.projectId || a.releaseId || "").localeCompare(String(b.projectId || b.releaseId || ""))
     || String(a.metricType || "").localeCompare(String(b.metricType || "")));
@@ -134,10 +141,12 @@ const targets = [...appProjects].map(([appId, projectId]) => ({ appId, projectId
     ...(data.meta.performanceCoverage || {}),
     steamCharts: {
       verifiedAt,
-      coverageStart,
+      coverageStart: actualCoverageStart,
       metric: "monthly_average_concurrent_players",
-      projects: successful.length,
-      snapshots: added,
+      projects: allSteamChartsProjectIds.size,
+      snapshots: allSteamChartsSnapshots.length,
+      refreshedProjects: successful.length,
+      snapshotsAddedOrUpdated: added,
       source,
       unavailable: failed.map(({ appId, projectId, error }) => ({
         appId,

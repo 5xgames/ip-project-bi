@@ -43,6 +43,7 @@ async function fetchGame(target) {
   const apiUrl = `${apiBase}/${target.appId}`;
   const response = await fetch(apiUrl, {
     headers: { "user-agent": "Mozilla/5.0 (compatible; 5XGames-IP-Research/1.0)" },
+    signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const game = await response.json();
@@ -99,6 +100,11 @@ const targets = [...appProjects].map(([appId, projectId]) => ({ appId, projectId
     }
   }
 
+  const historicalSalesSnapshots = data.rankSnapshots.filter((snapshot) => (
+    snapshot.source === source && snapshot.metricType === "estimated_sales"
+  ));
+  const historicalSalesProjectIds = new Set(historicalSalesSnapshots.map((snapshot) => snapshot.projectId).filter(Boolean));
+
   data.rankSnapshots.sort((a, b) => String(a.date || "").localeCompare(String(b.date || ""))
     || String(a.projectId || a.releaseId || "").localeCompare(String(b.projectId || b.releaseId || ""))
     || String(a.metricType || "").localeCompare(String(b.metricType || "")));
@@ -114,8 +120,10 @@ const targets = [...appProjects].map(([appId, projectId]) => ({ appId, projectId
     videoGameInsights: {
       verifiedAt,
       metric: "estimated_lifetime_unit_sales",
-      projects: successful.length,
-      snapshots: Object.values(counts).reduce((total, count) => total + count, 0),
+      projects: historicalSalesProjectIds.size,
+      targetsQueried: targets.length,
+      snapshots: historicalSalesSnapshots.length,
+      snapshotsAddedOrUpdated: Object.values(counts).reduce((total, count) => total + count, 0),
       platforms: counts,
       source,
       unavailable: failed.map(({ appId, projectId, error }) => ({ appId, projectId, reason: error })),
