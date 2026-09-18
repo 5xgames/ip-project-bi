@@ -114,6 +114,11 @@
     kagemasu: "我想成为影之强者！庭园大师",
     onmyoji: "阴阳师",
     mahjong_soul: "雀魂麻将",
+    pokemon_go: "Pokémon GO",
+    angry_birds_2: "愤怒的小鸟2",
+    castle_and_dragon: "城与龙",
+    haruka_ryugu: "遥远时空中 龙宫神子",
+    persona_5_the_phantom_x: "女神异闻录：夜幕魅影",
   });
 
   const projectById = Object.freeze({
@@ -143,6 +148,9 @@
     "one-piece-world-seeker": "海贼王：寻秘世界",
     "persona-5-the-phantom-x": "女神异闻录：夜幕魅影",
     "pokemon-champions": "宝可梦 Champions",
+    "kunio-survivors-of-the-dead": "热血硬派国夫君：亡者幸存者",
+    "patlabor-the-case-files": "机动警察 Patlabor：The Case Files",
+    "koyorinium": "Koyorinium",
     "professor-layton-new-world-of-steam": "雷顿教授与蒸汽新世界",
     "sand-land": "沙漠大冒险",
     "suikoden-star-leap": "幻想水浒传 STAR LEAP",
@@ -253,6 +261,11 @@
     "サクラ大戦": "樱花大战",
     "サムライスピリッツ": "侍魂",
     "サンリオキャラクターズ": "三丽鸥角色",
+    "金色のコルダ": "金色琴弦",
+    "ペルソナ3 ポータブル": "女神异闻录3 携带版",
+    "テレビアニメ『ポケットモンスター』": "电视动画《宝可梦》",
+    "無職転生Ⅲ ～異世界行ったら本気だす～": "无职转生Ⅲ ～到了异世界就拿出真本事～",
+    "スーパーモンキーボール バナナランブル": "超级猴子球 香蕉大乱斗",
     "ザ・ファブル": "杀手寓言",
     "シティーハンター": "城市猎人",
     "シャングリラ・フロンティア": "香格里拉边境",

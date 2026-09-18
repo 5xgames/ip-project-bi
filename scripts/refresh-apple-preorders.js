@@ -497,11 +497,19 @@ const checkedAt = tokyoDate(now);
       note: "Apple 预约页日期用于 plannedLaunchDate；若商店提前从预约变为可获取，会进入 storefrontLiveCandidates 并触发官方开服核验，但仍须取得官方开服或发售证据才能写 actualLaunchDate。",
     },
     dailyDiscovery: {
+      ...(
+        data.meta.projectDiscoveryAudit?.dailyDiscovery?.verifiedAt === checkedAt
+          ? data.meta.projectDiscoveryAudit.dailyDiscovery
+          : {}
+      ),
       verifiedAt: checkedAt,
       searchQueries: discoveryQueries.length + newsQueries.length,
       newsCandidates: newsDiscovery.candidates.length,
       queue: "data/processed/game_project_watch_queue.json",
-      note: "候选仅用于每日核验，不自动把搜索结果写成正式项目。",
+      note: data.meta.projectDiscoveryAudit?.dailyDiscovery?.verifiedAt === checkedAt
+        && Number(data.meta.projectDiscoveryAudit.dailyDiscovery.projectsAdded || 0) > 0
+        ? data.meta.projectDiscoveryAudit.dailyDiscovery.note
+        : "候选仅用于每日核验，不自动把搜索结果写成正式项目。",
     },
   };
 
