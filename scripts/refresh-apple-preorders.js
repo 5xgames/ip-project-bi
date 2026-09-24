@@ -31,6 +31,14 @@ const previousStorefrontReviews = new Map((previousQueue.storefrontLiveCandidate
     reviewEvidenceUrl: candidate.reviewEvidenceUrl || "",
     reviewedAt: candidate.reviewedAt || "",
   }]));
+const previousOverdueReviews = new Map((previousQueue.overdueLaunches || [])
+  .filter((candidate) => candidate.reviewStatus)
+  .map((candidate) => [String(candidate.releaseId), {
+    reviewStatus: candidate.reviewStatus,
+    reviewReason: candidate.reviewReason || "",
+    reviewEvidenceUrl: candidate.reviewEvidenceUrl || "",
+    reviewedAt: candidate.reviewedAt || "",
+  }]));
 
 const now = new Date();
 const activeStatuses = new Set(["announced", "testing", "preregister", "upcoming", "delayed"]);
@@ -435,18 +443,23 @@ const checkedAt = tokyoDate(now);
         && plannedDate
         && plannedDate <= checkedAt;
     })
-    .map((release) => ({
-      projectId: release.projectId,
-      productName: projectById.get(release.projectId)?.productName || release.projectId,
-      releaseId: release.id,
-      platform: release.platform,
-      region: release.region,
-      plannedLaunchDate: exactDate(release.plannedLaunchDate),
-      appleExpectedLaunchDate: release.appleExpectedLaunchDate || "",
-      status: release.status,
-      reason: "计划日期已到，但尚无 actualLaunchDate；必须核验官方开服/发售证据",
-      sourceUrl: release.sourceUrl || release.storeUrl || "",
-    }));
+    .map((release) => {
+      const candidate = {
+        projectId: release.projectId,
+        productName: projectById.get(release.projectId)?.productName || release.projectId,
+        releaseId: release.id,
+        platform: release.platform,
+        region: release.region,
+        plannedLaunchDate: exactDate(release.plannedLaunchDate),
+        appleExpectedLaunchDate: release.appleExpectedLaunchDate || "",
+        status: release.status,
+        reason: "计划日期已到，但尚无 actualLaunchDate；必须核验官方开服/发售证据",
+        sourceUrl: release.sourceUrl || release.storeUrl || "",
+      };
+      const review = previousOverdueReviews.get(String(release.id));
+      if (review) Object.assign(candidate, review);
+      return candidate;
+    });
 
   const queue = {
     generatedAt: generatedAt(),
