@@ -70,7 +70,7 @@
   const platformNames = {
     ios: "iOS", android: "Android", steam: "Steam", windows: "Windows PC",
     switch: "Nintendo Switch", playstation: "PlayStation", xbox: "Xbox",
-    web: "网页游戏", unannounced: "平台待公布",
+    web: "网页游戏", vr: "VR / MR", unannounced: "平台待公布",
     wechat_minigame: "微信小游戏", douyin_minigame: "抖音小游戏",
   };
   const regionNames = {

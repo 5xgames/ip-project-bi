@@ -13,6 +13,7 @@ if (!process.argv[2] || !fs.existsSync(reviewPath)) {
   process.exit(1);
 }
 const review = JSON.parse(fs.readFileSync(reviewPath, "utf8"));
+const reconcileNews = process.argv.includes("--reconcile-news");
 const today = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Asia/Tokyo", year: "numeric", month: "2-digit", day: "2-digit",
 }).format(new Date());
@@ -38,15 +39,19 @@ upsert(data.projects, review.projects);
 upsert(data.releases, review.releases);
 data.meta.targetPlatforms = [...new Set([...(data.meta.targetPlatforms || []), "vr"])];
 
-for (const [indexText, decision] of Object.entries(review.newsDecisions || {})) {
-  const index = Number(indexText);
-  const candidate = queue.newsCandidates[index];
-  if (!candidate || !candidate.title.includes(decision.titleContains || "")) {
-    throw new Error(`News candidate ${indexText} no longer matches the reviewed headline`);
+if (!reconcileNews) {
+  for (const [indexText, decision] of Object.entries(review.newsDecisions || {})) {
+    const index = Number(indexText);
+    const candidate = queue.newsCandidates[index];
+    if (!candidate || !candidate.title.includes(decision.titleContains || "")) {
+      throw new Error(`News candidate ${indexText} no longer matches the reviewed headline`);
+    }
   }
 }
 for (const [index, candidate] of queue.newsCandidates.entries()) {
-  const decision = review.newsDecisions?.[index] || {
+  if (reconcileNews && candidate.reviewedAt === today && candidate.reviewStatus) continue;
+  const supplement = (review.newsSupplements || []).find((item) => candidate.title.includes(item.titleContains));
+  const decision = supplement || (!reconcileNews && review.newsDecisions?.[index]) || {
     reviewStatus: candidate.matchedProjectIds?.length ? "existing_project_screened" : "title_screened_no_new_project",
     reviewReason: candidate.matchedProjectIds?.length
       ? "已对照现有项目；标题未提供需新增的独立产品、发行版本或正式上线证据。"
