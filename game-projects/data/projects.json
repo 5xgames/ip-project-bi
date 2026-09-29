@@ -2,7 +2,7 @@
   "meta": {
     "schemaVersion": "3.1",
     "phase": 33,
-    "generatedAt": "2026-09-29T16:23:34+09:00",
+    "generatedAt": "2026-09-29T16:28:14+09:00",
     "latestProjectDate": "2026-09-29",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
@@ -910,14 +910,14 @@
       "plannedDateAudit": {
         "verifiedAt": "2026-09-29",
         "activeProjectsChecked": 59,
-        "activeReleasesChecked": 168,
+        "activeReleasesChecked": 170,
         "activeSourceUrlsChecked": 125,
         "activeSourceUrlsReachable": 122,
         "preciseDatesAdded": 0,
         "actualLaunchDatesAdded": 3,
         "launchStatusCorrections": 0,
         "projectsAdded": 7,
-        "releaseDefinitionsAdded": 14,
+        "releaseDefinitionsAdded": 16,
         "addedProjectIds": [
           "holocozy",
           "mega-man-dual-override",
@@ -2996,7 +2996,7 @@
       "latestUpdateDate": "2026-09-29",
       "latestUpdateLabel": "Capcom 宣布 iOS／Android 计划于 10 月 29 日推出",
       "status": "preregister",
-      "summary": "Capcom 官方宣布 2026 年 10 月 29 日推出；日本 iOS／Android 已开放预约。日本和美国 App Store 当前显示 12 月 15 日预计日期，与官方公告冲突，保留为商店参考而非实际上线。其他地区日期仍待逐区核验。",
+      "summary": "Capcom 官方宣布 2026 年 10 月 29 日推出，并明确中国大陆版计划于 2027 年以后推出；日本 iOS／Android 已开放预约。日本和美国 App Store 当前显示 12 月 15 日预计日期，与官方公告冲突，保留为商店参考而非实际上线。其他地区日期仍待逐区核验。",
       "sourceUrl": "https://www.capcom.co.jp/ir/news/html/260929.html",
       "officialSiteUrl": "https://monsterhunteroutlanders.com/ja/",
       "verifiedAt": "2026-09-29"
@@ -16607,6 +16607,36 @@
       "actualLaunchDate": "2026-09-24",
       "status": "launched",
       "sourceUrl": "https://www.konami.com/games/corporate/ja/news/topics/20260924/",
+      "verifiedAt": "2026-09-29"
+    },
+    {
+      "id": "monster-hunter-outlanders-cn-ios",
+      "projectId": "monster-hunter-outlanders",
+      "platform": "ios",
+      "region": "CN",
+      "store": "iOS 中国大陆（商店页待确认）",
+      "storeId": "",
+      "plannedLaunchDate": "2027年以后",
+      "plannedLaunchDateSource": "Capcom 官方公告",
+      "plannedLaunchDateSourceUrl": "https://www.capcom.co.jp/ir/news/html/260929.html",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.capcom.co.jp/ir/news/html/260929.html",
+      "verifiedAt": "2026-09-29"
+    },
+    {
+      "id": "monster-hunter-outlanders-cn-android",
+      "projectId": "monster-hunter-outlanders",
+      "platform": "android",
+      "region": "CN",
+      "store": "Android 中国大陆（渠道待确认）",
+      "storeId": "",
+      "plannedLaunchDate": "2027年以后",
+      "plannedLaunchDateSource": "Capcom 官方公告",
+      "plannedLaunchDateSourceUrl": "https://www.capcom.co.jp/ir/news/html/260929.html",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://www.capcom.co.jp/ir/news/html/260929.html",
       "verifiedAt": "2026-09-29"
     }
   ],
