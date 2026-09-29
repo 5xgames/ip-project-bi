@@ -74,6 +74,10 @@ const newsQueries = [
   '(Steam OR "Nintendo Switch" OR PlayStation OR Xbox) (アニメ OR 漫画) 新作 when:7d',
   'site:prtimes.jp (ゲーム OR ゲーム化) (アニメ OR 漫画 OR VTuber) when:7d',
   '("正式リリース" OR "配信開始" OR "発売日決定") (アニメ OR 漫画) ゲーム when:7d',
+  // The BI also tracks games based on established Japanese game franchises.
+  // Anime/manga-only queries missed Capcom's Monster Hunter Outlanders notice.
+  '("モバイルゲーム" OR "スマートフォンゲーム") ("シリーズ" OR "IP") ("配信決定" OR "正式サービス開始") when:7d',
+  '("シリーズ最新作" OR "シリーズ新作") ("配信日" OR "発売日" OR "配信決定") ゲーム when:7d',
 ];
 
 function tokyoDate(value) {
