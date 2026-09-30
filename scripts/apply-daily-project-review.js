@@ -51,6 +51,14 @@ if (!reconcileNews) {
 for (const [index, candidate] of queue.newsCandidates.entries()) {
   if (reconcileNews && candidate.reviewedAt === today && candidate.reviewStatus) continue;
   const supplement = (review.newsSupplements || []).find((item) => candidate.title.includes(item.titleContains));
+  if (reconcileNews && review.carryForwardNewsStatusAfterTodayScreening === true
+    && !supplement && candidate.reviewStatus && candidate.reviewReason) {
+    // The reviewer has screened every headline again today; preserve the
+    // source-backed decision for an unchanged candidate rather than replacing
+    // it with the generic title-screened fallback.
+    candidate.reviewedAt = today;
+    continue;
+  }
   const decision = supplement || (!reconcileNews && review.newsDecisions?.[index]) || {
     reviewStatus: candidate.matchedProjectIds?.length ? "existing_project_screened" : "title_screened_no_new_project",
     reviewReason: candidate.matchedProjectIds?.length
@@ -64,10 +72,26 @@ for (const [index, candidate] of queue.newsCandidates.entries()) {
 }
 queue.summary.unreviewedNewsCandidates = 0;
 const untrackedApple = (queue.applePreorderCandidates || []).filter((item) => !item.alreadyTracked);
+for (const item of untrackedApple) {
+  const decision = review.appleDecisions?.[item.storeId];
+  if (!decision) continue;
+  item.reviewStatus = decision.reviewStatus;
+  item.reviewReason = decision.reviewReason;
+  item.reviewEvidenceUrl = decision.reviewEvidenceUrl || item.storeUrl || "";
+  item.reviewedAt = today;
+}
 const unreviewedApple = untrackedApple.filter((item) => item.reviewedAt !== today || !item.reviewStatus);
 if (unreviewedApple.length) throw new Error(`${unreviewedApple.length} untracked Apple candidates lack today's review`);
 const overdue = queue.overdueLaunches || [];
 const storefront = queue.storefrontLiveCandidates || [];
+for (const item of [...overdue, ...storefront]) {
+  const decision = review.releaseDecisions?.[item.releaseId];
+  if (!decision) continue;
+  item.reviewStatus = decision.reviewStatus;
+  item.reviewReason = decision.reviewReason;
+  item.reviewEvidenceUrl = decision.reviewEvidenceUrl || item.sourceUrl || "";
+  item.reviewedAt = today;
+}
 if ([...overdue, ...storefront].some((item) => item.reviewedAt !== today || !item.reviewStatus)) {
   throw new Error("Overdue or storefront-live candidate lacks today's official-evidence review");
 }
