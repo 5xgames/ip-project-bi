@@ -37,6 +37,12 @@ function upsert(list, incoming) {
 }
 upsert(data.projects, review.projects);
 upsert(data.releases, review.releases);
+const addedProjectIds = review.newProjectIds || (review.projects || []).map((item) => item.id);
+const addedReleaseIds = review.newReleaseIds || (review.releases || []).map((item) => item.id);
+if (addedProjectIds.some((id) => !(review.projects || []).some((item) => item.id === id))
+  || addedReleaseIds.some((id) => !(review.releases || []).some((item) => item.id === id))) {
+  throw new Error("New project/release IDs must be included in this dated review");
+}
 data.meta.targetPlatforms = [...new Set([...(data.meta.targetPlatforms || []), "vr"])];
 
 if (!reconcileNews) {
@@ -49,8 +55,8 @@ if (!reconcileNews) {
   }
 }
 for (const [index, candidate] of queue.newsCandidates.entries()) {
-  if (reconcileNews && candidate.reviewedAt === today && candidate.reviewStatus) continue;
   const supplement = (review.newsSupplements || []).find((item) => candidate.title.includes(item.titleContains));
+  if (reconcileNews && candidate.reviewedAt === today && candidate.reviewStatus && !supplement) continue;
   if (reconcileNews && review.carryForwardNewsStatusAfterTodayScreening === true
     && !supplement && candidate.reviewStatus && candidate.reviewReason) {
     // The reviewer has screened every headline again today; preserve the
@@ -116,8 +122,8 @@ queue.reviewAudit = {
   newsCandidatesReviewed: queue.newsCandidates.length,
   newsReviewStatuses: Object.fromEntries([...new Set(queue.newsCandidates.map((item) => item.reviewStatus))]
     .map((status) => [status, queue.newsCandidates.filter((item) => item.reviewStatus === status).length])),
-  projectsAddedFromNews: (review.projects || []).map((item) => item.id),
-  releasesAddedFromNews: (review.releases || []).map((item) => item.id),
+  projectsAddedFromNews: addedProjectIds,
+  releasesAddedFromNews: addedReleaseIds,
   storefrontCandidatesReviewed: storefront.length,
   overdueLaunchesReviewed: overdue.length,
   unresolvedStorefrontProjectIds: unresolvedStorefront,
@@ -137,9 +143,9 @@ data.meta.projectDiscoveryAudit = {
     preciseDatesAdded: 0,
     actualLaunchDatesAdded: (review.releases || []).filter((item) => item.actualLaunchDate).length,
     launchStatusCorrections: 0,
-    projectsAdded: (review.projects || []).length,
-    releaseDefinitionsAdded: (review.releases || []).length,
-    addedProjectIds: (review.projects || []).map((item) => item.id),
+    projectsAdded: addedProjectIds.length,
+    releaseDefinitionsAdded: addedReleaseIds.length,
+    addedProjectIds,
     unresolvedOverdueProjectIds: unresolvedOverdue,
     unresolvedStorefrontProjectIds: unresolvedStorefront,
     sourceCheckFailures,
@@ -159,5 +165,5 @@ console.log(JSON.stringify({
   reviewedAt: today, newsCandidatesReviewed: queue.newsCandidates.length,
   activeProjectsChecked: activeProjects.length, activeReleasesChecked: activeReleases.length,
   activeSourceUrlsChecked: sourceUrls.size, activeSourceUrlsReachable: sourceUrls.size - sourceCheckFailures.length,
-  projectsAdded: (review.projects || []).length, releaseDefinitionsAdded: (review.releases || []).length,
+  projectsAdded: addedProjectIds.length, releaseDefinitionsAdded: addedReleaseIds.length,
 }, null, 2));

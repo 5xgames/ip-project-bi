@@ -156,6 +156,7 @@
     "lollipop-chainsaw-2-back2back": "电锯甜心2 Back2Back",
     "sanrio-kawaii-me-live": "三丽鸥 Kawaii Me Live!",
     "monster-hunter-outlanders": "怪物猎人：Outlanders",
+    "ace-attorney-5-vr": "逆转裁判5 VR",
     "jojo-go-go-horse-run": "JOJO的奇妙冒险：GO! GO! HORSE RUN!",
     "gachiakuta-the-game": "废渊战鬼 BREAKOUT",
     "professor-layton-new-world-of-steam": "雷顿教授与蒸汽新世界",
