@@ -24,6 +24,7 @@ const projectJsPath = path.join(workspaceRoot, "site/game-projects/data/projects
 const queuePath = path.join(workspaceRoot, "data/processed/game_project_watch_queue.json");
 const data = JSON.parse(fs.readFileSync(projectPath, "utf8"));
 const queue = JSON.parse(fs.readFileSync(queuePath, "utf8"));
+const originalReleases = new Map(data.releases.map((item) => [item.id, { ...item }]));
 if (queue.today !== today) throw new Error(`Watch queue is stale: ${queue.today}`);
 if (!Array.isArray(queue.newsCandidates)) throw new Error("Watch queue has no news candidate list");
 
@@ -46,6 +47,12 @@ if (addedProjectIds.some((id) => !(review.projects || []).some((item) => item.id
 data.meta.targetPlatforms = [...new Set([...(data.meta.targetPlatforms || []), "vr"])];
 
 if (!reconcileNews) {
+  for (const [index] of queue.newsCandidates.entries()) {
+    const decision = review.newsDecisions?.[index];
+    if (!decision?.titleContains || !String(decision.reviewStatus || "").trim() || !String(decision.reviewReason || "").trim()) {
+      throw new Error(`News candidate ${index} lacks an explicit dated review decision`);
+    }
+  }
   for (const [indexText, decision] of Object.entries(review.newsDecisions || {})) {
     const index = Number(indexText);
     const candidate = queue.newsCandidates[index];
@@ -56,21 +63,12 @@ if (!reconcileNews) {
 }
 for (const [index, candidate] of queue.newsCandidates.entries()) {
   const supplement = (review.newsSupplements || []).find((item) => candidate.title.includes(item.titleContains));
-  if (reconcileNews && candidate.reviewedAt === today && candidate.reviewStatus && !supplement) continue;
-  if (reconcileNews && review.carryForwardNewsStatusAfterTodayScreening === true
-    && !supplement && candidate.reviewStatus && candidate.reviewReason) {
-    // The reviewer has screened every headline again today; preserve the
-    // source-backed decision for an unchanged candidate rather than replacing
-    // it with the generic title-screened fallback.
-    candidate.reviewedAt = today;
-    continue;
+  const decision = supplement || review.newsDecisions?.[index];
+  if (!decision && reconcileNews && candidate.reviewedAt === today
+    && String(candidate.reviewStatus || "").trim() && String(candidate.reviewReason || "").trim()) continue;
+  if (!decision || !String(decision.reviewStatus || "").trim() || !String(decision.reviewReason || "").trim()) {
+    throw new Error(`News candidate ${index} lacks today's explicit review; reconcile cannot invent a decision`);
   }
-  const decision = supplement || (!reconcileNews && review.newsDecisions?.[index]) || {
-    reviewStatus: candidate.matchedProjectIds?.length ? "existing_project_screened" : "title_screened_no_new_project",
-    reviewReason: candidate.matchedProjectIds?.length
-      ? "已对照现有项目；标题未提供需新增的独立产品、发行版本或正式上线证据。"
-      : "逐条筛查标题，未发现可据此写入的日本 IP 独立游戏化项目；不以标题推断具体发售事实。",
-  };
   candidate.reviewStatus = decision.reviewStatus;
   candidate.reviewReason = decision.reviewReason;
   candidate.reviewEvidenceUrl = decision.reviewEvidenceUrl || "";
@@ -81,6 +79,7 @@ const untrackedApple = (queue.applePreorderCandidates || []).filter((item) => !i
 for (const item of untrackedApple) {
   const decision = review.appleDecisions?.[item.storeId];
   if (!decision) continue;
+  if (!String(decision.reviewReason || "").trim()) throw new Error(`Apple candidate ${item.storeId} lacks a review reason`);
   item.reviewStatus = decision.reviewStatus;
   item.reviewReason = decision.reviewReason;
   item.reviewEvidenceUrl = decision.reviewEvidenceUrl || item.storeUrl || "";
@@ -93,6 +92,7 @@ const storefront = queue.storefrontLiveCandidates || [];
 for (const item of [...overdue, ...storefront]) {
   const decision = review.releaseDecisions?.[item.releaseId];
   if (!decision) continue;
+  if (!String(decision.reviewReason || "").trim()) throw new Error(`Release candidate ${item.releaseId} lacks a review reason`);
   item.reviewStatus = decision.reviewStatus;
   item.reviewReason = decision.reviewReason;
   item.reviewEvidenceUrl = decision.reviewEvidenceUrl || item.sourceUrl || "";
@@ -105,8 +105,25 @@ if ([...overdue, ...storefront].some((item) => item.reviewedAt !== today || !ite
 const active = new Set(["announced", "testing", "preregister", "upcoming", "delayed"]);
 const activeProjects = data.projects.filter((item) => active.has(item.status));
 const activeReleases = data.releases.filter((item) => active.has(item.status));
+if ([...activeProjects, ...activeReleases].some((item) => !/^https?:\/\//.test(item.sourceUrl || ""))) {
+  throw new Error("An active project/release is missing its official source URL");
+}
 const sourceUrls = new Set([...activeProjects, ...activeReleases].map((item) => item.sourceUrl).filter((url) => /^https?:\/\//.test(url || "")));
-const sourceCheckFailures = review.sourceChecks?.sourceCheckFailures || [];
+const checkedProjects = new Set(review.sourceChecks?.checkedProjectIds || []);
+const checkedReleases = new Set(review.sourceChecks?.checkedReleaseIds || []);
+const checkedUrls = new Set(review.sourceChecks?.checkedSourceUrls || []);
+const sourceResults = review.sourceChecks?.sourceResults || [];
+const resultUrls = new Set(sourceResults.filter((item) => item.checkedAt === today
+  && ["reviewed", "failed"].includes(item.readStatus)
+  && String(item.evidence || item.reason || "").trim()).map((item) => item.url));
+const missingChecks = [
+  ...activeProjects.filter((item) => !checkedProjects.has(item.id)).map((item) => `project:${item.id}`),
+  ...activeReleases.filter((item) => !checkedReleases.has(item.id)).map((item) => `release:${item.id}`),
+  ...[...sourceUrls].filter((url) => !checkedUrls.has(url)).map((url) => `source:${url}`),
+  ...[...sourceUrls].filter((url) => !resultUrls.has(url)).map((url) => `source-result:${url}`),
+];
+if (missingChecks.length) throw new Error(`Active audit does not cover actual records: ${missingChecks.join(", ")}`);
+const sourceCheckFailures = [...new Map((review.sourceChecks?.sourceCheckFailures || []).map((item) => [item.url, item])).values()];
 const uncheckedFailure = sourceCheckFailures.filter((item) => !sourceUrls.has(item.url));
 if (uncheckedFailure.length) throw new Error(`Source-check failure does not match an active source: ${uncheckedFailure[0].url}`);
 
@@ -140,8 +157,12 @@ data.meta.projectDiscoveryAudit = {
     activeReleasesChecked: activeReleases.length,
     activeSourceUrlsChecked: sourceUrls.size,
     activeSourceUrlsReachable: sourceUrls.size - sourceCheckFailures.length,
+    checkedProjectIds: activeProjects.map((item) => item.id),
+    checkedReleaseIds: activeReleases.map((item) => item.id),
+    checkedSourceUrls: [...sourceUrls],
+    sourceResults: sourceResults.filter((item) => sourceUrls.has(item.url)),
     preciseDatesAdded: 0,
-    actualLaunchDatesAdded: (review.releases || []).filter((item) => item.actualLaunchDate).length,
+    actualLaunchDatesAdded: [...new Map((review.releases || []).map((item) => [item.id, item])).values()].filter((item) => item.actualLaunchDate && !originalReleases.get(item.id)?.actualLaunchDate).length,
     launchStatusCorrections: 0,
     projectsAdded: addedProjectIds.length,
     releaseDefinitionsAdded: addedReleaseIds.length,
