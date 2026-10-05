@@ -2,7 +2,7 @@ window.GAME_PROJECTS_DATA = {
   "meta": {
     "schemaVersion": "3.1",
     "phase": 33,
-    "generatedAt": "2026-10-05T16:26:44+09:00",
+    "generatedAt": "2026-10-05T16:57:39+09:00",
     "latestProjectDate": "2026-10-05",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
@@ -91,10 +91,10 @@ window.GAME_PROJECTS_DATA = {
         "verifiedAt": "2026-10-05",
         "coverageStart": "2016-08-01",
         "metric": "monthly_average_concurrent_players",
-        "projects": 26,
-        "snapshots": 1079,
-        "refreshedProjects": 25,
-        "snapshotsAddedOrUpdated": 1066,
+        "projects": 27,
+        "snapshots": 1088,
+        "refreshedProjects": 26,
+        "snapshotsAddedOrUpdated": 1075,
         "source": "SteamCharts",
         "unavailable": [
           {
@@ -137,12 +137,12 @@ window.GAME_PROJECTS_DATA = {
       "videoGameInsights": {
         "verifiedAt": "2026-10-05",
         "metric": "estimated_lifetime_unit_sales",
-        "projects": 27,
-        "targetsQueried": 32,
-        "snapshots": 904,
-        "snapshotsAddedOrUpdated": 65,
+        "projects": 28,
+        "targetsQueried": 33,
+        "snapshots": 905,
+        "snapshotsAddedOrUpdated": 66,
         "platforms": {
-          "steam": 26,
+          "steam": 27,
           "playstation": 22,
           "xbox": 17
         },
@@ -1862,13 +1862,9 @@ window.GAME_PROJECTS_DATA = {
           {
             "url": "https://yushakei-pj.com/news/20260328_03/",
             "checkedAt": "2026-10-05",
-            "checkedTimestamp": "2026-10-05T07:00:39.176Z",
             "readStatus": "reviewed",
             "httpStatus": 200,
-            "finalUrl": "https://yushakei-pj.com/news/20260328_03/",
-            "title": "NEWS｜TVアニメ『勇者刑に処す 懲罰勇者9004隊刑務記録』公式サイト",
-            "evidence": "ト NEWS TV ANIMATION SENTENCED TO BE A HERO ニュース TOP NEWS 完全新作ゲーム『勇者刑に処す –Game of the GODDESS-』の制作決定 2026.03.28 完全新作ゲーム『勇者刑に処す –Game of the GODDESS-』の制作決定 完全新作ゲーム化プロジェクトとして、新作タイトル『勇者刑に処す –Game of the GODDESS-』を解禁しました。ティザーPV、ティザーKVを公開しております。 本作は、KADOKAWAがパブリッシング、VIC GAME STUDIOSが開発を担当。詳細はゲーム公式Xをご確認ください。 ティザーPVは",
-            "sourceType": "official_publisher_or_rightsholder"
+            "evidence": "版权方3/28正文：完全新作游戏Game of the GODDESS，KADOKAWA发行、VIC GAME STUDIOS开发；未公布平台和上线日。"
           },
           {
             "url": "https://corp.marv.jp/pr/20260924-001856.html",
@@ -1984,13 +1980,9 @@ window.GAME_PROJECTS_DATA = {
           {
             "url": "https://prtimes.jp/main/html/rd/p/000001507.000050711.html",
             "checkedAt": "2026-10-05",
-            "checkedTimestamp": "2026-10-05T07:00:39.710Z",
             "readStatus": "reviewed",
             "httpStatus": 200,
-            "finalUrl": "https://prtimes.jp/main/html/rd/p/000001507.000050711.html",
-            "title": "10月15日発売の最新作『Castlevania: Belmont&#x27;s Curse』、本日から体験版配信開始！ | 株式会社コナミデジタルエンタテインメントのプレスリリース",
-            "evidence": "10月15日発売の最新作『Castlevania: Belmont&#x27;s Curse』、本日から体験版配信開始！ | 株式会社コナミデジタルエンタテインメントのプレスリリース プレスリリース・ニュースリリース配信サービスのPR TIMES プレスリリースを受信 企業登録申請 Top テクノロジー モバイル アプリ エンタメ ビューティー ファッション ライフスタイル ビジネス グルメ スポーツ … PR TIMESのご利用について 資料をダウンロード 株式会社コナミデジタルエンタテインメント 会社概要 フォロー 10 | て 資料をダウンロード 株式会社コナミデジタルエンタテインメント 会社概要 フォロー 10月15日発売の最新作『Castlevania: Belmont&#x27;s Curse』、本日から\u0000\u0000体験版配信開始！ 株式会社コナミデジタルエンタテインメント 2026年10月1日 10時08分 いいね！数を読み込み中です 株式会社コナミデジタルエンタテインメントは、「Castlevania」シリーズ最新作『Castlevania: Belmont's Curse（キャッスルヴァニア ベルモンドカース）』の体験版を本日から配信開始したことをお知らせします。体験版では、2026年10月15日の発売日に先駆けてゲーム序盤を楽 | インメント 会社概要 フォロー 10月15日発売の最新作『Castlevania: Belmont&#x27;s Curse』、本日から\u0000\u0000体験版配信開始！ 株式会社コナミデジタルエンタテインメント 2026年10月1日 10時08分 いいね！数を読み込み中です 株式会社コナミデジタルエンタテインメントは、「Castlevania」シリーズ最新作『Castlevania: Belmont's Curse（キャッスルヴァニア ベルモンドカース）』の体験版を本日から配信開始したことをお知らせします。体験版では、2026年10月15日の発売日に先駆けてゲーム序盤を楽しむことができ、体験版のセーブデータは製品版への引継ぎ",
-            "sourceType": "official_publisher_or_rightsholder"
+            "evidence": "KONAMI官方10/1正文：Belmont's Curse体验版10/1、正式发售10/15；体验版不视为正式上线。"
           },
           {
             "url": "https://store.steampowered.com/app/5040220/HoloCozy/",
@@ -2061,13 +2053,9 @@ window.GAME_PROJECTS_DATA = {
           {
             "url": "https://www.atpress.ne.jp/news/636302",
             "checkedAt": "2026-10-05",
-            "checkedTimestamp": "2026-10-05T07:00:39.782Z",
             "readStatus": "reviewed",
             "httpStatus": 200,
-            "finalUrl": "https://www.atpress.ne.jp/news/636302",
-            "title": "敵と味方が一手ずつ動く緊張感を体験 「マーセナリーズグレイス」を 東京ゲームダンジョン14に出展 | 株式会社ライドオンジャパン",
-            "evidence": "味方が一手ずつ動く緊張感を体験 「マーセナリーズグレイス」を 東京ゲームダンジョン14に出展 10月31日に試遊を実施 傭兵隊を率いるタクティカルRPGを会場で体験 株式会社ライドオンジャパン 商品 2026年9月30日 14:30 株式会社ライドオンジャパン(埼玉県川口市、代表取締役：其田 賢一)は、2026年10月31日(土)に開催される「東京ゲームダンジョン14」に、タクティカルシミュレーションRPG「マーセナリーズグレイス」を出展します。会場では本作の試遊に加え、オリジナルノベルティグッズの配布も予定しています。 Nintendo Switch、PlayStation 5版は2026年11月、Steam版 | 日に試遊を実施 傭兵隊を率いるタクティカルRPGを会場で体験 株式会社ライドオンジャパン 商品 2026年9月30日 14:30 株式会社ライドオンジャパン(埼玉県川口市、代表取締役：其田 賢一)は、2026年10月31日(土)に開催される「東京ゲームダンジョン14」に、タクティカルシミュレーションRPG「マーセナリーズグレイス」を出展します。会場では本作の試遊に加え、オリジナルノベルティグッズの配布も予定しています。 Nintendo Switch、PlayStation 5版は2026年11月、Steam版は2027年初頭に発売を予定しております。 ●「マーセナリーズグレイス」PlayStation 5版スト | ミュレーションRPG「マーセナリーズグレイス」を出展します。会場では本作の試遊に加え、オリジナルノベルティグッズの配布も予定しています。 Nintendo Switch、PlayStation 5版は2026年11月、Steam版は2027年初頭に発売を予定しております。 ●「マーセナリーズグレイス」PlayStation 5版ストアページ https://store.playstation.com/ja-jp/concept/10020817 ●「マーセナリーズグレイス」Steam版ストアページ https://store.steampowered.com/app/5150750/Mercenaries_Gra",
-            "sourceType": "official_publisher_or_rightsholder"
+            "evidence": "Rideon Japan官方9/30正文：Mercenaries Grace10/31展会试玩，Switch/PS52026年11月，Steam2027年初。"
           },
           {
             "url": "https://www.koeitecmoamerica.com/news/koei-tecmo-locks-in-dec-10-2026-release-date-for-attack-on-titan-3/",
@@ -2805,13 +2793,9 @@ window.GAME_PROJECTS_DATA = {
           {
             "url": "https://www.capcom.co.jp/ir/news/html/260929.html",
             "checkedAt": "2026-10-05",
-            "checkedTimestamp": "2026-10-05T07:00:48.749Z",
             "readStatus": "reviewed",
             "httpStatus": 200,
-            "finalUrl": "https://www.capcom.co.jp/ir/news/html/260929.html",
-            "title": "モバイルゲーム『モンスターハンターアウトランダーズ』が、2026年10月29日に配信決定！～ 主力IPを活用したモバイル展開により、ユーザー層の拡大を目指す ～ | プレスリリース | 株式会社カプコン",
-            "evidence": "モバイルゲーム『モンスターハンターアウトランダーズ』が、2026年10月29日に配信決定！～ 主力IPを活用したモバイル展開により、ユーザー層の拡大を目指す ～ | プレスリリース | 株式会社カプコン 企業情報｜投資家情報（IR） 総合トップ English Global 検索 企業情報全体 プレスリリース 会社情報 会社情報トップ 会社の紹介 経営理念・ビジョン 事業内容 事業内容トップ デジタルコンテンツ事業 アミューズメント施設事業 アミューズメント機器事業 その | 関わり 社会への取り組み 環境 価値創造モデル カプコンの教育支援活動 採用情報 English Global 閉じる ホーム プレスリリース モバイルゲーム『モンスターハンターアウトランダーズ』が、2026年10月29日に配信決定！～ 主力I… 印刷 文字サイズ 小 中 大 ENGLISH PDF 2026年9月29日 報道関係者各位 大阪市中央区内平野町三丁目1番3号 株式会社カプコン 代表取締役社長 辻本 春弘 (コード番号：9697 東証プライム) モバイルゲーム『モンスターハンターアウトランダーズ』が、 2026年10月29日に配信決定！ ～ 主力IPを活用したモバイル展開により、ユーザー層の拡大を目指 | obal 閉じる ホーム プレスリリース モバイルゲーム『モンスターハンターアウトランダーズ』が、2026年10月29日に配信決定！～ 主力I… 印刷 文字サイズ 小 中 大 ENGLISH PDF 2026年9月29日 報道関係者各位 大阪市中央区内平野町三丁目1番3号 株式会社カプコン 代表取締役社長 辻本 春弘 (コード番号：9697 東証プライム) モバイルゲーム『モンスターハンターアウトランダーズ』が、 2026年10月29日に配信決定！ ～ 主力IPを活用したモバイル展開により、ユーザー層の拡大を目指す ～ 株式会社カプコンは、「モンスターハンター」シリーズの最新モバイル（iOS / Android）",
-            "sourceType": "official_publisher_or_rightsholder"
+            "evidence": "Capcom官方9/29正文：Monster Hunter Outlanders计划2026-10-29，中国大陆版2027年以后；不是今日已上线。"
           },
           {
             "url": "https://game.neoscorp.jp/culdcept_begins/",
@@ -2838,13 +2822,9 @@ window.GAME_PROJECTS_DATA = {
           {
             "url": "https://prtimes.jp/main/html/rd/p/000002461.000007736.html",
             "checkedAt": "2026-10-05",
-            "checkedTimestamp": "2026-10-05T07:06:18.444Z",
             "readStatus": "reviewed",
             "httpStatus": 200,
-            "finalUrl": "https://prtimes.jp/main/html/rd/p/000002461.000007736.html",
-            "title": "ネットマーブル、『シャングリラ・フロンティア～七つの最強種～』2026年のリリースを決定！公式ティザーサイトをオープンし、最新PVを公開！ | ネットマーブルジャパン株式会社のプレスリリース",
-            "evidence": "Netmarble Japan official PR (2026/3/18): Shangri-La Frontier ～七つの最強種～, 開発 Netmarble Nexus, 対応端末 iOS / Android / PC, サービス開始日 2026年内。",
-            "sourceType": "official_publisher_or_rightsholder"
+            "evidence": "Netmarble日本官方3/18正文：香格里拉边境七种最强种，Netmarble Nexus开发、iOS/Android/PC、2026年内。"
           },
           {
             "url": "https://www.konami.com/games/suikoden/star_leap/eu/en/",
@@ -2894,10 +2874,10 @@ window.GAME_PROJECTS_DATA = {
           }
         ],
         "preciseDatesAdded": 0,
-        "actualLaunchDatesAdded": 8,
+        "actualLaunchDatesAdded": 0,
         "launchStatusCorrections": 0,
-        "projectsAdded": 8,
-        "releaseDefinitionsAdded": 21,
+        "projectsAdded": 9,
+        "releaseDefinitionsAdded": 22,
         "addedProjectIds": [
           "psikyo-memories",
           "airport-hero-narita-ana",
@@ -2906,7 +2886,8 @@ window.GAME_PROJECTS_DATA = {
           "new-denpa-men-rpg-free",
           "super-danganronpa-2x2",
           "attack-on-titan-brave-order",
-          "dekiru-neko-puzzle"
+          "dekiru-neko-puzzle",
+          "princess-maker-children-of-revelation"
         ],
         "unresolvedOverdueProjectIds": [
           "made-in-abyss-doshigatai-trip"
@@ -4404,7 +4385,7 @@ window.GAME_PROJECTS_DATA = {
       "ipName": "Oshi no Ko / 我推的孩子",
       "ipType": "漫画 / 动漫",
       "genre": "益智消除",
-      "developer": "KADOKAWA",
+      "developer": "NHN",
       "publisher": "KADOKAWA",
       "announcementDate": "2025-09-14",
       "latestUpdateDate": "2026-02-25",
@@ -4412,7 +4393,9 @@ window.GAME_PROJECTS_DATA = {
       "status": "launched",
       "summary": "TV 动画《我推的孩子》首款官方益智手机游戏。",
       "sourceUrl": "https://apps.apple.com/jp/app/id6744346921",
-      "verifiedAt": "2026-09-10"
+      "verifiedAt": "2026-10-05",
+      "developerSourceUrl": "https://prtimes.jp/main/html/rd/p/000020286.000007006.html",
+      "developerVerifiedAt": "2026-10-05"
     },
     {
       "id": "outcast-restaurant-order-rush",
@@ -4900,7 +4883,7 @@ window.GAME_PROJECTS_DATA = {
       "ipName": "Yusha-kei ni Shosu / 判处勇者刑",
       "ipType": "轻小说 / 动漫",
       "genre": "待公布",
-      "developer": "",
+      "developer": "VIC GAME STUDIOS",
       "publisher": "KADOKAWA",
       "announcementDate": "2026-03-28",
       "latestUpdateDate": "2026-03-28",
@@ -4908,7 +4891,9 @@ window.GAME_PROJECTS_DATA = {
       "status": "announced",
       "summary": "《判处勇者刑》完全新作游戏化项目；平台、玩法与上线窗口尚未正式公开。",
       "sourceUrl": "https://yushakei-pj.com/news/20260328_03/",
-      "verifiedAt": "2026-09-10"
+      "verifiedAt": "2026-10-05",
+      "developerSourceUrl": "https://yushakei-pj.com/news/20260328_03/",
+      "developerVerifiedAt": "2026-10-05"
     },
     {
       "id": "zelda-ocarina-of-time-remake",
@@ -5615,6 +5600,25 @@ window.GAME_PROJECTS_DATA = {
       "summary": "日本动漫《能干的猫今天也忧郁》授权三消手游。今日发行商9/18公告正文及产品表明确iOS/Android正式发布日期2024/9/30，版权含山田ヒツジ/讲谈社/动画制作委员会。二周年标题不作为独立上线证明，使用官方正文回填。",
       "sourceUrl": "https://poppin-games.com/postid6276/",
       "verifiedAt": "2026-10-05"
+    },
+    {
+      "id": "princess-maker-children-of-revelation",
+      "productName": "プリンセスメーカー: 予言の子供たち",
+      "ipName": "Princess Maker",
+      "ipType": "游戏",
+      "genre": "养成模拟",
+      "developer": "GEAR2",
+      "publisher": "GEAR2",
+      "announcementDate": "",
+      "latestUpdateDate": "2026-09-30",
+      "latestUpdateLabel": "官方正式版发行公告：结束早期访问",
+      "status": "launched",
+      "summary": "日本既有Princess Maker游戏IP，官方商店版权含YONAGO GAINAX；现开发/发行GEAR2。2026/9/30开发团队在Steam官方公告明确正式版已发布，不能以商店可下载或早期访问认定正式发行。官方2025/7/4 Early Access Release与商店2025/7/3显示存在时区差异，单独保留。全球Steam开发者公告已核，未逐国核验具体地区可购买性。",
+      "sourceUrl": "https://store.steampowered.com/app/3438810/Princess_Maker_Children_of_Revelation/?l=schinese",
+      "verifiedAt": "2026-10-05",
+      "productNameJa": "プリンセスメーカー: 予言の子供たち",
+      "productNameEn": "Princess Maker: Children of Revelation",
+      "productNameZh": "美少女梦工厂: 预言之子"
     }
   ],
   "releases": [
@@ -20497,6 +20501,26 @@ window.GAME_PROJECTS_DATA = {
       "status": "launched",
       "sourceUrl": "https://poppin-games.com/postid6276/",
       "verifiedAt": "2026-10-05"
+    },
+    {
+      "id": "princess-maker-children-of-revelation-global-steam",
+      "projectId": "princess-maker-children-of-revelation",
+      "platform": "steam",
+      "region": "GLOBAL",
+      "store": "Steam",
+      "storeId": "3438810",
+      "plannedLaunchDate": "2026-09-30",
+      "actualLaunchDate": "2026-09-30",
+      "status": "launched",
+      "sourceUrl": "https://store.steampowered.com/app/3438810/Princess_Maker_Children_of_Revelation/?l=schinese",
+      "verifiedAt": "2026-10-05",
+      "actualLaunchDateSource": "开发团队Steam官方Full Release Update Notice正文（2026-09-30 07:42:50 UTC）",
+      "actualLaunchDateSourceUrl": "https://store.steampowered.com/news/app/3438810/view/671755828227735583",
+      "actualLaunchDateVerifiedAt": "2026-10-05",
+      "earlyAccessLaunchDate": "2025-07-04",
+      "rawStoreEarlyAccessDate": "2025-07-03",
+      "earlyAccessDateNote": "开发团队7/4正式EarlyAccessRelease公告，商店显示7/3；不把抢先体验日期当正式上线日。",
+      "regionVerificationNote": "开发团队全球Steam公告核验，未逐国家/地区验证商店可购买性。"
     }
   ],
   "rankSnapshots": [
@@ -32934,6 +32958,22 @@ window.GAME_PROJECTS_DATA = {
       "performanceLevel": "insufficient"
     },
     {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2025-07-01",
+      "metricType": "average_concurrent_users",
+      "value": 40.19,
+      "display": "Steam 月均同时在线 40.19",
+      "scope": "Steam 全球月度平均同时在线（July 2025）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
       "projectId": "sand-land",
       "platforms": [
         "steam"
@@ -33260,6 +33300,22 @@ window.GAME_PROJECTS_DATA = {
       "performanceLevel": "insufficient"
     },
     {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2025-08-01",
+      "metricType": "average_concurrent_users",
+      "value": 11,
+      "display": "Steam 月均同时在线 11",
+      "scope": "Steam 全球月度平均同时在线（August 2025）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
       "projectId": "sand-land",
       "platforms": [
         "steam"
@@ -33576,6 +33632,22 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2025-09-01",
+      "metricType": "average_concurrent_users",
+      "value": 5.05,
+      "display": "Steam 月均同时在线 5.05",
+      "scope": "Steam 全球月度平均同时在线（September 2025）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
       "verifiedAt": "2026-10-05",
       "performanceLevel": "insufficient"
     },
@@ -33934,6 +34006,22 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（October 2025）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2025-10-01",
+      "metricType": "average_concurrent_users",
+      "value": 2.17,
+      "display": "Steam 月均同时在线 2.17",
+      "scope": "Steam 全球月度平均同时在线（October 2025）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
       "verifiedAt": "2026-10-05",
       "performanceLevel": "insufficient"
     },
@@ -35645,6 +35733,22 @@ window.GAME_PROJECTS_DATA = {
       "performanceLevel": "insufficient"
     },
     {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-03-01",
+      "metricType": "average_concurrent_users",
+      "value": 2.18,
+      "display": "Steam 月均同时在线 2.18",
+      "scope": "Steam 全球月度平均同时在线（March 2026）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
       "projectId": "sand-land",
       "platforms": [
         "steam"
@@ -36669,6 +36773,22 @@ window.GAME_PROJECTS_DATA = {
       "performanceLevel": "insufficient"
     },
     {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-06-01",
+      "metricType": "average_concurrent_users",
+      "value": 37.86,
+      "display": "Steam 月均同时在线 37.86",
+      "scope": "Steam 全球月度平均同时在线（June 2026）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
       "projectId": "sand-land",
       "platforms": [
         "steam"
@@ -37049,6 +37169,22 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（July 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-07-01",
+      "metricType": "average_concurrent_users",
+      "value": 365.83,
+      "display": "Steam 月均同时在线 365.83",
+      "scope": "Steam 全球月度平均同时在线（July 2026）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
       "verifiedAt": "2026-10-05",
       "performanceLevel": "insufficient"
     },
@@ -37444,6 +37580,22 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（August 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-08-01",
+      "metricType": "average_concurrent_users",
+      "value": 180.28,
+      "display": "Steam 月均同时在线 180.28",
+      "scope": "Steam 全球月度平均同时在线（August 2026）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
       "verifiedAt": "2026-10-05",
       "performanceLevel": "insufficient"
     },
@@ -37855,6 +38007,22 @@ window.GAME_PROJECTS_DATA = {
       "scope": "Steam 全球月度平均同时在线（September 2026）",
       "source": "SteamCharts",
       "sourceUrl": "https://steamcharts.com/app/3061570",
+      "verifiedAt": "2026-10-05",
+      "performanceLevel": "insufficient"
+    },
+    {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-09-01",
+      "metricType": "average_concurrent_users",
+      "value": 120.29,
+      "display": "Steam 月均同时在线 120.29",
+      "scope": "Steam 全球月度平均同时在线（September 2026）",
+      "source": "SteamCharts",
+      "sourceUrl": "https://steamcharts.com/app/3438810",
       "verifiedAt": "2026-10-05",
       "performanceLevel": "insufficient"
     },
@@ -158321,6 +158489,26 @@ window.GAME_PROJECTS_DATA = {
       "performanceLevel": "insufficient",
       "rankStatus": "not_in_top_100",
       "display": "日本 Google Play 游戏畅销榜未入 Top 100"
+    },
+    {
+      "projectId": "princess-maker-children-of-revelation",
+      "platforms": [
+        "steam"
+      ],
+      "region": "GLOBAL",
+      "date": "2026-10-05",
+      "metricType": "estimated_sales",
+      "value": 7907,
+      "display": "VGI Steam 累计销量估算 7,907 份",
+      "scope": "全球累计销量估算；第三方模型值，非发行商披露",
+      "source": "Video Game Insights (Sensor Tower)",
+      "sourceUrl": "https://app.sensortower.com/vgi/game/프린세스-메이커-예언의-아이들",
+      "apiSourceUrl": "https://app.sensortower.com/vgi/api/v1/game/3438810",
+      "sourceProductName": "프린세스 메이커 : 예언의 아이들",
+      "steamAppId": 3438810,
+      "verifiedAt": "2026-10-05",
+      "estimated": true,
+      "performanceLevel": "insufficient"
     },
     {
       "projectId": "queens-blade-rebuild",

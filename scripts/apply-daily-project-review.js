@@ -5,6 +5,7 @@
 // scrape with the editorial checks required for a complete daily update.
 const fs = require("fs");
 const path = require("path");
+const { resolveNewsReviews } = require("./daily-project-review-decisions");
 
 const workspaceRoot = path.resolve(__dirname, "../..");
 const reviewPath = path.resolve(process.argv[2] || "");
@@ -46,34 +47,7 @@ if (addedProjectIds.some((id) => !(review.projects || []).some((item) => item.id
 }
 data.meta.targetPlatforms = [...new Set([...(data.meta.targetPlatforms || []), "vr"])];
 
-if (!reconcileNews) {
-  for (const [index] of queue.newsCandidates.entries()) {
-    const decision = review.newsDecisions?.[index];
-    if (!decision?.titleContains || !String(decision.reviewStatus || "").trim() || !String(decision.reviewReason || "").trim()) {
-      throw new Error(`News candidate ${index} lacks an explicit dated review decision`);
-    }
-  }
-  for (const [indexText, decision] of Object.entries(review.newsDecisions || {})) {
-    const index = Number(indexText);
-    const candidate = queue.newsCandidates[index];
-    if (!candidate || !candidate.title.includes(decision.titleContains || "")) {
-      throw new Error(`News candidate ${indexText} no longer matches the reviewed headline`);
-    }
-  }
-}
-for (const [index, candidate] of queue.newsCandidates.entries()) {
-  const supplement = (review.newsSupplements || []).find((item) => candidate.title.includes(item.titleContains));
-  const decision = supplement || review.newsDecisions?.[index];
-  if (!decision && reconcileNews && candidate.reviewedAt === today
-    && String(candidate.reviewStatus || "").trim() && String(candidate.reviewReason || "").trim()) continue;
-  if (!decision || !String(decision.reviewStatus || "").trim() || !String(decision.reviewReason || "").trim()) {
-    throw new Error(`News candidate ${index} lacks today's explicit review; reconcile cannot invent a decision`);
-  }
-  candidate.reviewStatus = decision.reviewStatus;
-  candidate.reviewReason = decision.reviewReason;
-  candidate.reviewEvidenceUrl = decision.reviewEvidenceUrl || "";
-  candidate.reviewedAt = today;
-}
+queue.newsCandidates = resolveNewsReviews(queue.newsCandidates, review, today, { reconcileNews });
 queue.summary.unreviewedNewsCandidates = 0;
 const untrackedApple = (queue.applePreorderCandidates || []).filter((item) => !item.alreadyTracked);
 for (const item of untrackedApple) {

@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { buildNewsReviewHistory, restoreNewsReview } = require("./daily-project-review-decisions");
 
 const root = path.resolve(__dirname, "..");
 const workspaceRoot = path.resolve(root, "..");
@@ -39,14 +40,7 @@ const previousOverdueReviews = new Map((previousQueue.overdueLaunches || [])
     reviewEvidenceUrl: candidate.reviewEvidenceUrl || "",
     reviewedAt: candidate.reviewedAt || "",
   }]));
-const previousNewsReviews = new Map((previousQueue.newsCandidates || [])
-  .filter((candidate) => candidate.reviewStatus && candidate.url)
-  .map((candidate) => [candidate.url, {
-    reviewStatus: candidate.reviewStatus,
-    reviewReason: candidate.reviewReason || "",
-    reviewEvidenceUrl: candidate.reviewEvidenceUrl || "",
-    reviewedAt: candidate.reviewedAt || "",
-  }]));
+const previousNewsReviews = buildNewsReviewHistory(previousQueue.newsCandidates || []);
 
 const now = new Date();
 const activeStatuses = new Set(["announced", "testing", "preregister", "upcoming", "delayed"]);
@@ -452,10 +446,7 @@ const checkedAt = tokyoDate(now);
     if (review) Object.assign(candidate, review);
   }
   const newsDiscovery = await discoverNewsCandidates();
-  for (const candidate of newsDiscovery.candidates) {
-    const review = previousNewsReviews.get(candidate.url);
-    if (review) Object.assign(candidate, review);
-  }
+  newsDiscovery.candidates = newsDiscovery.candidates.map((candidate) => restoreNewsReview(candidate, previousNewsReviews));
   const overdueLaunches = data.releases
     .filter((release) => {
       const plannedDate = exactDate(release.plannedLaunchDate);
