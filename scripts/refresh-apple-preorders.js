@@ -393,7 +393,11 @@ const checkedAt = tokyoDate(now);
         release.plannedLaunchDateVerifiedAt = checkedAt;
         release.verifiedAt = checkedAt;
 
-        if (!currentPlannedDate || release.plannedLaunchDateSource === "Apple App Store 预约页") {
+        // Official month/year windows are meaningful plans too. exactDate()
+        // intentionally drops their precision, but that must not let an Apple
+        // placeholder overwrite a verified official window.
+        if (!previousPlannedDate || release.plannedLaunchDateSource === "Apple App Store 预约页") {
+          delete release.appleExpectedLaunchDateConflict;
           if (previousPlannedDate !== appleDate) {
             release.plannedLaunchDate = appleDate;
             release.plannedLaunchDateSource = "Apple App Store 预约页";
@@ -408,16 +412,16 @@ const checkedAt = tokyoDate(now);
               sourceUrl: release.storeUrl,
             });
           }
-        } else if (currentPlannedDate !== appleDate) {
+        } else if (previousPlannedDate !== appleDate) {
           release.appleExpectedLaunchDateConflict = {
-            databasePlannedLaunchDate: currentPlannedDate,
+            databasePlannedLaunchDate: previousPlannedDate,
             appleExpectedLaunchDate: appleDate,
             checkedAt,
           };
           conflicts.push({
             projectId: release.projectId,
             releaseId: release.id,
-            databasePlannedLaunchDate: currentPlannedDate,
+            databasePlannedLaunchDate: previousPlannedDate,
             appleExpectedLaunchDate: appleDate,
             sourceUrl: release.storeUrl,
           });
@@ -428,7 +432,8 @@ const checkedAt = tokyoDate(now);
         if (release.status === "announced") release.status = "preregister";
         const project = projectById.get(release.projectId);
         if (project && project.status === "announced") project.status = "preregister";
-        if (project && (!previousAppleDate || previousAppleDate !== appleDate || !currentPlannedDate)) {
+        if (project && release.plannedLaunchDateSource === "Apple App Store 预约页"
+          && (!previousAppleDate || previousAppleDate !== appleDate || !previousPlannedDate)) {
           project.latestUpdateDate = checkedAt;
           project.latestUpdateLabel = `Apple App Store 预约页预计 ${appleDate} 上线`;
           project.sourceUrl = release.storeUrl;

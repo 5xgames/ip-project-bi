@@ -135,7 +135,7 @@ queue.reviewAudit = {
   reviewedAt: today,
   untrackedAppleCandidatesReviewed: untrackedApple.length,
   acceptedAppleCandidates: 0,
-  excludedAppleCandidates: untrackedApple.filter((item) => item.reviewStatus === "excluded_scope").map((item) => item.storeId),
+  excludedAppleCandidates: untrackedApple.filter((item) => String(item.reviewStatus || "").startsWith("excluded_")).map((item) => item.storeId),
   newsCandidatesReviewed: queue.newsCandidates.length,
   newsReviewStatuses: Object.fromEntries([...new Set(queue.newsCandidates.map((item) => item.reviewStatus))]
     .map((status) => [status, queue.newsCandidates.filter((item) => item.reviewStatus === status).length])),
