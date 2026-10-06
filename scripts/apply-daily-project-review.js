@@ -39,6 +39,32 @@ function upsert(list, incoming) {
 }
 upsert(data.projects, review.projects);
 upsert(data.releases, review.releases);
+const releaseRemovals = review.releaseRemovals || [];
+const correctionIds = new Set();
+for (const correction of releaseRemovals) {
+  if (!originalReleases.has(correction.id) || correctionIds.has(correction.id)) {
+    throw new Error(`Release correction target is missing or duplicated: ${correction.id || "missing id"}`);
+  }
+  correctionIds.add(correction.id);
+  const evidence = (review.sourceChecks?.sourceResults || []).find((item) => (
+    item.url === correction.sourceUrl && item.checkedAt === today
+    && item.readStatus === "reviewed" && String(item.evidence || "").trim()
+  ));
+  if (!correction.id || correction.verifiedAt !== today
+    || !String(correction.reason || "").trim() || !evidence) {
+    throw new Error(`Release correction lacks today's readable official evidence: ${correction.id || "missing id"}`);
+  }
+  if ((review.newReleaseIds || []).includes(correction.id)) {
+    throw new Error(`A release cannot be added and removed in the same review: ${correction.id}`);
+  }
+  // Preserve the exact superseded record for recovery and editorial audit.
+  correction.originalRelease = originalReleases.get(correction.id);
+}
+const removedReleaseIds = new Set(releaseRemovals.map((item) => item.id));
+data.releases = data.releases.filter((item) => !removedReleaseIds.has(item.id));
+data.rankSnapshots = (data.rankSnapshots || []).filter((item) => !removedReleaseIds.has(item.releaseId));
+queue.overdueLaunches = (queue.overdueLaunches || []).filter((item) => !removedReleaseIds.has(item.releaseId));
+queue.storefrontLiveCandidates = (queue.storefrontLiveCandidates || []).filter((item) => !removedReleaseIds.has(item.releaseId));
 const addedProjectIds = review.newProjectIds || (review.projects || []).map((item) => item.id);
 const addedReleaseIds = review.newReleaseIds || (review.releases || []).map((item) => item.id);
 if (addedProjectIds.some((id) => !(review.projects || []).some((item) => item.id === id))
@@ -140,6 +166,8 @@ data.meta.projectDiscoveryAudit = {
     launchStatusCorrections: 0,
     projectsAdded: addedProjectIds.length,
     releaseDefinitionsAdded: addedReleaseIds.length,
+    releaseDefinitionsRemoved: releaseRemovals.length,
+    releaseCorrections: releaseRemovals,
     addedProjectIds,
     unresolvedOverdueProjectIds: unresolvedOverdue,
     unresolvedStorefrontProjectIds: unresolvedStorefront,

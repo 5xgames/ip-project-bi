@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { collectSteamProjectTargets } = require("./steam-release-targets");
 
 const root = path.resolve(__dirname, "..");
 const jsonPath = path.join(root, "game-projects/data/projects.json");
@@ -73,16 +74,7 @@ async function mapWithConcurrency(items, limit, worker) {
   return results;
 }
 
-const appProjects = new Map();
-for (const release of data.releases || []) {
-  if (release.platform !== "steam" || !/^\d+$/.test(String(release.storeId || ""))) continue;
-  if (!String(release.sourceUrl || "").includes("store.steampowered.com")) continue;
-  if (!appProjects.has(String(release.storeId))) {
-    appProjects.set(String(release.storeId), release.projectId);
-  }
-}
-
-const targets = [...appProjects].map(([appId, projectId]) => ({ appId, projectId }));
+const targets = collectSteamProjectTargets(data.releases || []);
 
 (async () => {
   const fetched = await mapWithConcurrency(targets, 3, async (target) => ({
