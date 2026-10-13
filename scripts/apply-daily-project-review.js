@@ -131,6 +131,14 @@ const unresolvedOverdue = [...new Set(overdue.filter((item) => item.reviewStatus
   .map((item) => item.projectId))];
 const unresolvedStorefront = [...new Set(storefront.filter((item) => item.reviewStatus !== "verified_launched")
   .map((item) => item.projectId))];
+// Compare final records with the pre-review database. New release definitions
+// are counted separately; repeated patches for one release count only once.
+const changedExistingReleases = data.releases.filter((item) => originalReleases.has(item.id));
+const plannedDateChanges = changedExistingReleases.filter((item) => (
+  (item.plannedLaunchDate || "") !== (originalReleases.get(item.id).plannedLaunchDate || "")
+));
+const isPreciseDate = (value) => /^\d{4}-\d{2}-\d{2}$/.test(value || "");
+const reviewedReleaseIds = new Set((review.releases || []).map((item) => item.id));
 queue.reviewAudit = {
   reviewedAt: today,
   untrackedAppleCandidatesReviewed: untrackedApple.length,
@@ -161,9 +169,14 @@ data.meta.projectDiscoveryAudit = {
     checkedReleaseIds: activeReleases.map((item) => item.id),
     checkedSourceUrls: [...sourceUrls],
     sourceResults: sourceResults.filter((item) => sourceUrls.has(item.url)),
-    preciseDatesAdded: 0,
-    actualLaunchDatesAdded: [...new Map((review.releases || []).map((item) => [item.id, item])).values()].filter((item) => item.actualLaunchDate && !originalReleases.get(item.id)?.actualLaunchDate).length,
-    launchStatusCorrections: 0,
+    plannedDatesChanged: plannedDateChanges.length,
+    preciseDatesAdded: plannedDateChanges.filter((item) => isPreciseDate(item.plannedLaunchDate)
+      && !isPreciseDate(originalReleases.get(item.id).plannedLaunchDate)).length,
+    preciseDatesCorrected: plannedDateChanges.filter((item) => isPreciseDate(item.plannedLaunchDate)
+      && isPreciseDate(originalReleases.get(item.id).plannedLaunchDate)).length,
+    actualLaunchDatesAdded: data.releases.filter((item) => reviewedReleaseIds.has(item.id)
+      && item.actualLaunchDate && !originalReleases.get(item.id)?.actualLaunchDate).length,
+    launchStatusCorrections: changedExistingReleases.filter((item) => item.status !== originalReleases.get(item.id).status).length,
     projectsAdded: addedProjectIds.length,
     releaseDefinitionsAdded: addedReleaseIds.length,
     releaseDefinitionsRemoved: releaseRemovals.length,
