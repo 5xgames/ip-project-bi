@@ -2,7 +2,7 @@ window.GAME_PROJECTS_DATA = {
   "meta": {
     "schemaVersion": "3.1",
     "phase": 33,
-    "generatedAt": "2026-10-16T12:01:46+09:00",
+    "generatedAt": "2026-10-16T12:05:36+09:00",
     "latestProjectDate": "2026-10-16",
     "coverageStart": "2016-02-18",
     "defaultWindowDays": 90,
@@ -991,10 +991,10 @@ window.GAME_PROJECTS_DATA = {
       },
       "plannedDateAudit": {
         "verifiedAt": "2026-10-16",
-        "activeProjectsChecked": 84,
-        "activeReleasesChecked": 253,
-        "activeSourceUrlsChecked": 163,
-        "activeSourceUrlsReachable": 147,
+        "activeProjectsChecked": 85,
+        "activeReleasesChecked": 254,
+        "activeSourceUrlsChecked": 164,
+        "activeSourceUrlsReachable": 148,
         "checkedProjectIds": [
           "a-rank-party-game-project",
           "apothecary-diaries-false-imperial-brother",
@@ -1079,7 +1079,8 @@ window.GAME_PROJECTS_DATA = {
           "nintendo-switch-sports-resort",
           "senxin-aleste",
           "metaphor-refantazio",
-          "giri-jump-starrush"
+          "giri-jump-starrush",
+          "sumikko-gurashi-pokapoka-onsen"
         ],
         "checkedReleaseIds": [
           "a-rank-party-game-global-platform-tbd",
@@ -1334,7 +1335,8 @@ window.GAME_PROJECTS_DATA = {
           "tougen-anki-jp-android",
           "tougen-anki-jp-animate-pc",
           "tougen-anki-jp-dmm-pc",
-          "tougen-anki-jp-google-play-games-pc"
+          "tougen-anki-jp-google-play-games-pc",
+          "sumikko-pokapoka-onsen-jp-switch2"
         ],
         "checkedSourceUrls": [
           "https://arank-party-ridatsu-official.com/information/%E3%82%B2%E3%83%BC%E3%83%A0%E5%8C%96%E6%B1%BA%E5%AE%9A%EF%BC%81%EF%BC%81/",
@@ -1421,6 +1423,7 @@ window.GAME_PROJECTS_DATA = {
           "https://www.mtwo.co.jp/blog/2026/10/10/pr20261010/",
           "https://rpg.jp/switch2/",
           "https://store.steampowered.com/app/4207890/Jump/?l=japanese",
+          "https://prtimes.jp/main/html/rd/p/000005145.000019470.html",
           "https://www.koeitecmoamerica.com/news/koei-tecmo-locks-in-dec-10-2026-release-date-for-attack-on-titan-3/",
           "https://www.gamecity.ne.jp/tgs/en/titles/shingeki3/",
           "https://www.xbox.com/en-hk/games/store/x/9MT4F57F7CVW",
@@ -3947,6 +3950,15 @@ window.GAME_PROJECTS_DATA = {
             "relatedProjectIds": [
               "tougen-anki-crimson-inferno"
             ]
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000005145.000019470.html",
+            "checkedAt": "2026-10-16",
+            "readStatus": "reviewed",
+            "httpStatus": 200,
+            "finalUrl": "https://prtimes.jp/main/html/rd/p/000005145.000019470.html",
+            "cachePath": "data/raw/project-reviews/2026-10-16/candidate-source-cache.json",
+            "evidence": "已完整读日本コロムビア10/14公告，明确既有San-Xすみっコぐらし新作、Nintendo Switch2、予定2026/11/19；对应新活跃项目与JP release。 正文摘录：大人気キャラクター『すみっコぐらし』のゲームシリーズ最新作！Nintendo Switch 2 ゲームソフト『すみっコぐらし ぽかぽか温泉にようこそ』ホームページおよびプロモーション映像公開のお知らせ | 日本コロムビア株式会社のプレスリリース プレスリリース・ニュースリリース配信サービスのPR TIMES プレスリリースを受信 企業登録申請 Top テクノロジー モバイル アプリ エンタメ ビューティー ファッション ライフスタイル ビジネス グルメ スポーツ … PR TIMESのご利用について 資料をダウンロード 日本コロムビア株式会社 会社概要 フォロー 大人気キャラクター『すみっコぐらし』のゲームシリーズ最新作！Nintendo Switch 2 ゲームソフト『すみっコぐらし ぽかぽか温泉にようこそ』ホームページおよびプロモーション映像公開のお知らせ 日本コロムビア株式会社 2026年10月14日 10時20分 いいね！数を読み込み中です 日本コロムビア株式会社（本社：東京都渋谷区、代表取締役社長 土門義隆）は、Nintendo Switch 2 用ゲームソフト『すみっコぐらし ぽかぽか温泉にようこそ』の 公式ホームページ並びにプロモーション映像を、本日公開いたしましたのでお知らせいたします。 この機会にぜひ、公式サイトのご確認やプロモーション映像をご視聴いただき、ご購入の参考にしていただければ幸いです。 ■ゲーム公式サイト https://sgo.columbia-games.jp/ ■プロモーション映像 https://www.youtube.com/watch?v=T9bJ55SuOxE ■30秒CM https://www.youtube.com/watch?v=_SrMQrkVF7k 【商品概要】 ■タイトル名 ：すみっコぐらし ぽかぽか温泉にようこそ ■ジャンル ：すみっコミュニケーション ■対応機種 ：Nintendo Switch 2 ■ﾌﾟﾚｲﾓｰﾄﾞ/人数 ：ＴＶモード／1人、テーブルモード／1人、携帯モード／1人 ■発売予定 ：2026年11月19日（木） ■価 格 ：6,380円(税抜価格5,800円) ■品 番 ：POT-P-ACDMA ■ＪＡＮコード ：4549767386478 ■ＣＥＲＯ ：A（全年齢対象） ■コピーライト ：©2026 San-X Co., Ltd. All Rights Reserved. ©NIPPON COLUMBIA CO., LTD. ■対応言語 ：日本語、英語、韓国語、中国語（繁体字・簡体字） 《日本コロムビアについて》 会社名：日本コロムビア株式会社 所在地：東京都渋谷区神宮前1-4-16 神宮前M-SQUARE 代表者：代表取締役社長 土門義隆 事業内容：ミュージックソフト、ゲームソ"
           }
         ],
         "plannedDatesChanged": 0,
@@ -3954,8 +3966,8 @@ window.GAME_PROJECTS_DATA = {
         "preciseDatesCorrected": 0,
         "actualLaunchDatesAdded": 21,
         "launchStatusCorrections": 14,
-        "projectsAdded": 13,
-        "releaseDefinitionsAdded": 42,
+        "projectsAdded": 14,
+        "releaseDefinitionsAdded": 43,
         "releaseDefinitionsRemoved": 0,
         "releaseCorrections": [],
         "addedProjectIds": [
@@ -3971,7 +3983,8 @@ window.GAME_PROJECTS_DATA = {
           "earth-defense-force-5",
           "metaphor-refantazio",
           "arcade-archives-stinger",
-          "giri-jump-starrush"
+          "giri-jump-starrush",
+          "sumikko-gurashi-pokapoka-onsen"
         ],
         "unresolvedOverdueProjectIds": [
           "made-in-abyss-doshigatai-trip"
@@ -4075,7 +4088,22 @@ window.GAME_PROJECTS_DATA = {
             "reason": "HTTP 200，返回171字JavaScript设置及公共页脚，没有 ONE PIECE 台湾目标商品正文。"
           }
         ],
-        "note": "逐条筛查今日候选，并对全部待上线项目和发行版本的来源链接及到期日期做完整复核；链接异常与无正式上线证据的项目保留待核验。"
+        "note": "今日逐条审阅最终175条新闻、全部Apple候选、1条未解决到期项及7项商店日期冲突。活跃项目/版本/来源含补审新增すみっコぐらし，官方计划日期变更0；剥离桃源暗鬼Apple12/31占位对正式计划的自动覆盖1项。正式上线新增21条为全日累计（旧记录14、新定义7）。",
+        "applePlaceholderDateCorrections": [
+          {
+            "projectId": "tougen-anki-crimson-inferno",
+            "releaseId": "tougen-anki-jp-ios",
+            "reviewedAt": "2026-10-16",
+            "reviewStatus": "official_date_unannounced_store_expected_retained",
+            "previousAutoCopiedPlannedLaunchDate": "2026-12-31",
+            "officialPlannedLaunchDate": "",
+            "appleExpectedLaunchDate": "2026-12-31",
+            "reviewReason": "Com2uS Japan10/15公告仅日本事前注册、海外顺次后发，未公布正式上线日。Apple12/31为预约预期/可能占位，保留appleExpectedLaunchDate和原始store日期，但恢复正式planned空白及官方项目主来源。",
+            "reviewEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000001022.000009066.html",
+            "storeEvidenceUrl": "https://apps.apple.com/jp/app/%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC-crimson-inferno/id6476490037?uo=4"
+          }
+        ],
+        "dateConflictsReviewed": 7
       }
     }
   },
@@ -5868,11 +5896,11 @@ window.GAME_PROJECTS_DATA = {
       "developer": "Com2uS",
       "publisher": "Com2uS",
       "announcementDate": "2025-03-24",
-      "latestUpdateDate": "2026-10-16",
-      "latestUpdateLabel": "Apple App Store 预约页预计 2026-12-31 上线",
+      "latestUpdateDate": "2026-10-15",
+      "latestUpdateLabel": "官方开始日本两端与PC渠道事前注册、海外顺次后发",
       "status": "preregister",
       "summary": "Com2uS Japan10/15官方确认日本App Store/Google Play/animate Games Online事前注册，DMM与Google Play Games后续预定开放；日本上线后顺次扩大海外，未公布正式日。Apple12/31仅预约预计，不能单独证明正式开服。",
-      "sourceUrl": "https://apps.apple.com/jp/app/%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC-crimson-inferno/id6476490037?uo=4",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001022.000009066.html",
       "verifiedAt": "2026-10-16"
     },
     {
@@ -7271,6 +7299,24 @@ window.GAME_PROJECTS_DATA = {
       "summary": "开发商Steam正文明确前作ギリJumpエクストリーム的续作，是同一既有日本游戏系列而非Jump漫画授权。Steam当前原始显示12/7，新闻称12/8，未核到日本发行商独立日程声明，不把商店UTC差一天直接覆盖为JST精确日。",
       "sourceUrl": "https://store.steampowered.com/app/4207890/Jump/?l=japanese",
       "officialSiteUrl": "https://store.steampowered.com/app/4207890/Jump/?l=japanese",
+      "verifiedAt": "2026-10-16",
+      "discoveredAt": "2026-10-16"
+    },
+    {
+      "id": "sumikko-gurashi-pokapoka-onsen",
+      "productName": "すみっコぐらし ぽかぽか温泉にようこそ",
+      "ipName": "すみっコぐらし / 角落小伙伴",
+      "ipType": "角色 IP",
+      "genre": "角色交流 / 温泉旅馆经营",
+      "developer": "",
+      "publisher": "Nippon Columbia",
+      "announcementDate": "",
+      "latestUpdateDate": "2026-10-14",
+      "latestUpdateLabel": "Switch2官网与PV公开、日本11月19日计划发售",
+      "status": "upcoming",
+      "summary": "日本コロムビア10/14官方公开San-X角色IP新作官网与PV；日本Nintendo Switch2计划2026/11/19发售，温泉旅馆经营与迷你游戏。多语言支持不等同逐地区发行确认，未扩写海外release；不是正式发售。",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000005145.000019470.html",
+      "officialSiteUrl": "https://sgo.columbia-games.jp/",
       "verifiedAt": "2026-10-16",
       "discoveredAt": "2026-10-16"
     }
@@ -23400,7 +23446,7 @@ window.GAME_PROJECTS_DATA = {
       "status": "preregister",
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000052.000136795.html",
       "verifiedAt": "2026-10-16",
-      "storeUrl": "https://apps.apple.com/jp/app/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88-%E3%83%9D%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6781944992?uo=4",
+      "storeUrl": "https://apps.apple.com/jp/app/id6781944992",
       "preregisterDate": "2026-09-02",
       "storeProductName": "誰ガ為のアルケミスト ポートマスターズ",
       "bundleId": "com.kms.nexus",
@@ -23448,7 +23494,7 @@ window.GAME_PROJECTS_DATA = {
       "status": "launched",
       "sourceUrl": "https://yurucamp-game.enish.com/announcement/",
       "verifiedAt": "2026-10-16",
-      "storeUrl": "https://apps.apple.com/jp/app/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3-%E3%81%A4%E3%81%AA%E3%81%92%E3%82%8B%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%AB%E3%82%A4%E3%83%B3%E3%83%AF%E3%83%B3/id1661047955?uo=4",
+      "storeUrl": "https://apps.apple.com/jp/app/id1661047955",
       "plannedRenewalDate": "2026-10-22",
       "note": "官方明确已在运营的同一应用直接更新，不凭当前可下载反推历史actual。",
       "storeProductName": "ゆるキャン△ つなげるみんなのオールインワン！！",
@@ -23693,18 +23739,18 @@ window.GAME_PROJECTS_DATA = {
       "region": "JP",
       "store": "App Store 日本",
       "storeId": "6476490037",
-      "plannedLaunchDate": "2026-12-31",
+      "plannedLaunchDate": "",
       "actualLaunchDate": "",
       "status": "preregister",
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001022.000009066.html",
       "verifiedAt": "2026-10-16",
-      "storeUrl": "https://apps.apple.com/jp/app/%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC-crimson-inferno/id6476490037?uo=4",
+      "storeUrl": "https://apps.apple.com/jp/app/id6476490037",
       "preregisterDate": "2026-10-15",
       "appleExpectedLaunchDate": "2026-12-31",
       "appleExpectedLaunchDateSource": "Apple App Store 预约页",
-      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC-crimson-inferno/id6476490037?uo=4",
+      "appleExpectedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/id6476490037",
       "appleReleaseDateCheckedAt": "2026-10-16",
-      "note": "官方尚未正式日，12/31预约预期单独保存而不写actual。",
+      "note": "官方10/15只公布日本事前注册且未公布正式上线日；Apple12/31独立保留为预约预计，撤销刷新把占位写入正式plannedLaunchDate的自动变更。",
       "storeProductName": "桃源暗鬼 Crimson Inferno",
       "bundleId": "com.com2us.tougenanki.ios.apple.global.normal",
       "rawStoreReleaseDate": "2026-12-31T08:00:00Z",
@@ -23714,8 +23760,8 @@ window.GAME_PROJECTS_DATA = {
       "storefrontStateCheckedAt": "2026-10-16",
       "storefrontIsPreorder": true,
       "plannedLaunchDateVerifiedAt": "2026-10-16",
-      "plannedLaunchDateSource": "Apple App Store 预约页",
-      "plannedLaunchDateSourceUrl": "https://apps.apple.com/jp/app/%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC-crimson-inferno/id6476490037?uo=4"
+      "plannedLaunchDateSource": "官方事前注册公告（未公布正式日期）",
+      "plannedLaunchDateSourceUrl": "https://prtimes.jp/main/html/rd/p/000001022.000009066.html"
     },
     {
       "id": "tougen-anki-jp-android",
@@ -23774,6 +23820,20 @@ window.GAME_PROJECTS_DATA = {
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001022.000009066.html",
       "verifiedAt": "2026-10-16",
       "note": "10/15官方说后续计划开始预约，当前未写已预约开放。"
+    },
+    {
+      "id": "sumikko-pokapoka-onsen-jp-switch2",
+      "projectId": "sumikko-gurashi-pokapoka-onsen",
+      "platform": "switch",
+      "region": "JP",
+      "store": "Nintendo Switch 2",
+      "storeId": "",
+      "plannedLaunchDate": "2026-11-19",
+      "actualLaunchDate": "",
+      "status": "upcoming",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000005145.000019470.html",
+      "verifiedAt": "2026-10-16",
+      "notes": "发行商10/14公告与官网共同确认Switch2日本11/19予定。支持英语、韩语、中文等不自动当各地已确认发售；无正式发售证据。"
     }
   ],
   "rankSnapshots": [
